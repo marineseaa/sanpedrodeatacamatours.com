@@ -1,0 +1,47 @@
+[
+  {
+    "page": "/",
+    "initial_images": [
+      {
+        "url": "http://127.0.0.1:8765/images/atacama-red-stones-800w.webp",
+        "bytes": 48708
+      },
+      {
+        "url": "http://127.0.0.1:8765/images/product-345946-800w.webp",
+        "bytes": 24512
+      },
+      {
+        "url": "http://127.0.0.1:8765/images/product-542449-800w.webp",
+        "bytes": 38232
+      },
+      {
+        "url": "http://127.0.0.1:8765/images/atacama-sunset-800w.webp",
+        "bytes": 32956
+      },
+      {
+        "url": "http://127.0.0.1:8765/images/atacama-salt-pool-800w.webp",
+        "bytes": 39786
+      },
+      {
+        "url": "http://127.0.0.1:8765/images/atacama-lagoon-800w.webp",
+        "bytes": 43902
+      }
+    ],
+    "total_image_bytes": 228096
+  },
+  {
+    "page": "/piedras-rojas-tours/",
+    "widget_iframe": "https://widget.getyourguide.com/default/availability.frame?sha=ca94f329-9e2d-5c08-ac4f-4e7100e2eaf2&tour_id=190853&locale_code=en-US&currency=USD&widget=availability&variant=vertical&partner_id=1MSALBX&cmp=sanpedrodeatacamatours&widget_created=1791537855970&document_lang=en&host_font_family=Inter%2C+Arial%2C+sans-serif&host_font_family_v2=Inter%2C+Arial%2C+sans-serif&host_font_size=12px&host_link_color=rgb%28132%2C+67%2C+46%29&host_link_decoration=underline&parent_background_color=rgb%28242%2C+234%2C+223%29&website=http%3A%2F%2F127.0.0.1%3A8765%2Fpiedras-rojas-tours%2F&visitor_id=FAE5DF1F6EB240E6AB0D8710E9527281",
+    "cta": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/?partner_id=1MSALBX&cmp=sanpedrodeatacamatours"
+  },
+  {
+    "page": "/stargazing-tours/",
+    "widget_iframe": "https://widget.getyourguide.com/default/availability.frame?sha=bb139ea5-4542-5d08-be5f-780044073274&tour_id=542449&locale_code=en-US&currency=USD&widget=availability&variant=vertical&partner_id=1MSALBX&cmp=sanpedrodeatacamatours&widget_created=1791537857562&document_lang=en&host_font_family=Inter%2C+Arial%2C+sans-serif&host_font_family_v2=Inter%2C+Arial%2C+sans-serif&host_font_size=12px&host_link_color=rgb%28132%2C+67%2C+46%29&host_link_decoration=underline&parent_background_color=rgb%28242%2C+234%2C+223%29&website=http%3A%2F%2F127.0.0.1%3A8765%2Fstargazing-tours%2F&visitor_id=9996E9BAA2464700A07B902414DB742E",
+    "cta": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/?partner_id=1MSALBX&cmp=sanpedrodeatacamatours"
+  },
+  {
+    "page": "/multi-day-tours/",
+    "widget_iframe": "https://widget.getyourguide.com/default/availability.frame?sha=842172ad-3a7a-5b72-b97a-5e3276bd651b&tour_id=374134&locale_code=en-US&currency=USD&widget=availability&variant=vertical&partner_id=1MSALBX&cmp=sanpedrodeatacamatours&widget_created=1791537858634&document_lang=en&host_font_family=Inter%2C+Arial%2C+sans-serif&host_font_family_v2=Inter%2C+Arial%2C+sans-serif&host_font_size=12px&host_link_color=rgb%28132%2C+67%2C+46%29&host_link_decoration=underline&parent_background_color=rgb%28242%2C+234%2C+223%29&website=http%3A%2F%2F127.0.0.1%3A8765%2Fmulti-day-tours%2F&visitor_id=82590722856C4AF889CC7E922FED5926",
+    "cta": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-3-day-activity-combo-with-4-tours-t374134/?partner_id=1MSALBX&cmp=sanpedrodeatacamatours"
+  }
+]

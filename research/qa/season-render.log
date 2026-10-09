@@ -1,0 +1,47 @@
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /best-time-to-visit/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /images/atacama-highland-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:55] "GET /images/product-542449.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /best-time-to-visit/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /images/atacama-highland-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:12:59] "GET /images/product-542449.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:05] "GET /best-time-to-visit/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:05] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:05] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:05] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:05] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:06] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:06] "GET /images/product-542449.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:10] "GET /best-time-to-visit/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:10] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:10] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:10] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:10] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:12] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:13:12] "GET /images/product-542449.webp HTTP/1.1" 200 -
+serving http://127.0.0.1:8791/best-time-to-visit/index.html
+
+[390px] overflow +0
+   rendered: availability 6%, auto None%
+
+[768px] overflow +0
+   rendered: availability 7%, auto None%
+
+[1280px] overflow +0
+   rendered: availability 9%, auto None%
+   inline link contrast: 0 invisible (under 3:1), 0 under AA but legible
+
+============================================================
+VERDICT DEVICE
+============================================================
+  no date input found - skipping device checks
+
+============================================================
+  render checks pass

@@ -1,0 +1,1 @@
+{{ with .Params.faq }}<section id="faq" class="section faq-section"><div class="container narrow"><p class="section-overline">BEFORE YOU GO</p><h2>Your questions, answered</h2><div class="faq-list">{{ range . }}<details class="faq-item"><summary>{{ .q }}</summary><div class="faq-answer">{{ .a | markdownify }}</div></details>{{ end }}</div></div></section>{{ end }}

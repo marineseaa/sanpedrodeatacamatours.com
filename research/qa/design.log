@@ -1,0 +1,87 @@
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/product-345946.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/product-542449.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-sunset.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-salt-pool.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /images/atacama-flamingos.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /images/atacama-valley.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /404.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /tours/andean-astronomy-stargazing/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /images/product-209091.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /2-day-itinerary/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/product-345946.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/product-542449.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/atacama-sunset.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/atacama-salt-pool.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/atacama-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:18] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:18] "GET /tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:18] "GET /images/atacama-flamingos.webp HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 36746)
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/http/server.py", line 732, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.14/http/server.py", line 739, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/http/server.py", line 942, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 257, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [09/Oct/2026 11:09:18] "GET /images/atacama-valley.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:19] "GET /404.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:20] "GET /tours/andean-astronomy-stargazing/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:20] "GET /images/product-209091-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:20] "GET /images/product-209091.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:21] "GET /2-day-itinerary/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:21] "GET /images/atacama-valley-800w.webp HTTP/1.1" 200 -
+==============================================================================
+DESIGN AUDIT: sanpedrodeatacamatours.com
+==============================================================================
+  page loads examined : 10  (5 pages x 2 widths)
+
+[1] rounded corners       OK  (0 non-zero border-radius)
+[2] flat panels           OK  (only mobile-menu may be elevated)
+[3] sub-heading tier      OK  (14 heading instance(s), uppercase, all clear AA)
+
+All design checks PASS

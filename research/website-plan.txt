@@ -1,0 +1,366 @@
+For SanPedroDeAtacamaTours.com, I would make the homepage a tour-selection hub, not a generic destination page.
+The commercial logic should be:
+San Pedro de Atacama → choose your tours → compare options → build your itinerary → book
+That fits the destination particularly well because travellers commonly book several separate excursions. Current inventories strongly support the core cluster: El Tatio, Moon Valley, Piedras Rojas + Altiplanic Lagoons, stargazing, Baltinache/Cejar and multi-day packages. Viator
+Homepage
+Hero
+H1
+Best San Pedro de Atacama Tours: What to Book in 2026
+Subheading
+Something like:
+From Moon Valley sunsets and El Tatio geysers to stargazing, flamingo-filled lagoons and the high-altitude landscapes of Piedras Rojas, these are the San Pedro de Atacama tours most worth your time.
+
+Then immediately:
+Top picks
+- Best first tour: Valle de la Luna
+- Best full-day tour: Piedras Rojas + Altiplanic Lagoons
+- Most spectacular sunrise: El Tatio Geysers
+- Best night experience: Atacama Stargazing
+- Best if you have 3+ days: Multi-day Atacama package
+CTA:
+Compare the Best Tours ↓
+This gets commercial content above the fold rather than starting with 600 words about the Atacama Desert.
+Section 2 — Best San Pedro de Atacama Tours
+I'd make this the most important homepage section.
+Perhaps six large cards:
+1. Valle de la Luna Tour
+Best for: first-time visitors
+Typical duration: 4–5 hours
+Best time: afternoon/sunset
+Moon Valley is one of the destination's flagship attractions and sunset excursions are a standard half-day format. Viator
+Button:
+Compare Moon Valley Tours
+2. El Tatio Geysers Tour
+Best for: dramatic scenery
+Typical duration: 6–8 hours
+Departure: very early morning
+This deserves one of the strongest homepage positions. Viator alone currently shows around 70 El Tatio experiences, with established tours drawing hundreds of reviews. Viator
+CTA:
+Compare El Tatio Tours
+3. Piedras Rojas + Altiplanic Lagoons
+Best for: best full-day landscape tour
+Typical duration: around 10–12 hours
+This is probably your highest-value day-tour commercial page.
+Typical itineraries combine:
+Piedras Rojas  
+- Miscanti and Miñiques
+- Laguna Chaxa
+- Salar de Atacama
+- Toconao/Socaire
+Current Viator inventory confirms this standard combination. Viator
+CTA:
+Compare Piedras Rojas Tours
+4. Atacama Stargazing Tour
+Best for: nighttime experience
+Typical duration: 2–3 hours
+This should be one of your major money pages rather than merely an article.
+The inventory is strong, with specialist telescope/astronomer experiences and well-established products. Viator
+CTA:
+Compare Stargazing Tours
+5. Baltinache Hidden Lagoons
+Best for: floating + unusual desert scenery
+CTA:
+See Baltinache Tours
+6. Laguna Cejar
+Best for: salt-lagoon experience
+CTA:
+See Laguna Cejar Tours
+Section 3 — Which tours should you book?
+This is where the homepage can become much more useful than Tripadvisor/GetYourGuide.
+I'd use a simple comparison table:
+Tour	Time	Best for	My priority
+Valle de la Luna	Half day	First visit / sunset	★★★★★
+El Tatio	Half/full day	Geysers / sunrise	★★★★★
+Piedras Rojas + Altiplanic Lagoons	Full day	Best scenery	★★★★★
+Stargazing	Evening	Night experience	★★★★★
+Baltinache	Half day	Floating	★★★★☆
+Laguna Cejar	Half day	Salt lagoons	★★★★☆
+Puritama Hot Springs	Half day	Relaxing	★★★☆☆
+Rainbow Valley	Half day	Geology / quieter trip	★★★☆☆
+
+
+This directly answers:
+I have three days. Which tours are actually worth booking?
+
+That's a very strong affiliate angle.
+Section 4 — Best tours by trip length
+This should be another major homepage feature.
+Only 1 day
+Morning: El Tatio
+Afternoon: Moon Valley
+Although that's a demanding day.
+Alternative:
+Piedras Rojas + Altiplanic Lagoons
+2 days
+Day 1
+Piedras Rojas + Altiplanic Lagoons
+Night
+Stargazing
+Day 2
+El Tatio + Moon Valley
+3 days
+Day 1: Piedras Rojas + Altiplanic Lagoons
+Night: Stargazing
+Day 2: El Tatio + Moon Valley
+Day 3: Baltinache or Laguna Cejar
+This isn't just theoretical: current packaged products combine essentially these same headline attractions across three or four days. Viator
+Link:
+See our 3-Day San Pedro de Atacama Itinerary
+Section 5 — Tour categories
+Then broaden the site.
+Desert landscapes
+Moon Valley
+Rainbow Valley
+Piedras Rojas
+Geysers & high-altitude landscapes
+El Tatio
+Altiplanic Lagoons
+Cerro Toco
+Lagoons & salt flats
+Laguna Cejar
+Baltinache
+Laguna Chaxa
+Salar de Atacama
+Stargazing
+Astronomy tours
+Astrophotography
+Private stargazing
+Relaxing experiences
+Puritama Hot Springs
+Multi-day tours
+2-day packages
+3-day packages
+4-day packages
+Uyuni tours from San Pedro
+This corresponds well to the official attraction mix, which highlights El Tatio, Piedras Rojas, Moon Valley, Los Flamencos reserve, Puritama, Baltinache and the Altiplanic Lagoons among San Pedro's key attractions. Chile Travel
+Section 6 — Best tour packages
+This could convert extremely well.
+Want to book several tours at once?
+Compare:
+Best 2-day tour package
+Best 3-day package
+Best 4-day package
+Best private package
+Explain that packages can be attractive because travellers otherwise have to coordinate several separate operators and departure times.
+Current 3- and 4-day inventory already packages combinations such as El Tatio, Moon Valley, Piedras Rojas, Baltinache, Cejar and stargazing. Viator
+Section 7 — Before you book
+Short practical blocks.
+Altitude matters
+San Pedro itself is already high, while excursions such as El Tatio go much higher.
+Have a dedicated:
+San Pedro de Atacama Altitude Guide
+This is important enough to deserve its own article and internal links from every high-altitude tour.
+Tours start early
+El Tatio in particular means a very early departure, because the geysers are normally visited around sunrise. Viator
+Entrance fees aren't always included
+This is a surprisingly valuable affiliate angle.
+Some tours exclude park/reserve entrance fees even when transport, breakfast or lunch is included. Current Piedras Rojas and El Tatio products provide examples of this. Viator
+I would have call-outs on every review page:
+Check before booking
+- entrance fee included?
+- hotel pickup?
+- English-speaking guide?
+- breakfast/lunch?
+- return point?
+- altitude restrictions?
+Section 8 — How to get to San Pedro
+Very short homepage section leading to a dedicated page.
+Most international/domestic travellers fly into:
+Calama – El Loa Airport (CJC)
+San Pedro is approximately 100 km away, around 1½ hours by road. Chile Travel
+CTA:
+Calama Airport to San Pedro de Atacama
+This gives you a natural place for airport transfer affiliates.
+Section 9 — Where to stay
+Brief commercial section:
+Best areas to stay in San Pedro de Atacama
+- near Caracoles — best for restaurants/tour agencies
+- central San Pedro — best without a car
+- outskirts — quieter/better resort-style properties
+CTA:
+Where to Stay in San Pedro de Atacama
+Excellent place for Stay22.
+Section 10 — Planning guides
+Six article cards:
+How Many Days Do You Need in San Pedro de Atacama?
+Best Time to Visit San Pedro de Atacama
+San Pedro de Atacama Altitude Guide
+What to Pack for the Atacama Desert
+San Pedro de Atacama Without a Car
+Is San Pedro de Atacama Worth Visiting?
+Then FAQ.
+Complete site structure
+I'd structure the navigation as:
+TOURS
+/tours/
+Best San Pedro de Atacama Tours
+This can essentially be a more detailed version of the commercial homepage comparison.
+Then:
+/moon-valley-tours/
+Best Valle de la Luna Tours
+/el-tatio-geysers-tours/
+Best El Tatio Geyser Tours
+/piedras-rojas-tours/
+Best Piedras Rojas Tours
+/altiplanic-lagoons-tours/
+Could eventually be separate, although initially I'd probably combine it with Piedras Rojas because many products bundle them.
+/stargazing-tours/
+Best San Pedro de Atacama Stargazing Tours
+/baltinache-tours/
+Best Hidden Lagoons of Baltinache Tours
+/laguna-cejar-tours/
+Best Laguna Cejar Tours
+/puritama-hot-springs-tours/
+Best Puritama Hot Springs Tours
+/rainbow-valley-tours/
+Best Rainbow Valley Tours
+/salar-de-atacama-tours/
+Best Salar de Atacama Tours
+/cerro-toco-tours/
+Best Cerro Toco Tours
+Potentially later:
+/horse-riding/
+/sandboarding/
+/bike-tours/
+MULTI-DAY TOURS
+This deserves its own nav category.
+/multi-day-tours/
+Best San Pedro de Atacama Multi-Day Tours
+Then:
+/2-day-itinerary/
+/3-day-itinerary/
+/4-day-itinerary/
+/5-day-itinerary/
+And commercially:
+/3-day-tour-packages/
+/4-day-tour-packages/
+I would distinguish between:
+itinerary = DIY advice
+and
+tour package = bookable product comparison
+That gives you two search intents without creating duplicate pages.
+UYUNI
+This could become a substantial second commercial cluster.
+/uyuni-tours-from-san-pedro-de-atacama/
+Best Uyuni Salt Flats Tours from San Pedro de Atacama
+Then potentially:
+/san-pedro-to-uyuni-3-day-tour/
+/san-pedro-to-uyuni-4-day-tour/
+/uyuni-to-san-pedro-de-atacama/
+This can bring visitors who are planning a cross-border Chile–Bolivia journey rather than merely day tours.
+I'd add it after the core San Pedro pages are established.
+PLAN YOUR TRIP
+/things-to-do/
+Best Things to Do in San Pedro de Atacama
+/best-time-to-visit/
+/how-many-days/
+/weather/
+/altitude/
+/what-to-pack/
+/getting-there/
+/calama-airport-to-san-pedro-de-atacama/
+/san-pedro-de-atacama-without-car/
+/where-to-stay/
+/best-hotels/
+Itineraries
+These could become very useful SEO entry pages.
+/1-day-itinerary/
+/2-day-itinerary/
+/3-day-itinerary/
+/4-day-itinerary/
+/5-day-itinerary/
+/one-week-itinerary/
+And I'd make each extremely actionable:
+morning → afternoon → evening → recommended tour → where to eat → altitude considerations
+Then link every day back to relevant commercial tour pages.
+Comparison articles
+These may be particularly strong for AI/search because they're decision-focused.
+I'd definitely create:
+piedras-rojas-vs-el-tatio/
+Piedras Rojas vs El Tatio: Which Tour Should You Choose?
+baltinache-vs-laguna-cejar/
+Baltinache vs Laguna Cejar
+This is an obvious traveller dilemma.
+moon-valley-vs-rainbow-valley/
+laguna-cejar-vs-puritama/
+moon-valley-morning-vs-sunset/
+And:
+/best-tours-if-you-only-have-2-days/
+/best-tours-if-you-have-3-days/
+Those are very close to the actual booking decision.
+Stargazing cluster
+Because you already considered AtacamaStargazingTour.com, this topic is large enough that I'd treat it almost like a mini-site inside the larger site.
+Main:
+/stargazing-tours/
+Supporting:
+/best-time-for-stargazing/
+/stargazing-full-moon/
+/stargazing-without-tour/
+/alma-observatory/
+/atacama-night-sky/
+/astrophotography-tours/
+Current stargazing products commonly use specialist guides, telescopes and astrophotography, which gives you meaningful differences to compare rather than simply listing identical tours. Viator
+What I would NOT create initially
+I'd resist turning it into:
+20 restaurants in San Pedro
+History of Chile
+Best Chilean food
+Complete Chile travel guide
+Santiago to Patagonia itinerary
+Those dilute topical relevance.
+I'd keep approximately:
+70% tours/attractions/itineraries
+20% San Pedro practical planning
+10% accommodation/transfers
+That's very tightly aligned with the domain.
+Recommended top navigation
+Keep it unusually simple:
+Tours | Stargazing | Itineraries | Uyuni | Plan Your Trip
+Then a prominent:
+Compare Tours
+button.
+Under Tours:
+Moon Valley
+El Tatio
+Piedras Rojas
+Lagoons
+Hot Springs
+All Tours
+Under Plan Your Trip:
+Getting There
+Where to Stay
+Best Time
+Altitude
+What to Pack
+The first 20 pages I would actually publish
+In priority order:
+1. Homepage — Best San Pedro de Atacama Tours
+2. El Tatio Geysers Tours
+3. Piedras Rojas & Altiplanic Lagoons Tours
+4. Atacama Stargazing Tours
+5. Valle de la Luna Tours
+6. Best 3-Day San Pedro de Atacama Itinerary
+7. Best Multi-Day Tour Packages
+8. Baltinache Hidden Lagoons Tours
+9. Laguna Cejar Tours
+10. Best Things to Do in San Pedro de Atacama
+11. 2-Day San Pedro de Atacama Itinerary
+12. 4-Day San Pedro de Atacama Itinerary
+13. How Many Days in San Pedro de Atacama?
+14. Best Time to Visit
+15. San Pedro de Atacama Altitude Guide
+16. Calama Airport to San Pedro de Atacama
+17. Where to Stay in San Pedro de Atacama
+18. Baltinache vs Laguna Cejar
+19. Puritama Hot Springs
+20. Uyuni Tours from San Pedro de Atacama
+That gives you a very strong initial topical graph rather than 20 disconnected articles.
+One important homepage positioning decision
+I would not call the site simply a booking site.
+The editorial proposition should be:
+We help you decide which San Pedro de Atacama tours are actually worth booking — and how to fit them into your trip.
+
+That's much better for SEO, AI citations and conversion than essentially recreating a GetYourGuide category page.
+And I'd make the homepage's primary commercial hierarchy:
+Piedras Rojas / Altiplanic Lagoons → El Tatio → Stargazing → Moon Valley → Baltinache/Cejar → multi-day packages
+Those first four are the essential core of the site based on both official destination positioning and the depth of current bookable inventory. Viator

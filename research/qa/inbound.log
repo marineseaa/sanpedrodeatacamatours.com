@@ -1,0 +1,211 @@
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/product-345946.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/product-542449.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-sunset.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-salt-pool.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /404.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /2-day-itinerary/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:10] "GET /images/atacama-valley.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /3-day-itinerary/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /4-day-itinerary/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /images/atacama-flamingos.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /about/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /altitude/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /images/atacama-highlands.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /baltinache-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:11] "GET /baltinache-vs-laguna-cejar/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /best-time-to-visit/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /calama-airport-to-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /images/atacama-road.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /el-tatio-geysers-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /getting-there/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /how-many-days/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:12] "GET /is-san-pedro-de-atacama-worth-visiting/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /laguna-cejar-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /moon-valley-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /multi-day-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /piedras-rojas-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /plan-your-trip/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /images/atacama-oasis.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /privacy/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /puritama-hot-springs-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:13] "GET /images/product-832294.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /san-pedro-de-atacama-without-car/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /stargazing-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /images/product-209091.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /terms/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /things-to-do/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:14] "GET /tours/andean-astronomy-stargazing/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/atacama-four-tours-three-days/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/atacama-six-tours-four-days/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/baltinache-hidden-lagoons-excursion/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/calama-airport-transfer/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/cejar-lagoon-cocktail/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/el-tatio-sunrise-breakfast/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:15] "GET /tours/llama-stargazing-experience/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /tours/moon-valley-shared-sightseeing/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /tours/moon-valley-ticket-cocktail/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /tours/piedras-rojas-ruta-chile/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /tours/puritama-hot-springs-transfer/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /tours/red-stones-chaxa-triple-tour/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /tours/uyuni-four-day-return/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:16] "GET /images/product-774308.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /uyuni-tours-from-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /what-to-pack/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /images/atacama-vicunas.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:09:17] "GET /where-to-stay/ HTTP/1.1" 200 -
+==============================================================================
+INBOUND-LINK AUDIT: sanpedrodeatacamatours.com
+==============================================================================
+  source pages walked : 44
+  landing spokes      : 27
+
+  /2-day-itinerary/                   10 inbound  (6 contextual)
+      editorial body       x5    
+      explore hub          x1    
+      other                x4    
+
+  /3-day-itinerary/                  117 inbound  (29 contextual)
+      editorial body       x28   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x44   
+
+  /4-day-itinerary/                   22 inbound  (14 contextual)
+      editorial body       x13   
+      explore hub          x1    
+      other                x8    
+
+  /about/                             44 inbound  (0 contextual)
+      footer (other)       x44   
+
+  /altitude/                          81 inbound  (15 contextual)
+      FAQ answer           x1    
+      editorial body       x13   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x22   
+
+  /baltinache-tours/                  17 inbound  (14 contextual)
+      FAQ answer           x1    
+      editorial body       x12   
+      explore hub          x1    
+      other                x3    
+
+  /baltinache-vs-laguna-cejar/        10 inbound  (7 contextual)
+      editorial body       x6    
+      explore hub          x1    
+      other                x3    
+
+  /best-time-to-visit/                54 inbound  (5 contextual)
+      editorial body       x4    
+      explore hub          x1    
+      footer (other)       x44   
+      other                x5    
+
+  /calama-airport-to-san-pedro-de-atacama/  62 inbound  (12 contextual)
+      editorial body       x11   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x6    
+
+  /el-tatio-geysers-tours/            66 inbound  (20 contextual)
+      editorial body       x19   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x2    
+
+  /getting-there/                      4 inbound  (3 contextual)
+      editorial body       x2    
+      explore hub          x1    
+      other                x1    
+
+  /how-many-days/                     13 inbound  (7 contextual)
+      FAQ answer           x1    
+      editorial body       x5    
+      explore hub          x1    
+      other                x6    
+
+  /is-san-pedro-de-atacama-worth-visiting/   2 inbound  (1 contextual)
+      explore hub          x1    
+      other                x1    
+
+  /laguna-cejar-tours/                17 inbound  (12 contextual)
+      editorial body       x11   
+      explore hub          x1    
+      other                x5    
+
+  /moon-valley-tours/                 66 inbound  (19 contextual)
+      editorial body       x18   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x3    
+
+  /multi-day-tours/                   65 inbound  (12 contextual)
+      FAQ answer           x1    
+      editorial body       x10   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x9    
+
+  /piedras-rojas-tours/               65 inbound  (18 contextual)
+      editorial body       x17   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x3    
+
+  /plan-your-trip/                    45 inbound  (1 contextual)
+      explore hub          x1    
+      other                x44   
+
+  /privacy/                           44 inbound  (0 contextual)
+      footer (other)       x44   
+
+  /puritama-hot-springs-tours/        12 inbound  (8 contextual)
+      editorial body       x7    
+      explore hub          x1    
+      other                x4    
+
+  /san-pedro-de-atacama-without-car/   8 inbound  (5 contextual)
+      editorial body       x4    
+      explore hub          x1    
+      other                x3    
+
+  /stargazing-tours/                 107 inbound  (19 contextual)
+      editorial body       x18   
+      explore hub          x1    
+      footer (other)       x44   
+      other                x44   
+
+  /terms/                             44 inbound  (0 contextual)
+      footer (other)       x44   
+
+  /things-to-do/                       4 inbound  (2 contextual)
+      editorial body       x1    
+      explore hub          x1    
+      other                x2    
+
+  /uyuni-tours-from-san-pedro-de-atacama/  54 inbound  (10 contextual)
+      editorial body       x9    
+      explore hub          x1    
+      other                x44   
+
+  /what-to-pack/                       9 inbound  (3 contextual)
+      editorial body       x2    
+      explore hub          x1    
+      other                x6    
+
+  /where-to-stay/                     57 inbound  (9 contextual)
+      editorial body       x8    
+      explore hub          x1    
+      footer (other)       x44   
+      other                x4    
+
+All spokes reachable -- no orphans

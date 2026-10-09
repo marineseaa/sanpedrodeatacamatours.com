@@ -1,0 +1,9 @@
+====================================================================
+ACCENT-ON-DARK CONTRAST AUDIT: sanpedrodeatacamatours.com
+====================================================================
+  page types swept   : 5 (home, tour, tourshub, 404, guide)
+  dark-surface texts : 318
+
+  OK: all 318 dark-surface texts clear their AA threshold
+
+All accent-on-dark checks PASS

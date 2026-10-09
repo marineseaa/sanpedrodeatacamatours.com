@@ -1,0 +1,23 @@
+================================================================
+VIEWPORT / COMPUTED-STYLE AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/sanpedrodeatacamatours/sanpedrodeatacamatours.com
+================================================================
+  page types : 5 (404, home, landing, tour, tourshub)
+  widths     : [1440, 1024, 768, 600, 390, 320]
+
+  [1] :root tokens      60/60 compute (used AND defined by this CSS)
+      body background: rgb(250, 246, 239)
+
+  [2] breakpoint sweep
+      FAIL home       1024px  h-scroll 1108>1024
+      FAIL tourshub   1024px  h-scroll 1108>1024
+      FAIL landing    1024px  h-scroll 1108>1024
+      5 page types x 6 widths swept
+
+  [3] /404.html CTAs    2 found
+
+  screenshots -> sanpedrodeatacamatours.com/research/qa/viewport
+
+3 FAILURE(S) — fix before the site is done
+  - home @1024px: horizontal scroll (1108 > 1024)
+  - tourshub @1024px: horizontal scroll (1108 > 1024)
+  - landing @1024px: horizontal scroll (1108 > 1024)

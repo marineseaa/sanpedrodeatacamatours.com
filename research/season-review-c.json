@@ -1,0 +1,118 @@
+{
+  "judge": "c",
+  "scope": "Title and two answer-box paragraphs only",
+  "answer_sha1": "dea80813edc3f5e36ea9938849d866cc8788108b",
+  "verdict": "PASS",
+  "charges": [],
+  "checks": [
+    {
+      "criterion": "TAUTOLOGY",
+      "verdict": "PASS",
+      "reason": "Seasonal availability is qualified by route disruption, and other facts contribute to date or packing decisions."
+    },
+    {
+      "criterion": "LEAD-VALUE",
+      "verdict": "PASS",
+      "reason": "By the end of paragraph one, April or May is recommended with both highland rain and winter cold as reasons, despite the intervening availability qualifier."
+    },
+    {
+      "criterion": "ANSWERS-THE-ASK",
+      "verdict": "PASS",
+      "reason": "The First Visit title accurately matches the recommendation for a combined highland and astronomy trip and the recorded seasonal queries."
+    },
+    {
+      "criterion": "ACTIONABLE",
+      "verdict": "PASS",
+      "reason": "Readers can compare April or May, check observing sessions, keep a spare summer day, and pack winter layers."
+    },
+    {
+      "criterion": "OVERCLAIM",
+      "verdict": "PASS",
+      "reason": "The months are an explicit editorial choice; conditional weather and Moon statements promise no statistical certainty."
+    },
+    {
+      "criterion": "PLAIN",
+      "verdict": "PASS",
+      "reason": "Concrete conditions and actions are expressed without compressed sentences or unexplained jargon; the seasonal explanation explicitly names April and May."
+    },
+    {
+      "criterion": "PROVENANCE",
+      "verdict": "PASS",
+      "reason": "The seasonal reasons and operator-specific Moon-and-planets alternative match the supplied factual basis."
+    },
+    {
+      "criterion": "WELCOMING",
+      "verdict": "PASS",
+      "reason": "Specific advice supports people with summer bookings and winter travel dates."
+    },
+    {
+      "criterion": "STRUCTURE",
+      "verdict": "PASS",
+      "reason": "Two paragraphs provide the recommendation, qualified annual availability, and seasonal reasoning before addressing lunar timing and fixed-date actions."
+    },
+    {
+      "criterion": "ORPHAN-FACT",
+      "verdict": "PASS",
+      "reason": "Seasonal and lunar facts support choosing dates, allowing flexibility, or packing."
+    },
+    {
+      "criterion": "ADVICE-MECHANISM",
+      "verdict": "PASS",
+      "reason": "A spare day allows possible rescheduling; layers address cold; observing-time checks address session-specific moonlight."
+    },
+    {
+      "criterion": "SELF-CONTRADICTION",
+      "verdict": "PASS",
+      "reason": "Year-round destination availability is compatible with weather-dependent individual excursions."
+    },
+    {
+      "criterion": "PROXY-HONESTY",
+      "verdict": "PASS",
+      "reason": "No proxy-based crowd or demand claim appears."
+    },
+    {
+      "criterion": "ZERO-LABEL",
+      "verdict": "PASS",
+      "reason": "No numerical zero or absence label appears."
+    },
+    {
+      "criterion": "COMPETING-CLOCKS",
+      "verdict": "PASS",
+      "reason": "Highland weather and astronomy conditions receive separate decisions rather than an unsupported ranking."
+    },
+    {
+      "criterion": "LIFTED-CONSTRAINT",
+      "verdict": "PASS",
+      "reason": "No month guarantees excursions, and seasonal timing does not imply clear observing."
+    },
+    {
+      "criterion": "SCOPE",
+      "verdict": "PASS",
+      "reason": "Rainfall is explicitly highland rainfall and lunar alternatives apply only to some tours."
+    },
+    {
+      "criterion": "TENDENCY-AS-RULE",
+      "verdict": "PASS",
+      "reason": "Usual, may, can, and the no-guarantee qualification preserve uncertainty."
+    },
+    {
+      "criterion": "UNCONTROLLED-ITINERARY",
+      "verdict": "PASS",
+      "reason": "No operator-dependent sequence, duration, or outdoor-time fraction is asserted."
+    },
+    {
+      "criterion": "DRAWBACK-RELEVANCE",
+      "verdict": "PASS",
+      "reason": "Cold and route disruption directly concern the recommended highland and astronomy experiences."
+    },
+    {
+      "criterion": "YEAR-HONESTY",
+      "verdict": "PASS",
+      "reason": "No mixed-year or annually republished figures appear."
+    }
+  ],
+  "problematic_text": [],
+  "title": "Best Time to Visit San Pedro de Atacama for a First Visit",
+  "review_round": 4,
+  "note": "Independently rechecked the title and both answer paragraphs. Explicitly naming April and May in the seasonal explanation makes its reference clear; all 22 criteria pass and no problematic text is identified."
+}

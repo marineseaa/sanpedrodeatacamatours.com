@@ -1,0 +1,7 @@
+Pages with booking/timeline/comparison components checked: 1
+Homepage sequence: hero → section → experiences → comparison → timeline → availability → how-it-works → guide → gallery → reviews → planning → faq → explore
+Section words: {"timeline": 123, "guide": 782, "faq": 378}
+Section order: expected ['hero', 'highlights', 'availability', 'how-it-works', 'timeline', 'gallery', 'comparison', 'experiences', 'guide', 'reviews', 'cta', 'alternatives', 'faq', 'explore']; got ['hero', 'section', 'experiences', 'comparison', 'timeline', 'availability', 'how-it-works', 'guide', 'gallery', 'reviews', 'planning', 'faq', 'explore']
+Missing #highlights
+Timeline is not an ordered narrative
+Timeline has fewer than three substantive stages

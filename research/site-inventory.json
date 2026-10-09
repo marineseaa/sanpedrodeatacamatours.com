@@ -1,0 +1,158 @@
+[
+  {
+    "path": "/piedras-rojas-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/el-tatio-geysers-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/moon-valley-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/stargazing-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/baltinache-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/laguna-cejar-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/puritama-hot-springs-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/multi-day-tours/",
+    "group": "combos"
+  },
+  {
+    "path": "/2-day-itinerary/",
+    "group": "combos"
+  },
+  {
+    "path": "/3-day-itinerary/",
+    "group": "combos"
+  },
+  {
+    "path": "/4-day-itinerary/",
+    "group": "combos"
+  },
+  {
+    "path": "/uyuni-tours-from-san-pedro-de-atacama/",
+    "group": "combos"
+  },
+  {
+    "path": "/calama-airport-to-san-pedro-de-atacama/",
+    "group": "tours"
+  },
+  {
+    "path": "/how-many-days/",
+    "group": "guides"
+  },
+  {
+    "path": "/altitude/",
+    "group": "guides"
+  },
+  {
+    "path": "/where-to-stay/",
+    "group": "guides"
+  },
+  {
+    "path": "/baltinache-vs-laguna-cejar/",
+    "group": "guides"
+  },
+  {
+    "path": "/things-to-do/",
+    "group": "guides"
+  },
+  {
+    "path": "/best-time-to-visit/",
+    "group": "guides"
+  },
+  {
+    "path": "/what-to-pack/",
+    "group": "guides"
+  },
+  {
+    "path": "/san-pedro-de-atacama-without-car/",
+    "group": "guides"
+  },
+  {
+    "path": "/getting-there/",
+    "group": "guides"
+  },
+  {
+    "path": "/is-san-pedro-de-atacama-worth-visiting/",
+    "group": "guides"
+  },
+  {
+    "path": "/tours/",
+    "group": "guides"
+  },
+  {
+    "path": "/plan-your-trip/",
+    "group": "guides"
+  },
+  {
+    "path": "/tours/piedras-rojas-ruta-chile/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/red-stones-chaxa-triple-tour/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/el-tatio-sunrise-breakfast/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/moon-valley-shared-sightseeing/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/moon-valley-ticket-cocktail/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/llama-stargazing-experience/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/andean-astronomy-stargazing/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/baltinache-hidden-lagoons-excursion/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/cejar-lagoon-cocktail/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/puritama-hot-springs-transfer/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/atacama-four-tours-three-days/",
+    "group": "combos"
+  },
+  {
+    "path": "/tours/atacama-six-tours-four-days/",
+    "group": "combos"
+  },
+  {
+    "path": "/tours/uyuni-four-day-return/",
+    "group": "combos"
+  },
+  {
+    "path": "/tours/calama-airport-transfer/",
+    "group": "tours"
+  }
+]

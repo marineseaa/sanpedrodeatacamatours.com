@@ -1,0 +1,27 @@
+baseURL = "https://sanpedrodeatacamatours.com/"
+title = "San Pedro de Atacama Tours"
+locale = "en-US"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+buildFuture = true
+enableGitInfo = false
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+siteName = "San Pedro de Atacama Tours"
+gygPartnerID = "1MSALBX"
+gygCampaign = "sanpedrodeatacamatours"
+offersDataKey = "offers"
+featuredTourID = "190853"
+heroImage = "/images/atacama-red-stones.webp"
+description = "Choose your San Pedro de Atacama tours, compare what is included and plan a desert itinerary that fits your time."
+ogImage = "/images/home-og.jpg"
+[[params.exploreHubColumns]]
+key = "tours"
+label = "Desert tours & experiences"
+[[params.exploreHubColumns]]
+key = "combos"
+label = "Itineraries & multi-day trips"
+[[params.exploreHubColumns]]
+key = "guides"
+label = "Plan your Atacama trip"

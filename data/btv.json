@@ -1,0 +1,11 @@
+{
+  "partner": "getyourguide.com",
+  "partner_id": "1MSALBX",
+  "cmp_prefix": "sanpedrodeatacamatours",
+  "attribution": "runtime",
+  "slug_attr": "data-gyg-href",
+  "pos_attr": "data-gyg-pos",
+  "reserved_lane": "a",
+  "placement_param": "placement",
+  "site_root": ".."
+}

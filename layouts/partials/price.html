@@ -1,0 +1,1 @@
+{{- if .startingPrice -}}From US${{ math.Round (float .startingPrice) | lang.FormatNumber 0 }}<small> per person</small>{{- else -}}Check current price{{- end -}}

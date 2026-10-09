@@ -1,0 +1,15 @@
+{{/* Strict source values only: no fabricated prices, currencies or review counts. */}}
+{{- $fields := dict -}}
+{{- $price := printf "%v" .startingPrice -}}
+{{- $currency := printf "%v" .currency -}}
+{{- if and (findRE `^[0-9]+(\.[0-9]+)?$` $price) (findRE `^[A-Z]{3}$` $currency) .url -}}
+  {{- $fields = merge $fields (dict "offers" (dict "@type" "Offer" "price" $price "priceCurrency" $currency "url" .url)) -}}
+{{- end -}}
+{{- $count := printf "%v" .reviewCount -}}
+{{- $rating := printf "%v" .rating -}}
+{{- if and (findRE `^[0-9]+$` $count) (findRE `^[0-9]+(\.[0-9]+)?$` $rating) -}}
+  {{- if and (gt (float $count) 0) (ge (float $rating) 1) (le (float $rating) 5) -}}
+    {{- $fields = merge $fields (dict "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" (float $rating) "reviewCount" (int $count) "bestRating" 5 "worstRating" 1)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $fields -}}

@@ -1,0 +1,15 @@
+================================================================
+VIEWPORT / COMPUTED-STYLE AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/sanpedrodeatacamatours/sanpedrodeatacamatours.com
+================================================================
+  page types : 5 (404, home, landing, tour, tourshub)
+  widths     : [1440, 1024, 768, 600, 390, 320]
+
+  [1] :root tokens      60/60 compute (used AND defined by this CSS)
+      body background: rgb(250, 246, 239)
+
+  [2] breakpoint sweep
+      5 page types x 6 widths swept
+
+  [3] /404.html CTAs    2 found
+
+All viewport / computed-style checks PASS

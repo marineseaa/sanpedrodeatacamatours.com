@@ -1,0 +1,24 @@
+================================================================
+RENDERED-OUTPUT AUDIT: sanpedrodeatacamatours.com
+================================================================
+  WARN: no experience cards on homepage (experiences partial not rendering?)
+  WARN: no FAQ questions found on homepage
+  WARN: editorial body links NO guide pages (kyoto-page contract: 1-3 contextual sibling links)
+  WARN: editorial body links NO tour pages (kyoto-page contract: link the money pages)
+  FAIL: tour page andean-astronomy-stargazing: gallery<5, blank-price
+  FAIL: tour page atacama-four-tours-three-days: gallery<5, blank-price
+  FAIL: tour page atacama-six-tours-four-days: gallery<5, blank-price
+  FAIL: tour page baltinache-hidden-lagoons-excursion: gallery<5, blank-price
+  FAIL: tour page calama-airport-transfer: gallery<5, blank-price
+  FAIL: tour page cejar-lagoon-cocktail: gallery<5, blank-price
+  FAIL: tour page el-tatio-sunrise-breakfast: gallery<5, blank-price
+  FAIL: tour page llama-stargazing-experience: gallery<5, blank-price
+  FAIL: tour page moon-valley-shared-sightseeing: gallery<5, blank-price
+  FAIL: tour page moon-valley-ticket-cocktail: gallery<5, blank-price
+  FAIL: tour page piedras-rojas-ruta-chile: gallery<5, blank-price
+  FAIL: tour page puritama-hot-springs-transfer: gallery<5, blank-price
+  FAIL: tour page red-stones-chaxa-triple-tour: gallery<5, blank-price
+  FAIL: tour page uyuni-four-day-return: gallery<5, blank-price
+  FAIL: editorial block NOT between experiences and reviews (exp=-1 edi=13101 rev=19942)
+
+15 FAILURE(S) — fix before the site is done

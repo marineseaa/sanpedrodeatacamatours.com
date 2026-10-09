@@ -1,0 +1,3755 @@
+/* ============================================================
+   Travel Niche — Main Stylesheet
+   Mobile-first, CSS custom properties, no dependencies
+   Coastal / Arctic aesthetic
+   ============================================================ */
+
+/* ── 1. Design Tokens ─────────────────────────────────────── */
+:root {
+  /* Brand Colors — remap the VALUES per niche, keep the NAMES.
+     Comments describe each token's ROLE, not a motif: a niche-flavoured comment
+     ships verbatim in public/css/main.css and trips _audit_rendered.py's own
+     scaffold-leak scan. (Codified 2026-08-21, niagarariverjetboat.) */
+  --deep-canal:    #0D1B2A;   /* Dark surface + display headings   */
+  --gold:          #C9A84C;   /* Primary CTA — proven gold         */
+  --gold-light:    #DFC06B;   /* Gold gradient end                 */
+  --gold-dark:     #A8893A;   /* Gold pressed state                */
+  /* Darkened gold for TEXT on a light background: --gold-dark measures 3.16:1
+     on --marble-white (fails 4.5:1 AA); this clears 4.70:1. Used by
+     .section-overline. Recompute if a niche remaps these tokens.
+     (/final-check, 2026-07-11)
+     WARNING — do NOT fold this note back onto the declaration line, and never
+     open a second comment inside an open one. CSS comments do NOT nest: an
+     unclosed opener on a declaration line gets closed by the NEXT terminator,
+     and any leftover prose after that ends in a DANGLING terminator. The
+     parser's error recovery then swallows the following declaration whole.
+     That is exactly how --dutch-orange computed to EMPTY on every clone of this
+     scaffold until 2026-08-16. The stylesheet still reads correctly in source and
+     Hugo reports no error; only a computed-style read in a real browser catches
+     it. Detector: strip all comments, then assert no terminator survives.
+     (picoarierosunrisetours.com 2026-08-16) */
+  --gold-text:     #866D2E;
+
+  /* Accent text + halo — auto-derive from --gold so a palette swap is safe.
+     Set --on-accent to #FFFFFF when --gold is a DARK colour (white text),
+     or var(--charcoal) when --gold is LIGHT (dark text). Halo follows --gold. */
+  --on-accent:          var(--charcoal);
+  /* Accent ink for anything drawn ON the dark --deep-canal surface (the fixed
+     header, the tour-page body, a hero scrim). --dutch-orange and --canal-teal are
+     BRIGHT in this scaffold's own palette, so inking them there reads fine here --
+     but a niche that remaps either to a dark colour drops those rules to ~2:1 and
+     nothing greps for it (no geo token, no build error, correct-looking source).
+     Route every accent-on-dark use through this token instead of a raw accent.
+     (buenosairestangoshows.com 2026-08-25.) */
+  --accent-on-dark:     var(--gold-light);
+  /* Rating stars drawn on the dark --deep-canal surface. Kept SEPARATE from
+     --accent-on-dark because the roles differ: accent ink may legitimately be
+     a cool colour, but a star must read as a star, so this one wants a warm
+     tone. Defaults to the accent so the scaffold is unchanged; remap it
+     alongside --accent-on-dark whenever --gold is not a warm gold.
+     (topkapipalace-tours.com 2026-08-28.) */
+  --star-on-dark:       var(--accent-on-dark);
+  /* Accent ink drawn over the HERO PHOTOGRAPH — a THIRD surface, and the only
+     one no audit can measure. --on-accent is text ON the accent fill;
+     --accent-on-dark is accent ink on the flat --deep-canal chrome (header,
+     footer, tour-page body). Neither governs a scrim over a photo: --hero-overlay
+     is a translucent charcoal wash, so what actually sits behind .hero-overline
+     is the PICTURE, and it is lighter than --deep-canal wherever the sky is.
+
+     Why this is its own token and not a third use of --accent-on-dark:
+     _audit_accent_on_dark.py resolves each element's first OPAQUE ancestor
+     background, so it cannot see through a scrim to an image — it passed
+     311/311 on a build whose hero overline measured 3.12:1. There is no string
+     to grep and no computed style to read; only sampling the composited pixels
+     finds it. Default is deliberately LIGHTER than --accent-on-dark so a clone
+     that forgets to remap it degrades toward legible rather than away from it.
+
+     MANDATORY per site with a photographic hero: run
+     `python _audit_hero_contrast.py <site>` after setting heroImage, and again
+     whenever the hero image or the palette changes. A dark accent over a bright
+     hero fails here even when it passes everywhere else.
+     (lanzarotevolcanotours.com 2026-08-30.) */
+  --accent-on-hero:     var(--star-on-dark);
+  --accent-halo:        color-mix(in srgb, var(--gold) 40%, transparent);
+  --accent-halo-strong: color-mix(in srgb, var(--gold) 55%, transparent);
+
+  /* Surface / scrim / hairline tints — DERIVED, so a palette swap reaches them.
+     These used to be hardcoded rgba() literals (a pale blue #D4EEF8 wash, a navy
+     scrim, a slate shadow, a food-tour-red glow). No :root remap could touch
+     them, so on a warm-cream niche the comparison table's highlight column
+     rendered PALE BLUE and the trust icons glowed red. Never reintroduce a
+     literal rgba() for a tint — add a token here instead.
+     (Reported on waiotapu-tickets.com 2026-08-24.) */
+  --tint-surface:        color-mix(in srgb, var(--canal-light) 30%, transparent);
+  --tint-surface-soft:   color-mix(in srgb, var(--canal-light) 15%, transparent);
+  --tint-surface-faint:  color-mix(in srgb, var(--canal-light) 6%,  transparent);
+  --tint-surface-strong: color-mix(in srgb, var(--canal-light) 60%, transparent);
+  --scrim-dark:          color-mix(in srgb, var(--deep-canal) 55%, transparent);
+  --hairline:            color-mix(in srgb, var(--deep-canal) 6%,  transparent);
+  --shadow-tint:         color-mix(in srgb, var(--deep-canal) 12%, transparent);
+  --shadow-tint-strong:  color-mix(in srgb, var(--deep-canal) 18%, transparent);
+
+  --dutch-orange:  #E8821C;   /* Urgency / badges only             */
+  --canal-teal:    #E63946;   /* Secondary accent — links, icons   */
+  --canal-light:   #FFD6D9;   /* Pale tint — SURFACE role (rule 45)*/
+  --amber-warm:    #FFF8F0;   /* Warm tint — SURFACE role (rule 45)*/
+
+  /* Neutrals */
+  --marble-white:  #FFF8F0;   /* Warm off-white base background    */
+  --charcoal:      #1C1C1E;   /* Near-black primary text           */
+  --slate:         #475569;   /* Secondary text */
+  /* Darkened from #94A3B8: measured 2.43:1 on marble-white here (fails 4.5:1
+     AA) — this clears 5.95:1. Only used as text color sitewide. Recompute
+     if a niche remaps marble-white. (/final-check, 2026-07-11) */
+  --stone:         #58616E;   /* Tertiary text  */
+  --silver:        #CBD5E1;   /* Light text     */
+  --mist:          #FFF0E0;   /* Warm cream mist                   */
+  --white:         #FFFFFF;
+
+  /* Gradients */
+  /* HERO SCRIM — dark charcoal on the LEFT, fading to fully transparent on the
+     RIGHT, so the photograph is veiled only where the copy sits and the rest of
+     the frame stays as shot. This replaced a 100deg --deep-canal diagonal plus a
+     bottom vignette. (Marina 2026-08-29, villamonasterovarenna.com.)
+
+     Three things are load-bearing:
+
+     1. --charcoal, NOT --deep-canal. A hue-carrying scrim tints the photograph:
+        the teal version laid a green cast over a lake hero. Charcoal darkens
+        without colouring, which is the entire job of a scrim. --deep-canal stays
+        the CHROME colour (header, footer, gallery theatre); it is not a veil.
+     2. Stops are color-mix, never hardcoded rgba(). A literal survives every
+        palette swap; that is how a navy scrim once ended up over a warm hero.
+        (waiotapu-tickets.com 2026-08-24 — the rule that produced this token.)
+     3. The 58% stop is where the hero COPY ends, not an arbitrary midpoint. The
+        subtitle's longest line reaches ~57% of the viewport at 1024px, which is
+        the widest it gets relative to the frame. An earlier 52%/54% pair left
+        those lines at 3.7:1 over a bright hero. If a niche's hero photo is
+        bright on the left, MEASURE — a scrim over a photograph cannot be checked
+        with getComputedStyle, only by sampling the composited pixels behind each
+        line of text.
+
+     The fade ends at `--charcoal 0%` rather than the bare `transparent` keyword
+     so the interpolation stays on one hue from end to end. */
+  --hero-overlay:    linear-gradient(to right,
+                       color-mix(in srgb, var(--charcoal) 88%, transparent) 0%,
+                       color-mix(in srgb, var(--charcoal) 80%, transparent) 30%,
+                       color-mix(in srgb, var(--charcoal) 64%, transparent) 58%,
+                       color-mix(in srgb, var(--charcoal) 26%, transparent) 80%,
+                       color-mix(in srgb, var(--charcoal)  0%, transparent) 100%);
+  /* Narrow viewports: the hero copy spans the FULL width, so a left-to-right fade
+     would leave the end of every line unscrimmed. Below the mobile-nav breakpoint
+     the scrim holds most of its weight right across the frame and only relaxes at
+     the far edge — same charcoal, same token discipline, different geometry. */
+  --hero-overlay-narrow: linear-gradient(to right,
+                       color-mix(in srgb, var(--charcoal) 86%, transparent) 0%,
+                       color-mix(in srgb, var(--charcoal) 80%, transparent) 55%,
+                       color-mix(in srgb, var(--charcoal) 68%, transparent) 100%);
+  /* BOTH STOPS CARRY --on-accent TEXT, so both must clear AA against it.
+     This paints .btn-primary, .step-number and .itinerary-num, every one of
+     which sets `color: var(--on-accent)` — so the ink is composited over the
+     whole gradient, not just its first stop. A LIGHTER second stop therefore
+     cannot work on a dark accent: white needs a fill at relative luminance
+     <= 0.175, and a typical dark --gold is already at the edge of that. On
+     columbiaglaciertours.com (--gold #287D9B) the old form measured
+     4.67:1 at the start, 3.84:1 in the MIDDLE where the button label actually
+     sits, and 3.19:1 at the end — a primary CTA below AA on every page.
+
+     Nothing in the kit caught it, and this is why: a gradient background
+     computes `background-color: rgba(0,0,0,0)`, so _audit_accent_on_dark.py
+     resolved the first OPAQUE ancestor and measured the SECTION behind the
+     button instead of the button. Regression-proved on that build: with this
+     line in its old form the audit reported 366/366 PASS and every other
+     audit was green. (The script now samples gradient stops — see its
+     `gradient_stops()`. Same blind spot --accent-on-hero exists for, one
+     surface over.)
+
+     Anchored to --gold-dark instead: 4.67:1 -> 6.92:1 on that palette, and
+     inert-to-beneficial for the scaffold's own light gold. --gold-light keeps
+     its other roles; this token is the one that carries text.
+     (Reported on columbiaglaciertours.com 2026-09-03.) */
+  --gold-shimmer:    linear-gradient(135deg, var(--gold), var(--gold-dark));
+  --ocean-depth:     linear-gradient(135deg, var(--deep-canal),
+                     color-mix(in srgb, var(--deep-canal) 78%, var(--canal-teal)));
+  /* DERIVED, never literal. This paints .cta-band, whose title/body/overline
+     are --white / white-85% / --accent-on-dark, so the band MUST stay dark.
+     Anchored 78% in --deep-canal rather than a straight two-token gradient
+     because --canal-teal is a free accent a niche may remap light; measured
+     worst case (--canal-teal := #FFFFFF) still reads white at 7.41:1.
+     Until 2026-08-30 this was a raw `linear-gradient(135deg, #0D1B2A, #E63946)`
+     that no :root remap could reach, so every clone shipped a scaffold-navy
+     to food-tour-red CTA band. Gate 18a missed it: that grep only matches
+     `rgba(`, not a raw hex inside a gradient.
+     (Reported on lanzarotedolphintours.com 2026-08-30.) */
+
+  /* Typography */
+  --font-body:     'Inter', system-ui, -apple-system, sans-serif;
+  --font-display:  'Playfair Display', Georgia, serif;
+
+  /* Spacing (8px grid) */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* Radii */
+  --rounded-sm:   4px;
+  --rounded-md:   8px;
+  --rounded-lg:   12px;
+  --rounded-xl:   16px;
+  --rounded-2xl:  24px;
+  --rounded-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md:  0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg:  0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --shadow-xl:  0 20px 25px -5px rgba(0,0,0,0.10), 0 8px 10px -6px rgba(0,0,0,0.04);
+
+  /* Transitions */
+  --transition-fast:   150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow:   400ms ease;
+}
+
+/* ── 2. Reset & Base ──────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--charcoal);
+  background: var(--marble-white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+img, svg { display: block; max-width: 100%; height: auto; }
+/* Guide-article hook image: honour its 1200x630 ratio. HTML width/height attrs
+   (e.g. <img class="hook-image" width="1200" height="630">) set the rendered
+   height literally UNLESS the global rule above carries height:auto — without it
+   the image squishes to container-width x 630px in .container-narrow.
+   (Reported on milancomodaytrip 2026-07-17.) */
+.hook-image { width: 100%; height: auto; border-radius: var(--rounded-lg); margin: 0 0 var(--space-6); }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+button { cursor: pointer; border: none; background: none; font: inherit; }
+address { font-style: normal; }
+
+/* ── 3. Utilities ─────────────────────────────────────────── */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--space-5);
+}
+
+.container-narrow {
+  max-width: 768px;
+  margin-inline: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.w-full { width: 100%; }
+
+/* ── 4. Buttons ───────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: var(--gold-shimmer);
+  color: var(--on-accent);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--rounded-md);
+  box-shadow: 0 4px 18px var(--accent-halo);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast);
+  white-space: nowrap;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 28px var(--accent-halo-strong);
+  filter: brightness(1.05);
+}
+.btn-primary:active { transform: translateY(0) scale(0.99); }
+.btn-primary:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: rgba(255,255,255,0.12);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--rounded-md);
+  border: 1.5px solid rgba(255,255,255,0.55);
+  transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+  white-space: nowrap;
+  text-decoration: none;
+}
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.85);
+}
+.btn-secondary:focus-visible {
+  outline: 3px solid var(--white);
+  outline-offset: 3px;
+}
+
+/* Ghost button for LIGHT backgrounds. It is used STANDALONE (layouts/404.html),
+   NOT as a `.btn-secondary` modifier, so it must carry the whole button box
+   itself. With only border-color + color it inherited no display, padding,
+   border-width or radius and rendered as bare unstyled text — which is exactly
+   how both 404 secondary CTAs shipped on every clone of this scaffold. The 404
+   is easy to miss in review because nothing links to it.
+   white-space is deliberately `normal`: this button carries the long
+   `tourBackLinkText` label, which overflowed the viewport at 320px when nowrap
+   stopped it wrapping. (Reported on waiotapu-tickets.com 2026-08-24.) */
+.btn-secondary-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: transparent;
+  border: 1.5px solid var(--deep-canal);
+  border-radius: var(--rounded-md);
+  color: var(--deep-canal);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  padding: var(--space-3) var(--space-6);
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.btn-secondary-dark:hover {
+  background: var(--deep-canal);
+  color: var(--white);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  border: 2px solid var(--canal-teal);
+  border-radius: var(--rounded-lg);
+  background: transparent;
+  color: var(--canal-teal);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  /* `normal`, NOT `nowrap`: this is the class /404.html actually uses for its
+     two secondary CTAs, and one of them carries the long `tourBackLinkText`
+     label. The identical fix was written for this exact 320px overflow and
+     applied to `.btn-secondary-dark` (see its comment above) — the class the
+     404 used BEFORE the same repair moved it here, so the defect outlived its
+     own fix. `max-width` is the other half: white-space cannot save a button
+     whose longest single word already exceeds the container.
+     (waiotapu-tickets.com 2026-08-24; recurred rotoruamaorivillage.com
+     2026-08-25 at 328px in a 320px viewport.) */
+  white-space: normal;
+  max-width: 100%;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  background: var(--canal-teal);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.btn-outline:active { transform: translateY(0); }
+
+.btn-sm  { padding: var(--space-2) var(--space-4); font-size: 0.875rem; }
+.btn-lg  { padding: var(--space-4) var(--space-8); font-size: 1rem; }
+
+/* ── 5. Section base ──────────────────────────────────────── */
+.section {
+  padding-block: var(--space-12); /* tightened section rhythm */
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.section-overline {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-text);
+  margin-bottom: var(--space-3);
+}
+/* Dark sections (gallery, cta-band) need a lighter tint for AA contrast —
+   var(--gold-dark) reads too dark on the dark surface, var(--gold-light)
+   passes ~7:1. Recompute per-palette if a niche remaps these tokens. */
+.gallery-section .section-overline,
+.cta-band .section-overline {
+  color: var(--accent-on-dark);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--space-3);
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--slate);
+  max-width: 560px;
+  margin-inline: auto;
+  line-height: 1.65;
+}
+
+/* ── 6. Header & Navigation ───────────────────────────────── */
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  padding-block: var(--space-3);
+  transition: background var(--transition-slow), padding var(--transition-slow), box-shadow var(--transition-slow), transform 0.3s ease;
+}
+
+.site-header.header-hidden {
+  transform: translateY(-100%);
+}
+
+.site-header.scrolled {
+  /* color-mix on the token (not a hardcoded rgba) so a palette/token swap
+     re-colors the header with zero edits */
+  /* Opaque token fallback for browsers without color-mix — a fallback cannot
+     itself use color-mix, so it must be a plain token rather than a hardcoded
+     rgba() that a palette swap would leave navy. The line below re-adds the
+     transparency wherever color-mix is supported. */
+  background: var(--deep-canal);
+  background: color-mix(in srgb, var(--deep-canal) 95%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding-block: var(--space-2);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Pages without a dark hero (tour pages, guides, legal, 404): the white
+   logo/nav would merge with the light body — keep the header solid always.
+   Paired with the `site-header--solid` conditional in partials/header.html. */
+.site-header--solid {
+  /* Opaque token fallback for browsers without color-mix — a fallback cannot
+     itself use color-mix, so it must be a plain token rather than a hardcoded
+     rgba() that a palette swap would leave navy. The line below re-adds the
+     transparency wherever color-mix is supported. */
+  background: var(--deep-canal);
+  background: color-mix(in srgb, var(--deep-canal) 97%, transparent);
+  box-shadow: var(--shadow-md);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logo-icon {
+  color: var(--white);
+  opacity: 0.95;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.logo-primary {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.04em;
+}
+
+.logo-tagline {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--accent-on-dark);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Desktop nav */
+.nav-links {
+  display: none;
+  align-items: center;
+  gap: var(--space-2);
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--rounded-md);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.nav-link:hover {
+  color: var(--white);
+  background: rgba(255,255,255,0.10);
+}
+
+.nav-cta { 
+  display: none; /* Hidden on mobile */
+  margin-left: var(--space-2); 
+  font-size: 1rem; /* balance with enlarged .nav-link (1.05rem) */
+}
+
+/* Hamburger */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  padding: var(--space-2);
+  border-radius: var(--rounded-md);
+  margin-left: auto;
+  transition: background var(--transition-fast);
+}
+.hamburger:hover { background: rgba(255,255,255,0.10); }
+.hamburger-line {
+  display: block;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: transform var(--transition-normal), opacity var(--transition-normal);
+}
+
+/* Mobile menu backdrop */
+.mobile-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  background: var(--scrim-dark);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-normal);
+}
+.mobile-backdrop.open { opacity: 1; pointer-events: all; }
+
+/* Mobile menu panel */
+.mobile-menu {
+  position: fixed;
+  top: 0; right: 0;
+  z-index: 1002;
+  width: min(80vw, 320px);
+  height: 100dvh;
+  background: var(--white);
+  box-shadow: var(--shadow-xl);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform var(--transition-slow);
+  overflow-y: auto;
+}
+.mobile-menu.open { transform: translateX(0); }
+
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-5) var(--space-6);
+  border-bottom: 1px solid var(--silver);
+}
+
+.mobile-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--rounded-md);
+  color: var(--slate);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.mobile-close:hover { background: var(--mist); color: var(--charcoal); }
+
+.mobile-nav-list {
+  flex: 1;
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.mobile-nav-link {
+  display: block;
+  padding: var(--space-3) var(--space-4);
+  font-weight: 500;
+  color: var(--charcoal);
+  border-radius: var(--rounded-md);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.mobile-nav-link:hover { background: var(--canal-light); color: var(--deep-canal); }
+
+.mobile-menu-footer {
+  padding: var(--space-5) var(--space-6);
+  border-top: 1px solid var(--silver);
+}
+
+/* ── 7. Hero ──────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--hero-overlay);
+  z-index: 0;
+}
+
+/* Matches the breakpoint at which the nav collapses and .hero-content stops
+   being a left-hand column — see --hero-overlay-narrow. */
+@media (max-width: 768px) {
+  .hero-overlay { background: var(--hero-overlay-narrow); }
+}
+
+/* ── Hero extras ── */
+.hero-overline {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  /* --accent-on-hero, NOT --accent-on-dark: this label sits on the hero
+     PHOTOGRAPH, not on the flat dark chrome. See the token's own note. */
+  color: var(--accent-on-hero);
+  margin-bottom: var(--space-4);
+  display: block;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--dutch-orange);
+  color: var(--white);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: var(--rounded-sm);
+}
+
+.price-free-cancel {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.75);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: var(--space-2);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-6);
+  padding-top: calc(var(--space-20) + 60px); /* clear fixed header */
+  padding-bottom: var(--space-20);
+}
+
+.hero-text {
+  max-width: 680px;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.15;
+  margin-bottom: var(--space-5);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  color: rgba(255,255,255,0.90);
+  line-height: 1.65;
+  margin-bottom: var(--space-8);
+  max-width: 560px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+  max-width: 380px;
+}
+
+/* Price badge */
+/* A WHITE WASH UNDER WHITE INK. This badge sits over the hero PHOTOGRAPH and
+   inks itself --white. Its fill used to be rgba(255,255,255,0.12), which
+   lightens exactly the pixels the white text has to beat -- the wash was
+   working against its own contents. Over a bright hero the price is the first
+   thing on the page to become unreadable: .price-amount measured 2.35:1 on
+   ammandeadseatours.com against a 3.0 large-text floor, and .price-per 1.98:1
+   against 4.5.
+
+   Nothing caught it for two independent reasons, and both generalise:
+     - exit-gate 18a's hardcoded-tint grep exempts rgba(255,255,255, and
+       rgba(0,0,0, on purpose, because those are usually legitimate. A white
+       tint is therefore invisible to the one check that reads this property.
+     - _audit_accent_on_dark.py resolves the first OPAQUE ancestor, and a
+       translucent wash over a photo has none, so it never measures this at all.
+   Only _audit_hero_contrast.py, which composites through to the picture, sees
+   it -- and only on a hero bright enough to fail.
+
+   Charcoal now, through color-mix, so a palette swap still reaches it. Same
+   argument as the flat system's facts strip: an element that carries small text
+   over open photograph carries its own wash. After this fix the same figures
+   measured 12.4-13.9:1.
+
+   RULE: a translucent fill under text must darken when the text is light and
+   lighten when the text is dark. Check the ink before choosing the wash.
+   (Reported on ammandeadseatours.com 2026-09-05 -- checklist YY.) */
+.hero-price-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: color-mix(in srgb, var(--charcoal) 78%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid color-mix(in srgb, var(--white) 30%, transparent);
+  border-radius: var(--rounded-xl);
+  padding: var(--space-4) var(--space-6);
+  color: var(--white);
+  min-width: 110px;
+}
+.price-from  { font-size: 0.75rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.06em; }
+.price-amount { font-family: var(--font-display); font-size: 2rem; font-weight: 700; line-height: 1; }
+.price-per   { font-size: 0.75rem; opacity: 0.8; }
+
+/* Scroll indicator */
+.hero-scroll-indicator {
+  position: absolute;
+  bottom: var(--space-6);
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,0.65);
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(8px); }
+}
+
+/* ── 8. Trust Band ────────────────────────────────────────── */
+.trust-band {
+  background: var(--white);
+  padding-block: var(--space-6);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  z-index: 2;
+}
+
+.trust-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-5) var(--space-8);
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.trust-icon { font-size: 1.5rem; line-height: 1; }
+
+.trust-icon-svg {
+  color: var(--canal-teal);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--rounded-md);
+  background: var(--canal-light);
+}
+
+.trust-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.trust-metric {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+}
+
+.trust-label {
+  font-size: 0.75rem;
+  color: var(--slate);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── 9. How It Works ──────────────────────────────────────── */
+.how-it-works { background: var(--marble-white); }
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+.step-card {
+  background: var(--white);
+  border-radius: var(--rounded-xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--hairline);
+  transition: box-shadow var(--transition-normal), transform var(--transition-normal);
+  counter-increment: steps;
+}
+.step-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--rounded-md);
+  background: var(--gold-shimmer);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+  box-shadow: 0 2px 8px var(--accent-halo);
+}
+
+.step-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-3);
+}
+
+.step-body { color: var(--slate); line-height: 1.65; }
+
+.steps-cta {
+  text-align: center;
+  margin-top: var(--space-10);
+}
+
+/* ── 10. Gallery — full-width horizontal scroll, dark theatre ── */
+/* Pattern codified 2026-07 (apachetrailtour.com build) — see
+   site-builder CLAUDE.md "Gallery pattern" for the full contract and the
+   img width/height-vs-aspect-ratio gotcha this replaced. */
+.gallery-section {
+  background: var(--deep-canal);
+  padding-bottom: var(--space-8);
+}
+.gallery-section .section-title { color: var(--white); }
+.gallery-section .section-subtitle { color: rgba(255,255,255,0.72); }
+
+.gallery-wrapper {
+  position: relative;
+  margin-top: var(--space-6);
+}
+.gallery-wrapper--full {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.gallery-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 14px; width: 60px;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, var(--deep-canal) 100%);
+  z-index: 2;
+}
+
+.gallery-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-4);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: var(--space-2) var(--space-5) var(--space-4);
+  padding-left: max(var(--space-5), calc((100vw - 1200px) / 2));
+  padding-right: max(var(--space-5), calc((100vw - 1200px) / 2));
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold) rgba(255,255,255,0.15);
+}
+.gallery-scroll::-webkit-scrollbar { height: 8px; }
+.gallery-scroll::-webkit-scrollbar-track { background: rgba(255,255,255,0.12); border-radius: var(--rounded-full); }
+.gallery-scroll::-webkit-scrollbar-thumb { background: var(--gold); border-radius: var(--rounded-full); }
+
+.gallery-item {
+  flex: 0 0 78vw;
+  max-width: 480px;
+  scroll-snap-align: start;
+  border-radius: var(--rounded-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: box-shadow var(--transition-normal), transform var(--transition-normal);
+}
+@media (min-width: 720px)  { .gallery-item { flex-basis: 44vw; } }
+@media (min-width: 1080px) { .gallery-item { flex-basis: 29vw; } }
+.gallery-item:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+}
+.gallery-item img {
+  width: 100%;
+  height: auto; /* MUST be set — see gotcha note below */
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  display: block;
+}
+/* GOTCHA (found on apachetrailtour.com build): the <img width="800"
+   height="533"> HTML attributes are read by browsers as literal pixel
+   dimensions (a presentational-hint height), not just an intrinsic-ratio
+   hint. Without `height: auto` here, that 533px hint wins over
+   `aspect-ratio` once the container is narrower than ~800px (i.e. on
+   every gallery card), producing a mismatched near-portrait box. Always
+   keep `height: auto` on any <img> that also carries HTML width/height
+   attributes AND a CSS aspect-ratio. */
+
+.gallery-caption {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-3);
+  background: rgba(255,255,255,0.06);
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--rounded-full);
+  border: 0;
+  cursor: pointer;
+  background: var(--white);
+  color: var(--deep-canal);
+  box-shadow: var(--shadow-md);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+.gallery-arrow:hover { background: var(--gold); color: var(--on-accent); }
+.gallery-arrow--prev { left: max(var(--space-4), calc((100vw - 1200px) / 2)); }
+.gallery-arrow--next { right: max(var(--space-4), calc((100vw - 1200px) / 2)); }
+@media (min-width: 1080px) { .gallery-arrow { display: flex; } }
+
+/* ── 11. Booking Widget ───────────────────────────────────── */
+.booking-section { background: var(--white); }
+
+.booking-widget-wrapper {
+  max-width: 800px;
+  margin-inline: auto;
+  background: var(--mist);
+  border-radius: var(--rounded-2xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-lg);
+}
+
+.widget-fallback {
+  display: none; /* Hidden when real GYG widget loads */
+}
+
+/* Show fallback if widget script hasn't loaded (no gyg elements present) */
+.booking-widget-wrapper:not(:has([data-gyg-href] iframe)) .widget-fallback {
+  display: block;
+}
+
+.widget-fallback-inner {
+  text-align: center;
+  padding: var(--space-12) var(--space-8);
+  background: var(--white);
+  border-radius: var(--rounded-xl);
+  border: 1px solid var(--silver);
+  box-shadow: var(--shadow-md);
+}
+
+.widget-fallback-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--rounded-xl);
+  background: var(--canal-light);
+  color: var(--canal-teal);
+  margin: 0 auto var(--space-5);
+}
+
+.widget-fallback-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-3);
+}
+
+.widget-fallback-body {
+  color: var(--slate);
+  margin-bottom: var(--space-6);
+}
+
+.widget-fallback-inner .btn-primary { margin-inline: auto; }
+
+.widget-trust-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+  list-style: none;
+  padding: 0;
+}
+
+.widget-trust-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.8rem;
+  color: var(--stone);
+}
+
+.widget-trust-list svg { color: var(--canal-teal); flex-shrink: 0; }
+
+.booking-social-proof {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  margin-top: var(--space-8);
+  padding: var(--space-4) var(--space-5);
+  background: var(--tint-surface);
+  border-radius: var(--rounded-lg);
+  border: 1px solid var(--tint-surface-strong);
+}
+.social-proof-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.825rem;
+  color: var(--slate);
+}
+.social-proof-item strong {
+  color: var(--deep-canal);
+}
+.social-proof-star {
+  color: var(--gold);
+}
+.social-proof-item svg:not(.social-proof-star) {
+  color: var(--canal-teal);
+}
+
+/* ── 12. Comparison Table ─────────────────────────────────── */
+.comparison-section { background: var(--mist); }
+
+.comparison-wrapper {
+  overflow-x: auto;
+  border-radius: var(--rounded-xl);
+  box-shadow: var(--shadow-lg);
+  -webkit-overflow-scrolling: touch;
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  background: var(--white);
+  border-radius: var(--rounded-xl);
+  overflow: hidden;
+}
+
+.comparison-table thead {
+  background: var(--deep-canal);
+  color: var(--white);
+}
+
+.comparison-col,
+.comparison-label-col {
+  padding: var(--space-4) var(--space-5);
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.comparison-label-col {
+  text-align: left;
+  width: 30%;
+  color: rgba(255,255,255,0.75);
+  font-weight: 400;
+}
+
+.comparison-col--highlight {
+  background: var(--deep-canal);
+  color: var(--white);
+  border-bottom: 3px solid var(--gold);
+}
+
+.comparison-badge {
+  /* block + fit-content so the badge stacks on its own line ABOVE the column
+     label (inline-block rendered it beside/wrapped with the label) */
+  display: block;
+  width: fit-content;
+  margin-inline: auto;
+  background: var(--gold);
+  color: var(--on-accent);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: var(--rounded-sm);
+  margin-bottom: var(--space-2);
+}
+.comparison-col--highlight .comparison-badge {
+  background: var(--gold);
+  color: var(--on-accent);
+}
+
+.comparison-table tbody tr {
+  border-bottom: 1px solid var(--mist);
+  transition: background var(--transition-fast);
+}
+.comparison-table tbody tr:last-child { border-bottom: none; }
+.comparison-table tbody tr:hover { background: var(--tint-surface); }
+
+.comparison-row-label {
+  padding: var(--space-4) var(--space-5);
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--slate);
+}
+
+.comparison-cell {
+  padding: var(--space-4) var(--space-5);
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--charcoal);
+}
+
+.comparison-cell--highlight {
+  background: var(--tint-surface);
+  font-weight: 600;
+  color: var(--deep-canal);
+}
+
+.comparison-cta {
+  text-align: center;
+  margin-top: var(--space-8);
+}
+
+.comparison-cta-row { border-bottom: none !important; }
+.comparison-cta-row:hover { background: transparent !important; }
+.comparison-cta-cell { padding-top: var(--space-5) !important; padding-bottom: var(--space-6) !important; }
+.comparison-btn { width: 100%; max-width: 180px; font-size: 0.8rem; }
+
+/* ── 12b. More Experiences ────────────────────────────────── */
+.experiences-section { background: var(--white); }
+
+.experiences-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-6);
+}
+
+/* Homepage "Explore More" section only (scoped by #experiences) — balanced
+   2-row grid computed from the actual card count (top row gets the extra
+   card when odd), instead of the shared auto-fill wrap used on /tours/. */
+#experiences .experiences-grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  #experiences .experiences-grid { grid-template-columns: repeat(var(--experiences-cols, 3), 1fr); }
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--mist);
+  border-radius: var(--rounded-xl);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--charcoal);
+  transition: all var(--transition-normal);
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--canal-teal);
+}
+
+.experience-image {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--mist);
+}
+.experience-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.experience-card:hover .experience-image img {
+  transform: scale(1.06);
+}
+
+.experience-badge {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  background: var(--gold);
+  color: var(--on-accent);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--rounded-sm);
+  z-index: 1;
+}
+
+.experience-content {
+  padding: var(--space-5) var(--space-5) var(--space-3);
+  flex: 1;
+}
+
+.experience-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-2);
+  line-height: 1.3;
+}
+
+.experience-desc {
+  font-size: 0.9rem;
+  color: var(--slate);
+  line-height: 1.5;
+  margin-bottom: var(--space-3);
+}
+
+.experience-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-size: 0.8rem;
+  color: var(--slate);
+}
+
+.experience-rating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--gold);
+  font-weight: 600;
+}
+/* THE STAR MUST NOT BE ALLOWED TO SHRINK, and `width="14" height="14"` on the
+   <svg> does not stop it. Those attributes set an INTRINSIC size, not a floor;
+   inside a flex row the default `flex: 0 1 auto` lets the browser squeeze the
+   only shrinkable item, and an inline SVG with no min-width squeezes all the way
+   to zero.
+
+   Measured on walterpeakbbq.com 2026-09-06: on `/tours/`, where the cards are
+   narrower than the homepage's and `.experience-meta` carries three items
+   (rating, duration, "Free cancellation"), the star rendered at **3.9px, 2.4px
+   and 0px** on the first three cards -- while the IDENTICAL markup on the
+   homepage measured a correct 14px. It reads as a stray dot before the rating,
+   or as nothing at all.
+
+   Nothing in either kit catches it: the markup is valid, the CSS is valid, the
+   build is green, and no audit measures an ICON's rendered size --
+   _audit_viewport.py measures overflow and header clearance, audit_design.py
+   measures radius, elevation and heading contrast. Only getBoundingClientRect on
+   the element itself finds it. Verify:
+     [...document.querySelectorAll('.experience-rating svg')]
+       .map(s => s.getBoundingClientRect().width)      // every entry must be 14
+   Inert on the homepage; corrects every hub. See checklist AAA.
+
+   THE SAME BUG SITS ON BOTH LOGO MARKS, and a portfolio sweep is what found
+   them (61 of 71 sites, 2026-09-06): `.logo-icon` measured 48px declared ->
+   44.8px and `.footer-logo-icon` 32px -> 25.7px at 1024. Milder than the star
+   because those rows have fewer items to fight over, but the same cause.
+
+   `.logo` ALREADY carries `flex-shrink: 0` -- so the fix was half-applied: the
+   logo BLOCK is protected against the nav, and the icon INSIDE it was left to
+   fight its own text. Protecting a flex container says nothing about its
+   children. */
+.experience-rating svg,
+.logo-icon,
+.footer-logo-icon { flex: 0 0 auto; }
+.experience-review-count {
+  color: var(--slate);
+  font-weight: 400;
+}
+
+.experience-duration {
+  color: var(--canal-teal);
+  font-weight: 500;
+}
+
+.experience-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-5);
+  border-top: 1px solid var(--mist);
+  background: var(--tint-surface-soft);
+}
+
+.experience-price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+}
+.experience-price-from {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--slate);
+  margin-right: 2px;
+}
+
+.experience-cta-text {
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: var(--canal-teal);
+  transition: color var(--transition-fast);
+}
+.experience-card:hover .experience-cta-text {
+  color: var(--deep-canal);
+}
+
+/* ── 13. Reviews ──────────────────────────────────────────── */
+.reviews-section { background: var(--canal-light); }
+
+.reviews-aggregate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.aggregate-stars {
+  display: flex;
+  gap: 2px;
+  color: var(--gold);
+}
+
+.aggregate-score {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+}
+
+.aggregate-count {
+  font-size: 0.85rem;
+  color: var(--slate);
+}
+
+.reviews-disclaimer {
+  font-size: 0.8rem;
+  color: var(--stone);
+  max-width: 560px;
+  margin: var(--space-3) auto 0;
+  text-align: center;
+}
+
+.reviews-scroll-wrapper { overflow: hidden; }
+
+.reviews-scroll {
+  display: flex;
+  gap: var(--space-5);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: var(--space-4) var(--space-5) var(--space-8);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--silver) transparent;
+}
+
+.review-card {
+  flex-shrink: 0;
+  width: min(320px, 85vw);
+  scroll-snap-align: start;
+  background: var(--white);
+  border-radius: var(--rounded-xl);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  transition: box-shadow var(--transition-normal), transform var(--transition-normal);
+}
+.review-card:hover { box-shadow: var(--shadow-xl); transform: translateY(-4px); }
+
+.review-stars {
+  display: flex;
+  gap: 3px;
+  color: var(--gold);
+}
+
+.review-text {
+  flex: 1;
+  font-size: 1rem;
+  color: var(--charcoal);
+  line-height: 1.65;
+  font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.review-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.8rem;
+  color: var(--stone);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--mist);
+}
+
+.review-name { font-weight: 600; color: var(--charcoal); }
+.review-separator { color: var(--silver); }
+
+/* ── 14. FAQ ──────────────────────────────────────────────── */
+.faq-section { background: var(--marble-white); }
+
+.faq-list { display: flex; flex-direction: column; }
+
+.faq-item {
+  border-bottom: 1px solid var(--silver);
+}
+.faq-item:first-child { border-top: 1px solid var(--silver); }
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  width: 100%;
+  padding: var(--space-5) 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+.faq-question:hover { color: var(--deep-canal); }
+.faq-question:focus-visible {
+  outline: 2px solid var(--dutch-orange);
+  outline-offset: 2px;
+  border-radius: var(--rounded-sm);
+}
+
+.faq-chevron {
+  flex-shrink: 0;
+  color: var(--stone);
+  transition: transform var(--transition-normal), color var(--transition-fast);
+}
+.faq-question[aria-expanded="true"] .faq-chevron {
+  transform: rotate(180deg);
+  color: var(--gold);
+}
+
+.faq-answer { overflow: visible; }
+.faq-answer[hidden] { display: none !important; }
+
+.faq-answer-inner {
+  padding-bottom: var(--space-5);
+  font-size: 1rem;
+  color: var(--slate);
+  line-height: 1.7;
+}
+
+.faq-contact {
+  text-align: center;
+  margin-top: var(--space-10);
+  font-size: 0.95rem;
+  color: var(--slate);
+}
+
+.faq-contact-link {
+  color: var(--canal-teal);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color var(--transition-fast);
+}
+.faq-contact-link:hover { color: var(--deep-canal); }
+
+.faq-answer-inner a {
+  color: var(--canal-teal);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color var(--transition-fast);
+}
+.faq-answer-inner a:hover { color: var(--deep-canal); }
+
+/* ── 15. CTA Band ─────────────────────────────────────────── */
+.cta-band {
+  background: var(--ocean-depth);
+  padding-block: var(--space-16);
+  text-align: center;
+}
+
+.cta-band-inner { max-width: 640px; margin-inline: auto; }
+
+.cta-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: var(--space-5);
+}
+
+.cta-body {
+  color: rgba(255,255,255,0.85);
+  margin-bottom: var(--space-8);
+  line-height: 1.65;
+}
+
+/* ── 16. Footer ───────────────────────────────────────────── */
+.site-footer {
+  background: var(--deep-canal);
+  color: var(--silver);
+  padding-top: var(--space-16);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+  padding-bottom: var(--space-12);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--white);
+  text-decoration: none;
+  margin-bottom: var(--space-4);
+}
+
+.footer-logo-text {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.footer-brand-desc {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--silver);
+  max-width: 280px;
+}
+
+.footer-col-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent-on-dark);
+  margin-bottom: var(--space-4);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.footer-link {
+  font-size: 0.9375rem;
+  color: var(--silver);
+  transition: color var(--transition-fast);
+}
+.footer-link:hover { color: var(--white); }
+
+.footer-address {
+  font-size: 0.9375rem;
+  color: var(--silver);
+  line-height: 1.65;
+}
+
+.footer-bottom {
+  padding-block: var(--space-6);
+}
+
+.footer-bottom .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+}
+
+.footer-disclosure {
+  font-size: 0.8rem;
+  color: var(--silver);
+  max-width: 620px;
+}
+
+.footer-copy { font-size: 0.875rem; color: var(--silver); }
+
+.footer-legal {
+  display: flex;
+  gap: var(--space-5);
+}
+
+.footer-legal-link {
+  font-size: 0.875rem;
+  color: var(--silver);
+  transition: color var(--transition-fast);
+}
+.footer-legal-link:hover { color: var(--white); }
+
+/* ── 17. Sticky CTA (mobile) ──────────────────────────────── */
+.sticky-cta {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 900;
+  background: var(--white);
+  border-top: 1px solid var(--silver);
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.1);
+  transform: translateY(100%);
+  transition: transform var(--transition-normal);
+  pointer-events: none;
+}
+.sticky-cta.visible {
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.sticky-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-5);
+  max-width: 480px;
+  margin-inline: auto;
+}
+
+.sticky-cta-price {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-1);
+}
+.sticky-price-from   { font-size: 0.75rem; color: var(--stone); }
+.sticky-price-amount {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+}
+.sticky-price-per    { font-size: 0.75rem; color: var(--stone); }
+
+.sticky-cta-btn { flex-shrink: 0; }
+
+/* ── 18. Single Page Prose ────────────────────────────────── */
+.page-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-8);
+}
+
+.prose h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-3);
+}
+.prose p { color: var(--slate); line-height: 1.75; margin-bottom: var(--space-4); }
+.prose ul { list-style: disc; padding-left: var(--space-6); color: var(--slate); }
+.prose li { margin-bottom: var(--space-2); line-height: 1.65; }
+.prose strong { color: var(--charcoal); }
+.prose a { color: var(--canal-teal); text-decoration: underline; text-underline-offset: 2px; }
+
+/* ── 19. Fade-Up Animation ────────────────────────────────── */
+/* Scroll-reveal. The hidden state is gated on `.js`, set by an inline script in
+   <head> BEFORE first paint (partials/head.html). Without that class nothing is
+   ever hidden, so a browser with JS blocked, broken or still loading main.js
+   (which is `defer`red) renders the full page instead of a blank one.
+   52 elements on a homepage carry .fade-up, so the un-gated version meant
+   "no JS = no website". Same principle as the affiliate-CTA static-href rule:
+   content must never depend on JS to exist.
+   (Reported on rotoruamaoriexperience.com 2026-08-28.) */
+.js .fade-up {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.js .fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Above-the-fold content is never scroll-revealed: there is nothing to scroll
+   it into view, and .hero-title is the LCP element -- gating it on a deferred
+   script measured >800ms at opacity:0 after networkidle. */
+.js .hero-text.fade-up,
+.js .hero-price-badge.fade-up,
+/* The facts strip is inside the hero, so it is above-the-fold content too.
+   Without this it renders as an EMPTY band on desktop: it sits flush with the
+   viewport bottom, and the reveal observer's `rootMargin: 0 0 -40px 0` means an
+   element in the last 40px never intersects -- so it stays at opacity 0 with
+   nothing left to scroll it into view. */
+.js .hero .trust-item.fade-up {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .fade-up { opacity: 1; transform: none; transition: none; }
+}
+
+/* Stagger children */
+.steps-grid .fade-up:nth-child(2) { transition-delay: 0.1s; }
+.steps-grid .fade-up:nth-child(3) { transition-delay: 0.2s; }
+.trust-grid .fade-up:nth-child(2) { transition-delay: 0.05s; }
+.trust-grid .fade-up:nth-child(3) { transition-delay: 0.10s; }
+.trust-grid .fade-up:nth-child(4) { transition-delay: 0.15s; }
+.trust-grid .fade-up:nth-child(5) { transition-delay: 0.20s; }
+
+/* ── 20. Accessibility ────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .fade-up { opacity: 1; transform: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ── 21. Responsive — sm (640px) ──────────────────────────── */
+@media (min-width: 640px) {
+  .hero-actions {
+    flex-direction: row;
+    max-width: none;
+  }
+
+  .trust-grid {
+    gap: var(--space-5) var(--space-10);
+  }
+
+  .review-card  { width: 340px; }
+}
+
+/* ── 22. Responsive — md (768px) ──────────────────────────── */
+@media (min-width: 768px) {
+  .section { padding-block: 56px; }
+
+  .section-title { font-size: 2.25rem; }
+
+  .steps-grid { grid-template-columns: repeat(var(--steps-cols, 2), 1fr); }
+
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+
+  .footer-bottom .container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+/* ── 23. Responsive — lg (1024px) ─────────────────────────── */
+@media (min-width: 1024px) {
+  /* Show desktop nav, hide hamburger */
+  .nav-links  { display: flex; }
+  .nav-cta    { display: block; }
+  .hamburger  { display: none; }
+
+  /* Hide sticky mobile CTA */
+  .sticky-cta { display: none; }
+
+  .section { padding-block: 72px; }
+
+  .section-title { font-size: 2.5rem; }
+
+  .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
+}
+
+/* ── 24. Responsive — xl (1280px) ─────────────────────────── */
+@media (min-width: 1280px) {
+  .container { padding-inline: var(--space-8); }
+}
+
+/* ── 25. Highlights Section ───────────────────────────────── */
+.highlights-section { background: var(--amber-warm); }
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .highlights-grid { grid-template-columns: 1fr 1fr; gap: var(--space-12); }
+}
+
+.highlights-col {
+  background: var(--white);
+  border-radius: var(--rounded-xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--hairline);
+}
+
+.highlights-col-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 2px solid var(--canal-light);
+}
+
+.highlights-col-title svg { color: var(--gold); flex-shrink: 0; }
+
+.highlights-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: 1rem;
+  color: var(--slate);
+  line-height: 1.55;
+}
+
+.highlight-check {
+  flex-shrink: 0;
+  color: var(--canal-teal);
+  margin-top: 2px;
+}
+
+.highlight-check--gold { color: var(--gold); }
+
+.highlights-cta {
+  text-align: center;
+  margin-top: var(--space-10);
+}
+
+/* ── 26. Review Extras ────────────────────────────────────── */
+.review-photos {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.review-photos img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: var(--rounded-md);
+  border: 1px solid var(--mist);
+}
+
+.review-card--cta {
+  /* Lighter than the reviews-section background (--canal-light) so the CTA card
+     lifts off the section instead of blending into it. Token-relative wash +
+     subtle border survive any palette remap. (Reported on milancomodaytrip 2026-07-17.) */
+  background: color-mix(in srgb, var(--white) 62%, var(--canal-light));
+  border: 1px solid color-mix(in srgb, var(--canal-teal) 22%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+}
+
+.review-cta-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-8) var(--space-6);
+  text-align: center;
+}
+
+.review-cta-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--deep-canal);
+  max-width: 220px;
+  line-height: 1.4;
+}
+
+/* ── Tour Detail Pages ──────────────────────────────────────── */
+.tour-page {
+  padding-top: 100px;
+  padding-bottom: var(--space-8);
+  background: var(--deep-canal);
+  min-height: 100vh;
+}
+
+/* Guide article — clear the fixed header (first child is the breadcrumb) */
+.guide-article {
+  padding-top: 100px;
+}
+
+.tour-breadcrumb {
+  font-size: 0.9rem;
+  color: var(--mist);
+  margin-bottom: var(--space-4);
+}
+
+.tour-breadcrumb a {
+  /* gold-light, not dutch-orange: the accent token can be dark (rosewood) and
+     vanish against the deep-canal tour-page background */
+  color: var(--accent-on-dark);
+  text-decoration: none;
+}
+
+.tour-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.tour-hero {
+  margin-bottom: var(--space-6);
+}
+
+.tour-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: var(--space-3);
+  line-height: 1.2;
+}
+
+.tour-rating-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.tour-stars {
+  display: flex;
+  gap: 2px;
+  color: var(--star-on-dark);
+}
+
+.tour-rating-text {
+  font-size: 0.95rem;
+  color: var(--mist);
+}
+
+.tour-gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+  border-radius: var(--rounded-lg);
+  overflow: hidden;
+}
+
+.tour-gallery-main img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.tour-gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.tour-gallery-grid img {
+  width: 100%;
+  height: calc(200px - var(--space-3) / 2);
+  object-fit: cover;
+}
+
+.tour-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+.tour-main-content {
+  color: var(--white);
+}
+
+.tour-section {
+  margin-bottom: var(--space-8);
+}
+
+.tour-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: var(--space-4);
+}
+
+.tour-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--mist);
+  /* fullDescription is an ARRAY — tour/single.html emits one <p> per
+     element. Without this, every paragraph of an enriched tour page
+     butts against the next. (mikumidaysafarifromzanzibar 2026-08-15) */
+  margin-bottom: var(--space-4);
+}
+.tour-description:last-child { margin-bottom: 0; }
+
+.tour-highlights,
+.tour-includes,
+.tour-excludes {
+  list-style: none;
+  padding: 0;
+}
+
+.tour-highlights li,
+.tour-includes li,
+.tour-excludes li {
+  padding: var(--space-3);
+  margin-bottom: var(--space-2);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--rounded-md);
+  color: var(--mist);
+}
+
+.tour-info-content {
+  color: var(--mist);
+  line-height: 1.7;
+}
+
+.tour-sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.tour-booking-card {
+  background: var(--white);
+  padding: var(--space-6);
+  border-radius: var(--rounded-lg);
+  box-shadow: var(--shadow-xl);
+  margin-bottom: var(--space-4);
+}
+
+.tour-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-4);
+  border-bottom: 1px solid var(--mist);
+}
+
+.tour-price-label {
+  font-size: 0.85rem;
+  color: var(--charcoal);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tour-price-amount {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  line-height: 1;
+  margin-block: var(--space-1);
+}
+
+.tour-price-unit {
+  font-size: 0.9rem;
+  color: var(--charcoal);
+}
+
+.tour-detail-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  color: var(--charcoal);
+  font-size: 0.95rem;
+}
+
+.tour-detail-item svg {
+  flex-shrink: 0;
+  color: var(--deep-canal);
+}
+
+.tour-booking-note {
+  font-size: 0.8rem;
+  color: var(--charcoal);
+  text-align: center;
+  margin-top: var(--space-3);
+  opacity: 0.7;
+}
+
+.tour-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.tour-badge {
+  background: var(--gold);
+  color: var(--on-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--rounded-sm);
+}
+
+.tour-back-link {
+  margin-top: var(--space-8);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tour-back-link a {
+  /* gold-light for contrast on the dark tour-page background (see breadcrumb) */
+  color: var(--accent-on-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.tour-back-link a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .tour-title {
+    font-size: 1.75rem;
+  }
+  
+  .tour-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .tour-gallery-main img {
+    height: 300px;
+  }
+  
+  .tour-content-wrapper {
+    grid-template-columns: 1fr;
+  }
+  
+  .tour-sidebar {
+    position: static;
+  }
+}
+
+.review-cta-inner .aggregate-stars { color: var(--gold); }
+
+/* ── Related Tours Section ──────────────────────────────────── */
+.related-tours {
+  margin-top: var(--space-16);
+  padding-top: var(--space-12);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.related-tours-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: var(--space-6);
+  text-align: center;
+}
+
+.related-tours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+.related-tour-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--rounded-lg);
+  overflow: hidden;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  text-decoration: none;
+  display: block;
+}
+
+.related-tour-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+.related-tour-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.related-tour-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--white);
+  padding: var(--space-4) var(--space-4) var(--space-2);
+  line-height: 1.3;
+}
+
+.related-tour-price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-on-dark);
+  padding: 0 var(--space-4) var(--space-4);
+}
+
+/* Site-specific overrides */
+.faq-question:hover { color: var(--canal-teal); }
+.hero-overline { letter-spacing: 0.35em; text-transform: uppercase; font-size: 0.8125rem; }
+.hero-badge { background: rgba(0,0,0,0.55); color: var(--white); border: 1px solid var(--accent-on-dark); backdrop-filter: blur(4px); }
+.btn-secondary { backdrop-filter: blur(6px); background: rgba(255,255,255,0.12); }
+.btn-secondary:hover { background: rgba(255,255,255,0.22); }
+.comparison-col--highlight { border-color: var(--canal-teal); }
+
+/* Every compared product stays readable regardless of column position. */
+
+/* Neon glow accent on trust band icons */
+.trust-icon-svg { filter: drop-shadow(0 0 6px color-mix(in srgb, var(--canal-teal) 15%, transparent)); }
+
+/* Gold accent for highlight check marks */
+.highlight-check--gold { stroke: var(--gold); }
+
+/* ── Footer SEO Links ── */
+.footer-seo-links {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: var(--space-8) 0;
+}
+.footer-seo-title {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-on-dark);
+  margin-bottom: var(--space-4);
+}
+.footer-seo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-seo-link {
+  font-size: 0.8125rem;
+  color: var(--silver);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  white-space: nowrap;
+}
+.footer-seo-link:hover {
+  color: var(--canal-light);
+  text-decoration: underline;
+}
+
+/* ── Guide / Article Pages ─────────────────────────────────── */
+
+/* Breadcrumb */
+.breadcrumb {
+  background: var(--mist);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--silver);
+}
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--stone);
+}
+.breadcrumb-list li:not(:last-child)::after {
+  content: "›";
+  margin-left: var(--space-2);
+  color: var(--silver);
+}
+.breadcrumb-list a {
+  color: var(--canal-teal);
+  text-decoration: none;
+}
+.breadcrumb-list a:hover {
+  text-decoration: underline;
+}
+.breadcrumb-list [aria-current="page"] {
+  color: var(--slate);
+  font-weight: 500;
+}
+
+/* Guide Header */
+.guide-header {
+  padding: var(--space-12) 0 var(--space-8);
+  text-align: center;
+}
+.guide-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-3);
+  line-height: 1.2;
+}
+.guide-subtitle {
+  font-size: 1.05rem;
+  color: var(--slate);
+  max-width: 640px;
+  margin: 0 auto var(--space-3);
+  line-height: 1.6;
+}
+.guide-meta {
+  font-size: 0.85rem;
+  color: var(--stone);
+}
+
+/* Guide Body */
+.guide-body {
+  padding-bottom: var(--space-16);
+}
+
+/* Prose extensions for article content */
+.prose h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-2);
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: 0.92rem;
+}
+.prose thead {
+  background: var(--deep-canal);
+  color: var(--white);
+}
+.prose th {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.prose td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--silver);
+  color: var(--slate);
+  line-height: 1.5;
+}
+.prose tbody tr:hover {
+  background: var(--tint-surface-soft);
+}
+.prose ol {
+  list-style: decimal;
+  padding-left: var(--space-6);
+  color: var(--slate);
+}
+.prose ol li {
+  margin-bottom: var(--space-2);
+  line-height: 1.65;
+}
+
+/* Guide Listing Cards */
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+}
+.guide-card {
+  display: block;
+  background: var(--white);
+  border: 1px solid var(--silver);
+  border-radius: var(--rounded-lg);
+  padding: var(--space-6);
+  text-decoration: none;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+.guide-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+.guide-card-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--deep-canal);
+  margin-bottom: var(--space-2);
+}
+.guide-card-desc {
+  font-size: 0.92rem;
+  color: var(--slate);
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+}
+.guide-card-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--canal-teal);
+}
+
+/* Responsive table scroll on mobile */
+@media (max-width: 640px) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* ── Editorial section + figure (homepage index.html + kyoto-page spoke/landing pages) ── */
+.editorial-section { background: var(--mist); }
+.editorial-prose { margin-top: 1.5rem; }
+.editorial-figure { margin: 0 0 2rem; }
+.editorial-figure a { display: block; border-radius: 14px; overflow: hidden; box-shadow: 0 10px 30px var(--shadow-tint); transition: transform .25s ease, box-shadow .25s ease; }
+.editorial-figure a:hover { transform: translateY(-3px); box-shadow: 0 16px 40px var(--shadow-tint-strong); }
+.editorial-figure img { display: block; width: 100%; height: auto; }
+.editorial-figure figcaption { margin-top: .75rem; font-size: .85rem; color: var(--slate, #475569); text-align: center; font-style: italic; line-height: 1.5; }
+/* ── Tour page: enriched content sections (Norway build) ───── */
+.tour-to-bring { list-style: none; padding: 0; }
+.tour-to-bring li {
+  position: relative; padding: var(--space-3) var(--space-3) var(--space-3) 2.2rem;
+  margin-bottom: var(--space-2); background: rgba(255,255,255,0.05);
+  border-radius: var(--rounded-md); color: var(--mist);
+}
+.tour-to-bring li::before {
+  content: ""; position: absolute; left: var(--space-3); top: 50%; transform: translateY(-50%);
+  width: 9px; height: 9px; background: var(--canal-teal);
+}
+/* Good to know / caveats — amber left-accent to read as "note" */
+.tour-good-to-know { list-style: none; padding: 0; }
+.tour-good-to-know li {
+  padding: var(--space-3) var(--space-4); margin-bottom: var(--space-2);
+  background: var(--tint-surface-faint); border-left: 3px solid var(--accent-on-dark);
+  color: var(--mist); line-height: 1.55;
+}
+/* Not suitable for */
+.tour-not-suitable ul { list-style: none; padding: 0; }
+.tour-not-suitable li {
+  position: relative; padding: var(--space-2) var(--space-3) var(--space-2) 2.2rem;
+  margin-bottom: var(--space-2); color: var(--mist);
+}
+.tour-not-suitable li::before {
+  content: "\00d7"; position: absolute; left: var(--space-3); top: 50%; transform: translateY(-50%);
+  color: var(--accent-on-dark); font-weight: 700; font-size: 1.1rem;
+}
+/* Traveler reviews */
+.tour-reviews-summary { color: var(--mist); font-size: 1.05rem; margin-bottom: var(--space-4); }
+.tour-reviews-summary strong { color: var(--white); }
+.tour-reviews-list { display: grid; gap: var(--space-4); }
+.tour-review {
+  margin: 0; padding: var(--space-5); background: rgba(255,255,255,0.05);
+  border-radius: var(--rounded-lg); border: 1px solid rgba(255,255,255,0.08);
+}
+.tour-review-stars { color: #E8C06B; display: flex; gap: 2px; margin-bottom: var(--space-2); }
+.tour-review p { color: var(--mist); font-style: italic; line-height: 1.6; margin: 0 0 var(--space-2); }
+.tour-review cite { color: rgba(255,255,255,0.7); font-style: normal; font-weight: 600; font-size: 0.9rem; }
+/* FAQ accordion */
+.tour-faq-list { display: grid; gap: var(--space-2); }
+.tour-faq-item {
+  background: rgba(255,255,255,0.05); border-radius: var(--rounded-md);
+  border: 1px solid rgba(255,255,255,0.08); overflow: hidden;
+}
+.tour-faq-item summary {
+  cursor: pointer; padding: var(--space-4); font-family: var(--font-display);
+  font-weight: 600; color: var(--white); list-style: none; position: relative; padding-right: 2.5rem;
+}
+.tour-faq-item summary::-webkit-details-marker { display: none; }
+.tour-faq-item summary::after {
+  content: "+"; position: absolute; right: var(--space-4); top: 50%; transform: translateY(-50%);
+  color: var(--canal-light); font-size: 1.4rem; font-weight: 400; transition: var(--transition-fast);
+}
+.tour-faq-item[open] summary::after { content: "\2212"; }
+.tour-faq-answer { padding: 0 var(--space-4) var(--space-4); }
+.tour-faq-answer p { color: var(--mist); line-height: 1.6; margin: 0; }
+
+/* Excludes read as the negative of includes — same card, muted left rule
+   and a x marker so the two lists are never confused at a glance. The
+   scaffold shipped NO .tour-excludes rule, so these <li>s rendered as bare
+   unstyled text beside card-styled siblings.
+   (mikumidaysafarifromzanzibar 2026-08-15) */
+.tour-excludes li {
+  position: relative;
+  padding-left: var(--space-8);
+  border-left: 3px solid var(--stone);
+  color: var(--silver);
+}
+.tour-excludes li::before {
+  content: "\00d7";
+  position: absolute;
+  left: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent-on-dark);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* ── Key-takeaways / explore-hub in-body links (HOMEPAGE-CONVERSION-PATTERNS
+   §8) ── DEFAULT, not opt-in. The global reset (`a { color: inherit;
+   text-decoration: none; }`) makes any link inside .highlights-list invisible
+   without an override. Colour + weight carry the affordance at rest,
+   underline only on hover, so a 4-8 link list doesn't turn into visual
+   noise. --gold-text, not --gold — the latter is the CTA/button colour and
+   fails contrast as small body text on the pale section backgrounds. */
+#explore .highlight-item a {
+  color: var(--gold-text);
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+#explore .highlight-item a:hover {
+  color: var(--gold-dark);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+#explore .highlight-item a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* ── Narrative itinerary (HOMEPAGE-CONVERSION-PATTERNS §4) ── DEFAULT, not
+   opt-in. Written against existing tokens so a palette swap re-colours it
+   with zero edits. Header is CENTRED (matches every other .section-header
+   on this page — a left-aligned block is the one thing off the page's
+   centre axis). The stops stay LEFT-aligned inside a centred <ol> — a
+   sequence on a connector line needs a common left edge. */
+.itinerary-header {
+  text-align: center;
+  margin-inline: auto;
+  max-width: 780px;
+  margin-bottom: var(--space-6);
+}
+.itinerary-narrative {
+  max-width: 700px;
+  margin: 0 auto var(--space-10);
+  text-align: center;
+  color: var(--slate);
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+.itinerary-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 640px;
+  text-align: left;
+}
+.itinerary-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: var(--space-4);
+  padding-bottom: var(--space-8);
+}
+.itinerary-item:last-child { padding-bottom: 0; }
+.itinerary-item::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  bottom: 0;
+  width: 2px;
+  background: var(--silver);
+}
+.itinerary-item:last-child::before { display: none; }
+.itinerary-num {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--rounded-md);
+  background: var(--gold-shimmer);
+  color: var(--on-accent);
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+.itinerary-body {
+  padding-top: var(--space-1);
+  color: var(--slate);
+  line-height: 1.65;
+}
+.itinerary-body strong {
+  color: var(--charcoal);
+  font-family: var(--font-display);
+}
+@media (max-width: 640px) {
+  .itinerary-body strong { display: block; margin-bottom: var(--space-1); }
+  .itinerary-sep { display: none; }
+}
+/* ── Guide-page widget top spacing ────────────────────────────────────────
+   Both guide widgets (.guide-availability right after the intro paragraph,
+   .guide-auto-widget after the required separator section — see
+   layouts/guides/single.html) inherit the shared .section padding-block
+   (48/56/72px responsive) on top AND bottom by default, so each widget opens
+   with as much air above it as a full new section — fighting the "reads as
+   immediately following the paragraph above it" placement contract in
+   memory/reference_guide_widget_placement.md. Scoped to these two guide-only
+   classes; placed after the .section responsive breakpoint rules above so it
+   wins by source order without !important (CLAUDE.md rule #42: edit
+   site-local CSS at the source, don't fight it with specificity tricks).
+   Bottom padding is untouched, so spacing below each widget still scales
+   normally with viewport. (Codified 2026-08-21, niagarariverjetboat.com —
+   reported as a per-site fix, then generalized: the underlying markup and
+   .section rule are scaffold-wide, so every future guide page would have
+   shipped with this same oversized gap.) */
+.guide-body-intro,
+.guide-body-above-auto {
+  /* The FACING EDGE. .guide-body carries padding-bottom: var(--space-16) (64px),
+     and the two blocks that sit directly above a widget pay it straight into the
+     widget's seam. The trailing .guide-body keeps its padding — it still needs
+     the gap before the CTA band. (2026-08-21, champagnedaytoursfromparis.com:
+     the 2026-08-21 padding-top fix below, shipped alone, removed 24px of a 172px
+     stack and the complaint came back within days. Fix the seam, not one term.)
+
+     THE SELECTOR NAME IS LOAD-BEARING. This rule was written as
+     `.guide-body-section1` while layouts/guides/single.html has always rendered
+     `guide-body-above-auto` — so it selected NOTHING on every clone from the day
+     the three-way body split landed, and every guide page shipped 168px of dead
+     air above its auto widget against a 110px budget. Nothing caught it: the
+     stylesheet reads correctly, hugo builds clean, and _audit_widget_spacing.py
+     printed the same dead class name in its own remedy, so an agent following
+     the tool's advice re-applied the bug. Re-bound 2026-08-27
+     (korouomafrozenwaterfalls.com). If the template's class ever changes again,
+     change it HERE in the same commit. */
+  padding-bottom: 0;
+}
+
+/* Generic widget sections FIRST: .alt-tours-section and .guide-auto-widget are
+   both single-class selectors, so they tie on specificity and SOURCE ORDER
+   decides. With this rule last, a guide's auto widget silently takes the
+   homepage's value instead of the guide's. */
+.booking-section,
+.alt-tours-section {
+  padding-top: var(--space-8);
+}
+
+.guide-availability,
+.guide-auto-widget {
+  padding-top: var(--space-6);
+}
+
+/* NOT trimmed on purpose: .booking-widget-wrapper's own padding is the card's
+   symmetric inset. Trimming only its top renders the card lopsided.
+   Gate: python _audit_widget_spacing.py <site-dir>  (measures getComputedStyle;
+   a source grep cannot see a class that was never defined, a specificity tie,
+   or a token that computes to 0). */
+
+/* ── Fixed-header clearance ───────────────────────────────────────────────────
+   The header is position:fixed and ~60px (mobile) / ~66px (desktop) tall. Any
+   page whose first section starts at the very top of <main> has its opening
+   line rendered UNDERNEATH it: the default .section padding-block is only 48px
+   at mobile. /404.html and /guides/ shipped clipped at <=768px on every clone.
+   The recipe was already codified (memory/reference_fixed_header_traps.md,
+   Trap 1) but had never been baked into the scaffold.
+
+   MUST stay at the END of this file. .section's padding-block is redefined
+   inside later @media blocks; placed earlier, this rule loses on source order
+   and the clip returns at exactly the breakpoints the media queries cover — it
+   passed at 390px and 1440px while still failing at 768px.
+   (Reported on waiotapu-tickets.com 2026-08-24.) */
+.clears-header { padding-top: calc(66px + var(--space-8)); }
+@media (min-width: 768px) { .clears-header { padding-top: calc(66px + var(--space-10)); } }
+
+
+/* ── Button labels can never widen the page ───────────────────────────────
+   Every button class in this scaffold sets `white-space: nowrap`, and several
+   carry per-site labels from hugo.toml (`tourBackLinkText`,
+   `toursListBottomCTAButton`, `ctaButton`, `heroCTAPrimary`). A long one blows
+   past a 320px viewport and the WHOLE PAGE gains a horizontal scrollbar.
+
+   This was first fixed on `.btn-secondary-dark`, then re-fixed on `.btn-outline`
+   when the 404 changed class — and a portfolio sweep on 2026-08-25 found the
+   identical defect a third time on `.btn-primary`: waitomocavestour.com's
+   /tours/ hub measured 463px inside 320px (a 143px overflow) from its bottom-CTA
+   label alone. 20 of 31 sites showed some form of it. Fixing one selector at a
+   time is what let it survive twice, so this rule covers the family.
+
+   Desktop appearance is unchanged: `max-width` only bites when the button would
+   otherwise overflow, and the wrap is scoped to narrow viewports.
+   (rotoruamaorivillage.com 2026-08-25 — see checklist V.) */
+.btn-primary, .btn-secondary, .btn-secondary-dark, .btn-outline, .btn-sm, .btn-lg {
+  max-width: 100%;
+}
+@media (max-width: 480px) {
+  .btn-primary, .btn-secondary, .btn-secondary-dark, .btn-outline {
+    white-space: normal;
+  }
+  .btn-lg { padding: var(--space-3) var(--space-5); }
+}
+
+/* ── Narrow-viewport chrome: nowrap labels wider than the viewport ─────────
+   Two sitewide 320px horizontal-scroll bugs, both in SHARED chrome, so both
+   fail on every page type at once — home, tours, guides, legal AND /404.html.
+   Neither is greppable: the build is green, the markup audit is green, and the
+   stylesheet source reads correctly. Only _audit_viewport.py's 320px sweep
+   sees them. (Reported on knossospalacetours.com 2026-08-27.)
+
+   1. HEADER LOGO. `.logo` above is `flex-shrink: 0` and `.logo-tagline` is
+      never hidden, so the header row is as wide as the site NAME plus a
+      0.18em-tracked tagline, whatever the viewport. That makes the bug scale
+      with the name: a short two-word name fits inside 320px and a longer
+      three-word one does not, so the scaffold ships it LATENT and it surfaces
+      only on some clones. `.hamburger` must NOT shrink — it is the tap target.
+
+      This was codified as rule #39 in memory/feedback_new_project_workflow.md
+      for the Option-B kyoto scaffold in 2026, and never carried into this
+      Option-A base — which is why it resurfaced here.
+
+   2. FOOTER SEO LINKS. `.footer-seo-link` is `white-space: nowrap` so a keyword
+      phrase reads as one line. Right at desktop, wrong at 320px: a long phrase
+      is wider than the ~280px content box.
+
+      This is the SAME failure family as the `.btn-*` block directly above
+      (checklist V, rotoruamaorivillage.com 2026-08-25), whose own comment warns
+      that "fixing one selector at a time is what let it survive twice". It did:
+      that block never covered `.footer-seo-link`. Extended here rather than
+      patched in isolation — when this recurs on a THIRD selector, add it to
+      this rule, do not write a fourth block.
+
+   Desktop is unchanged in both cases: `min-width`/`max-width` only bite when the
+   element would otherwise overflow, and the wraps are scoped to narrow widths.
+   Appended at the END on purpose — these must win over the base rules above. */
+.nav-inner       { min-width: 0; }
+.logo            { flex-shrink: 1; min-width: 0; }
+.logo-text       { min-width: 0; }
+.hamburger       { flex-shrink: 0; }
+.footer-seo-grid { min-width: 0; }
+.footer-seo-link { max-width: 100%; overflow-wrap: anywhere; }
+
+/* Long UNBREAKABLE TOKENS -- the contact email, above all (codified 2026-09-03,
+   anchorageglacierhelicoptertour.com). `contactEmail` renders in three places on
+   every clone: .faq-contact-link on the homepage FAQ, .footer-link in the footer
+   contact column, and twice inside .prose on each legal page. On an exact-match
+   domain of five or more words that address is 35-45 characters with no break
+   opportunity in it, which is WIDER THAN A 320px VIEWPORT -- so the page gains a
+   horizontal scrollbar and _audit_viewport.py check [2] fails.
+
+   Measured on the reporting site (info@anchorageglacierhelicoptertour.com, 40
+   chars): documentElement.scrollWidth was 327px on the homepage, 343px on
+   /pages/privacy/ and 338px on /pages/terms/, against a 320px viewport. Nothing
+   else on that site overflowed at any swept width.
+
+   It is NOT a per-site quirk and it is NOT about that one domain -- the trigger
+   is the length of the EMD, which the builder does not choose, so a short-domain
+   clone passes and a long-domain clone fails on identical markup. `.footer-seo-link`
+   one line above already carries the same fix for long keyword labels; this
+   generalises it to the places the email actually lands.
+
+   `.tour-main-content` is in the list for a SECOND, older instance of the same
+   bug, found while regression-testing this patch: THE PRISTINE SCAFFOLD ITSELF
+   fails `tour @320px h-scroll 369>320`, because `$tour.meetingPoint` is rendered
+   as a bare <p> and GYG operators routinely paste a `https://maps.app.goo.gl/...`
+   link into that field. Measured min-content of that one paragraph: 349px. It
+   reproduced with this patch reverted, so it predates it -- which means every
+   clone whose meeting point carries a URL has been shipping a horizontally
+   scrolling tour page at 320px. `overflow-wrap` inherits, so scoping it to the
+   container covers every text block on the page without naming each one.
+
+   It needs `min-width: 0` ALONGSIDE the wrap, and that is the non-obvious half.
+   `.tour-main-content` is a GRID ITEM (`.tour-content-wrapper` is
+   `grid-template-columns: 1fr 380px`), and a grid item's automatic minimum is
+   min-content -- so the track still grows to fit the unbreakable URL no matter
+   how the text is allowed to wrap inside it. `overflow-wrap: break-word` alone
+   left the failure at exactly 369>320, unchanged. This is the same `min-width: 0`
+   the scaffold already applies to `.nav-inner` and `.footer-seo-grid` two rules
+   above, for the same reason.
+
+   `break-word` rather than `anywhere`: it breaks a token only when it would
+   otherwise overflow, and unlike `anywhere` it does not shrink min-content
+   sizing, so it cannot disturb the flex/grid layouts these elements sit in.
+   Regression-proved BOTH ways on the scaffold: `tour @320px` fails at 369>320
+   with the block removed and passes with it in place, and no other page type or
+   width changes verdict.
+   Verify: python <kit>/_audit_viewport.py <site>   # check [2], 320px column */
+.prose,
+.faq-contact,
+.faq-contact-link,
+.footer-link,
+.footer-address { overflow-wrap: break-word; }
+/* `min-width: 0` only where it is load-bearing: .tour-main-content is a grid
+   item and needs it, the five selectors above are in normal flow where
+   `min-width: auto` already resolves to 0 and the declaration would be inert. */
+.tour-main-content { overflow-wrap: break-word; min-width: 0; }
+
+@media (max-width: 480px) {
+  .logo-tagline { display: none; }
+  .logo-primary {
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .footer-seo-link { white-space: normal; }
+}
+
+/* Guides hub — the FACING EDGE above the template-placed auto widget.
+   `.guides-listing` is a `.section`, so it carries the responsive
+   padding-bottom (72px at desktop) and pays all of it into the seam above
+   `alt-tours.html`, measuring 200px against _audit_widget_spacing.py's 180px
+   budget on every clone. Same failure family as `.guide-body-above-auto`
+   (checklist Y1): fix the seam, not one term of it, and scope it to the
+   facing edge so the section keeps its rhythm everywhere else.
+   (Codified 2026-08-27, korouomafrozenwaterfalls.com; confirmed on four
+   earlier clones during the same-day sweep.) */
+.guides-listing { padding-bottom: var(--space-8); }
+
+
+
+/* THE HERO'S SECONDARY CTA IS THE THIRD THING OVER THE PHOTOGRAPH.
+   Same defect as .hero-price-badge, same fix, and it hid for longer because
+   _audit_hero_contrast.py's selector list stopped at text and never included a
+   button. .btn-secondary is glass -- rgba(255,255,255,0.12) fill, --white ink --
+   and hero.html renders it inside .hero, so it is white text over a white wash
+   over a picture. Measured 3.86-3.93:1 against 4.5 on a sunlit spoke once the
+   audit was finally pointed at it.
+
+   DESCENDANT-SCOPED on purpose. The only other place this class renders is
+   /404.html, where .btn-secondary-dark layers on top of it over a flat surface
+   and is already correct -- a global change would restyle a button that was
+   never the problem. Same discipline as the .hero .trust-* rules.
+   (ammandeadseatours.com 2026-09-05 -- checklist YY.) */
+.hero .btn-secondary {
+  background: color-mix(in srgb, var(--charcoal) 70%, transparent);
+  border-color: color-mix(in srgb, var(--white) 35%, transparent);
+}
+.hero .btn-secondary:hover {
+  background: color-mix(in srgb, var(--charcoal) 82%, transparent);
+}
+
+/* ===========================================================================
+   REFERENCE DESIGN GRAMMAR - queenstownhelicoptertours.com
+   ===========================================================================
+   Marina supplied that site as the LAYOUT + STYLING reference for this build:
+   "section structure, spacing, buttons, cards, navigation, and overall styling.
+   Do not copy its colours or content." Colours and fonts come from this
+   project's own fonts-colors.txt instead, so every value below is a token.
+
+   What was measured off the reference's own stylesheet (a Weebly "Adventurous"
+   theme, /files/main_style.css) and is reproduced here:
+
+     .wsite-button .wsite-button-inner   border-radius 1px; padding 10px 14px;
+                                         text-transform uppercase; ls .05em;
+                                         font-weight bold; 13px; 1px solid border
+                                         the same colour as the fill; 250ms
+                                         ease-in; hover = darker fill AND border.
+                                         No shadow, no lift, no gradient.
+     .wsite-button-large ...             padding 12px 20px; 15px.
+     .banner-wrap .container             padding 160px 0 (100px 1.5em 50px mobile)
+     .banner-wrap .banner                text-align center
+     .banner-wrap .banner h2             uppercase; 70px; ls .05em; centred
+                                         (3em tablet, 2.25em mobile)
+     .banner-wrap .banner .paragraph     24px centred (18px mobile)
+     .topbar                             60px tall, transparent over the hero,
+                                         1px bottom hairline; 50px once affixed
+     .desktop-nav li                     padding 15px 10px
+     .desktop-nav li > a.wsite-menu-item uppercase; bold; 14px; ls .04em
+     .logo a                             uppercase; bold; 28px; ls .05em
+     h2                                  32px; ls .03em; line-height 1.3
+     body                                16px / 30px (line-height 1.875)
+     .main-wrap .container               padding 60px 0
+     .footer-wrap .wsite-footer          padding 40px 0; h2 22px; body 13px
+
+   DELIBERATE DEPARTURES, and why:
+
+   1. THE TYPE PAIRING IS INVERTED ON PURPOSE. The reference sets a geometric
+      sans (Josefin Sans) for headings and a serif (Cardo) for body.
+      fonts-colors.txt specifies the opposite - DM Serif Display headings, Inter
+      body - and an explicit brief beats an inferred one. So the reference's
+      uppercase + letter-spaced discipline is applied where it still reads
+      correctly: the sans chrome (nav, buttons, overlines, badges, card CTAs,
+      footer column titles) and the hero display line. Section headings keep
+      near-neutral tracking, because a high-contrast didone at +0.03em reads
+      slack rather than deliberate.
+
+   2. SECTION PADDING-BLOCK IS NOT TOUCHED. The reference runs 60/56/32px; the
+      scaffold's codified rhythm is 48/56/72px - near enough that overriding it
+      buys nothing, and `.section { padding-block }` is redefined inside later
+      @media blocks, so a plain rule down here would beat ALL of them at every
+      width. The spacing signature that actually reads is the 160px hero band
+      and the 30px body measure, and both are reproduced.
+
+   3. THE REFERENCE HAS NO FAQ, COMPARISON TABLE, TRUST BAR, PRICING, REVIEWS OR
+      BOOKING WIDGET - its CTAs are bare text links. Those sections are kept:
+      they carry this site's schema, conversion and exit-gate obligations. It is
+      the visual grammar that is borrowed, not the (much thinner) inventory.
+
+   Appended at the END so it wins on source order over the base rules, but
+   BEFORE the font-synthesis block, which its own comment requires to stay last.
+   Nothing here sets `white-space` - the narrow-viewport `white-space: normal`
+   overrides above must keep winning (checklist V).                          */
+
+/* -- 1. Buttons: square, uppercase, letter-spaced, flat -------------------
+   The single most recognisable trait of the reference. Replaces the scaffold's
+   pill + gradient + halo + hover-lift with a 1px-radius bordered block. */
+.btn-primary,
+.btn-secondary,
+.btn-secondary-dark,
+.btn-outline,
+.nav-cta,
+.comparison-btn,
+.cta-btn {
+  border-radius: 1px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8125rem;              /* 13px - the reference's small button   */
+  padding: 10px 14px;
+  transition: background-color 250ms ease-in, border-color 250ms ease-in,
+              color 250ms ease-in;
+}
+
+.btn-primary {
+  background: var(--gold);           /* flat fill, not --gold-shimmer         */
+  border: 1px solid var(--gold);
+  color: var(--on-accent);
+  box-shadow: none;
+}
+.btn-primary:hover {
+  background: var(--gold-dark);
+  border-color: var(--gold-dark);
+  color: var(--on-accent);
+  transform: none;                   /* the reference does not lift           */
+  box-shadow: none;
+  filter: none;
+}
+.btn-primary:active { transform: none; }
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+.btn-secondary:hover {
+  background: var(--white);
+  color: var(--deep-canal);
+  border-color: var(--white);
+}
+
+.btn-secondary-dark,
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--deep-canal);
+  color: var(--deep-canal);
+}
+.btn-secondary-dark:hover,
+.btn-outline:hover {
+  background: var(--deep-canal);
+  border-color: var(--deep-canal);
+  color: var(--white);
+  transform: none;
+  box-shadow: none;
+}
+
+/* Large variant - the reference's .wsite-button-large (12px 20px / 15px). */
+.btn-lg { padding: 12px 20px; font-size: 0.9375rem; }
+.btn-sm { padding: 8px 12px;  font-size: 0.75rem;   }
+
+/* -- 2. Header: 60px transparent bar, 50px affixed, uppercase nav ---------*/
+.site-header            { padding-block: 0; }
+.site-header .nav-inner { min-height: 60px; }
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 1px;
+  background: color-mix(in srgb, var(--white) 15%, transparent);
+}
+.site-header.scrolled,
+.site-header--solid { padding-block: 0; }
+.site-header.scrolled .nav-inner,
+.site-header--solid .nav-inner { min-height: 50px; }
+.site-header.scrolled::after,
+.site-header--solid::after { background: transparent; }
+
+.logo-primary {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+.nav-link {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  font-size: 0.875rem;               /* 14px */
+  padding: 15px 10px;
+  border-radius: 0;
+}
+.nav-link:hover { background: transparent; color: var(--accent-on-dark); }
+
+/* -- 3. Hero: centred, uppercase display line, 160px band -----------------*/
+:root {
+  /* The reference's banner is CENTRED, so the scaffold's left-to-right scrim
+     geometry no longer matches the copy - the right half of every centred line
+     would sit unveiled. Replaced with a top-to-bottom wash: same --charcoal
+     token, same color-mix discipline, so no literal ever enters a :root
+     gradient (exit-gate item 18a2). Verified with _audit_hero_contrast.py,
+     which samples the composited pixels behind each glyph run - the only check
+     that can see through a scrim to a photograph.
+
+     DIRECTION: HEAVIEST AT THE TOP, FULLY TRANSPARENT AT THE FOOT.
+     (Marina, 2026-09-04: "starting from dark on the top and going to
+     transparency on the bottom".) Earlier flat builds ran the opposite way,
+     78-86% at the bottom, which buried the lower half of every hero photograph
+     in charcoal. The dark top is doing real work - it is what the transparent
+     header, the overline and the display line sit on - while the foot of the
+     frame is usually the most interesting part of a travel photograph (a boat,
+     a shoreline, a waterline) and is now given back.
+
+     THE MIDDLE STOP IS THE ONE THAT MOVES. It carries the h1, which at 70px is
+     the largest text on the site and is judged against the 3.0 large-text floor
+     rather than 4.5. At a 55% middle it measured 3.23:1 on a bright glacier
+     hero - passing, but on a floor it should not be near. 68/70% gives 4.77:1
+     with the bottom still fully transparent. If a hero fails, raise the TOP and
+     MIDDLE stops; do not reach for the bottom one, which exists to be 0%.
+
+     The facts strip no longer depends on this gradient at all - it carries its
+     own wash in section 10, and the two MUST be changed together. */
+  --hero-overlay: linear-gradient(to bottom,
+                    color-mix(in srgb, var(--charcoal) 88%, transparent)  0%,
+                    color-mix(in srgb, var(--charcoal) 68%, transparent) 50%,
+                    color-mix(in srgb, var(--charcoal)  0%, transparent) 100%);
+  --hero-overlay-narrow: linear-gradient(to bottom,
+                    color-mix(in srgb, var(--charcoal) 90%, transparent)  0%,
+                    color-mix(in srgb, var(--charcoal) 70%, transparent) 50%,
+                    color-mix(in srgb, var(--charcoal)  0%, transparent) 100%);
+}
+
+.hero-content {
+  align-items: center;
+  padding-top: calc(100px + 60px);   /* reference mobile: 100px under a 60px bar */
+  padding-bottom: 50px;
+}
+.hero-text  { max-width: 900px; text-align: center; }
+.hero-title {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;            /* didone caps want air, but not .05em   */
+  font-size: clamp(2.25rem, 6.2vw, 4.375rem);  /* 36px -> 70px, the reference's h2 */
+  line-height: 1.12;
+  margin-bottom: var(--space-6);
+}
+.hero-subtitle {
+  font-size: clamp(1.125rem, 2.4vw, 1.5rem);   /* 18px -> 24px */
+  line-height: 1.5;
+  margin-inline: auto;
+  max-width: 46ch;
+}
+.hero-actions { align-items: center; justify-content: center; }
+.hero-badges  { justify-content: center; }
+
+@media (min-width: 768px) {
+  .hero-content { padding-top: calc(160px + 60px); padding-bottom: 160px; }
+}
+
+/* -- 4. Section headings: the reference's 32px h2 -------------------------*/
+.section-title { letter-spacing: 0.005em; }
+@media (min-width: 768px)  { .section-title { font-size: 2rem;     } }
+@media (min-width: 1024px) { .section-title { font-size: 2.125rem; } }
+
+/* -- 5. Cards: hard edges, hairline border, no hover lift -----------------
+   The reference's cards are image-first blocks with a 1px radius and no
+   elevation; the scaffold's are 16px-radius floating cards. */
+.experience-card,
+.step-card,
+.review-card,
+.guide-card,
+.comparison-table,
+.tour-booking-card,
+.review-card--cta {
+  border-radius: 2px;
+}
+.experience-card,
+.step-card,
+.guide-card {
+  box-shadow: none;
+  border: 1px solid var(--hairline);
+}
+.experience-card:hover,
+.step-card:hover,
+.guide-card:hover,
+.review-card:hover {
+  transform: none;
+  box-shadow: var(--shadow-md);
+}
+.experience-card:hover { border-color: var(--gold); }
+
+/* The card CTA reads as the reference's "more details" text link. */
+.experience-cta-text,
+.guide-card-link {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+/* -- 6. Body measure: the reference's 16px / 30px -------------------------*/
+body { line-height: 1.75; }
+.prose p,
+.editorial-prose p,
+.faq-answer-inner,
+.experience-desc,
+.guide-card-desc,
+.review-text,
+.section-subtitle { line-height: 1.8; }
+
+/* -- 7. Footer: 40px band, uppercase column heads, 13px links -------------*/
+.site-footer      { padding-top: 40px; }
+.footer-col-title { font-size: 0.875rem;  letter-spacing: 0.05em; }
+.footer-link      { font-size: 0.8125rem; }
+.footer-logo-text { text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* -- 8. Badges and pills inherit the same square, uppercase discipline ----*/
+.experience-badge,
+.comparison-badge,
+.hero-badge,
+.trust-label { border-radius: 1px; letter-spacing: 0.05em; }
+
+
+/* -- 9. Square corners, everywhere ----------------------------------------
+   Marina, 2026-09-02: "remove rounded corners on the card", then "check other
+   sections for rounded elements - like the boxes here Keep Exploring".
+
+   The second ask is the useful one. A first pass listed the selectors that came
+   to mind and missed a third of them -- the Explore More / Highlights boxes at
+   16px, the comparison wrapper at 16px, the entire tour-page family at 8-12px,
+   and the gallery arrows still fully circular at 9999px.
+
+   So this list is MEASURED, not remembered. scratchpad/find_rounded.py walks
+   every page type at 1440 and 390, scrolls to the bottom so lazy and
+   scroll-revealed content is laid out, and reports every element whose COMPUTED
+   border-radius is non-zero. Computed, because a radius can arrive from a
+   --rounded-* token, a shorthand, a media query or a later override, and only
+   getComputedStyle sees which one won. Seventeen signatures came back from
+   that first sweep; an eighteenth (.tour-to-bring li) was found by the audit
+   on a later build. All eighteen are below.
+
+   Re-run that script after any design change instead of adding selectors by eye:
+       python scratchpad/find_rounded.py        # expects: 0 signatures
+
+   Two are deliberate and still squared rather than exempted:
+     .gallery-arrow    was a 9999px circle. The reference has no circular
+                       controls; a square arrow button is the consistent choice.
+     .hamburger-line   a 2px radius on a 2px-tall bar. Imperceptible either way,
+                       included so the rule has no exceptions to remember. */
+.experience-card,
+.step-card,
+.review-card,
+.review-card--cta,
+.guide-card,
+.comparison-table,
+.comparison-wrapper,
+.tour-booking-card,
+.highlights-col,
+.booking-social-proof,
+.related-tour-card,
+.tour-review,
+.tour-gallery,
+.tour-faq-item,
+.tour-highlights li,
+.tour-includes li,
+.tour-excludes li,
+/* The EIGHTEENTH signature, added 2026-09-02 (grandcanyon-helicopter.tours).
+   The original sweep found seventeen and this was not among them, because
+   .tour-to-bring li is the only tour list family whose rule lives in a
+   SEPARATE block further down main.css rather than in the grouped
+   highlights/includes/excludes selector — so a reader checking "are the tour
+   lists covered?" sees three of the four and moves on.
+
+   It shipped rounded on BOTH flat sites, including mountetnawinetours.com,
+   the build this design system was codified FROM. audits/audit_design.py
+   found it in a browser; no amount of reading the stylesheet did. That is the
+   argument for the audit, restated: the list is the OUTPUT of a measurement,
+   never a remembered inventory. */
+.tour-to-bring li,
+.review-photos img,
+.btn-primary,
+.btn-secondary,
+.btn-secondary-dark,
+.btn-outline,
+.btn-sm,
+.btn-lg,
+.nav-cta,
+.comparison-btn,
+.cta-btn,
+.gallery-arrow,
+.mobile-nav-link,
+.hamburger,
+.hamburger-line,
+.mobile-close,
+.step-number,
+.itinerary-num,
+.experience-badge,
+.comparison-badge,
+/* The NINETEENTH signature, added 2026-09-04 (barossawinetastingtours.com).
+   .tour-badge shipped at 4px on BOTH earlier flat builds and no sweep saw it,
+   because the element is DATA-CONDITIONAL: layouts/tour/single.html renders the
+   span only when that tour's offers-JSON entry carries a non-empty `badges`
+   array. GYG's v10 card scrape populates `badges` ("Top pick"); the older offers
+   JSONs the first two flat sites were built from did not, so the element never
+   existed in any page the sweep loaded.
+
+   The generalisation, which §4's method note did not yet cover: an element
+   conditional on DATA is exactly as invisible to a full-width sweep as one
+   conditional on VIEWPORT. .sticky-cta taught the viewport half; this is the
+   data half. A sweep can only measure what the fixture happens to render, so
+   the audit — not the sweep — is what finds signature N+1. */
+.tour-badge,
+.hero-badge,
+.trust-label,
+.hero-price-badge,
+.gallery-item,
+.gallery-item img,
+.experience-image img,
+.hook-image,
+.faq-item,
+.widget-fallback,
+.editorial-figure a,
+.booking-widget-wrapper { border-radius: 0; }
+
+/* -- 10. The facts strip lives at the FOOT OF THE HERO ---------------------
+   Marina, 2026-09-02: "move this strip on the bottom of the hero section
+   (don't put it on white strip), remove emojis, keep just facts."
+
+   It used to render as its own band on `--marble-white` directly below the
+   hero. It is now emitted from inside hero.html and pinned to the hero's
+   bottom edge, over the photograph, where `--hero-overlay`'s heaviest stop
+   (78%) already sits. The icons are gone from the markup, not hidden here --
+   a `display:none` would have left five SVGs in every page's HTML.
+
+   CONTRAST NOTE: this text now sits over a PHOTOGRAPH. It is therefore
+   governed by _audit_hero_contrast.py, which composites through the scrim,
+   NOT by _audit_accent_on_dark.py, which resolves the first opaque ancestor
+   and cannot see an image at all. Re-run the hero-contrast audit after any
+   change to heroImage, the scrim, or the colours below. */
+.hero { position: relative; }
+
+.hero .trust-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  /* THE STRIP CARRIES ITS OWN WASH, and this is load-bearing.
+
+     It used to be `transparent`, leaning entirely on --hero-overlay's heaviest
+     stop sitting at the BOTTOM. Section 3 now runs the other way - dark at the
+     top, fully transparent at the foot - so the moment that changed, the strip
+     became white text on open photograph and measured 2.12-3.32:1 across four
+     hero-bearing pages at five widths (princewilliamsoundcruises.com
+     2026-09-04). The two edits ship together or not at all.
+
+     Fading UP rather than sitting as a flat band is what keeps it reading as
+     "the strip is grounded" instead of "the hero is dark at the bottom again",
+     which would put back exactly what section 3 gives away. Only these ~70px
+     carry darkness; the rest of the lower hero is the photograph.
+
+     Governed by _audit_hero_contrast.py, not _audit_accent_on_dark.py - the
+     wash is translucent, so the composite still includes the picture. */
+  background: linear-gradient(to bottom,
+                color-mix(in srgb, var(--charcoal) 40%, transparent)  0%,
+                color-mix(in srgb, var(--charcoal) 82%, transparent) 55%,
+                color-mix(in srgb, var(--charcoal) 88%, transparent) 100%);
+  border-top: 1px solid color-mix(in srgb, var(--white) 20%, transparent);
+  padding-block: 16px;
+}
+
+.hero .trust-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px 34px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* No icon column any more, so the item is just its two lines of text. */
+.hero .trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-align: center;
+  min-width: 0;
+}
+
+.hero .trust-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.hero .trust-metric {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--white);
+  letter-spacing: 0.01em;
+}
+
+.hero .trust-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-on-hero);
+}
+
+/* The strip occupies the hero's bottom edge, so the hero copy has to clear it
+   -- and the whole hero has to stay inside 100svh, or the strip lands below the
+   fold on the commonest laptop viewport. Measured at 1440x900: the section-3
+   padding (220px top + 190px bottom) grew the hero to 954px and pushed the
+   strip 54px past the fold. Both values are set here, overriding section 3,
+   because `align-items: center` already supplies the air that the padding was
+   there to provide. Re-measure if the hero copy gets longer. */
+.hero-content { padding-top: calc(64px + 60px); padding-bottom: 136px; }
+@media (min-width: 768px) {
+  .hero-content { padding-top: calc(76px + 60px); padding-bottom: 112px; }
+  .hero .trust-grid { gap: 14px 48px; }
+  .hero .trust-metric { font-size: 1rem; }
+}
+
+/* Below 560px, five facts across is two words per line. Three columns puts them
+   in two rows instead of the three a two-column grid would need -- which is the
+   difference between a ~100px strip and a ~137px one, and therefore between the
+   strip clearing the fold on a short phone and not. */
+@media (max-width: 560px) {
+  .hero .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px 8px;
+  }
+  .hero .trust-band { padding-block: 12px; }
+  .hero .trust-metric { font-size: 0.8125rem; }
+  .hero .trust-label { font-size: 0.5625rem; letter-spacing: 0.08em; }
+}
+
+/* The price badge already says "Free cancellation" and the strip now says it
+   too, three centimetres below. Drop it from the badge and keep the strip's,
+   which is the one that reads as a fact rather than as a sales line. */
+.hero-price-badge .price-free-cancel { display: none; }
+
+
+/* -- 11. Flat panels ------------------------------------------------------
+   Square corners plus a soft drop shadow still reads as a rounded-card design.
+   The reference puts no elevation on content at all -- its cards are an image,
+   a heading, some text and a link, sitting directly on the section background.
+
+   Measured, not remembered, the same way as section 9: every element with a
+   non-zero computed box-shadow across all eight page types. Seventeen came back
+   and fifteen are flattened here.
+
+   TWO ARE DELIBERATELY KEPT, because their shadow carries meaning rather than
+   decoration:
+     .mobile-menu   a drawer that slides OVER the page. Without elevation there
+                    is nothing to say it is above the content it covers.
+     (nothing else) -- the sticky header's shadow is dropped too: it goes to a
+                    solid background on scroll, which separates it on its own,
+                    and the reference's own affixed topbar sets
+                    `border-bottom: none` with no shadow.
+
+   Panels that were relying on the shadow for definition get a hairline instead.
+   `box-sizing: border-box` is global, so the border cannot grow the element --
+   verified with the 320px overflow sweep in _audit_viewport.py. */
+.highlights-col,
+.comparison-wrapper,
+.booking-widget-wrapper,
+.review-card,
+.review-card--cta,
+.tour-booking-card,
+.gallery-item,
+.gallery-arrow,
+.step-number,
+.itinerary-num,
+.trust-band,
+.site-header.scrolled,
+.site-header--solid,
+/* The sticky booking bar: a fixed bar over scrolling content, same class of
+   thing as the sticky header -- and like it, it already has a solid --white
+   background AND a 1px top border, so the border does the separating and the
+   shadow was only decoration. It renders ONLY at narrow widths, which is why a
+   single-width shadow sweep misses it; audits/audit_design.py sweeps 1440 and
+   390 for exactly this reason. (mountetnawinetours.com 2026-09-02.) */
+.sticky-cta { box-shadow: none; }
+
+/* Definition without elevation, for the panels that sat on a light surface. */
+.highlights-col,
+.comparison-wrapper,
+.booking-widget-wrapper,
+.review-card,
+.tour-booking-card { border: 1px solid var(--hairline); }
+
+/* The review CTA tile already carries its own accent border -- leave it. */
+
+/* Hover was a lift plus a deeper shadow; with the cards flat it becomes a
+   border-colour change, which is the reference's own hover idiom (its buttons
+   swap fill and border together and do not move). */
+.review-card:hover,
+.gallery-item:hover { box-shadow: none; transform: none; }
+.review-card:hover { border-color: var(--gold); }
+
+/* The guide hook figure's clickable wrapper -- the TWENTIETH signature, and the
+   second data-conditional one after .tour-badge. It arrives from the kyoto-page
+   editorial CSS (`reference/editorial-css.css`) carrying three signatures at
+   once: a 14px radius, a 10px/30px drop shadow and a hover lift. It exists only
+   on a page whose markup opts into a <figure class="editorial-figure">, which
+   is what a /faq-articles guide does with its hook image -- so no flat build had
+   ever rendered one and no sweep had ever seen it. Caught by audit_design.py on
+   carthagesidibousaidtours.com, 2026-09-12. Hover becomes a border-colour
+   change, matching the reference's own idiom. */
+.editorial-figure a { box-shadow: none; border: 1px solid var(--hairline); }
+.editorial-figure a:hover { box-shadow: none; transform: none; border-color: var(--gold); }
+
+
+/* -- 12. Explore hub: three columns ---------------------------------------
+   The hub listed individual tours and guides but not the eight landing spokes,
+   which are the site's category pages -- so "every tour and planning guide in
+   one place" was missing the layer a reader is most likely to want. They now
+   get their own column, which keeps a broad "wine tours from Taormina" from
+   sitting in the same list as a single product like "Taormina Etna Wine Tasting
+   Tour - Half Day, 4 Wines".
+
+   Scoped to .explore-grid so the two-column Highlights / What's Included grid
+   on the same class is untouched. Below 900px it falls back to one column, the
+   same as the base rule. */
+@media (min-width: 900px) {
+  .explore-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-8); max-width: 1140px; }
+}
+
+/* The column headings no longer carry an icon, so the flex row that seated one
+   is redundant -- and it was adding a gap before text that is now first. */
+.highlights-col-title { display: block; }
+
+
+/* -- 13. Section sub-headings: accent colour, one size up -----------------
+   Marina, 2026-09-02: "make headings like these different color and slightly
+   bigger apply sitewise", pointing at the Explore More column headings.
+
+   Applied to the tier those belong to -- headings that LABEL A BLOCK of
+   content -- so the treatment is consistent wherever that tier appears rather
+   than only in the section that prompted it:
+
+     .highlights-col-title   Highlights / What's Included, and the three
+                             Explore More columns              1.1rem -> 1.35rem
+     .step-title             the How It Works steps            1.2rem -> 1.35rem
+     .tour-section h2        About This Experience / Highlights /
+                             What's Included on tour pages    1.75rem -> 1.9rem
+
+   TWO SURFACES, TWO TOKENS. The first two sit on white panels over the light
+   page; the third sits on the dark --deep-canal tour-page body. --gold-text
+   (#8C3F3A) measures 7.27:1 on white and 5.94-6.86:1 across the three light
+   section surfaces, but only 1.92:1 on the dark one -- so the tour pages get
+   --accent-on-dark (#E7B77E, 7.65:1) instead. Using one colour for both would
+   have shipped an unreadable heading on eight pages.
+
+   DELIBERATELY NOT INCLUDED: .guide-card-title and .experience-title. Those are
+   card titles -- the clickable name of a destination, not a label for a block --
+   and they already carry link affordance plus a hover colour change. Turning
+   them accent-red too would make every card title look like it had been
+   visited, and would leave nothing to distinguish a section label from a link.
+   Say the word if you want the card titles in as well.
+
+   Placed here so it wins over the base rules; ahead of the font-synthesis
+   block, which must stay last. */
+/* Marina, 2026-09-02: "let's try capital and the same font as on cta buttons
+   for these headings." The CTA buttons are Inter 700, uppercase, 0.05em -- so
+   the tier switches off --font-display onto the same chrome voice as the
+   buttons, nav and overlines. That is also the reference's own discipline: it
+   sets its display face for banner and body headings and reserves the tracked
+   uppercase sans for chrome.
+
+   SETTLED -- do not switch this back to --font-display. It was tried both ways
+   on 2026-09-02: capitals in DM Serif Display, then capitals in the button
+   voice. The button voice is the one that stayed. Two things follow if anyone
+   revisits it:
+
+     1. The three selectors do NOT share a face by default. .highlights-col-title
+        and .step-title set --font-display; .tour-section h2 sets no family at
+        all and inherits Inter from body. Reverting the family here therefore
+        splits the tier across two typefaces rather than restoring one.
+     2. DM Serif Display ships ONE weight, so the 600/700 those two selectors
+        ask for are honest only because the font-synthesis-weight block at the
+        end of this file switches synthesis off. Inter's 700 is a real loaded
+        weight (head.html requests 400;500;600;700), so the current rule needs
+        no such protection. */
+.highlights-col-title,
+.step-title,
+.tour-section h2 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.highlights-col-title,
+.step-title {
+  color: var(--gold-text);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.tour-section h2 {
+  color: var(--accent-on-dark);
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+
+
+/* -- 14. No on-page logo mark ---------------------------------------------
+   Marina, 2026-09-02: "remove logo from this version, unless i supply one."
+   The mark is gone from header.html, footer.html and the 404 illustration, so
+   the site name stands alone -- which is what the reference does: its `.logo a`
+   is plain uppercase letter-spaced text with no mark beside it.
+
+   The gap that seated the icon has to go with it, or the name sits indented
+   from nothing. The FAVICON is untouched: it is browser chrome, and head.html
+   references three favicon files that exit-gate item 10 requires to exist.
+
+   To ADD a logo later, put the file at static/images/logo.svg (or .png), render
+   it as <img class="logo-img"> inside .logo / .footer-logo, and delete this
+   block -- do not re-add the inline SVG, which is the scaffold's own mark and
+   is drawn for a different niche. */
+.logo        { gap: 0; }
+.footer-logo { gap: 0; }
+.logo-img,
+.footer-logo-img { display: block; max-height: 40px; width: auto; }
+
+/* ── Single-weight display faces ──────────────────────────────────────────────
+   READ THIS BEFORE CHANGING A DISPLAY FONT.
+
+   The scaffold's own --font-display (Playfair Display) ships 600 and 700, so the
+   `font-weight: 600/700` in the rules above are real weights and this block is
+   INERT for it — the declarations below simply restate what the face already does.
+
+   It stops being inert the moment a niche swaps in a SINGLE-WEIGHT face. DM Serif
+   Display, Prata, Abril Fatface, Yeseva One and most condensed didones ship 400 and
+   nothing else. The browser then SYNTHESISES a bold by smearing the outline, which
+   on a high-contrast serif reads as a rendering fault rather than emphasis — and
+   nothing catches it: `document.fonts.check()` returns true, the CSS source is
+   correct, no audit measures stroke weight, and it looks "slightly off" rather than
+   broken. Four sites hit it before this block existed (beststockholmtours 2026-08-23,
+   timanfayatours + mountfujiprivatetours, winetoursfromcapetown 2026-09-02) and all
+   four fixed it in their own copy without patching the scaffold, so the fifth
+   rediscovered it. That is the eyeball-vs-token pattern: fixing the instance does
+   nothing for the class.
+
+   WHY IT IS ONE DECLARATION AND NOT A font-weight PIN
+   An earlier draft of this block also set `font-weight: 400`, which fixes the
+   single-weight case and BREAKS the multi-weight one — it would flatten Playfair's
+   real 700 on every clone that keeps the scaffold font. `font-synthesis-weight: none`
+   alone is correct for both: the browser's font matching still picks the nearest
+   AVAILABLE weight, it just may not fake one that is absent. Multi-weight face ->
+   the real bold, block inert. Single-weight face -> the real 400 outlines instead of
+   a smeared fake. No per-site decision, nothing to delete, nothing to remember.
+   (Caught by checklist GG's own detector while it was being regression-tested —
+   the check found the flaw in the fix it was written to verify.)
+
+   Chrome 97+, Safari 16.4+, Firefox 111+. Older browsers fall back to today's
+   behaviour, which is the synthesised bold — no worse than before. Do NOT reach for
+   the `font-synthesis` shorthand: it also disables ITALIC synthesis, and neither
+   Inter nor most body faces here are loaded with a real italic axis, so every <em>
+   would go upright.
+
+   Placement is load-bearing: this sits at the END of the file because several of
+   the selectors below are redefined inside later @media blocks, and an earlier
+   placement loses to them. NEVER WRITE A LITERAL CSS COMMENT TERMINATOR INSIDE A CSS COMMENT.
+
+   The one-liner below calls strip_css_comments() rather than inlining the
+   comment-stripping regex. Spelling that regex out here puts a literal comment
+   terminator inside THIS comment: the parser closes the comment early, reads the
+   rest of this prose as CSS, and error recovery swallows the whole selector list
+   below -- so font-synthesis-weight never applies and the single-weight face this
+   block exists to protect ships a synthesised bold anyway. Proven in headless
+   chromium: computed `auto` as shipped, `none` once the literal was removed.
+
+   This is the same failure family as the jsonify header comment and checklist
+   Y1's orphan-class diff -- a file's own documentation being read as data -- but
+   inverted and worse: there the CHECK misread the comment and reported a false
+   failure; here the BROWSER misreads it and ships a real defect, while the check
+   that would catch it (silent-failure B, "dangling comment terminator") reads as
+   the already-documented false positive. On the pristine scaffold that check must
+   be 0. If it is 1, this is the bug, not a false alarm.
+   (mountetnawinetours.com 2026-09-02, 5th instance.)
+
+   Regenerate the list if a new display-font rule is added:
+     python -c "import re,io; s=strip_css_comments(io.open('static/css/main.css',encoding='utf-8').read(),flags=re.S);        print(',
+'.join(dict.fromkeys(' '.join(m.group(1).split()) for m in re.finditer(r'([^{}]+)\{([^{}]*)\}',s) if 'var(--font-display)' in m.group(2))))"
+   (Codified 2026-09-02, winetoursfromcapetown.com — 4th instance.)             */
+.btn-outline,
+.section-title,
+.logo-primary,
+.hero-title,
+.price-amount,
+.trust-metric,
+.step-number,
+.step-title,
+.widget-fallback-title,
+.aggregate-score,
+.cta-title,
+.footer-logo-text,
+.sticky-price-amount,
+.page-title,
+.prose h2,
+.highlights-col-title,
+.guide-title,
+.prose h3,
+.guide-card-title,
+.tour-faq-item summary,
+.itinerary-body strong {
+  font-synthesis-weight: none;
+}

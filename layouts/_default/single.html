@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ if .Params.utility }}<article class="container narrow utility"><h1>{{ .Title }}</h1><div class="prose">{{ .Content }}</div></article>{{ else }}
+{{ partial "hero-site.html" . }}<div class="container breadcrumbs"><a href="/">Home</a> / <a href="/plan-your-trip/">Atacama guides</a> / {{ .Params.exploreLabel | default .LinkTitle }}</div>
+<section class="page-intro"><div class="container narrow">{{ .Params.intro | markdownify }}</div></section>
+{{ partial "booking-site.html" . }}
+<div class="container article-layout"><aside class="article-toc guide-toc"><p class="section-overline">IN THIS GUIDE</p>{{ .TableOfContents }}<a href="/#explore">All Atacama guides →</a></aside><article class="prose editorial-prose" id="guide">{{ .Content }}</article></div>
+{{ partial "product-gallery.html" . }}{{ partial "reviews-site.html" . }}{{ partial "faq-site.html" . }}
+<section class="section related-section"><div class="container"><p class="section-overline">BUILD YOUR TRIP</p><h2>Where to go next</h2><div class="related-links">{{ range .Params.related }}{{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Params.exploreLabel | default .LinkTitle }} →</a>{{ end }}{{ end }}</div></div></section>{{ end }}
+{{ end }}

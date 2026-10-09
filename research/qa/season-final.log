@@ -1,0 +1,181 @@
+BTV CONTRACT  index.html
+data: sanpedrodeatacamatours.com/data   attribution: runtime   partner_id: 1MSALBX
+======================================================================
+  ok    PROSE-PAIREDCLAUSE no paired-agency frames on the front surfaces
+  ok    PROSE-MONTHVERB no month performs an activity
+  ok    PROSE-CLEFT     no cleft constructions up front
+  ok    HON-UNIVERSAL-NEG no universal operator claim resting on a sample
+  ok    ANS-FIGPLAIN    no figure strip beside the answer to check
+  ok    PROSE-FIGVERB   no figurative measurement verbs up front, 0 in the body
+  ok    PROSE-REDUCTIVE no reductive equation up front
+  ok    DATA-MONITORWINDOW no attributed advisory on the page
+  ok    PROSE-DECIDES   decider construction used 0 time(s) up front, 0 in the body
+  ok    DECK-DEVICE     the hero links to the device (#season-checker)
+  ok    PROSE-DIFFERENT no unnamed differences on the front surfaces
+  ok    DATA-NARROWER   no recommendation_window recorded, so nothing to compare
+  ok    SCOPE-VARIANT   no variant_rules recorded, so nothing to scope
+  ok    TITLE-VARIANT   no variant_rules recorded, so nothing to keep out of the title
+  ok    PROSE-ONLYCHANGE no completeness claim about what the season changes
+  ok    PROSE-VAGUECOMFORT comfort claims name their comparison
+  ok    ANS-BOX         answer box
+  ok    ANS-AVAILVERB   availability is normal, so an operating verb claims nothing extra
+  ok    ANS-ORDER       2 paragraphs, highland access and summer storms named before any recommended month
+  ok    ANS-SENTENCE    longest answer sentence 21 words, mean 16 (target ~25)
+  ok    ANS-RHYTHM      no sentence shape repeats past 2 in the answer box
+  ok    ANS-SPLIT       no verdict_split in the record to check
+  ok    TOP-REPEAT      no deck to compare
+  ok    TOP-FIGLOAD     no deck to check
+  ok    ANS-LENGTH      answer box 112 words in 2 paragraph(s)
+  ok    ANS-BONUSROW    no bonus_not_bookable recorded, so nothing to keep out of the list
+  ok    ANS-ROWSPAN     no decision list to check
+  ok    ANS-NOOPROW     every decision row answers with a decision
+  ok    ADVICE-HOURFIT  no seasonal_bands recorded, so no hours to fit a recommendation to
+  ok    ANS-PROXY       no proxy series doing a measurement's work in the box
+  ok    ANS-SUPERPROXY  crowd evidence is not recorded as a proxy, so no extra limit applies
+  ok    ANS-FIGRANK     no answer_figures recorded, so nothing to check
+  ok    ANS-TWOCLOCK    0 time mode(s) recorded, so one best-hour row is right
+  ok    ANS-STRIPUNIT   summary figures are readable without being taught the series
+  ok    ANS-FIGMATCH    no summary list beside the box
+  ok    AIO-HOOK        figure in 2 of 3 surfaces (description, opening)
+  ok    LEAD-INVITE     recommends a month without writing off the others
+  ok    LEAD-ALT        3 months given a reason in the intro: April, May, June
+  ok    ANS-JUDGE       panel passed (3 judges, 1 rewrite(s))
+  ok    ANS-METHOD      the answer box gives advice, not methodology
+  ok    ANS-HOURLIST    verdict shape is not hour_over_month, so no hour list is required
+  ok    ANS-TOC         table of contents (17 sections)
+  ok    ANS-DATE        dateModified present (honesty is a human check)
+  ok    DEV-VERDICT     verdict device
+  ok    DEV-CSP         page fetches nothing
+  ok    DEV-ACTIVITY    record names 0 activity/activities for the device, so one panel is right
+  ok    CTA-LINK        6 outbound booking link(s)
+  ok    CTA-FIRST       no primary ask present to check
+  ok    CTA-WIDGET      pinned availability widget
+  ok    CTA-DUPE        0 product-selection module(s)
+  ok    ATTR-LANE       lanes: sanpedrodeatacamatours (runtime attribution)
+  ok    ATTR-PID        every link carries partner_id (runtime attribution)
+  ok    ATTR-REL        affiliate links disclosed
+  ok    ATTR-RESERVED   reserved -a lane belongs to the auto widget
+  ok    DATA-PRICE      no price strings on the page
+  ok    DATA-REVIEW     no review counts to check
+  ok    DATA-FMT        prose counts carry a separator
+  ok    DATA-ROUND      large figures in prose are rounded
+  ok    DATA-UNITS      no unit is load-bearing here (0 figure(s))
+  ok    DATA-SLOTDUR    no timed-entry interval read as a duration
+  ok    DATA-FRESH      offers data last written 0 day(s) ago
+  ok    DATA-SEASON-SPAN seasonal hours ranges name both ends
+  ok    DATA-WINDOW     every hours window names its endpoint
+  ok    DATA-MEANPROMISE no mean stated as a guarantee up front
+  ok    ADVICE-TENDENCY no time-of-day or condition promise stated as a rule
+  ok    DATA-DAYCOUNT   no reduced_days recorded, so no day count to check
+  ok    DATA-GROUPFIG   no month table to check a grouped figure against
+  ok    DATA-ITINERARY  no uncontrolled itinerary proportions on the front surfaces
+  ok    DATA-ZEROCLAIM  no computed zero is labelled as an absence of the thing
+  ok    DATA-EDGEHEDGE  no unearned edge qualifiers
+  ok    DATA-FUTURESCHED record does not report an unpublished forward timetable
+  ok    HON-GUARANTEE   no absolute access or availability promise
+  ok    DATA-TIERSCOPE  no tier_specific_figures recorded
+  ok    STR-FAQLD       FAQPage JSON-LD
+  ok    STR-FAQ-MATCH   8 FAQ(s) in JSON-LD; no details markup to compare
+  ok    STR-METHOD      methodology section
+  ok    STR-LIMITS      methodology states its limits (cannot tell you, limitations, not a forecast)
+  ok    STR-TITLE-SCOPE every subject named in the title is covered (First x6, San Pedro de Atacama x2)
+  ok    TITLE-CONDITIONAL no tier_specific_figures recorded, so nothing to keep out of the title
+  ok    TITLE-FACET     title facets read naturally
+  ok    STR-ANCHOR      in-page anchors resolve
+  ok    STR-LINKS       internal links resolve
+  ok    IMG-OG-ABS      og:image is absolute
+  ok    IMG-ALT         3 image(s), alt text descriptive
+  ok    PROSE-TELLS     prose within budget (2042 words, em-dash 0.5/1k, bold 0.5/1k)
+  ok    PROSE-PLAIN     no insider shorthand
+  ok    PROSE-AUDIENCE  no jargon_swaps recorded, so nothing to hold the surfaces to
+  ok    PROSE-TIC       no construction repeats past 2 (2042 words)
+  ok    PROSE-CLEVER    no clever constructions up front
+  ok    PROSE-ENGINEERED no engineering register on the front surfaces or in the body
+  ok    PROSE-CONCRETE  ranked factors are named with their own nouns
+  ok    CAUSE-CALENDAR  holiday dates are offered as one component of demand
+  ok    PROSE-DATASET   no deck to check
+  ok    PROSE-EDITORIAL no internal navigation or unsupported audience claims
+  ok    PROSE-REGISTER  magazine-register tells within budget (2042 words)
+  ok    PROSE-LAYER     body carries no research apparatus
+  ok    PROSE-PROVING   no argument with other guides
+  ok    PROSE-SELL      no sales register
+  ok    PROSE-INVENTORY no seller's-inventory register
+  ok    PROSE-VAGUE     no deck to check
+  ok    PROSE-TOOLCLAIM device pointers say what the device shows
+  ok    PROSE-SEASONLABEL no unplaced trade season labels on the front surfaces
+  ok    LINK-MINIMAL    no external links
+  ok    HON-INVENT      no invented social proof
+  ok    HON-PUTDOWN     no unsourced put-downs
+  ok    HON-CLOSURE     no absolute closure claim in the body
+  ok    HON-CONSTRAINT  no sentence lets one lifted constraint stand in for all of them
+  ok    CROWD-SUBJECT   subject is not a single bookable activity, so no transfer to check
+  ok    AVAIL-CALENDAR  availability is normal, so a year-round phrase is not a contradiction
+  ok    SEAS-PUBLISHED  availability is normal, so no published season to cite
+  ok    PROSE-REASONLOOP every reason clause adds something to its recommendation
+  ok    DATA-PERIODENDS every named period carries its ends
+  ok    SEAS-TYPE       archetype B, 2 experience recommendation(s)
+  ok    SEAS-CROSSAXIS  no unearned schedule-over-calendar comparative
+  ok    SEAS-ARCHFIT    archetype B, 1 distinct period(s) in the split
+  ok    SEAS-NOCHANGE   archetype B, no no-seasonal-change claim up front
+  ok    SEAS-CLAIM      archetype B, every best-time claim carries its qualifier
+  ok    SEAS-WEIGHT     exposure high, 4 factor(s) ranked, leading on Highland access and summer storms
+  ok    SEAS-SHELTER    exposure high, shelter checked against the operator
+  ok    SEAS-VISIT      visit profiled, 1 bundled site(s)
+  ok    SEAS-VERDICT    verdict shape best_overall_period
+  ok    SEAS-DAYLEVEL   verdict shape is not conditions_over_month, so no crown to check
+  ok    SEAS-TWOCLOCK   no constraint_clocks in the record, so nothing to keep apart
+  ok    SEAS-PROOF      season_proof not declared, so nothing to keep off the surfaces
+  ok    PROSE-REVERT    1 rewrite(s), 1 correction(s) registered against a silent revert
+  ok    SCOPE-RECORD    scope recorded: San Pedro de Atacama excursions; highland day trips and night-sky sessions, 2 series, 2 place-bound
+  ok    SCOPE-FIGURE    4 place-bound figure mention(s) on front surfaces, all named
+  ok    TOP-ONCE        no core_conclusions in the record - list the page's three to five conclusions with their markers and this gate can count how often each is stated
+  ok    ANS-ONELIST     0 decision list beside the box
+  ok    ANS-ROWTERSE    no decision rows to check
+  ok    PROSE-FLAGGED   1 panel-flagged phrase(s), none back on the page
+  ok    RESEARCH-DONE   research recorded 2026-10-09, 4 attractor(s)
+  ok    RESEARCH-SPOKES 4 spoke(s), all dispositioned
+  --    SEAS-WIDERTRIP  manual - The page says once whose calendar the month 
+  --    PROSE-AMBIGAXIS manual - An axis word that has a physical meaning on 
+  --    ANS-COMPUTABLEROW manual - A decision row is not spent on something the
+  --    DATA-BANDRANK   manual - A recommended band may not exclude a month t
+  --    ANS-FIGUSE      manual - Every figure in that list is one a traveller
+  --    ANS-DRAWBACK    manual - A stated drawback is the one that matters to
+  --    AIO-CONSIST     manual - The title does not point at a number the bod
+  --    DEV-STATE       manual - The verdict is driven by whatever the card i
+  --    DEV-NOSCRIPT    manual - The device degrades. A crawler and a JS-off 
+  --    DEV-FACTORS     manual - The device always shows temperature and prec
+  --    DATA-SOURCE     manual - Climate figures come from the national meteo
+  --    HON-MECHANISM   manual - An official mechanism is restated in its own
+  --    STR-OVERFLOW    manual - No horizontal scroll at 390px or 768px. `ref
+  --    ADVICE-MECHANISM manual - Every instruction carries a reason that actu
+  --    STR-CYCLE       manual - A month-by-month section describing what the
+  --    PROSE-VOICE     manual - The remaining tells are human judgement — ap
+  --    HON-CROWD       manual - No crowd claim without a measurement. "Befor
+  --    SITE-ECHO       manual - The page does not contradict its own site. T
+  --    SEAS-DAYWEATHER manual - For a view-dependent attraction, the day's f
+  --    SEAS-DURATION   manual - A factor is weighted by how long the visitor
+  --    SEAS-LEAD       manual - The answer box opens on the top-ranked facto
+  --    SEAS-CANON      manual - Every factor ranked highly enough to shape t
+  --    SEAS-SPLIT      manual - On a C destination the page is organised aro
+  --    SCOPE-WIDERTRIP manual - A season-proof attraction is placed inside t
+  --    DATA-BRITTLECOUNT manual - A derived count that no reader acts on, and 
+  --    DATA-DERIVEDUNIT manual - A derived figure carries its threshold on th
+  --    PROSE-NOTHAPPEN manual - Do not deny a natural phenomenon that merely
+  --    PROSE-PROMO     manual - A positive claim about the subject is inform
+  --    PROSE-EVENTVERB manual - An ordinary event happens; it does not land,
+  --    PROSE-FLOURISH  manual - A charming personification usually hides the
+  --    SEAS-GENERALWINDOW manual - A published season and a computed window are
+  --    SCOPE-UNIVERSAL manual - No mechanism sentence implies every sub-site
+  --    PROSE-STACK     manual - No single conclusion in the answer box is as
+  --    SCOPE-ROW       manual - A decision-list row answers one question. A 
+  --    MEAS-BASELINE   manual - The before-numbers are frozen before the fir
+  --    MEAS-FREEZE     manual - Once shipped, the page is frozen until the r
+  WARN  BRIDGE-FRAME    the section after the answer box recommends April again: '> Our April–May choice is an editorial recommendation within Chile Travel’s April–June advice . The ' - the box already made that call, so this section develops it or does not exist. reference/experience-first.md section 12
+  WARN  ANS-SCAN        the answer box states its figures and never shows them - a reader who scans the densest paragraph on the page gets nothing. Put the two or three numbers the verdict rests on beside the prose, OUTSIDE the judged paragraph so the panel record survives. reference/intro-framing.md
+  WARN  ANS-DECIDE      the answer box carries no summary list - a period-by-period summary of what each one is best for is read faster than the paragraphs. reference/experience-first.md section 12
+  WARN  CTA-CHOICE      choice cards
+  FAIL  ANS-AVAIL       the answer box does not open on annual availability - first sentence is 'For a first visit combining highland scenery and stargazing, we would choose April or May.'. Say whether it is open year-round and how the season changes that, before anything else. reference/experience-first.md section 1
+----------------------------------------------------------------------
+  133 passed, 36 skipped, 4 warning(s), 0 unimplemented, 1 FAILED
+
+  Not shippable. Edit contract.md to change what is enforced.

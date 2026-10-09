@@ -1,0 +1,156 @@
+{
+  "checked": "2026-10-09",
+  "subject_scope": {
+    "named": "San Pedro de Atacama excursions; highland day trips and night-sky sessions"
+  },
+  "availability_status": "normal",
+  "visit_profile": {
+    "typical_visit": "Four-hour lower-desert sunset trip, ten-hour highland route, or 2.5-hour outdoor astronomy session",
+    "hours_outdoors": "Varies by product; exposed stops and outdoor observing, with vehicle travel between sites",
+    "bundled_sites": [
+      "Piedras Rojas, Miscanti, Mi\u00f1iques and Chaxa on selected highland circuits"
+    ],
+    "transport_part_of_experience": "Road travel connects exposed outdoor stops; it is not the entire visitor experience.",
+    "seasonal_versions": "Llama describes stargazing and Moon-and-planets formats; summer route substitutions depend on access.",
+    "shelter_checked": "Product inclusions confirm vehicle transport between stops. Telescope viewing and named scenic stops are outdoors; no heated observing enclosure is promised."
+  },
+  "weather_exposure": "high",
+  "factor_weights": [
+    {
+      "factor": "Highland access and summer storms",
+      "why": "December\u2013March highland rainfall can change routes and access."
+    },
+    {
+      "factor": "Moonlight and cloud for astronomy",
+      "why": "Faint-object viewing depends on the actual observing period, not simply month."
+    },
+    {
+      "factor": "Cold at dawn and at night",
+      "why": "El Tatio and outdoor astronomy expose visitors to cold, especially winter."
+    },
+    {
+      "factor": "Departure times and rest",
+      "why": "Sunrise and late-night sessions should not be stacked without enough sleep."
+    }
+  ],
+  "verdict_shape": "best_overall_period",
+  "verdict_split": {
+    "best_overall": "April\u2013May for a first visit combining highlands and night tours; editorial choice within Chile Travel April\u2013June recommendation",
+    "best_time_of_day": "Sunset for Moon Valley, sunrise for the featured El Tatio trip, dark observing period for astronomy"
+  },
+  "sources": [
+    {
+      "url": "https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/",
+      "supports": "April\u2013June recommendation and December\u2013March highland summer rain; no price-discount percentage reused"
+    },
+    {
+      "url": "https://chile.travel/en/destinations/san-pedro-de-atacama/",
+      "supports": "Winter cold and advance booking in summer"
+    },
+    {
+      "url": "https://www.spaceobs.com/en/Services/Star-Tours",
+      "supports": "Operator-specific full-moon closure; not a regional rule"
+    },
+    {
+      "url": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/",
+      "supports": "2.5-hour visitor tour with Moon-and-planets variation"
+    }
+  ],
+  "device": {
+    "type": "Seasonal date guide plus approximate lunar illumination",
+    "forecast": false,
+    "rejected": [
+      "No fabricated daily temperature or precipitation values",
+      "No moonrise/set without ephemeris",
+      "No claim of current road safety or bookability"
+    ],
+    "material_factors": [
+      "Highland rainfall season",
+      "Cold dawn/night exposure",
+      "Lunar illumination; session-specific Moon position remains unknown"
+    ]
+  },
+  "autocomplete_file": "autocomplete.json",
+  "spokes": [
+    {
+      "disposition": "built",
+      "url": "/stargazing-tours/",
+      "name": "stargazing tours"
+    },
+    {
+      "disposition": "built",
+      "url": "/how-many-days/",
+      "name": "how many days"
+    },
+    {
+      "disposition": "rejected",
+      "url": "/best-time-to-visit/#month-by-month-planning",
+      "name": "weather by month",
+      "reason": "Separate weather page deferred because this page already provides the month-by-month planning table."
+    },
+    {
+      "disposition": "queued",
+      "inbox_id": "future-stargazing-cluster",
+      "name": "full moon stargazing"
+    }
+  ],
+  "limitations": [
+    "No verified local monthly crowd series",
+    "No climate-station normal table claimed",
+    "No live weather forecast or road-status feed"
+  ],
+  "seasonal_archetype": "B",
+  "seasonal_archetype_evidence": "Official Chile Travel recommends April\u2013June; highland rain and winter cold favour an April\u2013May first visit, while astronomy follows moonlight and session conditions rather than a single month.",
+  "experience_recommendations": {
+    "highland_landscapes": "April\u2013May editorial preference; daily route checks still required",
+    "astronomy": "Dark observing period with cloud and Moon position checked; lunar/planetary viewing is a different format"
+  },
+  "autocomplete_run": "research/autocomplete.log; data/autocomplete.json, queried 9 October 2026",
+  "top_attractors": [
+    "highland weather",
+    "stargazing and full moon",
+    "trip length",
+    "monthly planning"
+  ],
+  "availability_source": "Chile Travel destination guidance; SPACE published Star Tours page; Llama product activity description, not a booking-calendar inference",
+  "operator_facts": {
+    "published_seasons": [
+      {
+        "operator": "SPACE",
+        "url": "https://www.spaceobs.com/en/Services/Star-Tours",
+        "finding": "Published full-moon closure window; not a regional rule"
+      },
+      {
+        "operator": "Llama Stargazing",
+        "url": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/",
+        "finding": "Published stargazing or Moon-and-planets format; no annual closed season captured. Exact departures not guaranteed."
+      }
+    ]
+  },
+  "evidence_scope": [
+    {
+      "claim": "December\u2013March highland summer-rain period",
+      "measured_at": "Chile Travel description of San Pedro highland excursion region; qualitative seasonal guidance",
+      "generalises": false,
+      "must_name": "highlands",
+      "markers": [
+        "highland",
+        "plateau"
+      ]
+    },
+    {
+      "claim": "SPACE closes near full moon",
+      "measured_at": "SPACE operator published Star Tours schedule",
+      "generalises": false,
+      "must_name": "SPACE",
+      "markers": [
+        "SPACE"
+      ]
+    }
+  ],
+  "availability_note": "year-round destination with weather-dependent routes and operator-specific astronomy schedules",
+  "conditions_notes": {
+    "weather": "Outside typical December\u2013March highland summer-rain period; no all-clear promise",
+    "crowds": "No measured local monthly series, so no single quietest month asserted"
+  }
+}

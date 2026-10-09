@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Piedras Rojas & lagoons",
+    "url": "/piedras-rojas-tours/",
+    "duration": "About 10 hours",
+    "fit": "Our full-day landscape pick",
+    "check": "High altitude; entry extra"
+  },
+  {
+    "name": "El Tatio geysers",
+    "url": "/el-tatio-geysers-tours/",
+    "duration": "About 6 hours",
+    "fit": "Sunrise steam and wildlife",
+    "check": "Predawn pickup; strict age limits"
+  },
+  {
+    "name": "Stargazing",
+    "url": "/stargazing-tours/",
+    "duration": "About 2.5 hours",
+    "fit": "A different side of the desert",
+    "check": "Moon, clouds and return transport"
+  },
+  {
+    "name": "Valle de la Luna",
+    "url": "/moon-valley-tours/",
+    "duration": "About 4 hours",
+    "fit": "First visit and sunset",
+    "check": "Ticket included on some options"
+  },
+  {
+    "name": "Baltinache",
+    "url": "/baltinache-tours/",
+    "duration": "About 4.5 hours",
+    "fit": "Turquoise pools and photographs",
+    "check": "Floating temporarily suspended"
+  },
+  {
+    "name": "Laguna Cejar",
+    "url": "/laguna-cejar-tours/",
+    "duration": "About 5.5 hours",
+    "fit": "A floating-focused lagoon circuit",
+    "check": "Confirm bathing access; entry extra"
+  },
+  {
+    "name": "Puritama",
+    "url": "/puritama-hot-springs-tours/",
+    "duration": "About 4.5 hours",
+    "fit": "A slower thermal-pool visit",
+    "check": "Admission separate from transfer"
+  },
+  {
+    "name": "Multi-day bundle",
+    "url": "/multi-day-tours/",
+    "duration": "3 or 4 days",
+    "fit": "One supplier coordinating outings",
+    "check": "Compare all additional fees"
+  }
+]

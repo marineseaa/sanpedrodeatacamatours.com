@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "page_viewports": 220,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "menu": "PASS",
+  "no_js_fallbacks": "PASS",
+  "date_checker": [
+    {
+      "date": "2026-01-03",
+      "text": "Highland day trips\n\nThis date is in the December\u2013March highland summer-rain period. Keep a spare day and ask your operator about the actual route forecast and road access before departure.\n\nStargazing\n\nApproximate lunar illumination: 100%. The Moon is likely to be bright. Ask whether the session concentrates on lunar/planetary viewing or offers a darker departure time.\n\nSeasonal guidance and an approximate lunar calculation, not a weather forecast, moonrise table, availability result or safety clearance. Illumination is estimated at noon UTC for the selected date.",
+      "href": "/tours/#availability"
+    },
+    {
+      "date": "2026-01-18",
+      "text": "Highland day trips\n\nThis date is in the December\u2013March highland summer-rain period. Keep a spare day and ask your operator about the actual route forecast and road access before departure.\n\nStargazing\n\nApproximate lunar illumination: 0%. The Moon is likely to be relatively dim. This can favour faint stars and Milky Way viewing, if the observing period is dark and skies are clear.\n\nSeasonal guidance and an approximate lunar calculation, not a weather forecast, moonrise table, availability result or safety clearance. Illumination is estimated at noon UTC for the selected date.",
+      "href": "/tours/#availability"
+    },
+    {
+      "date": "2026-07-15",
+      "text": "Highland day trips\n\nPrepare for particularly cold dawn and night excursions. Snow or road restrictions can still change highland trips: confirm the route with your operator.\n\nStargazing\n\nApproximate lunar illumination: 1%. The Moon is likely to be relatively dim. This can favour faint stars and Milky Way viewing, if the observing period is dark and skies are clear.\n\nSeasonal guidance and an approximate lunar calculation, not a weather forecast, moonrise table, availability result or safety clearance. Illumination is estimated at noon UTC for the selected date.",
+      "href": "/piedras-rojas-tours/#availability"
+    }
+  ],
+  "errors": []
+}

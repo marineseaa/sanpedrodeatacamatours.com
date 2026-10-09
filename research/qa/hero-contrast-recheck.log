@@ -1,0 +1,351 @@
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/atacama-red-stones.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/atacama-sunset-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:56] "GET /images/atacama-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/atacama-red-stones-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/atacama-sunset-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/atacama-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:25:59] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /images/atacama-sunset-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:01] "GET /images/atacama-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:04] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+/home/marina/.codex/skills/hugo-site-factory-flat/assets/source-skills/hugo-site-factory/_audit_hero_contrast.py:247: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = list(src.getdata())
+127.0.0.1 - - [09/Oct/2026 11:26:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:04] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:04] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:04] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:04] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:05] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:05] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:05] "GET /images/atacama-sunset-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:05] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:05] "GET /images/atacama-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /images/atacama-sunset-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:07] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /best-time-to-visit/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /images/atacama-highland-lagoon.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:09] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:11] "GET /best-time-to-visit/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:11] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:11] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:11] "GET /images/atacama-highland-lagoon-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:11] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:12] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:12] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /best-time-to-visit/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /images/atacama-highland-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:14] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:17] "GET /best-time-to-visit/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:17] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:17] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:17] "GET /images/atacama-highland-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:17] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:18] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:18] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /best-time-to-visit/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /images/atacama-highland-lagoon-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /images/atacama-red-stones-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:20] "GET /images/product-542449-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:22] "GET /baltinache-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:22] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:22] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:22] "GET /images/atacama-salt-pool.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:22] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:23] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:26] "GET /images/atacama-salt-pool.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:26] "GET /baltinache-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:26] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:26] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:26] "GET /images/atacama-salt-pool-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:26] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:27] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:29] "GET /images/atacama-salt-pool-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:29] "GET /baltinache-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:29] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:29] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:29] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:29] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:32] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:32] "GET /baltinache-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:32] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:32] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:32] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:32] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:35] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:35] "GET /baltinache-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:35] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:35] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:35] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:35] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /images/atacama-salt-pool-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /el-tatio-geysers-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /images/product-345946.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:39] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:42] "GET /el-tatio-geysers-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:42] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:42] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:42] "GET /images/product-345946-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:42] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:42] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:45] "GET /el-tatio-geysers-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:45] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:45] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:45] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:45] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:48] "GET /el-tatio-geysers-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:48] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:48] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:48] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:48] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:52] "GET /el-tatio-geysers-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:52] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:52] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:52] "GET /images/product-345946-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:52] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:54] "GET /uyuni-tours-from-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:54] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:54] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:54] "GET /images/product-774308.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:54] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:54] "GET /images/product-774308-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:57] "GET /uyuni-tours-from-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:57] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:57] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:57] "GET /images/product-774308-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:57] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:57] "GET /images/product-774308-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:59] "GET /uyuni-tours-from-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:59] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:59] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:59] "GET /images/product-774308-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:26:59] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:02] "GET /uyuni-tours-from-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:02] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:02] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:02] "GET /images/product-774308-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:02] "GET /js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:04] "GET /uyuni-tours-from-san-pedro-de-atacama/ HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:04] "GET /css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:04] "GET /css/atacama.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:04] "GET /images/product-774308-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2026 11:27:04] "GET /js/main.js HTTP/1.1" 200 -
+==============================================================================
+HERO CONTRAST AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/sanpedrodeatacamatours/sanpedrodeatacamatours.com
+==============================================================================
+  candidate pages: 5  |  widths: 1440, 1024, 768, 390, 320
+
+  /
+    [1440px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1440px] hero-subtitle            17px fg=rgb(255, 255, 255)     7.49:1  need 4.5  OK
+    [1440px] hero-title               60px fg=rgb(255, 255, 255)     8.37:1  need 3.0  OK
+    [1440px] hero-overline            12px fg=rgb(255, 244, 231)    10.14:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 244, 231)    11.77:1  need 4.5  OK
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)    13.02:1  need 4.5  OK
+    [1024px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1024px] hero-subtitle            17px fg=rgb(255, 255, 255)     8.25:1  need 4.5  OK
+    [1024px] hero-title               44px fg=rgb(255, 255, 255)     8.42:1  need 3.0  OK
+    [1024px] hero-overline            12px fg=rgb(255, 244, 231)     9.79:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 244, 231)    11.71:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)    13.16:1  need 4.5  OK
+       (copy zone is a smooth region — sky or open water — under the scrim; hero paints, measuring on)
+    [ 768px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 768px] hero-subtitle            17px fg=rgb(255, 255, 255)     8.25:1  need 4.5  OK
+    [ 768px] hero-title               34px fg=rgb(255, 255, 255)     8.59:1  need 3.0  OK
+    [ 768px] hero-overline            12px fg=rgb(255, 244, 231)     9.66:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 244, 231)    12.25:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)    13.48:1  need 4.5  OK
+    [ 390px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 390px] hero-subtitle            15px fg=rgb(255, 255, 255)     8.44:1  need 4.5  OK
+    [ 390px] hero-title               36px fg=rgb(255, 255, 255)     8.73:1  need 3.0  OK
+    [ 390px] hero-overline            10px fg=rgb(255, 244, 231)     9.68:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 244, 231)    12.43:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)    13.68:1  need 4.5  OK
+    [ 320px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 320px] hero-title               36px fg=rgb(255, 255, 255)     8.73:1  need 3.0  OK
+    [ 320px] hero-subtitle            15px fg=rgb(255, 255, 255)     9.06:1  need 4.5  OK
+    [ 320px] hero-overline            10px fg=rgb(255, 244, 231)    11.31:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 244, 231)    12.48:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)    13.68:1  need 4.5  OK
+
+  /best-time-to-visit/
+    [1440px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1440px] hero-subtitle            16px fg=rgb(255, 255, 255)     7.80:1  need 4.5  OK
+    [1440px] hero-title               48px fg=rgb(255, 255, 255)     8.63:1  need 3.0  OK
+    [1440px] hero-overline            12px fg=rgb(255, 244, 231)     9.45:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 244, 231)    11.68:1  need 4.5  OK
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)    12.78:1  need 4.5  OK
+    [1024px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1024px] hero-title               35px fg=rgb(255, 255, 255)     8.37:1  need 3.0  OK
+    [1024px] hero-subtitle            16px fg=rgb(255, 255, 255)     8.64:1  need 4.5  OK
+    [1024px] hero-overline            12px fg=rgb(255, 244, 231)     9.86:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 244, 231)    11.67:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)    13.06:1  need 4.5  OK
+    [ 768px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 768px] hero-title               31px fg=rgb(255, 255, 255)     8.36:1  need 3.0  OK
+    [ 768px] hero-subtitle            16px fg=rgb(255, 255, 255)     8.73:1  need 4.5  OK
+    [ 768px] hero-overline            12px fg=rgb(255, 244, 231)    10.19:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 244, 231)    11.73:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)    13.47:1  need 4.5  OK
+    [ 390px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 390px] hero-subtitle            14px fg=rgb(255, 255, 255)     7.55:1  need 4.5  OK
+    [ 390px] hero-title               32px fg=rgb(255, 255, 255)     8.13:1  need 3.0  OK
+    [ 390px] hero-overline            10px fg=rgb(255, 244, 231)    10.67:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 244, 231)    11.64:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)    13.61:1  need 4.5  OK
+    [ 320px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 320px] hero-subtitle            14px fg=rgb(255, 255, 255)     7.66:1  need 4.5  OK
+    [ 320px] hero-title               32px fg=rgb(255, 255, 255)     8.27:1  need 3.0  OK
+    [ 320px] hero-overline            10px fg=rgb(255, 244, 231)    10.51:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 244, 231)    11.56:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)    13.48:1  need 4.5  OK
+
+  /baltinache-tours/
+       (copy zone is a smooth region — sky or open water — under the scrim; hero paints, measuring on)
+    [1440px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1440px] hero-subtitle            16px fg=rgb(255, 255, 255)     8.10:1  need 4.5  OK
+    [1440px] hero-title               48px fg=rgb(255, 255, 255)     9.17:1  need 3.0  OK
+    [1440px] hero-overline            12px fg=rgb(255, 244, 231)    11.05:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 244, 231)    12.51:1  need 4.5  OK
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)    13.62:1  need 4.5  OK
+    [1024px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1024px] hero-subtitle            16px fg=rgb(255, 255, 255)     9.01:1  need 4.5  OK
+    [1024px] hero-title               35px fg=rgb(255, 255, 255)     9.61:1  need 3.0  OK
+    [1024px] hero-overline            12px fg=rgb(255, 244, 231)     9.90:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 244, 231)    12.76:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)    14.08:1  need 4.5  OK
+    [ 768px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 768px] hero-subtitle            16px fg=rgb(255, 255, 255)     9.05:1  need 4.5  OK
+    [ 768px] hero-title               31px fg=rgb(255, 255, 255)     9.61:1  need 3.0  OK
+    [ 768px] hero-overline            12px fg=rgb(255, 244, 231)     9.90:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 244, 231)    13.11:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)    14.25:1  need 4.5  OK
+    [ 390px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 390px] hero-subtitle            14px fg=rgb(255, 255, 255)     8.40:1  need 4.5  OK
+    [ 390px] hero-title               32px fg=rgb(255, 255, 255)     9.61:1  need 3.0  OK
+    [ 390px] hero-overline            10px fg=rgb(255, 244, 231)    10.09:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 244, 231)    13.69:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)    14.68:1  need 4.5  OK
+    [ 320px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 320px] hero-subtitle            14px fg=rgb(255, 255, 255)     7.83:1  need 4.5  OK
+    [ 320px] hero-title               32px fg=rgb(255, 255, 255)     9.05:1  need 3.0  OK
+    [ 320px] hero-overline            10px fg=rgb(255, 244, 231)    10.09:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 244, 231)    13.73:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)    14.68:1  need 4.5  OK
+
+  /el-tatio-geysers-tours/
+    [1440px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1440px] hero-subtitle            16px fg=rgb(255, 255, 255)     7.19:1  need 4.5  OK
+    [1440px] hero-title               48px fg=rgb(255, 255, 255)     7.69:1  need 3.0  OK
+    [1440px] hero-overline            12px fg=rgb(255, 244, 231)     8.49:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 244, 231)    11.13:1  need 4.5  OK
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)    12.46:1  need 4.5  OK
+    [1024px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1024px] hero-subtitle            16px fg=rgb(255, 255, 255)     7.21:1  need 4.5  OK
+    [1024px] hero-title               35px fg=rgb(255, 255, 255)     7.88:1  need 3.0  OK
+    [1024px] hero-overline            12px fg=rgb(255, 244, 231)     8.35:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 244, 231)    11.42:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)    12.76:1  need 4.5  OK
+    [ 768px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 768px] hero-subtitle            16px fg=rgb(255, 255, 255)     7.49:1  need 4.5  OK
+    [ 768px] hero-title               31px fg=rgb(255, 255, 255)     7.98:1  need 3.0  OK
+    [ 768px] hero-overline            12px fg=rgb(255, 244, 231)     8.35:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 244, 231)    11.93:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)    13.33:1  need 4.5  OK
+    [ 390px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 390px] hero-subtitle            14px fg=rgb(255, 255, 255)     6.98:1  need 4.5  OK
+    [ 390px] hero-title               32px fg=rgb(255, 255, 255)     7.77:1  need 3.0  OK
+    [ 390px] hero-overline            10px fg=rgb(255, 244, 231)     8.86:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 244, 231)    11.60:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)    14.19:1  need 4.5  OK
+    [ 320px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 320px] hero-subtitle            14px fg=rgb(255, 255, 255)     6.98:1  need 4.5  OK
+    [ 320px] hero-title               32px fg=rgb(255, 255, 255)     7.32:1  need 3.0  OK
+    [ 320px] hero-overline            10px fg=rgb(255, 244, 231)     9.00:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 244, 231)    11.30:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)    13.14:1  need 4.5  OK
+
+  /uyuni-tours-from-san-pedro-de-atacama/
+    [1440px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1440px] hero-title               48px fg=rgb(255, 255, 255)     8.71:1  need 3.0  OK
+    [1440px] hero-subtitle            16px fg=rgb(255, 255, 255)     9.48:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 244, 231)    11.17:1  need 4.5  OK
+    [1440px] hero-overline            12px fg=rgb(255, 244, 231)    11.37:1  need 4.5  OK
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)    12.49:1  need 4.5  OK
+    [1024px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [1024px] hero-subtitle            16px fg=rgb(255, 255, 255)     8.98:1  need 4.5  OK
+    [1024px] hero-title               35px fg=rgb(255, 255, 255)     9.08:1  need 3.0  OK
+    [1024px] hero-overline            12px fg=rgb(255, 244, 231)     9.62:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 244, 231)    11.33:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)    12.84:1  need 4.5  OK
+    [ 768px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 768px] hero-overline            12px fg=rgb(255, 244, 231)     8.98:1  need 4.5  OK
+    [ 768px] hero-subtitle            16px fg=rgb(255, 255, 255)     9.11:1  need 4.5  OK
+    [ 768px] hero-title               31px fg=rgb(255, 255, 255)     9.23:1  need 3.0  OK
+    [ 768px] trust-label              11px fg=rgb(255, 244, 231)    11.50:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)    13.23:1  need 4.5  OK
+    [ 390px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 390px] hero-title               32px fg=rgb(255, 255, 255)     8.61:1  need 3.0  OK
+    [ 390px] hero-subtitle            14px fg=rgb(255, 255, 255)     9.20:1  need 4.5  OK
+    [ 390px] hero-overline            10px fg=rgb(255, 244, 231)     9.75:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 244, 231)    11.66:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)    13.43:1  need 4.5  OK
+    [ 320px] hero-subtitle            14px fg=rgb(255, 255, 255)     6.77:1  need 4.5  OK
+    [ 320px] btn-primary btn-lg       12px fg=rgb(255, 255, 255)     6.92:1  need 4.5  OK
+    [ 320px] hero-title               32px fg=rgb(255, 255, 255)     8.77:1  need 3.0  OK
+    [ 320px] hero-overline            10px fg=rgb(255, 244, 231)     9.87:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 244, 231)    11.49:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)    13.37:1  need 4.5  OK
+
+  hero-bearing pages measured: 5 of 5 candidate(s)
+  smooth copy zone (sky/open water under the scrim), measured anyway: /, /baltinache-tours/
+  OK: all 150 hero text run(s) clear AA over the composited hero, on every
+      hero-bearing page.
+
+All hero-contrast checks PASS

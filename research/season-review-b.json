@@ -1,0 +1,141 @@
+{
+  "judge": "season-review-b",
+  "scope": "Title/H1 and two answer-box paragraphs only",
+  "headline": "Best Time to Visit San Pedro de Atacama for a First Visit",
+  "answer_text": [
+    "For a first visit combining highland scenery and stargazing, we would choose April or May. The destination can be visited throughout the year, but weather may alter individual routes; no month guarantees that every excursion runs. April and May fall after the usual December\u2013March highland summer-rain period and before the coldest winter nights.",
+    "For astronomy, check the Moon and the actual observing time before choosing the date. A bright Moon can reduce faint-star visibility even on a clear night, while some tours offer Moon-and-planets viewing instead. If you have already booked summer dates, keep a spare day for highland route changes. In winter, bring substantial warm layers for dawn and night excursions."
+  ],
+  "answer_sha1": "11ea7426ae24277e21d7e52c454ffdae8b5b8a40",
+  "verdict": "PASS",
+  "charges": [],
+  "criteria": [
+    {
+      "criterion": "TAUTOLOGY",
+      "verdict": "PASS",
+      "reason": "Annual availability is qualified by route-weather limits; other facts change planning decisions.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "LEAD-VALUE",
+      "verdict": "PASS",
+      "reason": "Paragraph one supplies April or May and explains the rain-season and winter-cold tradeoff.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "ANSWERS-THE-ASK",
+      "verdict": "PASS",
+      "reason": "Directly answers the best-time-to-visit and full-moon stargazing queries.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "ACTIONABLE",
+      "verdict": "PASS",
+      "reason": "Provides recommended months, session moonlight checks, a summer spare day and winter layers.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "OVERCLAIM",
+      "verdict": "PASS",
+      "reason": "Editorial recommendation is qualified and makes no unsupported crowd, price or weather guarantee.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "PLAIN",
+      "verdict": "PASS",
+      "reason": "Concrete sentences communicate weather, Moon and clothing advice, and April and May are named explicitly in the seasonal reasoning.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "PROVENANCE",
+      "verdict": "PASS",
+      "reason": "Editorial choice is explicit and weather and lunar claims agree with the supplied factual basis.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "WELCOMING",
+      "verdict": "PASS",
+      "reason": "Explicitly helps readers whose summer or winter dates are already fixed.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "STRUCTURE",
+      "verdict": "PASS",
+      "reason": "Two short paragraphs cover recommendation, qualified annual availability and session timing; recommendation before availability does not obscure the decision.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "ORPHAN-FACT",
+      "verdict": "PASS",
+      "reason": "Rain season, cold and moonlight each support an immediate planning action.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "ADVICE-MECHANISM",
+      "verdict": "PASS",
+      "reason": "Season choice, moonlight checks, spare days and insulation address their stated problems.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "SELF-CONTRADICTION",
+      "verdict": "PASS",
+      "reason": "Annual destination availability is consistently distinguished from individual route availability.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "PROXY-HONESTY",
+      "verdict": "PASS",
+      "reason": "No proxy-based measurement or crowd claim appears.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "ZERO-LABEL",
+      "verdict": "PASS",
+      "reason": "No zero or absence label appears.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "COMPETING-CLOCKS",
+      "verdict": "PASS",
+      "reason": "Highland season and astronomy session timing receive separate decisions.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "LIFTED-CONSTRAINT",
+      "verdict": "PASS",
+      "reason": "The preferred months remain subject to the explicit no-guarantee route qualification.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "SCOPE",
+      "verdict": "PASS",
+      "reason": "Rainfall is scoped to highlands and lunar alternatives to some tours.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "TENDENCY-AS-RULE",
+      "verdict": "PASS",
+      "reason": "Usual, may and can preserve tendencies without promising outcomes.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "UNCONTROLLED-ITINERARY",
+      "verdict": "PASS",
+      "reason": "No fixed stop sequence or outdoor duration is asserted.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "DRAWBACK-RELEVANCE",
+      "verdict": "PASS",
+      "reason": "Cautions concern the stated landscape-and-astronomy visitor experience.",
+      "problematic_text": null
+    },
+    {
+      "criterion": "YEAR-HONESTY",
+      "verdict": "PASS",
+      "reason": "No recurring-year statistics or combined-year numerical claims appear.",
+      "problematic_text": null
+    }
+  ],
+  "review_note": "Rechecked title and both answer paragraphs against the original criteria; explicit April and May subject resolves the earlier antecedent problem."
+}
