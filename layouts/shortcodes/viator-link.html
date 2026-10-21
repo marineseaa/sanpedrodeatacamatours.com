@@ -1,0 +1,11 @@
+{{/* viator-link — inline affiliate link to a Viator product page, used only where
+     GetYourGuide has no listing for a product the page names.
+     Usage: {{< viator-link path="San-Pedro-de-Atacama/Some-Tour/d5499-230399P6" >}}Name{{< /viator-link >}}
+     The site has no Viator booking cards or loader; attribution (pid, mcid,
+     campaign) is carried statically on the URL. */}}
+{{- $site := .Site -}}
+{{- $path := .Get "path" -}}
+{{- if not $path -}}{{- errorf "viator-link: missing path (page %s)" .Page.File.Path -}}{{- end -}}
+{{- $pid := $site.Params.viatorPartnerID | default "P00285896" -}}
+{{- $cmp := $site.Params.viatorCampaign | default "sanpedrodeatacamatours-viator" -}}
+<a href="https://www.viator.com/tours/{{ $path }}?pid={{ $pid }}&amp;mcid=42383&amp;medium=link&amp;campaign={{ $cmp }}" target="_blank" rel="sponsored nofollow noopener noreferrer">{{ .Page.RenderString (trim .Inner " \n\t") }}</a>
