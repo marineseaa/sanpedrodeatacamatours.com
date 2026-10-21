@@ -1,0 +1,17 @@
+{{/* gyg-link — inline affiliate link to a tour's OWN GetYourGuide page.
+     Usage: {{< gyg-link tour="471363" >}}Tour Name{{< /gyg-link >}}
+     js/main.js decorates only [data-gyg-href] anchors with partner_id/cmp, so a
+     plain Markdown link to GYG earns nothing. Emits the BARE url as both href
+     (static fallback) and data-gyg-href; unknown id fails the build. */}}
+{{- $site := .Site -}}
+{{- $id   := .Get "tour" -}}
+{{- $tour := dict -}}
+{{- range (index $site.Data $site.Params.offersDataKey) -}}
+  {{- if eq (int .id) (int $id) -}}{{- $tour = . -}}{{- end -}}
+{{- end -}}
+{{- $url := index (split ($tour.url | default "") "?") 0 -}}
+{{- $label := trim (.Inner | default "") " \n\t" | default ($tour.title | default "") -}}
+{{- if not $url -}}
+  {{- errorf "gyg-link: tour %q not found in data/%s.json (page %s)" $id $site.Params.offersDataKey .Page.File.Path -}}
+{{- end -}}
+<a href="{{ $url }}" data-gyg-href="{{ $url }}" target="_blank" rel="sponsored nofollow noopener noreferrer">{{ .Page.RenderString $label }}</a>

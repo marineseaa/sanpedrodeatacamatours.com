@@ -3753,3 +3753,8 @@ body { line-height: 1.75; }
 .itinerary-body strong {
   font-synthesis-weight: none;
 }
+
+/* Inline GYG auto widget inside guide prose (gyg-experiences shortcode). */
+.gyg-inline-widget { margin-block: var(--space-6); }
+.section--slim { padding-block: var(--space-6); }
+.prose li > input[type="checkbox"] { display: none; }

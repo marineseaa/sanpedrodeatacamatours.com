@@ -1,0 +1,31 @@
+{{/* gyg-availability — in-body GetYourGuide availability widget.
+     Usage: {{< gyg-availability tour="471363" >}}
+     Placement is the author's call — drop it after the section that
+     discusses the tour it books. Partner ID + campaign come from
+     hugo.toml [params] so they live in exactly one place.
+     An assets/widgets/gyg-availability-<id>.txt file, when present, wins
+     over the generated markup — same override convention the site's
+     booking-widget partial uses. */}}
+{{- $site      := .Site -}}
+{{- $tourID    := .Get "tour" | default $site.Params.featuredTourID | default $site.Params.gygWidgetTourID -}}
+{{- $partnerID := $site.Params.gygPartnerID -}}
+{{- $campaign  := $site.Params.gygCampaign -}}
+{{- $txtPath   := printf "assets/widgets/gyg-availability-%v.txt" $tourID -}}
+{{- $widgetHTML := "" -}}
+{{- if fileExists $txtPath -}}
+  {{- $widgetHTML = readFile $txtPath -}}
+{{- end -}}
+{{/* Location URL for the no-JS fallback link, derived from gygAffiliateURL.
+     Kept BARE (no partner_id) — affiliate params are appended at runtime. */}}
+{{- $loc := "https://www.getyourguide.com/" -}}
+{{- with $site.Params.gygAffiliateURL -}}
+  {{- $m := findRE `https://www\.getyourguide\.com/[^/]+/` . 1 -}}
+  {{- with $m -}}{{- $loc = index . 0 -}}{{- end -}}
+{{- end -}}
+<div class="booking-widget-wrapper gyg-inline-widget">
+{{- if $widgetHTML -}}
+{{- $widgetHTML | safeHTML -}}
+{{- else -}}
+<div data-gyg-href="https://widget.getyourguide.com/default/availability.frame" data-gyg-tour-id="{{ $tourID }}" data-gyg-locale-code="en-US" data-gyg-currency="USD" data-gyg-widget="availability" data-gyg-variant="vertical" data-gyg-partner-id="{{ $partnerID }}" data-gyg-cmp="{{ $campaign }}"><span>Powerd by <a target="_blank" rel="sponsored" href="{{ $loc }}">GetYourGuide</a></span></div>
+{{- end -}}
+</div>

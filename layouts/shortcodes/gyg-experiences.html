@@ -1,0 +1,7 @@
+{{/* gyg-experiences — GetYourGuide "auto" widget.
+     Place at a natural pivot in the TOP HALF of the body, beneath a
+     lead-in naming real destinations. Exactly ONE per page. */}}
+{{- $site := .Site -}}
+<div class="booking-widget-wrapper gyg-inline-widget">
+<div data-gyg-widget="auto" data-gyg-partner-id="{{ $site.Params.gygPartnerID }}" data-gyg-cmp="{{ $site.Params.gygCampaign }}"></div>
+</div>
