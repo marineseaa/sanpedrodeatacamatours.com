@@ -116,7 +116,7 @@ If photography is your priority, the departure and light can matter more than ch
 
 Darkness, moonlight and cloud influence the actual session. The featured astronomy tours last around two and a half hours, with outdoor observation and vehicle travel. A monthly recommendation cannot tell you which objects will be visible that evening.
 
-[SPACE](https://www.spaceobs.com/en/Services/Star-Tours), a separate local operator, describes a closure around part of the full-moon period. Llama’s selected listing instead offers stargazing or Moon-and-planets formats. Ask which experience you are booking, and whether the photograph or faint-object view you want is realistic on that date.
+[SPACE](https://www.spaceobs.com/en/Services/Star-Tours), a separate local operator, does not run tours on the 7 nights around the full moon (checked October 2026). If those nights are your only free evenings, compare other [stargazing tours](/stargazing-tours/). Llama’s selected listing instead offers stargazing or Moon-and-planets formats. Ask which experience you are booking, and whether the photograph or faint-object view you want is realistic on that date.
 
 The date guide estimates the fraction of the Moon illuminated; it does not calculate whether the Moon is above the horizon during your session. Confirm that final detail with the astronomy provider. Reserve an earlier available evening in your stay when feasible, leaving another night as a possible alternative if conditions change.
 

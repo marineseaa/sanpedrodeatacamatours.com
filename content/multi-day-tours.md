@@ -90,6 +90,6 @@ Check age limits across **every component**. The three-day product has a generic
 
 ## When separate bookings are better
 
-Choose separate tours if you want only one high-altitude excursion, need a day off, have specific language or access requirements, or want to respond to the sky forecast. The [three-day itinerary](/3-day-itinerary/) and [four-day itinerary](/4-day-itinerary/) are planning suggestions, not bookable packages. Their individual tour reservations have separate cancellation terms.
+Choose [separate tours](/tours/) if you want only one high-altitude excursion, need a day off, have specific language or access requirements, or want to respond to the sky forecast. The [three-day itinerary](/3-day-itinerary/) and [four-day itinerary](/4-day-itinerary/) are planning suggestions, not bookable packages. Their individual tour reservations have separate cancellation terms.
 
 For a cross-border journey, use the [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) instead. Sleeping in Bolivia’s remote highlands is a substantially different commitment from day trips returning to San Pedro.

@@ -78,7 +78,7 @@ Pickup coverage is another frequent distinction. Urban San Pedro is not the same
 
 ## Match the experience to your interests
 
-For dramatic daytime variety, prioritise the highland circuit if suitable. For a shorter landscape visit, choose Moon Valley. For an evening that feels different from the day trips, compare [stargazing formats](/stargazing-tours/): a general astronomy introduction and an Andean interpretation of the sky do not tell exactly the same story.
+For dramatic daytime variety, prioritise the highland circuit if suitable. For a shorter landscape visit, choose Moon Valley, or [compare every San Pedro tour](/tours/) side by side. For an evening that feels different from the day trips, compare [stargazing formats](/stargazing-tours/): a general astronomy introduction and an Andean interpretation of the sky do not tell exactly the same story.
 
 If you want a lagoon afternoon, choose between [Baltinache and Cejar](/baltinache-vs-laguna-cejar/) using current access information. Baltinache’s temporary floating suspension means older swimming reviews do not describe the present visit. Cejar’s featured product still advertises floating, but confirm that the authorised bathing area is open on your date.
 

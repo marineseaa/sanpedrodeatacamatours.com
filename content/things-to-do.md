@@ -52,7 +52,7 @@ ogImage: /images/things-to-do-og.jpg
 
 ## Start with the experiences that feel different
 
-A useful shortlist is not the longest list. [Moon Valley](/moon-valley-tours/) gives you dunes and sculpted salt formations, [Piedras Rojas](/piedras-rojas-tours/) adds a full highland circuit, and [stargazing](/stargazing-tours/) changes both the setting and the pace. These are our first comparisons for a visitor who wants variety.
+A useful shortlist is not the longest list. [Moon Valley](/moon-valley-tours/) gives you dunes and sculpted salt formations, [Piedras Rojas](/piedras-rojas-tours/) adds a full highland circuit, and [stargazing](/stargazing-tours/) changes both the setting and the pace. These are our first comparisons for a visitor who wants variety; the [full tour comparison](/tours/) adds altitude, start times and entry tickets.
 
 If [El Tatio](/el-tatio-geysers-tours/) is your must-see, plan around its predawn departure and altitude rather than appending it to a late night. It is a different experience from Piedras Rojas, but visiting both requires enough usable days and suitable conditions.
 
