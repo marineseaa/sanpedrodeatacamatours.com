@@ -57,7 +57,7 @@ Ask the supplier about water and food rather than assuming every van provides th
 
 | Activity | Add to the basic bag | Check before leaving |
 |---|---|---|
-| El Tatio | Warm hat, gloves, insulating layers | Predawn pickup and entry payment |
+| El Tatio | Warm hat, gloves, insulating layers; see the [El Tatio packing notes](/el-tatio-geysers-tours/#how-cold-it-gets-and-what-to-wear) | Predawn pickup and entry payment |
 | Piedras Rojas | Wind protection and comfortable walking shoes | Meals, water and reserve tickets |
 | Moon Valley | Sun protection, water and a sunset layer | Agency meeting point or hotel pickup |
 | Stargazing | Substantial warm clothes and closed shoes | Late return, facilities and photograph delivery |

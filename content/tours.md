@@ -54,9 +54,9 @@ faq:
   a: Yes, with a rental car or bike, for most sites. You still need the online tickets,
     and Salar de Tara is best done with a guide.
 - q: When is the best time to visit?
-  a: September to December and April to May are the most reliable. January to March
-    brings storms, and June to August can bring snow closures on the high tours. See
-    the [best time to visit](/best-time-to-visit/).
+  a: April and May are our first choice, within Chile Travel's April to June advice.
+    December to March can bring highland storms, and June to August can bring snow
+    closures on the high tours. See the [best time to visit](/best-time-to-visit/).
 - q: Can I go to Bolivia on a day trip?
   a: Not realistically. Laguna Verde and Laguna Blanca are visited on the 3–4 day [Uyuni
     crossing](/uyuni-tours-from-san-pedro-de-atacama/).
@@ -204,7 +204,7 @@ Deep-blue Miscanti and Miñiques at over 4,100 m, with vicuñas and foxes, then 
 
 ### El Tatio geysers
 
-More than 80 geysers and fumaroles above 4,300 m, at their steamiest around sunrise. A 2003 study by Glennon and Pfaff describes El Tatio as the largest geyser field in the southern hemisphere and the third largest in the world. On the way back, tours stop at the Putana river wetland and the adobe village of Machuca. The El Tatio fee page lists CLP 15,000 for everyone aged 9 and over, says under-9s are not admitted and lists the thermal pool as not open. Expect −5 °C to −10 °C at dawn, a pickup between 4:30 and 5:10, and stay on the marked paths: steam vents can exceed 90 °C. The featured tour runs about six hours with breakfast. More in the [El Tatio guide](/el-tatio-geysers-tours/).
+More than 80 geysers and fumaroles above 4,300 m, at their steamiest around sunrise. A 2003 study by Glennon and Pfaff describes El Tatio as the largest geyser field in the southern hemisphere and the third largest in the world. On the way back, tours stop at the Putana river wetland and the adobe village of Machuca. The El Tatio fee page lists CLP 15,000 for everyone aged 9 and over, says under-9s are not admitted and lists the thermal pool as not open. Expect −5 °C to −10 °C at dawn, a pickup between 4:30 and 5:10, and stay on the marked paths: the thin crust near the vents can hide scalding water. The featured tour runs about six hours with breakfast. More in the [El Tatio guide](/el-tatio-geysers-tours/).
 
 ### Salar de Tara and Monjes de la Pacana
 
@@ -289,7 +289,7 @@ Treat the [Uyuni expedition](/uyuni-tours-from-san-pedro-de-atacama/) separately
 - **Cash:** bring Chilean pesos for Tebinquiche, Rainbow Valley, Yerbas Buenas, Tulor, Baltinache and tips. ATMs in town work but charge heavy withdrawal fees, according to forum users.
 - **Food on tours:** breakfast is standard on El Tatio, Rainbow Valley and lagoons tours, and lunch is sometimes included on the lagoons day. Bring snacks anyway.
 - **Children:** Valle de la Luna has free entry for young children, Puritama and Cejar have child rates, and Laguna Piedra is not for under-6s. El Tatio does not admit under-9s, the featured Baltinache listing excludes under-6s, sandboarding usually starts at about 8, and ALMA does not admit under-5s.
-- **Seasons:** January to March brings the Altiplanic winter storms; in January 2026 rain flooded parts of San Pedro. June to September brings snow: on 13 August 2026 the municipality said snow was still keeping El Tatio, Miscanti and Miñiques, Piedras Rojas, Rainbow Valley, Láscar and other high sites closed. Build a buffer day into any itinerary, and see the [best time to visit](/best-time-to-visit/).
+- **Seasons:** December to March is the Altiplanic winter, with highland rain and storms; in January 2026 rain flooded parts of San Pedro. June to September brings snow: on 13 August 2026 the municipality said snow was still keeping El Tatio, Miscanti and Miñiques, Piedras Rojas, Rainbow Valley, Láscar and other high sites closed. Build a buffer day into any itinerary, and see the [best time to visit](/best-time-to-visit/).
 - **Packing:** warm layers, a down jacket, hat and gloves for El Tatio; sunscreen (apply after swimming), sunglasses, a wide-brim hat and lip balm; a swimsuit, towel, sandals and 2 litres of fresh water to rinse off salt; a refillable bottle; downloaded or printed tickets; cash, a headlamp and any altitude medication you have discussed with a doctor. The [packing list](/what-to-pack/) has the rest.
 
 ## Make the schedule fit you

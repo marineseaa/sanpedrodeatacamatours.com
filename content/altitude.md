@@ -54,7 +54,7 @@ bookingIntro: Moon Valley avoids the major highland ascent of El Tatio and Piedr
 
 ## The town and the excursions are different exposures
 
-Staying in San Pedro does not put every tour at the same elevation. The featured Piedras Rojas listings describe stops around 4,200 metres; the El Tatio listing places the geyser field above 4,300 metres. The selected Uyuni expedition approaches 5,000 metres and includes overnight stays in the Bolivian highlands.
+Staying in San Pedro does not put every tour at the same elevation. The featured Piedras Rojas listings describe stops around 4,200 metres; the El Tatio listing places the geyser field above 4,300 metres. The selected Uyuni expedition approaches 5,000 metres and includes overnight stays in the Bolivian highlands. The season changes these high days too, so check the [best time to visit](/best-time-to-visit/) before you fix the order.
 
 A daytime ascent followed by a return to lower sleeping elevation differs from sleeping high. The [CDC Yellow Book](https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html) explains why sleeping altitude and the rate of ascent matter. Do not apply a sleeping-altitude guideline as if it were a guarantee for a rapid daytime excursion.
 

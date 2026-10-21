@@ -53,8 +53,8 @@ faq:
   a: No. Research telescopes have cameras and spectrographs, not eyepieces, and scientists
     book their time. Tour operators use their own telescopes.
 - q: How cold is it on a stargazing tour?
-  a: San Pedro's average July night minimum is about 0 °C, and tour sites can be colder.
-    In summer the average minimum is around 10 °C.
+  a: Winter nights (June to August) are the coldest and can drop below freezing, and
+    tour sites can be colder than town. Summer nights are milder but still cool after dark.
 - q: Should I book in advance?
   a: Yes. A few days ahead is usually enough, and allow weeks for SPACE or for July and
     the December–January holidays.
@@ -109,7 +109,7 @@ The short answer: extreme dryness, high altitude, stable air, very little light 
 | Best months | April to October; Milky Way core best placed June to August |
 | Riskiest months | February and March (Altiplanic winter cloud and storms) |
 | Moon | Book within about a week either side of new moon |
-| Night temperature | Average minimum about 0 °C in July and about 10 °C in January–February |
+| Night temperature | Coldest from June to August, when it can drop below freezing; milder in summer |
 | Minimum age | From about 4 to 7, depending on the operator |
 | Professional observatories | ALMA (free; regular visits suspended, occasional open days) · Paranal (free Saturday daytime tours, about 2 hours from Antofagasta) |
 
@@ -202,13 +202,13 @@ As a rule of thumb, aim for the week either side of new moon. If you have to go 
 
 ## Best months for stargazing
 
-| Months | Sky conditions | Night temperature (San Pedro average minimum) | Verdict |
+| Months | Sky conditions | Night temperature in San Pedro | Verdict |
 |---|---|---|---|
-| December–January | Mostly clear; late sunsets, so tours start around 21:00 | About 9–10 °C | Good, in peak tourist season |
-| **February–March** | **Altiplanic winter: afternoon storms and cloud, and the highest cancellation risk** (February is the wettest month, at about 29 mm) | About 9–10 °C | Riskiest; keep spare nights |
-| April–May | Drying out and clear; the Milky Way core rises earlier | About 3–6 °C | Excellent |
-| **June–August** | **Driest and clearest; galactic core high in the early evening** | **About 0–2 °C, and it can drop below freezing** | **Best skies, coldest nights** |
-| September–November | Clear; the core sinks west after dusk | About 4–8 °C | Very good |
+| December–January | Often clear, though the Altiplanic winter (December–March) can bring cloud; late sunsets, so tours start around 21:00 | Mildest of the year, still cool after dark | Good, in peak tourist season |
+| **February–March** | **The rest of the Altiplanic winter: afternoon storms and cloud, and the highest cancellation risk** | Mild, still cool after dark | Riskiest; keep spare nights |
+| April–May | Drying out and clear; the Milky Way core rises earlier | Cool, and colder each week | Excellent |
+| **June–August** | **Driest and clearest; galactic core high in the early evening** | **The coldest; it can drop below freezing** | **Best skies, coldest nights** |
+| September–November | Clear; the core sinks west after dusk | Cold, easing towards summer | Very good |
 
 The moon phase matters more than the month: a full moon washes out the Milky Way and faint objects in any season.
 
@@ -228,7 +228,7 @@ This matters when [choosing accommodation](/where-to-stay/). A quiet property ou
 
 ## Plan for standing in the cold
 
-Take warm layers and closed shoes even if the afternoon felt hot. Desert nights in July average about 0 °C in San Pedro and can drop below freezing. Blankets or ponchos and hot drinks are useful extras, not a replacement for appropriate clothing. Ask about toilets and access if those will determine whether the tour works for your group.
+Take warm layers and closed shoes even if the afternoon felt hot. Winter nights in San Pedro can drop below freezing. Blankets or ponchos and hot drinks are useful extras, not a replacement for appropriate clothing. Ask about toilets and access if those will determine whether the tour works for your group.
 
 Try for an early evening in your stay, leaving another night as a possible weather alternative. One reviewer's first-choice tour was cancelled four nights in a row because of wind. Do not assume a weather cancellation guarantees space tomorrow. Avoid pairing a very late session with the [El Tatio predawn departure](/el-tatio-geysers-tours/): a few hours in bed makes an already demanding morning harder.
 
