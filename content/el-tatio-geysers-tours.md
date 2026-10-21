@@ -87,7 +87,7 @@ We feature the Pukarumi sunrise-and-breakfast listing because it has substantial
 |---|---|
 | Where | In the Andes north of San Pedro de Atacama, near the Bolivian border |
 | Getting there | About 90 km and 1.5 hours by road from San Pedro, according to the El Tatio site |
-| Altitude | Above 4,300 m; San Pedro sits at about 2,500 m |
+| Altitude | Above 4,300 m; San Pedro sits at about 2,400 m |
 | What you see | More than 80 geysers plus fumaroles, hot springs and mud pots; a 2003 study by Glennon and Pfaff calls it the largest geyser field in the southern hemisphere and the third largest in the world |
 | Best time of day | Around sunrise, when the cold air turns the vapour into thick white columns |
 | Opening hours | 06:00–16:00 |

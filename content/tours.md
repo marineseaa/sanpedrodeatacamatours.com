@@ -107,7 +107,7 @@ Entry fees are for foreign adults and are usually not included in the tour price
 
 | Tour | Duration | Typical start | Max altitude | Entry ticket | Difficulty | Best for |
 |---|---|---|---|---|---|---|
-| [Valle de la Luna](/moon-valley-tours/) (sunset) | 4–5 h | 15:00–16:00 | About 2,500 m | CLP 10,800, online | Easy | Day 1, everyone |
+| [Valle de la Luna](/moon-valley-tours/) (sunset) | About 4 h | 15:00–16:00 | About 2,500 m | CLP 10,800, online | Easy | Day 1, everyone |
 | [Laguna Cejar and Piedra](/laguna-cejar-tours/) + Ojos del Salar + Tebinquiche | About 5 h | 13:30–14:00 | About 2,400 m | CLP 15,000 online for a timed slot; Tebinquiche is a separate cash fee | Easy | Floating and sunset, day 1–2 |
 | [Baltinache hidden lagoons](/baltinache-tours/) | 4.5–5 h | 07:00–08:00 or 14:00–14:30 | About 2,400 m | Cash; reduced while bathing is suspended | Easy | Quieter lagoons (floating suspended) |
 | Rainbow Valley + Yerbas Buenas petroglyphs | 5–6 h | 07:00–08:00 | About 3,200–3,600 m | Two small cash fees | Easy | Mid-altitude acclimatisation, rock art |

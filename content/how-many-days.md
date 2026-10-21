@@ -55,7 +55,7 @@ This is a planning recommendation, not a claim that everyone acclimatises on a p
 
 ## Days versus nights
 
-Write your expected arrival at the hotel and required airport pickup on paper before counting tours. A flight to Calama is followed by baggage, meeting your transfer and the road journey. On departure, your pickup is well before the flight itself.
+Write your expected arrival at the hotel and required airport pickup on paper before counting tours. Our guide on [how to get to San Pedro](/getting-there/) covers the routes in. A flight to Calama is followed by baggage, meeting your transfer and the road journey. On departure, your pickup is well before the flight itself.
 
 For example, arriving Monday evening and leaving Thursday morning gives Tuesday and Wednesday as full days. Calling it a “four-day trip” does not create four available excursions. Use the [Calama transfer guide](/calama-airport-to-san-pedro-de-atacama/) to plan those bookends.
 
