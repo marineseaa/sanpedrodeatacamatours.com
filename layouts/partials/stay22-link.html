@@ -1,0 +1,44 @@
+{{/* stay22-link -- returns ONE Stay22 "Allez" href for a hotel or an area.
+     Installed by the stay22-where-to-stay skill. Shared by the where-to-stay
+     homepage section, the hotel-link shortcode and the stay-map shortcode so
+     every hotel link on the site is built the same way.
+
+     Call:  {{ $href := partial "stay22-link.html" (dict "Site" $site "Page" $page "hotel" $h) }}
+       $h is a dict with EITHER `url` (a plain OTA hotel page, no affiliate
+       params) OR `address` (a place name for a search). An explicit `provider`
+       on $h overrides the site default.
+
+     Output: https://www.stay22.com/allez/<provider>?aid=<stay22AID>&link=<encoded url>
+             &campaign=<stay22Campaign>&campaign=<page label>
+       provider = stay22Provider param (booking | expedia | hotelscom | vrbo |
+                  agoda | roam); default booking.
+       campaign labels use "_" never "-": Stay22 splits labels on hyphens.
+       page label = "home" on the homepage, else the page's own slug.
+     Without stay22AID in hugo.toml the plain OTA URL (or a Booking.com search)
+     is returned, so a site never ships a link that pays nothing by accident.
+     Reference: https://dev.stay22.com/docs/allez/parameters
+     No Stay22 script runs on the site (decided 2026-10-02): the script's
+     LinkSwap would re-tag GetYourGuide links. Allez is server-side only.     */}}
+{{- $site := .Site -}}
+{{- $page := .Page -}}
+{{- $h := .hotel | default dict -}}
+{{- $href := $h.url -}}
+{{- if not $href -}}
+  {{- $href = printf "https://www.booking.com/searchresults.html?ss=%s" (urlquery ($h.address | default "")) -}}
+{{- end -}}
+{{- with $site.Params.stay22AID -}}
+  {{- $provider := $h.provider | default $site.Params.stay22Provider | default "booking" -}}
+  {{- $loc := "" -}}
+  {{- if $h.url -}}
+    {{- $loc = printf "link=%s" (urlquery $h.url) -}}
+  {{- else -}}
+    {{- $loc = printf "address=%s" (replace (urlquery $h.address) "+" "%20") -}}
+  {{- end -}}
+  {{- $siteLabel := replace ($site.Params.stay22Campaign | default "site") "-" "_" -}}
+  {{- $pageLabel := "home" -}}
+  {{- if and $page (not $page.IsHome) -}}
+    {{- $pageLabel = replace (path.Base $page.RelPermalink) "-" "_" -}}
+  {{- end -}}
+  {{- $href = printf "https://www.stay22.com/allez/%s?aid=%s&%s&campaign=%s&campaign=%s" $provider . $loc $siteLabel $pageLabel -}}
+{{- end -}}
+{{- return $href -}}

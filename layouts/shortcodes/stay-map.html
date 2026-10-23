@@ -1,0 +1,22 @@
+{{/* stay-map -- Stay22 interactive map of nearby stays, as a plain iframe.
+     Installed by the stay22-where-to-stay skill. For the DETAIL page only,
+     never the homepage (it competes visually with the GetYourGuide widget).
+     Usage: {{< stay-map address="San Pedro de Atacama, Chile" >}}
+            {{< stay-map address="Porto, Portugal" height="420" >}}
+     Listings inside the map redirect through Allez, so bookings are
+     attributed to stay22AID; the two campaign labels match stay22-link.html.
+     Needs `https://www.stay22.com` in the Content-Security-Policy frame-src
+     (apply.py adds it to netlify.toml). No JavaScript on the page.
+     Reference: https://dev.stay22.com/docs/maps                               */}}
+{{- $aid := .Site.Params.stay22AID -}}
+{{- $address := .Get "address" | default (.Page.Params.stayAddress | default "") -}}
+{{- $height := .Get "height" | default "380" -}}
+{{- if and $aid $address -}}
+{{- $siteLabel := replace (.Site.Params.stay22Campaign | default "site") "-" "_" -}}
+{{- $pageLabel := "home" -}}
+{{- if not .Page.IsHome -}}{{- $pageLabel = replace (path.Base .Page.RelPermalink) "-" "_" -}}{{- end -}}
+{{- $src := printf "https://www.stay22.com/embed/gm?aid=%s&address=%s&campaign=%s&campaign=%s" $aid (replace (urlquery $address) "+" "%20") $siteLabel $pageLabel -}}
+<div class="stay-map">
+  <iframe src="{{ $src }}" title="Map of places to stay near {{ $address }}" style="width:100%;height:{{ $height }}px;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+{{- end -}}

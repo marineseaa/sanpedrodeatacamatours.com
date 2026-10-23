@@ -11,11 +11,24 @@ unsafe = true
 siteName = "San Pedro de Atacama Tours"
 gygPartnerID = "1MSALBX"
 gygCampaign = "sanpedrodeatacamatours"
+# Stay22 hotel affiliate (stay22-where-to-stay skill). No Stay22 script runs on
+# the site: partials/stay22-link.html builds every hotel link as an Allez URL from
+# these three values. stay22AID = the account ID (same on every site; EMPTY means
+# plain OTA links and no section). stay22Campaign labels this site in Stay22
+# reports -- '_' never '-', Stay22 splits labels on hyphens. stay22Provider:
+# booking for Europe / Latin America, expedia or hotelscom for US destinations,
+# roam lets Stay22 choose (decided 2026-10-03).
+stay22AID       = "marinesea"
+stay22Campaign  = "sanpedrodeatacamatours"
+stay22Provider  = "booking"
 offersDataKey = "offers"
 featuredTourID = "190853"
 heroImage = "/images/atacama-red-stones.webp"
 description = "Choose your San Pedro de Atacama tours, compare what is included and plan a desert itinerary that fits your time."
 ogImage = "/images/home-og.jpg"
+# FTC-style affiliate disclosure, rendered sitewide in the footer.
+affiliateDisclosure = "We earn a commission when you book through our GetYourGuide and Viator links, or a hotel through our Stay22 links, at no extra cost to you."
+
 [[params.exploreHubColumns]]
 key = "tours"
 label = "Desert tours & experiences"

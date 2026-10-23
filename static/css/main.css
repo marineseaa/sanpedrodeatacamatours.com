@@ -3669,6 +3669,30 @@ body { line-height: 1.75; }
 .logo-img,
 .footer-logo-img { display: block; max-height: 40px; width: auto; }
 
+/* ── WHERE-TO-STAY SECTION (stay22-where-to-stay skill) ───────────────────────
+   Three area cards reusing .highlights-col, so they take each site's own card
+   treatment (rounded on classic builds, square and flat on flat builds -- the
+   flat overlay already covers .highlights-col). Only the grid width and the
+   link colour are new. Token-only: nothing here survives a palette swap wrongly.
+   Fewer than three areas: the grid shrinks to the columns it has and stays
+   centred (the base .highlights-grid rule sets margin-inline: auto) instead of
+   leaving an empty slot on the right -- the explore hub's F14 lesson, reused.
+   apply.py replaces everything between this header and the end marker when the
+   skill's copy changes, so edit the skill's patch, not a site's copy.          */
+@media (min-width: 900px) {
+  .stay-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-8); max-width: 1140px; }
+  .stay-grid:not(:has(> :nth-child(3))) { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 750px; }
+  .stay-grid:not(:has(> :nth-child(2))) { grid-template-columns: minmax(0, 1fr); max-width: 360px; }
+}
+.stay-why { color: var(--slate); font-size: 0.95rem; line-height: 1.6; margin-bottom: var(--space-5); }
+.stay-link { color: var(--gold-text); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.stay-link:hover, .stay-link:focus-visible { color: var(--deep-canal); }
+.stay-note { color: var(--stone); font-weight: 400; }
+.stay-search { font-size: 0.925rem; }
+.stay-map { margin-block: var(--space-8); border: 1px solid var(--hairline); }
+.prose .stay-link { font-weight: 600; }
+/* ── end where-to-stay ── */
+
 /* ── Single-weight display faces ──────────────────────────────────────────────
    READ THIS BEFORE CHANGING A DISPLAY FONT.
 

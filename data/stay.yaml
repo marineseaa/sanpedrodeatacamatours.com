@@ -1,0 +1,30 @@
+# data/stay.yaml -- hotel lookup for the hotel-link shortcode (inline mode).
+# No `title` and no `areas`: the homepage section stays inert by design.
+# Every url is a plain Booking.com hotel page, verified with audit_stay.py --verify-hotels.
+hotels:
+  pascual_andino: { name: "Hotel Pascual Andino", url: "https://www.booking.com/hotel/cl/pascual-andino.html", tier: "upper", area: "centre", note: "Gustavo Le Paige 150, a short walk from Caracoles." }
+  terrantai: { name: "Hotel Terrantai", url: "https://www.booking.com/hotel/cl/terrantai-lodge.html", tier: "upper", area: "centre", note: "Tocopilla 411, near the plaza." }
+  desertica: { name: "Hotel Desertica", url: "https://www.booking.com/hotel/cl/desertica.html", tier: "upper", area: "centre", note: "Caracoles 455." }
+  explora: { name: "explora Atacama", url: "https://www.booking.com/hotel/cl/exploraatacama.html", tier: "luxury", area: "larache", note: "All-inclusive lodge in Ayllu de Larache." }
+  awasi: { name: "Awasi Atacama", url: "https://www.booking.com/hotel/cl/awasi-atacama.html", tier: "luxury", area: "edge", note: "All-inclusive lodge with private guiding." }
+  nayara: { name: "Nayara Alto Atacama", url: "https://www.booking.com/hotel/cl/alto-atacama-desert-lodge.html", tier: "luxury", area: "catarpe", note: "Catarpe valley, Ayllu de Quitor." }
+  cumbres: { name: "Hotel Cumbres San Pedro de Atacama", url: "https://www.booking.com/hotel/cl/kunza.html", tier: "upper", area: "edge", note: "Formerly Hotel Kunza." }
+  unai: { name: "UNAI Atacama Luxury Tents", url: "https://www.booking.com/hotel/cl/unai-atacama.html", tier: "luxury", area: "solor", note: "Tent camp in Ayllu de Solor." }
+  backpackers: { name: "Backpackers San Pedro", url: "https://www.booking.com/hotel/cl/alojamiento-para-mochileros.html", tier: "budget", area: "centre", note: "Hostel with dorms and private rooms." }
+  casa_solcor: { name: "Casa Solcor Boutique Bed & Breakfast", url: "https://www.booking.com/hotel/cl/casa-solcor-boutique-bed-breakfast.html", tier: "upper", area: "edge", note: "Bed and breakfast in Ayllu de Solcor." }
+  noi: { name: "NOI Casa Atacama", url: "https://www.booking.com/hotel/cl/casa-atacama-by-noi-hotels.html", tier: "upper", area: "centre", note: "Pool and spa south of Caracoles." }
+  don_tomas: { name: "Hotel La Casa de Don Tomás", url: "https://www.booking.com/hotel/cl/la-casa-de-don-tomas.html", tier: "mid", area: "edge", note: "Edge of the centre, with a pool." }
+  don_raul: { name: "Hotel Don Raul", url: "https://www.booking.com/hotel/cl/don-raul.html", tier: "mid", area: "centre", note: "Central." }
+  casa_voyage: { name: "Casa Voyage Hostel", url: "https://www.booking.com/hotel/cl/casa-voyage-hostel.html", tier: "budget", area: "centre", note: "Hostel." }
+  campo_base: { name: "Hostal Campo Base", url: "https://www.booking.com/hotel/cl/hostal-talar.html", tier: "budget", area: "centre", note: "Small hostel." }
+  aji_verde: { name: "Aji Verde Hostel San Pedro", url: "https://www.booking.com/hotel/cl/aji-verde-hostel-san-pedro.html", tier: "budget", area: "centre", note: "Hostel with private rooms." }
+  mamatierra: { name: "Hostal Mamatierra", url: "https://www.booking.com/hotel/cl/mamatierra.html", tier: "budget", area: "centre", note: "Hostel." }
+  quelana: { name: "Lodge Quelana", url: "https://www.booking.com/hotel/cl/lodge-quelana.html", tier: "mid", area: "solor", note: "Solor." }
+  altiplanico: { name: "Altiplanico Atacama", url: "https://www.booking.com/hotel/cl/altiplanico-atacama.html", tier: "upper", area: "edge", note: "Domingo Atienza, edge of the centre." }
+  tierra_atacama: { name: "Tierra Atacama", address: "Ayllu de Yaye, San Pedro de Atacama, Chile" }
+  area_centre: { name: "Stays in central San Pedro de Atacama", address: "San Pedro de Atacama, Chile" }
+  area_larache: { name: "Stays in Ayllu de Larache, Yaye and Sequitor", address: "Ayllu de Larache, San Pedro de Atacama, Chile" }
+  area_quitor: { name: "Stays in Quitor and Catarpe", address: "Quitor, San Pedro de Atacama, Chile" }
+  area_solor: { name: "Stays in Solor, Coyo and Cucuter", address: "Solor, San Pedro de Atacama, Chile" }
+  area_calama: { name: "Stays in Calama", address: "Calama, Chile" }
+  area_toconao: { name: "Stays in Toconao", address: "Toconao, Chile" }

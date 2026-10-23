@@ -1,0 +1,20 @@
+{{/* hotel-link -- inline affiliate link to a hotel or an area search.
+     Installed by the stay22-where-to-stay skill (supersedes the 2026-10-02
+     dourowinetoursfromporto.com original; same usage, shared URL builder).
+     Usage: {{< hotel-link "six-senses" >}}Six Senses Douro Valley{{< /hotel-link >}}
+     The key is looked up in data/stay.yaml `hotels:` first, then in the older
+     data/hotel_links.yaml; an unknown key fails the build. No inner text ->
+     the hotel name from the data file. The href comes from
+     partials/stay22-link.html (Stay22 Allez, provider + campaign labels from
+     hugo.toml). File must end right after </a> (no trailing newline), same
+     whitespace rule as gyg-link.                                                */}}
+{{- $key := .Get 0 -}}
+{{- $h := "" -}}
+{{- with .Site.Data.stay -}}{{- with .hotels -}}{{- $h = index . $key -}}{{- end -}}{{- end -}}
+{{- if not $h -}}{{- with .Site.Data.hotel_links -}}{{- $h = index . $key -}}{{- end -}}{{- end -}}
+{{- if not $h -}}
+  {{- errorf "hotel-link: %q not found in data/stay.yaml hotels or data/hotel_links.yaml (page %s)" $key .Page.File.Path -}}
+{{- end -}}
+{{- $label := trim (.Inner | default "") " \n\t" | default $h.name -}}
+{{- $href := partial "stay22-link.html" (dict "Site" .Site "Page" .Page "hotel" $h) -}}
+<a href="{{ $href }}" class="stay-link" target="_blank" rel="sponsored nofollow noopener">{{ .Page.RenderString $label }}</a>

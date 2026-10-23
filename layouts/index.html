@@ -12,3 +12,4 @@
 <section class="section" id="planning"><div class="container"><p class="section-overline">SORT OUT THE PRACTICAL DETAILS</p><h2>Plan your San Pedro stay</h2><div class="guide-grid">{{ range slice "how-many-days" "best-time-to-visit" "altitude" "what-to-pack" "san-pedro-de-atacama-without-car" "is-san-pedro-de-atacama-worth-visiting" }}{{ with $.Site.GetPage . }}<a href="{{ .RelPermalink }}"><h3>{{ .Params.exploreLabel }}</h3><p>{{ .Params.deck }}</p></a>{{ end }}{{ end }}</div></div></section>
 {{ partial "faq-site.html" . }}{{ partial "explore-site.html" . }}
 {{ end }}
+{{/* stay22: inline mode only (hotel-link on /where-to-stay/); the where-to-stay.html homepage section is not installed. */}}

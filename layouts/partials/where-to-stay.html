@@ -1,0 +1,74 @@
+{{/* where-to-stay -- compact lodging section for the HOMEPAGE.
+     Installed by the stay22-where-to-stay skill. Position is load-bearing:
+     directly after experiences.html and before the editorial block, i.e. the
+     first slot after every tour-selling section (date picker, comparison,
+     experience cards) and before the long editorial read. Measured on
+     atacamastargazingtour.com 2026-10-03: experiences ends at screen ~8.4 at
+     1440x900; reviews start at 11.8 and the FAQ at 14, where almost nobody
+     arrives. Do not move it above the comparison table.
+
+     Data: data/stay.yaml (areas + hotels). The section is INERT until that
+     file exists AND has a title, so the scaffold ships it safely.
+     Renders on the homepage only; a landing page can opt in with
+     `showStay: true` in front matter. Three area cards at most, three hotel
+     links per card at most, no date picker and no map here -- those belong on
+     the detail page the button points at. Cards reuse .highlights-col so they
+     inherit each site's own card treatment (square and flat on flat builds).
+     Links go straight to Stay22 Allez URLs with rel="sponsored": they must NOT
+     carry data-gyg-href, which main.js reserves for GetYourGuide and which
+     would strip the sponsored rel at runtime.                                  */}}
+{{ $page := .Page }}
+{{ $site := .Site }}
+{{ $stay := $site.Data.stay }}
+{{ $show := false }}
+{{ if $page }}
+  {{ $show = $page.IsHome }}
+  {{ if isset $page.Params "showstay" }}{{ $show = eq $page.Params.showStay true }}{{ end }}
+{{ end }}
+{{ if and $stay $stay.title $show }}
+<section class="section stay-section" id="stay" aria-labelledby="stay-heading">
+  <div class="container">
+
+    <div class="section-header fade-up">
+      <p class="section-overline">{{ $stay.overline | default "Where to Stay" }}</p>
+      <h2 class="section-title" id="stay-heading">{{ $stay.title }}</h2>
+      {{ with $stay.subtitle }}<p class="section-subtitle">{{ . }}</p>{{ end }}
+    </div>
+
+    <div class="highlights-grid stay-grid">
+      {{ range first 3 ($stay.areas | default slice) }}
+      {{ $area := . }}
+      <div class="highlights-col stay-col">
+        <h3 class="highlights-col-title">{{ $area.name }}</h3>
+        {{ with $area.why }}<p class="stay-why">{{ . }}</p>{{ end }}
+        <ul class="highlights-list" role="list">
+          {{ range first 3 ($area.hotels | default slice) }}
+            {{ $h := index $stay.hotels . }}
+            {{ if not $h }}{{ errorf "where-to-stay: hotel key %q (area %q) not in data/stay.yaml hotels" . $area.name }}{{ end }}
+            {{ $href := partial "stay22-link.html" (dict "Site" $site "Page" $page "hotel" $h) }}
+          <li class="highlight-item">
+            <svg class="highlight-check highlight-check--gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><a class="stay-link" href="{{ $href }}" target="_blank" rel="sponsored nofollow noopener">{{ $h.name }}</a>{{ with $h.note }} <span class="stay-note">&middot; {{ . }}</span>{{ end }}</span>
+          </li>
+          {{ end }}
+          {{ with $area.address }}
+            {{ $href := partial "stay22-link.html" (dict "Site" $site "Page" $page "hotel" (dict "address" .)) }}
+          <li class="highlight-item stay-search">
+            <svg class="highlight-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span><a class="stay-link" href="{{ $href }}" target="_blank" rel="sponsored nofollow noopener">{{ $area.searchLabel | default (printf "All stays in %s" $area.name) }}</a></span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+
+    {{ with $stay.page }}
+    <div class="highlights-cta fade-up">
+      <a href="{{ . }}" class="btn-outline btn-lg">{{ $stay.cta | default "Read the full where-to-stay guide" }}</a>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}
