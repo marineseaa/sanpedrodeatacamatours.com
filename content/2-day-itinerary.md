@@ -58,7 +58,7 @@ The bookable cards above are **separate excursions**, not one package. Match the
 
 ## Day 1: settle in, then Moon Valley
 
-**Morning:** take a slow start, organise water and any separately required reserve ticket, and check your operator messages. If arriving that morning, leave time to reach the hotel and eat rather than booking a departure that depends on every connection being on time.
+**Morning:** take a slow start, organise water and any separately required reserve ticket, and check your operator messages. If arriving that morning, leave time to reach the hotel and eat rather than booking a departure that depends on every connection being on time. With only two days, a central base from the [where-to-stay guide](/where-to-stay/) saves time between departures.
 
 **Afternoon:** take the [Moon Valley excursion](/moon-valley-tours/). The shared tour leaves from an agency; the ticket-and-cocktail alternative includes hotel pickup. Decide which makes your day easier and budget for admission if needed.
 

@@ -56,7 +56,7 @@ We have verified the return product shown here. We have not labelled it a three-
 
 ## How the four days are used
 
-**Day one** begins with the border journey and visits highland lagoons, the Dalí Desert area, thermal springs and the Sol de Mañana geothermal area, before an overnight in the Bolivian highlands. The advertised route approaches 5,000 metres: this is not a gentle first excursion after a sea-level flight.
+**Day one** begins with the border journey and visits highland lagoons, the Dalí Desert area, thermal springs and the Sol de Mañana geothermal area, before an overnight in the Bolivian highlands. The advertised route approaches 5,000 metres: this is not a gentle first excursion after a sea-level flight. The [altitude guide](/altitude/) explains how to build up to it.
 
 **Day two** continues through rock formations and lagoon landscapes towards a salt-hostel overnight. Expect substantial driving and basic infrastructure between stops.
 

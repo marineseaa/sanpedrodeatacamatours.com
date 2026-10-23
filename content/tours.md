@@ -87,10 +87,10 @@ The cards above show relevant bookable products. Their prices are individual sta
 
 | Experience | Main reason to choose it | Useful comparison | Our pick |
 |---|---|---|---|
-| Piedras Rojas | Full-day highland variety | Meals, named lagoons and entry fees | {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5, 822 reviews){{< /gyg-link >}} |
-| El Tatio | Sunrise geothermal scenery | Pickup limits, age rules and altitude | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise with breakfast (4.7/5, 1,147 reviews){{< /gyg-link >}} |
-| Moon Valley | A shorter first-visit landscape tour | Agency departure versus entry-inclusive pickup | {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5, 359 reviews){{< /gyg-link >}} |
-| Stargazing | Telescope viewing and explanation | General astronomy versus Andean interpretation | {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5, 800 reviews){{< /gyg-link >}} |
+| Piedras Rojas | Full-day highland variety | Meals, named lagoons and entry fees | {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5, 824 reviews){{< /gyg-link >}} |
+| El Tatio | Sunrise geothermal scenery | Pickup limits, age rules and altitude | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise with breakfast (4.7/5, 1,148 reviews){{< /gyg-link >}} |
+| Moon Valley | A shorter first-visit landscape tour | Agency departure versus entry-inclusive pickup | {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5, 361 reviews){{< /gyg-link >}} |
+| Stargazing | Telescope viewing and explanation | General astronomy versus Andean interpretation | {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5, 802 reviews){{< /gyg-link >}} |
 | Baltinache | Turquoise lagoon scenery | Current floating suspension and temporary route | {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons (4.5/5, 146 reviews){{< /gyg-link >}} |
 | Cejar | Floating-focused salt-lagoon circuit | Extra admission and authorised bathing area | {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5, 77 reviews){{< /viator-link >}} |
 | Puritama | A slower thermal-pool outing | Separate entry slot and transfer | No well-reviewed listing yet; see the [Puritama guide](/puritama-hot-springs-tours/) |
@@ -123,7 +123,7 @@ Entry fees are for foreign adults and are usually not included in the tour price
 | Láscar volcano climb | About 11 h | 05:00 | About 5,592 m | Access fee | Very hard | Experienced trekkers |
 | ALMA observatory visit | About 4.5 h | 08:00 or 14:00 (open days) | About 2,900 m | Free | Easy | Science fans, when open |
 | [Stargazing](/stargazing-tours/) | 2–3 h | After dark | About 2,400 m | Usually none | Easy | Every visitor |
-| [Uyuni salt flats crossing](/uyuni-tours-from-san-pedro-de-atacama/) | 3–4 days | About 07:00–08:00 | About 4,850 m | Bolivian park fees | Hard (altitude, basic lodging) | Onward travel to Bolivia |
+| [Uyuni salt flats crossing](/uyuni-tours-from-san-pedro-de-atacama/) | 3–4 days | About 07:00–08:00 | About 4,900 m | Bolivian park fees | Hard (altitude, basic lodging) | Onward travel to Bolivia |
 
 A few numbers to plan around:
 
@@ -135,9 +135,9 @@ A few numbers to plan around:
 
 ## Our picks
 
-- **Best scenery in one day: the Altiplanic Lagoons and Piedras Rojas.** Flamingos at Chaxa, deep-blue lakes under volcanoes and red rock beside a turquoise salt flat. The {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 822 reviews){{< /gyg-link >}} is our main pick; the {{< gyg-link tour="632997" >}}Triple tour: Red stones, highland lagoons and Chaxa Lagoon (4.7/5 from 324 reviews){{< /gyg-link >}} suits you if Chaxa matters most. Check that breakfast or lunch in Socaire is included.
-- **Best if you only do one tour: El Tatio at sunrise.** The 4:30 a.m. alarm is brutal and it can be −10 °C, but steam columns lighting up as the sun clears the Andes is the moment many visitors remember most. Our pick is the {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour with breakfast (4.7/5 from 1,147 reviews){{< /gyg-link >}}.
-- **Best first afternoon: Valle de la Luna.** It is low, short and close to town, so it suits arrival day. The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5 from 359 reviews){{< /gyg-link >}} is the simpler option; the {{< gyg-link tour="471706" >}}Valle de la Luna guided tour (4.5/5 from 440 reviews){{< /gyg-link >}} lists entry, snacks and a cocktail. The classic sunset viewpoint, Mirador de Ckari, is closed, so ask where your guide watches sunset now.
+- **Best scenery in one day: the Altiplanic Lagoons and Piedras Rojas.** Flamingos at Chaxa, deep-blue lakes under volcanoes and red rock beside a turquoise salt flat. The {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 824 reviews){{< /gyg-link >}} is our main pick; the {{< gyg-link tour="632997" >}}Triple tour: Red stones, highland lagoons and Chaxa Lagoon (4.7/5 from 324 reviews){{< /gyg-link >}} suits you if Chaxa matters most. Check that breakfast or lunch in Socaire is included.
+- **Best if you only do one tour: El Tatio at sunrise.** The 4:30 a.m. alarm is brutal and it can be −10 °C, but steam columns lighting up as the sun clears the Andes is the moment many visitors remember most. Our pick is the {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour with breakfast (4.7/5 from 1,148 reviews){{< /gyg-link >}}.
+- **Best first afternoon: Valle de la Luna.** It is low, short and close to town, so it suits arrival day. The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5 from 361 reviews){{< /gyg-link >}} is the simpler option; the {{< gyg-link tour="471706" >}}Valle de la Luna guided tour (4.5/5 from 440 reviews){{< /gyg-link >}} lists entry, snacks and a cocktail. The classic sunset viewpoint, Mirador de Ckari, is closed, so ask where your guide watches sunset now.
 - **Best for families: Cejar and Piedra floating with Ojos del Salar.** It is low, the afternoons are warm and the day ends at sunset with snacks. Laguna Piedra is not suitable for children under 6, and children up to 12 pay CLP 5,000. The best-reviewed listing we found is the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 77 reviews){{< /viator-link >}}; the GetYourGuide {{< gyg-link tour="614772" >}}Cejar Lagoon Tour with flotation and cocktail{{< /gyg-link >}} has only 4 reviews so far.
 - **Best for adventure: Cerro Toco (5,604 m).** It is the most accessible summit above 5,000 m near town: you start at about 5,000 m and walk 2–3 hours to the top. Do it only at the end of your trip.
 - **Best budget day: a rented bike.** Ride to Valle de la Muerte, Pukará de Quitor and the Catarpe valley yourself, or join the {{< viator-link path="San-Pedro-de-Atacama/4-Hours-riding-a-bicycle-in-San-Pedro-de-Atacama/d5499-409609P1" >}}Devil's Throat bike tour on Viator (5.0/5 from 110 reviews){{< /viator-link >}}. Cyclists can also enter Valle de la Luna, but only in the morning bike slot.
@@ -208,7 +208,7 @@ More than 80 geysers and fumaroles above 4,300 m, at their steamiest around sunr
 
 ### Salar de Tara and Monjes de la Pacana
 
-The route passes balanced ignimbrite "monk" pillars, the Quisquiro and Tara salt flats, and wetlands near the Chile–Argentina–Bolivia border, at about 4,300 m with passes over 4,800 m, so do it last. Agencies in town sell it; the online listings we found have only a handful of reviews, and one premium operator listed it as closed until further notice, so ask. Self-drivers report poor signposting; take a guide.
+The route passes balanced ignimbrite "monk" pillars, the Quisquiro and Tara salt flats, and wetlands near the Chile–Argentina–Bolivia border, at about 4,300 m with passes over 4,800 m, so do it last. Agencies in town sell it; the online listings we found have only a handful of reviews, and one premium operator listed it as closed until further notice. CONAF and the Lickanantay community of Toconao closed the Salar de Tara itself to visitors in June 2018, and [Mongabay reported in 2023](https://es.mongabay.com/2023/05/salar-de-tara-industria-del-litio-chile/) that it was still closed, so ask exactly which stops a route reaches. Self-drivers report poor signposting; take a guide.
 
 ### Valle de la Muerte sandboarding
 
@@ -232,7 +232,7 @@ ALMA normally offers free weekend visits to its Operations Support Facility at a
 
 ### Bolivia: the Uyuni crossing
 
-Most trips from San Pedro are 3-day one-way or 4-day return crossings via the Hito Cajón border (4,480 m). Day 1 takes in Laguna Blanca and Laguna Verde under Licancabur, the Dalí desert, Polques hot springs, the Sol de Mañana geysers and Laguna Colorada, reaching about 4,850 m. Our pick is the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (4.6/5 from 85 reviews){{< /gyg-link >}}. Treat it separately from the day tours; the [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) covers the border and lodging.
+Most trips from San Pedro are 3-day one-way or 4-day return crossings via the Hito Cajón border (4,480 m). Day 1 takes in Laguna Blanca and Laguna Verde under Licancabur, the Dalí desert, Polques hot springs, the Sol de Mañana geysers and Laguna Colorada, reaching about 4,900 m. Our pick is the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (4.6/5 from 85 reviews){{< /gyg-link >}}. Treat it separately from the day tours; the [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) covers the border and lodging.
 
 ## Choose a lagoon or a thermal-pool visit
 
@@ -269,7 +269,7 @@ Outside peak season you can book ahead or on arrival; forum users report finding
 
 ## Separate excursions or one package?
 
-[Multi-day bundles](/multi-day-tours/) simplify coordination but can be intensive and still exclude admission or accommodation. The {{< gyg-link tour="374134" >}}Best of Atacama: 4 Tours in 3 Days combo (4.7/5 from 345 reviews){{< /gyg-link >}} is the best-reviewed bundle; make sure its order follows the low-to-high plan above. A [DIY itinerary](/3-day-itinerary/) gives more control over rest and the exact products you choose, with separate conditions for each reservation.
+[Multi-day bundles](/multi-day-tours/) simplify coordination but can be intensive and still exclude admission or accommodation. The {{< gyg-link tour="374134" >}}Best of Atacama: 4 Tours in 3 Days combo (4.7/5 from 346 reviews){{< /gyg-link >}} is the best-reviewed bundle; make sure its order follows the low-to-high plan above. A [DIY itinerary](/3-day-itinerary/) gives more control over rest and the exact products you choose, with separate conditions for each reservation.
 
 Treat the [Uyuni expedition](/uyuni-tours-from-san-pedro-de-atacama/) separately. It crosses into Bolivia and includes highland overnights; it is not another half-day excursion from the same base.
 

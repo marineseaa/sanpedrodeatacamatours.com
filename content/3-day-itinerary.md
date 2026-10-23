@@ -64,7 +64,7 @@ This is a DIY schedule. The cards above are separate bookings; for one supplier 
 
 ## Day 1: Moon Valley and a gentle start
 
-Use the morning to settle into San Pedro, check the forecast and confirm the next departures. Walk at an easy pace, get water and arrange any reserve ticket your afternoon booking excludes. If your flight lands this day, leave a generous margin for the [Calama transfer](/calama-airport-to-san-pedro-de-atacama/).
+Use the morning to settle into San Pedro, check the forecast and confirm the next departures. Walk at an easy pace, get water and arrange any reserve ticket your afternoon booking excludes. If your flight lands this day, leave a generous margin for the [Calama transfer](/calama-airport-to-san-pedro-de-atacama/), and check that your accommodation sits inside the tours' pickup area (see [where to stay](/where-to-stay/)).
 
 The afternoon [Valle de la Luna tour](/moon-valley-tours/) introduces the desert’s dunes and salt formations. Return for dinner around Caracoles or the plaza, keeping the reservation time flexible. You are buying the sunset excursion, not a guarantee of an exact return minute.
 

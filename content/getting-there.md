@@ -89,7 +89,7 @@ These are the routes listed for El Loa Airport in October 2026. Schedules change
 
 For arrival, choose airport to accommodation and provide the flight number and exact hotel address. For departure, choose accommodation to airport and provide the departing flight details. A one-way reservation does not include both journeys.
 
-Read our [detailed Calama transfer guide](/calama-airport-to-san-pedro-de-atacama/) for the meeting procedure, baggage allowance, the full comparison of shuttle, private car, taxi, bus and rental car, and a plan for late arrivals. The {{< gyg-link tour="190838" >}}Calama Airport transfer (4.6/5 from 847 reviews){{< /gyg-link >}} offers shared and private options; its minimum is a per-person starting price, not the total for a private vehicle.
+Read our [detailed Calama transfer guide](/calama-airport-to-san-pedro-de-atacama/) for the meeting procedure, baggage allowance, the full comparison of shuttle, private car, taxi, bus and rental car, and a plan for late arrivals. The {{< gyg-link tour="190838" >}}Calama Airport transfer (4.6/5 from 850 reviews){{< /gyg-link >}} offers shared and private options; its minimum is a per-person starting price, not the total for a private vehicle.
 
 ## Shared transfer, private transfer or rental car?
 

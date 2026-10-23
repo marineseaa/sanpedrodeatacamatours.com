@@ -49,7 +49,7 @@ h1: Four-Day Uyuni Return Trip
 
 This is a return journey from Chile through Bolivia’s highland lagoons to the Uyuni salt flat and back. It is not the same as a three-day one-way itinerary ending in Uyuni. The vehicle has a maximum of six participants and the driver speaks Spanish.
 
-The first day already visits very high terrain: the route names the Sol de Mañana geothermal area at around 5,000 metres, along with highland lagoons and Polques. Accommodation and meals are included, with Bolivian park admission additional. Ask for the exact room arrangement and comfort level rather than assuming private hotel rooms.
+The first day already visits very high terrain: it takes in the Sol de Mañana geothermal area, at about 4,900 metres, along with highland lagoons and Polques. Accommodation and meals are included, with Bolivian park admission additional. Ask for the exact room arrangement and comfort level rather than assuming private hotel rooms.
 
 ## What the advertised price covers
 

@@ -51,7 +51,7 @@ ogImage: /images/how-many-days-og.jpg
 
 For most first-time visitors choosing from the main tours, **three full days** is a useful starting point. It allows a lower-desert introduction, stargazing when conditions cooperate, one lagoon choice and one major highland excursion. **Four full days** gives more freedom to separate Piedras Rojas and El Tatio and to retain a quieter interval.
 
-This is a planning recommendation, not a claim that everyone acclimatises on a particular day. Your arrival elevation, health, symptoms and the tours’ restrictions still matter. If you cannot take a highland excursion, a shorter lower-desert stay can still be worthwhile.
+This is a planning recommendation, not a claim that everyone acclimatises on a particular day; the [altitude guide](/altitude/) shows how high each tour goes. Your arrival elevation, health, symptoms and the tours’ restrictions still matter. If you cannot take a highland excursion, a shorter lower-desert stay can still be worthwhile.
 
 ## Days versus nights
 
@@ -89,4 +89,4 @@ The [multi-day comparison](/multi-day-tours/) separates excursion bundles from a
 
 Add time for an unhurried stay, specialised astronomy interests, extra rest or a separate [Uyuni expedition](/uyuni-tours-from-san-pedro-de-atacama/). The four-day Uyuni return product requires its own block of days and highland preparation. It cannot be tucked into the spare afternoon of a Chile itinerary.
 
-If your dates are fixed, choose the strongest two or three experiences and protect the gaps between them. Cutting an activity is often the practical way to keep the trip enjoyable, especially when arrival timing or altitude response is uncertain.
+If your dates are fixed, choose the strongest two or three experiences and protect the gaps between them. Cutting an activity is often the practical way to keep the trip enjoyable, especially when arrival timing or altitude response is uncertain. The [altitude guide](/altitude/) suggests a low-to-high order, and a central base from the [where-to-stay guide](/where-to-stay/) keeps early pickups simple.

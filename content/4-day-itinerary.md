@@ -66,7 +66,7 @@ This itinerary assumes your flights fall outside the four touring days. If they 
 
 ## Days 1 and 2: lower desert first
 
-Make [Moon Valley](/moon-valley-tours/) the first major excursion. Its four-hour format leaves the morning available for arrival recovery and the practical arrangements that disappear from overly tight itineraries. Choose either agency departure with entry extra, or the more inclusive ticket-and-pickup option.
+Make [Moon Valley](/moon-valley-tours/) the first major excursion; if you have not booked a bed yet, the [where-to-stay guide](/where-to-stay/) compares the central streets with the quieter ayllus. Its four-hour format leaves the morning available for arrival recovery and the practical arrangements that disappear from overly tight itineraries. Choose either agency departure with entry extra, or the more inclusive ticket-and-pickup option.
 
 On day two, decide whether you want [Cejar](/laguna-cejar-tours/), [Baltinache](/baltinache-tours/) or a free afternoon. Baltinache currently offers sightseeing while floating is suspended. If warm-water soaking is your priority, investigate [Puritama](/puritama-hot-springs-tours/) instead, confirming ticket and transfer times; do not assume every shorter outing has the same altitude or access conditions.
 

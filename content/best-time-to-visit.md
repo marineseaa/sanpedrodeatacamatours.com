@@ -98,7 +98,7 @@ Whatever month you pick, compare sunset at **Valle de la Luna**, the sunrise **E
 
 ## No month is closed, but the high trips carry the risk
 
-You can visit San Pedro in any month. The town, Valle de la Luna and the salt lagoons near the Salar open most days of the year; the closures fall mainly on the trips that climb above about 4,000 metres, such as El Tatio, the Altiplanic lagoons and Piedras Rojas.
+You can visit San Pedro in any month. The town, Valle de la Luna and the salt lagoons near the Salar open most days of the year; the closures fall mainly on the trips that climb above about 4,000 metres, such as El Tatio, the Altiplanic lagoons and Piedras Rojas (see [altitude by tour](/altitude/)).
 
 | Season | Lower sites near town | High-altitude trips | What happened in 2026 |
 |---|---|---|---|

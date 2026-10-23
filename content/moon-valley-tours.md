@@ -67,7 +67,7 @@ cardTag: FIRST-VISIT FAVOURITE
 
 ## Two useful ways to book Moon Valley
 
-The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5 from 359 reviews){{< /gyg-link >}} is a good fit if you stay centrally, can reach **Tocopilla 418** yourself and are happy to arrange the reserve ticket. The {{< gyg-link tour="471706" >}}Valle de la Luna guided tour with entry and cocktail (4.5/5 from 440 reviews){{< /gyg-link >}} is easier to budget because the current listing includes reserve admission, hotel transport and snacks.
+The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5 from 361 reviews){{< /gyg-link >}} is a good fit if you stay centrally, can reach **Tocopilla 418** yourself and are happy to arrange the reserve ticket. The {{< gyg-link tour="471706" >}}Valle de la Luna guided tour with entry and cocktail (4.5/5 from 440 reviews){{< /gyg-link >}} is easier to budget because the current listing includes reserve admission, hotel transport and snacks.
 
 Do not compare the starting prices as if they bought identical services. Add the missing ticket and consider whether getting to the agency is convenient. An included cocktail can be pleasant, but the landscape and the departure logistics are stronger reasons to choose one product over the other.
 
@@ -193,7 +193,7 @@ Since the early 2000s, the Asociación Indígena Valle de la Luna has co-managed
 
 Moon Valley can suit the beginning of your visit because it avoids the major highland ascent of [El Tatio](/el-tatio-geysers-tours/). That does not mean you should book a tight flight-to-tour connection. Allow for baggage collection, the [Calama transfer](/calama-airport-to-san-pedro-de-atacama/), checking in and getting to the meeting point.
 
-If arrival timing is uncertain, use the first afternoon for settling in and put the tour on the following day. Heat, exposure and walking still matter, especially if you have just travelled overnight. The [altitude guide](/altitude/) explains how to order the higher trips after it.
+If arrival timing is uncertain, use the first afternoon for settling in and put the tour on the following day. Heat, exposure and walking still matter, especially if you have just travelled overnight. The [altitude guide](/altitude/) explains how to order the higher trips after it, and a central bed from the [where-to-stay guide](/where-to-stay/) puts the Tocopilla meeting point within walking distance.
 
 ## What to bring and what to leave out
 
