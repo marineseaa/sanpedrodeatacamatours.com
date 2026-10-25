@@ -87,17 +87,17 @@ The cards above show relevant bookable products. Their prices are individual sta
 
 | Experience | Main reason to choose it | Useful comparison | Our pick |
 |---|---|---|---|
-| Piedras Rojas | Full-day highland variety | Meals, named lagoons and entry fees | {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5, 824 reviews){{< /gyg-link >}} |
+| Piedras Rojas | Full-day highland variety | Meals, named lagoons and entry fees | {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5, 828 reviews){{< /gyg-link >}} |
 | El Tatio | Sunrise geothermal scenery | Pickup limits, age rules and altitude | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise with breakfast (4.7/5, 1,148 reviews){{< /gyg-link >}} |
-| Moon Valley | A shorter first-visit landscape tour | Agency departure versus entry-inclusive pickup | {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5, 361 reviews){{< /gyg-link >}} |
-| Stargazing | Telescope viewing and explanation | General astronomy versus Andean interpretation | {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5, 802 reviews){{< /gyg-link >}} |
+| Moon Valley | A shorter first-visit landscape tour | Agency departure versus entry-inclusive pickup | {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5, 362 reviews){{< /gyg-link >}} |
+| Stargazing | Telescope viewing and explanation | General astronomy versus Andean interpretation | {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5, 805 reviews){{< /gyg-link >}} |
 | Baltinache | Turquoise lagoon scenery | Current floating suspension and temporary route | {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons (4.5/5, 146 reviews){{< /gyg-link >}} |
-| Cejar | Floating-focused salt-lagoon circuit | Extra admission and authorised bathing area | {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5, 77 reviews){{< /viator-link >}} |
+| Cejar | Floating-focused salt-lagoon circuit | Extra admission and authorised bathing area | {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5, 80 reviews){{< /viator-link >}} |
 | Puritama | A slower thermal-pool outing | Separate entry slot and transfer | No well-reviewed listing yet; see the [Puritama guide](/puritama-hot-springs-tours/) |
 
 ## Other experiences you might enjoy
 
-More ideas: the flamingos of **Laguna Chaxa**, the **Puritama hot springs**, **Valle de la Luna** at sunset and Bolivia's **Uyuni salt flats**.
+More ideas: the flamingos of **Laguna Chaxa**, the **Puritama hot springs**, **Valle de la Luna** at sunset and Bolivia's **Uyuni salt flats**. Our list of [more things to do](/things-to-do/) adds the free and low-cost options.
 
 {{< gyg-experiences >}}
 
@@ -110,7 +110,7 @@ Entry fees are for foreign adults and are usually not included in the tour price
 | [Valle de la Luna](/moon-valley-tours/) (sunset) | About 4 h | 15:00–16:00 | About 2,500 m | CLP 10,800, online | Easy | Day 1, everyone |
 | [Laguna Cejar and Piedra](/laguna-cejar-tours/) + Ojos del Salar + Tebinquiche | About 5 h | 13:30–14:00 | About 2,400 m | CLP 15,000 online for a timed slot; Tebinquiche is a separate cash fee | Easy | Floating and sunset, day 1–2 |
 | [Baltinache hidden lagoons](/baltinache-tours/) | 4.5–5 h | 07:00–08:00 or 14:00–14:30 | About 2,400 m | Cash; reduced while bathing is suspended | Easy | Quieter lagoons (floating suspended) |
-| Rainbow Valley + Yerbas Buenas petroglyphs | 5–6 h | 07:00–08:00 | About 3,200–3,600 m | Two small cash fees | Easy | Mid-altitude acclimatisation, rock art |
+| Rainbow Valley + Yerbas Buenas petroglyphs | 5–6 h | 07:00–08:00 | About 3,200–3,500 m | Two small cash fees | Easy | Mid-altitude acclimatisation, rock art |
 | [Puritama hot springs](/puritama-hot-springs-tours/) | About 4–4.5 h | 08:00 or 13:00 | About 3,500 m | Bought online from the official site | Easy | A rest after El Tatio |
 | Laguna Chaxa (flamingos) | Part of the lagoons day, or a half day | Morning or sunset | About 2,300 m | Online, from the Toconao community | Easy | Birds and photography |
 | [Altiplanic Lagoons + Piedras Rojas + Chaxa](/piedras-rojas-tours/) | 9–11 h | 06:00–07:30 | About 4,000–4,200 m | Online only at socairechile.cl, plus Chaxa | Moderate (altitude, about 1 h walk) | The best scenery day |
@@ -135,12 +135,12 @@ A few numbers to plan around:
 
 ## Our picks
 
-- **Best scenery in one day: the Altiplanic Lagoons and Piedras Rojas.** Flamingos at Chaxa, deep-blue lakes under volcanoes and red rock beside a turquoise salt flat. The {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 824 reviews){{< /gyg-link >}} is our main pick; the {{< gyg-link tour="632997" >}}Triple tour: Red stones, highland lagoons and Chaxa Lagoon (4.7/5 from 324 reviews){{< /gyg-link >}} suits you if Chaxa matters most. Check that breakfast or lunch in Socaire is included.
+- **Best scenery in one day: the Altiplanic Lagoons and Piedras Rojas.** Flamingos at Chaxa, deep-blue lakes under volcanoes and red rock beside a turquoise salt flat. The {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 828 reviews){{< /gyg-link >}} is our main pick; the {{< gyg-link tour="632997" >}}Triple tour: Red stones, highland lagoons and Chaxa Lagoon (4.7/5 from 325 reviews){{< /gyg-link >}} suits you if Chaxa matters most. Check that breakfast or lunch in Socaire is included.
 - **Best if you only do one tour: El Tatio at sunrise.** The 4:30 a.m. alarm is brutal and it can be −10 °C, but steam columns lighting up as the sun clears the Andes is the moment many visitors remember most. Our pick is the {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour with breakfast (4.7/5 from 1,148 reviews){{< /gyg-link >}}.
-- **Best first afternoon: Valle de la Luna.** It is low, short and close to town, so it suits arrival day. The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5 from 361 reviews){{< /gyg-link >}} is the simpler option; the {{< gyg-link tour="471706" >}}Valle de la Luna guided tour (4.5/5 from 440 reviews){{< /gyg-link >}} lists entry, snacks and a cocktail. The classic sunset viewpoint, Mirador de Ckari, is closed, so ask where your guide watches sunset now.
-- **Best for families: Cejar and Piedra floating with Ojos del Salar.** It is low, the afternoons are warm and the day ends at sunset with snacks. Laguna Piedra is not suitable for children under 6, and children up to 12 pay CLP 5,000. The best-reviewed listing we found is the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 77 reviews){{< /viator-link >}}; the GetYourGuide {{< gyg-link tour="614772" >}}Cejar Lagoon Tour with flotation and cocktail{{< /gyg-link >}} has only 4 reviews so far.
+- **Best first afternoon: Valle de la Luna.** It is low, short and close to town, so it suits arrival day. The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 362 reviews){{< /gyg-link >}} is the simpler option; the {{< gyg-link tour="471706" >}}Valle de la Luna guided tour (4.5/5 from 441 reviews){{< /gyg-link >}} lists entry, snacks and a cocktail. The classic sunset viewpoint, Mirador de Ckari, is closed, so ask where your guide watches sunset now.
+- **Best for families: Cejar and Piedra floating with Ojos del Salar.** It is low, the afternoons are warm and the day ends at sunset with snacks. Laguna Piedra is not suitable for children under 6, and children up to 12 pay CLP 5,000. The best-reviewed listing we found is the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}; the GetYourGuide {{< gyg-link tour="614772" >}}Cejar Lagoon Tour with flotation and cocktail{{< /gyg-link >}} has only 4 reviews so far.
 - **Best for adventure: Cerro Toco (5,604 m).** It is the most accessible summit above 5,000 m near town: you start at about 5,000 m and walk 2–3 hours to the top. Do it only at the end of your trip.
-- **Best budget day: a rented bike.** Ride to Valle de la Muerte, Pukará de Quitor and the Catarpe valley yourself, or join the {{< viator-link path="San-Pedro-de-Atacama/4-Hours-riding-a-bicycle-in-San-Pedro-de-Atacama/d5499-409609P1" >}}Devil's Throat bike tour on Viator (5.0/5 from 110 reviews){{< /viator-link >}}. Cyclists can also enter Valle de la Luna, but only in the morning bike slot.
+- **Best budget day: a rented bike.** Ride to Valle de la Muerte, Pukará de Quitor and the Catarpe valley yourself, or join the {{< viator-link path="San-Pedro-de-Atacama/4-Hours-riding-a-bicycle-in-San-Pedro-de-Atacama/d5499-409609P1" >}}Devil's Throat bike tour on Viator (5.0/5 from 111 reviews){{< /viator-link >}}. Cyclists can also enter Valle de la Luna, but only in the morning bike slot.
 - **Best private option:** a private 4x4 with a bilingual guide on the lagoons or Salar de Tara route, so you control the timing and avoid the convoy. All-inclusive lodges such as Nayara Alto Atacama bundle private excursions; see [where to stay](/where-to-stay/).
 - **Most underrated: Rainbow Valley and Yerbas Buenas.** Striped mineral hills, petroglyphs, smaller crowds and a sensible mid-altitude step before the 4,000 m days. GetYourGuide has no listing; the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour from San Pedro on Viator (4.7/5 from 35 reviews){{< /viator-link >}} is the one we would book.
 - **Skip for now:** a sunset-only Valle de la Luna tour that still promises Mirador de Ckari, and any Baltinache tour sold as a floating trip while bathing is suspended.
@@ -152,7 +152,7 @@ San Pedro is at about 2,400 m, and the big tours climb to 4,000–4,300 m within
 | Step | Altitude | Tours |
 |---|---|---|
 | 1 (arrival day) | 2,300–2,500 m | Valle de la Luna, Cejar and Piedra, Valle de la Muerte, Quitor and Tulor by bike |
-| 2 | 3,200–3,600 m | Rainbow Valley and Yerbas Buenas, Puritama |
+| 2 | 3,200–3,500 m | Rainbow Valley and Yerbas Buenas, Puritama |
 | 3 | 4,000–4,200 m | Altiplanic Lagoons and Piedras Rojas |
 | 4 | Above 4,300 m | El Tatio at sunrise |
 | 5 (optional) | 4,300–5,600 m | Salar de Tara, Cerro Toco, Láscar, the Uyuni crossing |
@@ -188,7 +188,7 @@ Seven turquoise salt lagoons in the Cordillera de la Sal, about an hour away on 
 
 ### Rainbow Valley and Yerbas Buenas petroglyphs
 
-You see red, green, white and yellow mineral hills, dry canyons and hundreds of pre-Columbian rock carvings of llamas, foxes and more, about 90 km from town at 3,200–3,600 m. Tours run roughly 07:00–13:00, with two small fees paid in cash. With a car it is about an hour each way. Book the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}}.
+You see red, green, white and yellow mineral hills, dry canyons and hundreds of pre-Columbian rock carvings of llamas, foxes and more, about 90 km from town, at 3,200–3,500 m. Tours run roughly 07:00–13:00, with two small fees paid in cash. With a car it is about an hour each way. Book the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}}.
 
 ### Puritama hot springs
 
@@ -216,7 +216,7 @@ Dunes 2 km from town, with practice runs of about 40 m and descents of up to 200
 
 ### Pukará de Quitor, Aldea de Tulor and Garganta del Diablo {#pukara-de-quitor-aldea-de-tulor-and-garganta-del-diablo}
 
-Pukará de Quitor is a 12th-century hilltop fortress 3 km from town, run by the Quitor community; some 2026 visitors found parts of it closed. Aldea de Tulor is an adobe village more than 2,000 years old, run by the Coyo community, with cash entry. Both are easy by bike, as is the half-day ride north through the narrow red canyon of Garganta del Diablo and Catarpe. Carry 2 litres of water and go in the morning, before the wind picks up, or join the {{< viator-link path="San-Pedro-de-Atacama/4-Hours-riding-a-bicycle-in-San-Pedro-de-Atacama/d5499-409609P1" >}}Devil's Throat bike tour (5.0/5 from 110 reviews){{< /viator-link >}}. Several agencies also offer horseback rides through the Catarpe and Quitor valleys, useful low-altitude outings for day 1.
+Pukará de Quitor is a 12th-century hilltop fortress 3 km from town, run by the Quitor community; some 2026 visitors found parts of it closed. Aldea de Tulor is an adobe village more than 2,000 years old, run by the Coyo community, with cash entry. Both are easy by bike, as is the half-day ride north through the narrow red canyon of Garganta del Diablo and Catarpe. Carry 2 litres of water and go in the morning, before the wind picks up, or join the {{< viator-link path="San-Pedro-de-Atacama/4-Hours-riding-a-bicycle-in-San-Pedro-de-Atacama/d5499-409609P1" >}}Devil's Throat bike tour (5.0/5 from 111 reviews){{< /viator-link >}}. Several agencies also offer horseback rides through the Catarpe and Quitor valleys, useful low-altitude outings for day 1.
 
 ### Volcano climbs
 
@@ -232,7 +232,7 @@ ALMA normally offers free weekend visits to its Operations Support Facility at a
 
 ### Bolivia: the Uyuni crossing
 
-Most trips from San Pedro are 3-day one-way or 4-day return crossings via the Hito Cajón border (4,480 m). Day 1 takes in Laguna Blanca and Laguna Verde under Licancabur, the Dalí desert, Polques hot springs, the Sol de Mañana geysers and Laguna Colorada, reaching about 4,900 m. Our pick is the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (4.6/5 from 85 reviews){{< /gyg-link >}}. Treat it separately from the day tours; the [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) covers the border and lodging.
+Most trips from San Pedro are 3-day one-way or 4-day return crossings via the Hito Cajón border (4,480 m). Day 1 takes in Laguna Blanca and Laguna Verde under Licancabur, the Dalí desert, Polques hot springs, the Sol de Mañana geysers and Laguna Colorada, reaching about 4,900 m. Our pick is the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (4.6/5 from 86 reviews){{< /gyg-link >}}. Treat it separately from the day tours; the [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) covers the border and lodging.
 
 ## Choose a lagoon or a thermal-pool visit
 

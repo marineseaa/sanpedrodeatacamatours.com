@@ -80,7 +80,7 @@ heroSecondaryLabel: Already have dates? Check your day
 <p class="guide-answer__text">For astronomy, check the Moon and the actual observing time before choosing the date. A bright Moon can reduce faint-star visibility even on a clear night, while some tours offer Moon-and-planets viewing instead. If you have already booked summer dates, keep a spare day for highland route changes. In winter, bring substantial warm layers for dawn and night excursions.</p>
 </div>
 
-Our April–May choice is an editorial recommendation within [Chile Travel’s April–June advice](https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/). The useful reason is the change in highland conditions; we have not verified a monthly price or visitor-count series that would establish a cheapest or quietest month.
+Our April–May choice is an editorial recommendation within [Chile Travel’s April–June advice](https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/). The useful reason is the change in highland conditions; we have not verified a monthly price or visitor-count series that would establish a cheapest or quietest month. For the wider picture, including the rare snow and the 2026 flowering desert far to the south, see our [Atacama Desert travel guide](/atacama-desert-travel-guide/).
 
 ## Other experiences you might enjoy
 

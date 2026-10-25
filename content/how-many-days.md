@@ -87,6 +87,6 @@ The [multi-day comparison](/multi-day-tours/) separates excursion bundles from a
 
 ## When to add more time
 
-Add time for an unhurried stay, specialised astronomy interests, extra rest or a separate [Uyuni expedition](/uyuni-tours-from-san-pedro-de-atacama/). The four-day Uyuni return product requires its own block of days and highland preparation. It cannot be tucked into the spare afternoon of a Chile itinerary.
+Add time for an unhurried stay, specialised astronomy interests, extra rest or a separate [Uyuni expedition](/uyuni-tours-from-san-pedro-de-atacama/). To fill the extra days, see our guide to [things to do in San Pedro de Atacama](/things-to-do/). The four-day Uyuni return product requires its own block of days and highland preparation. It cannot be tucked into the spare afternoon of a Chile itinerary.
 
 If your dates are fixed, choose the strongest two or three experiences and protect the gaps between them. Cutting an activity is often the practical way to keep the trip enjoyable, especially when arrival timing or altitude response is uncertain. The [altitude guide](/altitude/) suggests a low-to-high order, and a central base from the [where-to-stay guide](/where-to-stay/) keeps early pickups simple.

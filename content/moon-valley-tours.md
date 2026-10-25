@@ -67,7 +67,7 @@ cardTag: FIRST-VISIT FAVOURITE
 
 ## Two useful ways to book Moon Valley
 
-The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.8/5 from 361 reviews){{< /gyg-link >}} is a good fit if you stay centrally, can reach **Tocopilla 418** yourself and are happy to arrange the reserve ticket. The {{< gyg-link tour="471706" >}}Valle de la Luna guided tour with entry and cocktail (4.5/5 from 440 reviews){{< /gyg-link >}} is easier to budget because the current listing includes reserve admission, hotel transport and snacks.
+The {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 362 reviews){{< /gyg-link >}} is a good fit if you stay centrally, can reach **Tocopilla 418** yourself and are happy to arrange the reserve ticket. The {{< gyg-link tour="471706" >}}Valle de la Luna guided tour with entry and cocktail (4.5/5 from 441 reviews){{< /gyg-link >}} is easier to budget because the current listing includes reserve admission, hotel transport and snacks.
 
 Do not compare the starting prices as if they bought identical services. Add the missing ticket and consider whether getting to the agency is convenient. An included cocktail can be pleasant, but the landscape and the departure logistics are stronger reasons to choose one product over the other.
 

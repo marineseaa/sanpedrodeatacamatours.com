@@ -38,6 +38,7 @@ faq:
   a: Contact GetYourGuide or the supplier named in your confirmation. This site does
     not operate the tours.
 related:
+- /atacama-desert-travel-guide/
 - /how-many-days/
 - /best-time-to-visit/
 - /altitude/
@@ -46,7 +47,7 @@ ogImage: /images/plan-your-trip-og.jpg
 
 ## First decide how much time you really have
 
-Use [how many days in San Pedro](/how-many-days/) to separate full touring days from airport dates. Then choose the [two-day](/2-day-itinerary/), [three-day](/3-day-itinerary/) or [four-day itinerary](/4-day-itinerary/) that matches your available time.
+New to the region? Our [Atacama Desert travel guide](/atacama-desert-travel-guide/) covers what the desert is, the wider region and typical costs. Use [how many days in San Pedro](/how-many-days/) to separate full touring days from airport dates. Then choose the [two-day](/2-day-itinerary/), [three-day](/3-day-itinerary/) or [four-day itinerary](/4-day-itinerary/) that matches your available time.
 
 The distinction matters for packages too: a three-day bundle needs suitable departure days, and does not automatically start after your flight arrives. Ask for the operator’s expected schedule before locking in other reservations.
 

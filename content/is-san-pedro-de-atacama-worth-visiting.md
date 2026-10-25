@@ -40,12 +40,13 @@ related:
 - /things-to-do/
 - /how-many-days/
 - /multi-day-tours/
+- /atacama-desert-travel-guide/
 ogImage: /images/is-san-pedro-de-atacama-worth-visiting-og.jpg
 ---
 
 ## Who will get the most from the visit?
 
-Landscape-focused travellers have a strong reason to come: [Moon Valley](/moon-valley-tours/), [Piedras Rojas](/piedras-rojas-tours/) and [El Tatio](/el-tatio-geysers-tours/) provide different scenes rather than variations of one city tour. [Stargazing](/stargazing-tours/) adds an evening experience that works differently from the daytime outings.
+Landscape-focused travellers have a strong reason to come: [Moon Valley](/moon-valley-tours/), [Piedras Rojas](/piedras-rojas-tours/) and [El Tatio](/el-tatio-geysers-tours/) provide different scenes rather than variations of one city tour. [Stargazing](/stargazing-tours/) adds an evening experience that works differently from the daytime outings. Our [full list of things to do](/things-to-do/) adds lagoons, rock art, hot springs and the town itself.
 
 You do not need to be a serious hiker to compare the standard vehicle-based tours, but you still need to consider walking, sun, cold and altitude. A van between stops does not make every excursion suitable for everyone.
 
@@ -75,6 +76,6 @@ We show source-checked product starting prices on the booking cards, rather than
 
 ## Our recommendation
 
-Choose San Pedro if the contrast between desert valleys, highland lagoons and astronomy is what you want to travel for. Keep the schedule selective, accept that conditions can change and give the practical details the same attention as the photographs.
+Choose San Pedro if the contrast between desert valleys, highland lagoons and astronomy is what you want to travel for. Keep the schedule selective, accept that conditions can change and give the practical details the same attention as the photographs. If you want to know [what the Atacama Desert is](/atacama-desert-travel-guide/) and what lies beyond San Pedro, start with our desert guide.
 
 If you prefer one supplier coordinating several outings, compare the [multi-day packages](/multi-day-tours/). If you want more freedom to choose rest or respond to weather, book separate excursions and stay where the [pickup logistics](/where-to-stay/) work for you.
