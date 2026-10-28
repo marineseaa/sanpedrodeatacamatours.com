@@ -2,7 +2,7 @@
 title: '2-Day San Pedro de Atacama Itinerary: A Realistic Short Stay'
 description: With two full days, prioritise Moon Valley, one night-sky session and
   one lagoon outing. If you have just arrived from low altitude, this lower-desert
-  plan is a
+  plan is a more flexible starting point than immediately stacking El Tatio and Piedras Rojas.
 url: /2-day-itinerary/
 type: landing
 exploreGroup: combos
@@ -14,7 +14,7 @@ offerIds:
 - 614772
 heroImage: /images/atacama-valley.webp
 heroAlt: Sculpted desert rock formations
-deck: Moon Valley, a lagoon choice and stargazing—without treating arrival time as
+deck: Moon Valley, a lagoon choice and stargazing, without treating arrival time as
   sightseeing time.
 intro: With two full days, prioritise Moon Valley, one night-sky session and one lagoon
   outing. If you have just arrived from low altitude, this lower-desert plan is a
@@ -54,7 +54,7 @@ ogImage: /images/2-day-itinerary-og.jpg
 
 This plan assumes two full days in San Pedro, with airport travel outside them. If your “two days” includes landing at Calama at lunchtime and leaving the next afternoon, reduce the plan. The [airport transfer](/calama-airport-to-san-pedro-de-atacama/) takes time beyond the flight itself, and shared transfers may involve waiting and additional hotel stops.
 
-The bookable cards above are **separate excursions**, not one package. Match their departure times and cancellation terms before paying for all three.
+The bookable cards above are separate excursions, not one package. Match their departure times and cancellation terms before paying for all three.
 
 ## Day 1: settle in, then Moon Valley
 
@@ -64,13 +64,44 @@ The bookable cards above are **separate excursions**, not one package. Match the
 
 **Evening:** eat in the central Caracoles/plaza area after returning. We recommend an early dinner rather than a restaurant reservation with a rigid start time. If the sky tour’s confirmed schedule leaves a comfortable break, stargazing can follow; otherwise use the second evening.
 
+## Other experiences you might enjoy
+
+Short extras for two days: the flamingos of Laguna Chaxa, the striped hills of Rainbow Valley, or the El Tatio geysers if you arrive acclimatised.
+
+{{< gyg-experiences >}}
+
 ## Day 2: a lagoon choice, then the night sky
 
 **Morning:** keep time free for rest and town. You can use this interval to confirm bathing access and the day’s return time rather than discovering a mismatch at pickup.
 
-**Afternoon:** choose [Cejar](/laguna-cejar-tours/) for a floating-focused circuit if bathing is confirmed open. Choose [Baltinache](/baltinache-tours/) for its turquoise scenery, accepting that floating is currently suspended. Booking both makes less sense than choosing the one that answers your main interest.
+**Afternoon:** choose [Cejar](/laguna-cejar-tours/) for a floating-focused circuit if bathing is confirmed open. Choose [Baltinache](/baltinache-tours/) for its turquoise scenery, accepting that floating is currently suspended. Booking both makes little sense, so choose the one that fits your main interest.
 
 **Evening:** allow time to change, have a simple dinner in the centre and reach the [stargazing meeting point](/stargazing-tours/). If the lagoon tour and astronomy session do not leave that margin, move stargazing to day one or drop the afternoon outing. A two-day visit has little room to recover from cloud cancellations.
+
+## Hour by hour: the low-altitude version
+
+**Best for:** stopovers, travellers worried about altitude, and anyone who cannot add a third night. **Highest point:** about 3,500 m. **Why no El Tatio:** going from sea level to 4,300 m within 36 hours is the most common way to feel awful on a short trip.
+
+This version swaps the free morning on day two for Rainbow Valley and makes Cejar the lagoon choice.
+
+**Day 1: arrival and Valle de la Luna at sunset**
+
+- 06:00–08:00: fly from Santiago to Calama (a little over two hours).
+- 09:30–11:30: shuttle to San Pedro (about an hour and a half); drop your bags.
+- 12:00–14:30: lunch, water and a slow walk around the plaza and church. No alcohol today.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}}: the Duna Mayor viewpoint, the Tres Marías and a sunset stop your guide chooses. Ask where, because the Mirador de Ckari is closed.
+- 20:30: an early dinner, then bed.
+
+**Day 2: Rainbow Valley, Laguna Cejar and the stars**
+
+- 07:00–12:30: the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}} with the Yerbas Buenas petroglyphs (about 3,500 m; easy walking; breakfast in the field).
+- 12:45–13:45: a quick lunch. Put your swimwear on under your clothes, and leave the sunscreen until after you swim.
+- 14:00–19:30: the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}: float at Laguna Piedra, flamingos at Cejar, the Ojos del Salar and sunset at Laguna Tebinquiche.
+- 20:30–23:45: the {{< gyg-link tour="542449" >}}stargazing experience (from about US$30, 4.7/5 from 810 reviews){{< /gyg-link >}}; choose an early slot if you fly out the next morning.
+
+**Day 3:** leave after breakfast.
+
+**Is two days worth it?** Yes, if you accept that you are seeing the lowland Atacama. You get the moonscape, the floating lagoon and the night sky, the three things many visitors remember first, but not the geysers or the high lagoons.
 
 ## Should you substitute a highland day?
 

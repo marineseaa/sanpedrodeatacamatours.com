@@ -2,7 +2,7 @@
 title: '3-Day San Pedro de Atacama Itinerary: What to Book'
 description: Three full days can cover Moon Valley, stargazing, a lagoon outing and
   one major highland trip. We put the highest excursion later and leave a choice between
-  Pi
+  Piedras Rojas and El Tatio, so the plan has room for how you actually feel.
 url: /3-day-itinerary/
 type: landing
 exploreGroup: combos
@@ -43,6 +43,10 @@ faq:
 - q: What if I feel unwell at altitude?
   a: Do not proceed higher while symptomatic. Tell your guide, seek medical advice,
     and use the altitude guide’s warning signs to recognise urgent problems.
+- q: Is there a faster three-day version?
+  a: Yes. Valle de la Luna at sunset on day one, Rainbow Valley in the morning and
+    Laguna Cejar in the afternoon on day two, then El Tatio at dawn and stargazing
+    that evening on day three. It drops Piedras Rojas.
 related:
 - /4-day-itinerary/
 - /multi-day-tours/
@@ -52,7 +56,7 @@ ogImage: /images/3-day-itinerary-og.jpg
 
 ## The three-day decision
 
-If you want the widest variety of landscapes, choose **Piedras Rojas and the Altiplanic Lagoons** as your main highland day. Choose **El Tatio** if sunrise steam is the experience you most want. Trying to include both is possible on some organised schedules, but makes this a much more intensive visit.
+If you want the widest variety of landscapes, choose Piedras Rojas and the Altiplanic Lagoons as your main highland day. Choose El Tatio if sunrise steam is the experience you most want. Doing both is possible on some organised schedules, but it makes for a much more tiring visit.
 
 This is a DIY schedule. The cards above are separate bookings; for one supplier coordinating several departures, compare the [multi-day packages](/multi-day-tours/). A package may use a different order and does not automatically include an acclimatisation day.
 
@@ -68,13 +72,19 @@ Use the morning to settle into San Pedro, check the forecast and confirm the nex
 
 The afternoon [Valle de la Luna tour](/moon-valley-tours/) introduces the desert’s dunes and salt formations. Return for dinner around Caracoles or the plaza, keeping the reservation time flexible. You are buying the sunset excursion, not a guarantee of an exact return minute.
 
+## Other experiences you might enjoy
+
+Three days also fit a shorter extra on a free half day: the flamingos at Laguna Chaxa, the striped hills of Rainbow Valley or the Puritama hot springs after an early start.
+
+{{< gyg-experiences >}}
+
 ## Day 2: lagoon scenery and astronomy
 
-Keep the morning light. For the afternoon, choose **one** lagoon circuit: [Cejar](/laguna-cejar-tours/) if the advertised floating stop is confirmed, or [Baltinache](/baltinache-tours/) for photographs during its bathing suspension. If you would rather avoid another drive, use that time to rest instead.
+Keep the morning light. For the afternoon, choose one lagoon circuit: [Cejar](/laguna-cejar-tours/) if the advertised floating stop is confirmed, or [Baltinache](/baltinache-tours/) for photographs during its bathing suspension. If you would rather avoid another drive, use that time to rest instead.
 
-Book [stargazing](/stargazing-tours/) only if the evening meeting time leaves room after the lagoon return to change and eat. The operator’s actual schedule decides whether this combination works. If it is tight, move the night tour to day one or leave the lagoon afternoon out.
+Book [stargazing](/stargazing-tours/) only if the evening meeting time leaves room after the lagoon return to change and eat. Whether this combination works depends on the operator’s actual schedule. If it is tight, move the night tour to day one or leave the lagoon afternoon out.
 
-A late astronomy session followed by the dawn geyser pickup gives you very little sleep. If El Tatio is your day-three choice, schedule stargazing on day one instead. Confirming a different night is more useful than assuming tiredness will not matter.
+A late astronomy session followed by the dawn geyser pickup gives you very little sleep. If El Tatio is your day-three choice, schedule stargazing on day one instead. Ask for a different night rather than hoping the tiredness will not matter.
 
 ## Day 3: choose your highland highlight
 
@@ -89,6 +99,37 @@ Both require an altitude decision. Spending earlier time in San Pedro does not g
 Use central accommodation if you want easy access to agencies, restaurants and late-night meeting points. Ask whether breakfast is available early or can be packed, and keep cash available where reserve fees require it. Tour snacks do not replace the meals not listed in your reservation.
 
 Arrange departure transport independently. A flight after a full-day tour is vulnerable to delays; the calmer version of this itinerary leaves the airport journey until the next day. For a stay that must include travel inside these three days, use the [two-day plan](/2-day-itinerary/) as the realistic sightseeing baseline.
+
+## A faster version: Rainbow Valley, Cejar and El Tatio
+
+**Best for:** travellers on a 10–14 day Chile trip who want the essentials and are happy with two early starts. **Highest point:** about 4,300 m, on the last day.
+
+This version fills day two with a morning and an afternoon tour, then takes El Tatio on day three. You see more, and you rest less.
+
+**Day 1: Valle de la Luna**
+
+- Arrive in the morning, have lunch and rest.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}} at sunset.
+- An early night.
+
+**Day 2: Rainbow Valley and Laguna Cejar, the classic double**
+
+- 07:00–12:30: the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}} with the petroglyphs.
+- 12:45–13:45: lunch.
+- 14:00–19:30: the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}, with the Ojos del Salar and sunset at Tebinquiche.
+- 20:30: dinner, and bed by 22:00, because El Tatio is tomorrow. **No stargazing tonight.**
+
+**Day 3: El Tatio at dawn, then the stars**
+
+- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,149 reviews){{< /gyg-link >}}. Wear layers: it is often well below freezing at the geysers at sunrise.
+- About 06:30–08:30: the geyser field at sunrise, breakfast on site, and the Putana wetlands and Machuca on the way back.
+- 12:30: back in town for lunch and a two to three hour nap.
+- *Optional:* swap the nap for the [Puritama hot springs](/puritama-hot-springs-tours/) on an afternoon slot if you have the energy.
+- 20:30–23:45: [stargazing](/stargazing-tours/).
+
+**Day 4:** departure.
+
+**What you miss:** Piedras Rojas and the highland lagoons, the strongest argument for a fourth day.
 
 ## If you cannot choose between El Tatio and Piedras Rojas
 

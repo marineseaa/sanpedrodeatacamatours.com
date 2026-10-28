@@ -22,6 +22,7 @@ hotels:
   quelana: { name: "Lodge Quelana", url: "https://www.booking.com/hotel/cl/lodge-quelana.html", tier: "mid", area: "solor", note: "Solor." }
   altiplanico: { name: "Altiplanico Atacama", url: "https://www.booking.com/hotel/cl/altiplanico-atacama.html", tier: "upper", area: "edge", note: "Domingo Atienza, edge of the centre." }
   tierra_atacama: { name: "Tierra Atacama", address: "Ayllu de Yaye, San Pedro de Atacama, Chile" }
+  kachi_lodge: { name: "Kachi Lodge", address: "Kachi Lodge, Salar de Uyuni, Bolivia" }
   area_centre: { name: "Stays in central San Pedro de Atacama", address: "San Pedro de Atacama, Chile" }
   area_larache: { name: "Stays in Ayllu de Larache, Yaye and Sequitor", address: "Ayllu de Larache, San Pedro de Atacama, Chile" }
   area_quitor: { name: "Stays in Quitor and Catarpe", address: "Quitor, San Pedro de Atacama, Chile" }

@@ -2,7 +2,7 @@
 title: '4-Day San Pedro de Atacama Itinerary: Desert Highlights'
 description: Four full days give you room to separate Piedras Rojas and El Tatio,
   rather than compressing them into the start of your stay. Begin with the lower desert,
-  keep
+  keep the highest excursions later, and leave a free interval for rest or a weather change.
 url: /4-day-itinerary/
 type: landing
 exploreGroup: combos
@@ -55,7 +55,7 @@ ogImage: /images/4-day-itinerary-og.jpg
 
 ## The plan at a glance
 
-This itinerary assumes your flights fall outside the four touring days. If they do not, remove an activity rather than treating airport travel as spare time. The individual tours and the four-day package shown above are **alternative ways to arrange the trip**, not products you should book together.
+This itinerary assumes your flights fall outside the four touring days. If they do not, remove an activity rather than treating airport travel as spare time. The individual tours and the four-day package shown above are alternative ways to arrange the trip, not products you should book together.
 
 | Day | Morning | Afternoon | Evening |
 |---|---|---|---|
@@ -66,11 +66,17 @@ This itinerary assumes your flights fall outside the four touring days. If they 
 
 ## Days 1 and 2: lower desert first
 
-Make [Moon Valley](/moon-valley-tours/) the first major excursion; if you have not booked a bed yet, the [where-to-stay guide](/where-to-stay/) compares the central streets with the quieter ayllus. Its four-hour format leaves the morning available for arrival recovery and the practical arrangements that disappear from overly tight itineraries. Choose either agency departure with entry extra, or the more inclusive ticket-and-pickup option.
+Make [Moon Valley](/moon-valley-tours/) the first major excursion; if you have not booked a bed yet, the [where-to-stay guide](/where-to-stay/) compares the central streets with the quieter ayllus. Its four-hour format leaves the morning free to recover from the journey and sort out the practicalities that tight itineraries squeeze out. Choose either agency departure with entry extra, or the more inclusive ticket-and-pickup option.
 
 On day two, decide whether you want [Cejar](/laguna-cejar-tours/), [Baltinache](/baltinache-tours/) or a free afternoon. Baltinache currently offers sightseeing while floating is suspended. If warm-water soaking is your priority, investigate [Puritama](/puritama-hot-springs-tours/) instead, confirming ticket and transfer times; do not assume every shorter outing has the same altitude or access conditions.
 
 Fit [stargazing](/stargazing-tours/) around a real dinner break. If a lagoon tour returns too late, drop that afternoon activity or move astronomy to day one. The extra day gives you more choices, not an obligation to fill every hour.
+
+## Other experiences you might enjoy
+
+Four days leave room for one more outing: Rainbow Valley, the Puritama hot springs after El Tatio, or the flamingos of Laguna Chaxa.
+
+{{< gyg-experiences >}}
 
 ## Day 3: Piedras Rojas and the highland lagoons
 
@@ -84,6 +90,40 @@ Eat dinner centrally after returning and prepare for the next morning before bed
 
 After returning, plan lunch and rest. A spare afternoon is useful for packing, a missed lower-desert activity if conditions allow, or simply enjoying the town. Avoid relying on a fixed return minute for a same-day flight; arrange your [airport transfer](/calama-airport-to-san-pedro-de-atacama/) with the provider and airline timing in mind.
 
+## The hour-by-hour version
+
+**Best for:** most first-time visitors who want every main tour. **Highest point:** about 4,300 m, reached only on day four after three days of gradual climbing. This fuller version adds Rainbow Valley on day two and Puritama on day four.
+
+**Day 1: arrive and Valle de la Luna (about 2,500 m)**
+
+- Morning: arrive, have lunch and drink plenty of water.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}} at sunset.
+- 20:30: dinner on Caracoles, then bed.
+
+**Day 2: Rainbow Valley, Laguna Cejar and stargazing (up to about 3,500 m)**
+
+- 07:00–12:30: the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}} with Yerbas Buenas.
+- 12:45–13:45: lunch.
+- 14:00–19:30: the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}: Laguna Piedra, the Ojos del Salar and Tebinquiche.
+- 20:30–23:45: the {{< gyg-link tour="542449" >}}stargazing experience (from about US$30, 4.7/5 from 810 reviews){{< /gyg-link >}}. The next pickup is around 07:00, not 04:30, so tonight is the right night for it.
+
+**Day 3: Piedras Rojas and the highland lagoons (about 4,200 m)**
+
+- About 06:30–07:00: pickup for the {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 832 reviews){{< /gyg-link >}}, with a breakfast stop on the way.
+- Laguna Chaxa (flamingos, about 2,300 m), Socaire village, the Miscanti and Miñiques lagoons (about 4,100–4,200 m), then Piedras Rojas and the Salar de Talar.
+- About 17:00–18:00: back in town. A light dinner, and bed by 21:30.
+
+**Day 4: El Tatio and Puritama (about 4,300 m)**
+
+- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,149 reviews){{< /gyg-link >}}.
+- 12:30: back in town for lunch.
+- Afternoon: the [Puritama hot springs](/puritama-hot-springs-tours/) on an afternoon slot with the shuttle, the best way we know to recover from a 04:30 start.
+- Evening: a farewell dinner.
+
+**Day 5:** departure, or the start of the [Uyuni crossing](/uyuni-tours-from-san-pedro-de-atacama/) early in the morning.
+
+**Why this order works:** each day goes a little higher, the two hardest wake-ups do not follow late nights, and El Tatio comes when you are best adapted. If snow or wind cancels a high-altitude tour, you can usually swap days three and four, but you lose your buffer. Winter travellers should consider five days; our guide to [how many days you need](/how-many-days/) has the five-day plan.
+
 ## Four days do not guarantee acclimatisation
 
 This order deliberately delays the highest trips, but everyone responds differently. The [altitude guide](/altitude/) explains symptoms and why you should not ascend while unwell. If a highland excursion is unsuitable, replace it with a lower plan rather than assuming that an extra day has removed the risk.
@@ -92,6 +132,6 @@ Travelling with children, older adults or mobility needs may require a completel
 
 ## Package or separate reservations?
 
-The six-tours-in-four-days package covers more outings than this suggested plan and includes Rainbow Valley. It is useful if seeing many named places matters more than downtime. It excludes accommodation and lists reserve charges separately; its limited review sample also deserves context.
+The six-tours-in-four-days package covers more outings than this suggested plan and includes Rainbow Valley. It is useful if seeing many named places matters more than downtime. It excludes accommodation and lists reserve charges separately; it also has relatively few reviews.
 
 Separate reservations make it easier to leave an afternoon open, choose a specific astronomy format or drop a trip you do not need. Compare the [multi-day packages](/multi-day-tours/) only after deciding how intensively you want to travel.
