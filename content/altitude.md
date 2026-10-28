@@ -178,13 +178,13 @@ Most altitudes for natural sites are rounded and change with where you measure. 
 
 Here is how the main bookable trips line up from low to high:
 
-- Day 1, about 2,500 m: the {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 362 reviews){{< /gyg-link >}} goes out for sunset and returns you to town the same evening.
+- Day 1, about 2,500 m: the {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 365 reviews){{< /gyg-link >}} goes out for sunset and returns you to town the same evening.
 - Low and gentle, about 2,300 m: the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}} and the {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons excursion (4.5/5 from 146 reviews){{< /gyg-link >}} both stay on the salt flat.
-- Night, close to town altitude: the {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5 from 805 reviews){{< /gyg-link >}} is an evening outside town, so book an early slot before a dawn trip.
+- Night, close to town altitude: the {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5 from 810 reviews){{< /gyg-link >}} is an evening outside town, so book an early slot before a dawn trip.
 - Step up to about 3,500 m: the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}}, or the Puritama hot springs, which have no well-reviewed tour listing yet, so buy the official pool entry and arrange transport.
-- High, about 4,200 m: the {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 828 reviews){{< /gyg-link >}} reaches Miscanti, Miñiques and Piedras Rojas.
-- High and fast, about 4,320 m: {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise (4.7/5 from 1,148 reviews){{< /gyg-link >}} collects you before dawn.
-- Highest and sleeping high, about 4,900 m: the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (4.6/5 from 86 reviews){{< /gyg-link >}} should come last.
+- High, about 4,200 m: the {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 832 reviews){{< /gyg-link >}} reaches Miscanti, Miñiques and Piedras Rojas.
+- High and fast, about 4,320 m: {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise (4.7/5 from 1,149 reviews){{< /gyg-link >}} collects you before dawn.
+- Highest and sleeping high, about 4,900 m: the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (4.5/5 from 87 reviews){{< /gyg-link >}} should come last.
 
 ## How San Pedro compares with famous high places
 

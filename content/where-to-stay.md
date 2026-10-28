@@ -116,7 +116,7 @@ Whichever area you choose, you will want sunset at **Valle de la Luna**, the daw
 
 ## Central San Pedro: the practical default
 
-Staying within easy walking distance of the centre helps most if you book the {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 362 reviews){{< /gyg-link >}}, which departs from an agency at Tocopilla 418. It also helps when a tour finishes centrally instead of returning to your hotel.
+Staying within easy walking distance of the centre helps most if you book the {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 365 reviews){{< /gyg-link >}}, which departs from an agency at Tocopilla 418. It also helps when a tour finishes centrally instead of returning to your hotel.
 
 Check the property's actual entrance, not only the neighbourhood label. Ask about the walking surface, lighting, luggage access and whether staff are available for your arrival time. A short map distance can still be awkward with bags or after a late session.
 
@@ -124,7 +124,7 @@ Caracoles and the plaza are useful reference points for food and agencies. If qu
 
 ## Outlying properties: confirm the transport in writing
 
-Several featured excursions explicitly exclude the surrounding ayllus from pickup or drop-off. The {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour (4.7/5 from 1,148 reviews){{< /gyg-link >}} collects only within urban San Pedro and excludes locations including Quitor, Yaye, Checar, Séquitor, Solor and Coyo; the [El Tatio guide](/el-tatio-geysers-tours/) has the details. The {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5 from 805 reviews){{< /gyg-link >}} also excludes outlying ayllus from its returns; see the [stargazing guide](/stargazing-tours/).
+Several featured excursions explicitly exclude the surrounding ayllus from pickup or drop-off. The {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour (4.7/5 from 1,149 reviews){{< /gyg-link >}} collects only within urban San Pedro and excludes locations including Quitor, Yaye, Checar, Séquitor, Solor and Coyo; the [El Tatio guide](/el-tatio-geysers-tours/) has the details. The {{< gyg-link tour="542449" >}}Llama Stargazing Experience (4.7/5 from 810 reviews){{< /gyg-link >}} also excludes outlying ayllus from its returns; see the [stargazing guide](/stargazing-tours/).
 
 Ask the accommodation how you will get to a very early pickup and back from a late astronomy session. Then ask the excursion operator separately. "Tours available from the hotel" does not mean an independently purchased GetYourGuide booking includes the hotel's own transfer service.
 
@@ -247,7 +247,7 @@ It suits solo travellers and backpackers heading for Uyuni.
 
 An all-inclusive lodge charges a premium for the way you see the desert. A trip where you book your own room and shared tours covers the same headline sights for much less per person. The lodges earn their price with small-group or private guiding, flexible timing that avoids the crowds, excellent food and not having to organise anything.
 
-Booking it yourself, a typical three-night plan pairs a central room with four shared tours: the {{< gyg-link tour="471706" >}}Valle de la Luna tour with entry and cocktail (4.5/5 from 441 reviews){{< /gyg-link >}}, El Tatio at sunrise, the {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 828 reviews){{< /gyg-link >}} and the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}, plus an evening of stargazing. Add the reserve entry fees, a shared [Calama airport transfer](/calama-airport-to-san-pedro-de-atacama/) and meals. If you want fewer bookings, the {{< gyg-link tour="374134" >}}Best of Atacama: 4 Tours in 3 Days combo (4.7/5 from 346 reviews){{< /gyg-link >}} bundles the main trips. The [tours guide](/tours/) compares the options.
+Booking it yourself, a typical three-night plan pairs a central room with four shared tours: the {{< gyg-link tour="471706" >}}Valle de la Luna tour with entry and cocktail (4.5/5 from 443 reviews){{< /gyg-link >}}, El Tatio at sunrise, the {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour (4.7/5 from 832 reviews){{< /gyg-link >}} and the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}, plus an evening of stargazing. Add the reserve entry fees, a shared [Calama airport transfer](/calama-airport-to-san-pedro-de-atacama/) and meals. If you want fewer bookings, the {{< gyg-link tour="374134" >}}Best of Atacama: 4 Tours in 3 Days combo (4.7/5 from 346 reviews){{< /gyg-link >}} bundles the main trips. The [tours guide](/tours/) compares the options.
 
 | Lodge | Style of excursions |
 |---|---|

@@ -65,7 +65,7 @@ ogImage: /images/calama-airport-to-san-pedro-de-atacama-og.jpg
 
 San Pedro de Atacama has no airport for scheduled flights; the airstrip near town takes private aircraft only. You fly to Calama and go on by road, and our [guide to getting to San Pedro](/getting-there/) covers flights, buses and overland routes.
 
-Book a transfer from **Calama Airport (CJC) to San Pedro de Atacama**, then provide your flight number, arrival date and accommodation details. The featured {{< gyg-link tour="190838" >}}Calama Airport transfer (4.6/5 from 851 reviews){{< /gyg-link >}} offers shared and private options in air-conditioned vehicles. Select the one that suits your group; the lowest displayed price is not for an exclusive vehicle.
+Book a transfer from **Calama Airport (CJC) to San Pedro de Atacama**, then provide your flight number, arrival date and accommodation details. The featured {{< gyg-link tour="190838" >}}Calama Airport transfer (4.6/5 from 857 reviews){{< /gyg-link >}} offers shared and private options in air-conditioned vehicles. Select the one that suits your group; the lowest displayed price is not for an exclusive vehicle.
 
 The road journey is advertised at about one and a half hours on the paved highway. That is not your total airport-to-room time: baggage collection, meeting the driver, waiting for other shared passengers and hotel stops can add time. Leave a generous margin before an afternoon excursion.
 
