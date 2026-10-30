@@ -103,7 +103,7 @@ ogImage: /images/uyuni-tours-from-san-pedro-de-atacama-og.jpg
 
 ## Choose the endpoint before the price
 
-The selected White & Green Travel product, the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour from San Pedro de Atacama (from about US$352, 4.5/5 from 87 reviews){{< /gyg-link >}}, travels from San Pedro through Bolivia’s highlands to Salar de Uyuni, then returns to San Pedro on day four. If you want to continue through Bolivia, a one-way itinerary is a different product and needs its own confirmation. A low headline price does not help if it returns you to the wrong country.
+The selected White & Green Travel product, the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour from San Pedro de Atacama (from about US$352, 4.5/5 from 88 reviews){{< /gyg-link >}}, travels from San Pedro through Bolivia’s highlands to Salar de Uyuni, then returns to San Pedro on day four. If you want to continue through Bolivia, a one-way itinerary is a different product and needs its own confirmation. A low headline price does not help if it returns you to the wrong country.
 
 For the one-way crossing, GetYourGuide has no listing from San Pedro. Our pick is the {{< viator-link path="San-Pedro-de-Atacama/Uyuni-Saltflat-from-San-Pedro-de-Atacama/d5499-86163P17" >}}Uyuni salt flat tour on Viator, one way or round trip (from about US$412, 4.4/5 from 46 reviews){{< /viator-link >}}, run by Uyuni Adventure: you choose three days ending in Uyuni or four days back to Chile, with shared or private rooms and a Spanish or English-speaking driver. We have not used a Bolivia-departure product as if it began in Chile. Confirm the endpoint, luggage arrangement and border transfer before comparing offers.
 
@@ -209,7 +209,7 @@ Two routes are common, and both are good:
 | Option | Where we found it | What you get | Best for |
 |---|---|---|---|
 | **Shared 3-day one way** | {{< viator-link path="San-Pedro-de-Atacama/Uyuni-Saltflat-from-San-Pedro-de-Atacama/d5499-86163P17" >}}Uyuni salt flat tour on Viator, from about US$412 (4.4/5, 46 reviews){{< /viator-link >}}; also sold by San Pedro agencies | Six-person 4x4, Spanish-speaking driver, basic lodging, meals | Travellers continuing into Bolivia |
-| **Shared 4-day return** | {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour, from about US$352 (4.5/5, 87 reviews){{< /gyg-link >}} | The same, plus the drive back to San Pedro on day four | Travellers flying out of Calama |
+| **Shared 4-day return** | {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour, from about US$352 (4.5/5, 88 reviews){{< /gyg-link >}} | The same, plus the drive back to San Pedro on day four | Travellers flying out of Calama |
 | **Comfort upgrades** | Private room on night 1; English-speaking driver (often priced per booking) | Better sleep; commentary in English | Couples, non-Spanish speakers |
 | **Private 4x4** | Agencies in San Pedro and Uyuni | Your own car and schedule, often better lodges | Families, photographers, groups of four to six |
 | **Luxury or semi-private 2-day** | Specialist agencies | Modern Land Cruiser, English guide, lunch on the salt | Short on time, high budget |
@@ -239,7 +239,7 @@ The guiding language is Spanish in the current listing. A driver who handles the
 
 **How much cash to carry:** ask your operator for the current list of fees and carry more than it adds up to, plus a US$50 note for emergencies. There are no ATMs between the border and Uyuni, and cards are not accepted on the route. Exchange houses in San Pedro sell bolivianos; ask for small notes.
 
-**Meals:** expect simple food (soup, pasta, rice, chicken, sometimes llama, bread and tea). Tell the operator at booking if you are vegetarian, and bring snacks.
+**Meals:** expect simple food (soup, pasta, rice, chicken, sometimes llama, bread and tea). Tell the operator at booking if you are vegetarian, and bring snacks; our restaurant guide covers [where to eat before you go](/best-restaurants-san-pedro-de-atacama/).
 
 **Luggage:** bags ride on the roof, and operators usually allow one medium bag each. A soft duffel or backpack is better than a hard suitcase.
 

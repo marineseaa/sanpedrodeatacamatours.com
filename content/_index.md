@@ -100,6 +100,6 @@ Our [Calama airport transfer guide](/calama-airport-to-san-pedro-de-atacama/) co
 
 ## Where to stay
 
-For a first visit without a car, central San Pedro near Caracoles and the plaza is a practical starting point. It puts restaurants and agency meeting points within reach. Outlying properties may offer more quiet and space, but confirm early-morning pickup and late-night returns before booking.
+For a first visit without a car, central San Pedro near Caracoles and the plaza is a practical starting point. It puts [restaurants](/best-restaurants-san-pedro-de-atacama/) and agency meeting points within reach. Outlying properties may offer more quiet and space, but confirm early-morning pickup and late-night returns before booking.
 
 The [where-to-stay guide](/where-to-stay/) compares those trade-offs area by area and names hotels from hostels to all-inclusive lodges. Choose your base around the actual excursions, and use [what to pack](/what-to-pack/) to prepare for both the sunny afternoons and the cold hours outside.

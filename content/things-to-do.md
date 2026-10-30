@@ -89,10 +89,10 @@ Start with a short list. [Moon Valley](/moon-valley-tours/) gives you dunes and 
 
 | # | Experience | Why go | Time to allow | Cost to plan for |
 |---|---|---|---|---|
-| 1 | **Valle de la Luna** | Salt-crusted canyons, the Tres Marías and a huge dune, about 10 minutes from town | Half day (afternoon) | {{< gyg-link tour="466455" >}}Shared tour from US$32 (4.7/5 from 365 reviews){{< /gyg-link >}} plus the CLP 10,800 online entry ticket |
-| 2 | **Stargazing tour** | One of the clearest night skies on Earth | About 2.5 h after dark | {{< gyg-link tour="542449" >}}Llama stargazing session from US$30 (4.7/5 from 810 reviews){{< /gyg-link >}} |
-| 3 | **El Tatio geysers at sunrise** | More than 80 geysers steaming at about 4,320 m | About 6 h, pickup 04:30–05:10 | {{< gyg-link tour="345946" >}}Sunrise tour with breakfast from US$73 (4.7/5 from 1,149 reviews){{< /gyg-link >}} plus CLP 15,000 entry |
-| 4 | **Altiplanic lagoons + Piedras Rojas** | Deep-blue lagoons under volcanoes, red rocks and vicuñas | Full day, about 10 h | {{< gyg-link tour="190853" >}}Full-day tour from US$86 (4.7/5 from 832 reviews){{< /gyg-link >}}; entry fees extra |
+| 1 | **Valle de la Luna** | Salt-crusted canyons, the Tres Marías and a huge dune, about 10 minutes from town | Half day (afternoon) | {{< gyg-link tour="466455" >}}Shared tour from US$32 (4.7/5 from 366 reviews){{< /gyg-link >}} plus the CLP 10,800 online entry ticket |
+| 2 | **Stargazing tour** | One of the clearest night skies on Earth | About 2.5 h after dark | {{< gyg-link tour="542449" >}}Llama stargazing session from US$30 (4.7/5 from 814 reviews){{< /gyg-link >}} |
+| 3 | **El Tatio geysers at sunrise** | More than 80 geysers steaming at about 4,320 m | About 6 h, pickup 04:30–05:10 | {{< gyg-link tour="345946" >}}Sunrise tour with breakfast from US$73 (4.7/5 from 1,151 reviews){{< /gyg-link >}} plus CLP 15,000 entry |
+| 4 | **Altiplanic lagoons + Piedras Rojas** | Deep-blue lagoons under volcanoes, red rocks and vicuñas | Full day, about 10 h | {{< gyg-link tour="190853" >}}Full-day tour from US$86 (4.7/5 from 834 reviews){{< /gyg-link >}}; entry fees extra |
 | 5 | **Laguna Cejar + Tebinquiche sunset** | Float in very salty water, then watch sunset on the salt flat | About 5 h (afternoon) | {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator from US$86 (5.0/5 from 80 reviews){{< /viator-link >}}; CLP 15,000 Cejar entry |
 
 Allow four or five full days so you can take them in an order that suits the altitude: Valle de la Luna and Cejar first, the 4,000 m trips last. If El Tatio is your must-see, plan around its predawn departure and do not put it straight after a late night. It is a different experience from Piedras Rojas, and doing both needs enough usable days and suitable weather. The [full tour comparison](/tours/) adds start times and entry tickets for each one.
@@ -132,7 +132,7 @@ Tour prices are per person in US dollars from the listings linked on this page; 
 **Why go:** you walk among salt-crusted ridges, caves, the Tres Marías rock formations and a giant dune, all just west of town. It is the easiest big landscape in the Atacama and a good first-day trip, because the standard tour takes about four hours and leaves part of the day free.
 
 - **Duration:** a 4–5 h tour. CONAF's official trails run from the 80 m Tres Marías walk to the 3 km, three-hour Achache route.
-- **Price:** the {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 365 reviews){{< /gyg-link >}} starts at about US$32 and leaves the CLP 10,800 reserve ticket to you. The {{< gyg-link tour="471706" >}}Valle de la Luna tour with entry and cocktail (4.5/5 from 443 reviews){{< /gyg-link >}} starts at about US$63 and includes the ticket and hotel transport. Add the missing ticket before you compare the two. Reduced rates exist for students, teenagers and seniors; check them on the official shop.
+- **Price:** the {{< gyg-link tour="466455" >}}Valle de la Luna Shared Sightseeing Tour (4.7/5 from 366 reviews){{< /gyg-link >}} starts at about US$32 and leaves the CLP 10,800 reserve ticket to you. The {{< gyg-link tour="471706" >}}Valle de la Luna tour with entry and cocktail (4.5/5 from 443 reviews){{< /gyg-link >}} starts at about US$63 and includes the ticket and hotel transport. Add the missing ticket before you compare the two. Reduced rates exist for students, teenagers and seniors; check them on the official shop.
 - **Best time:** afternoon into sunset. In windy seasons the reserve has recommended morning visits.
 - **2026 status:** the official Valle de la Luna site says the **Mirador de Ckari** sector has been closed until further notice since 27 May 2026 while its safety is assessed after an earthquake. The operator sanpedroatacama.com says it may stay shut possibly until the end of 2026, partly because of widening works on the Bioceanic Route. Tours now watch sunset from other authorised spots. The official site also lists staff-training closures on 6, 13, 19, 20 and 27 October, so check it before you go.
 - **Tour or DIY:** both work. You can bike or drive in, and you must buy your ticket online in advance. Cyclists enter between 09:00 and 11:00 from September to March.
@@ -143,7 +143,7 @@ Tour prices are per person in US dollars from the listings linked on this page; 
 **Why go:** high altitude, very dry air and little light pollution make this one of the world's great places to see the night sky. Through a telescope you can see the core of the Milky Way, the Magellanic Clouds and Saturn's rings.
 
 - **Duration:** about 2.5 h, starting after dark.
-- **Price:** the {{< gyg-link tour="542449" >}}San Pedro de Atacama Stargazing Experience (4.7/5 from 810 reviews){{< /gyg-link >}} starts at about US$30. The {{< gyg-link tour="209091" >}}Stargazing and Andean Astronomy with Wine (4.7/5 from 797 reviews){{< /gyg-link >}} costs about the same and adds an Andean reading of the sky. Both combine a guided explanation, telescope use and a souvenir photo; neither is an ALMA research-observatory visit.
+- **Price:** the {{< gyg-link tour="542449" >}}San Pedro de Atacama Stargazing Experience (4.7/5 from 814 reviews){{< /gyg-link >}} starts at about US$30. The {{< gyg-link tour="209091" >}}Stargazing and Andean Astronomy with Wine (4.7/5 from 798 reviews){{< /gyg-link >}} costs about the same and adds an Andean reading of the sky. Both combine a guided explanation, telescope use and a souvenir photo; neither is an ALMA research-observatory visit.
 - **Best time:** around the new moon. The Moon, cloud and the actual observing time all affect what you see. Nights are cold all year, so dress warmly.
 - **Tip:** do not book your first night if you arrive tired from Calama. Pick a clear, moonless night mid-trip and leave another free evening in case the session is moved. For month-level advice, see our [best-time guide](/best-time-to-visit/); conditions on a particular night can still differ.
 - **Full details:** [Atacama stargazing tours](/stargazing-tours/)
@@ -153,7 +153,7 @@ Tour prices are per person in US dollars from the listings linked on this page; 
 **Why go:** according to geyser researchers Glennon and Pfaff (2003), cited by Oregon State University's Volcano World, "with over 80 active geysers, El Tatio is the largest geyser field in the southern hemisphere and the third largest field in the world." The geysers steam hardest in the freezing dawn. In Kunza, the Lickanantay language, *Tatio* means "the grandfather who cries".
 
 - **Duration:** about 6 h, with pickup between 04:30 and 05:10.
-- **Price:** the {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour with breakfast (4.7/5 from 1,149 reviews){{< /gyg-link >}} starts at about US$73 and adds Andean wildlife scenery on the way back. Entry is CLP 15,000, paid separately, and children are admitted from age 9 under the park's current rules.
+- **Price:** the {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise tour with breakfast (4.7/5 from 1,151 reviews){{< /gyg-link >}} starts at about US$73 and adds Andean wildlife scenery on the way back. Entry is CLP 15,000, paid separately, and children are admitted from age 9 under the park's current rules.
 - **Altitude:** about 4,320 m. Do it on day 3 or later and read the age and health restrictions before you book.
 - **Watch out:** temperatures well below zero at dawn, and snow closures in winter.
 - If the altitude or the departure time rules it out, use the day for a lower desert outing or rest.
@@ -164,7 +164,7 @@ Tour prices are per person in US dollars from the listings linked on this page; 
 **Why go:** this is the Atacama's postcard. Cobalt lagoons sit under snow-capped volcanoes at more than 4,000 m, and the rust-red rocks of Piedras Rojas lie beside the Salar de Aguas Calientes. Expect vicuñas, the Tropic of Capricorn marker and the village of Socaire.
 
 - **Duration:** a full day of about 10 h, roughly 07:00 to 17:00.
-- **Price:** the {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons and Salar full-day tour (4.7/5 from 832 reviews){{< /gyg-link >}} starts at about US$86, with admission extra. The {{< gyg-link tour="632997" >}}Triple tour of the Red Stones, highland lagoons and Chaxa (4.7/5 from 326 reviews){{< /gyg-link >}} costs about the same and ends at the flamingo lagoon.
+- **Price:** the {{< gyg-link tour="190853" >}}Piedras Rojas, Altiplanic Lagoons and Salar full-day tour (4.7/5 from 834 reviews){{< /gyg-link >}} starts at about US$86, with admission extra. The {{< gyg-link tour="632997" >}}Triple tour of the Red Stones, highland lagoons and Chaxa (4.7/5 from 327 reviews){{< /gyg-link >}} costs about the same and ends at the flamingo lagoon.
 - **Altitude:** up to about 4,200 m, with a short walk at Piedras Rojas.
 - **Note:** Salar de Tara has been closed to tourism for years, so do not let an old blog sell it to you. Check each stop by name, because "lagoons" in a title does not tell you which lakes and reserves are included.
 - **Full details:** [Piedras Rojas tours](/piedras-rojas-tours/) and the [best time to visit](/best-time-to-visit/) for the snow months
@@ -244,7 +244,7 @@ Tour prices are per person in US dollars from the listings linked on this page; 
 **Why go:** this is one of South America's great overland trips. You cross coloured lagoons, geysers and flamingo-filled salt flats to reach the Salar de Uyuni.
 
 - **Duration:** 3 days and 2 nights one way, or 4 days for the return, crossing at the **Hito Cajón** border (about 4,480 m).
-- **Price:** the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour from San Pedro de Atacama (4.5/5 from 87 reviews){{< /gyg-link >}} is a return trip from about US$352. For a one-way crossing, the {{< viator-link path="San-Pedro-de-Atacama/Uyuni-Saltflat-from-San-Pedro-de-Atacama/d5499-86163P17" >}}Uyuni salt flat tour on Viator, round trip or one way (4.4/5 from 46 reviews){{< /viator-link >}} starts at about US$412. The Eduardo Avaroa reserve fee is paid in cash and is usually not included.
+- **Price:** the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour from San Pedro de Atacama (4.5/5 from 88 reviews){{< /gyg-link >}} is a return trip from about US$352. For a one-way crossing, the {{< viator-link path="San-Pedro-de-Atacama/Uyuni-Saltflat-from-San-Pedro-de-Atacama/d5499-86163P17" >}}Uyuni salt flat tour on Viator, round trip or one way (4.4/5 from 46 reviews){{< /viator-link >}} starts at about US$412. The Eduardo Avaroa reserve fee is paid in cash and is usually not included.
 - **Before you go:** snow can close Hito Cajón and the Eduardo Avaroa reserve in winter, as it did in 2026. Bolivia's fuel supply has also been unreliable, so ask your operator how it is running its vehicles. Bolivia is one hour behind Chile during Chilean summer time.
 - The trip needs its own block of days and remote highland overnights, so don't try to fit it between a sunset and an airport transfer.
 - **Full details:** [Uyuni tours from San Pedro de Atacama](/uyuni-tours-from-san-pedro-de-atacama/)
@@ -309,13 +309,13 @@ Choose [central accommodation](/where-to-stay/) if you want to walk to agencies 
 | **Inca's Restaurant** | Peruvian | $$ | Ceviche and lomo saltado. |
 | **Roots Café & Bar / Lola** | Café-bar | $$ | Brunch and coffee by day, with a happy hour at Lola in the evening. |
 
-Opening days change often in a small town, so check before you walk across for dinner. La Estaka is listed as permanently closed in one source and Mal de Puna as temporarily closed.
+Opening days change often in a small town, so check before you walk across for dinner. La Estaka is listed as permanently closed in one source and Mal de Puna as temporarily closed. Our guide to the [best restaurants in San Pedro de Atacama](/best-restaurants-san-pedro-de-atacama/) compares more than 20 places by price and cuisine.
 
 ### Nightlife: what to do at night in San Pedro de Atacama
 
 Nights in San Pedro are quiet on purpose: dinner by the fire, live Andean music, a craft beer and the stars. There are no clubs.
 
-- **Closing times:** venues selling alcohol close early by big-city standards, usually before midnight on weeknights and a little later at weekends. Check current municipal hours locally.
+- **Closing times:** venues selling alcohol close early by big-city standards, around 1 a.m. on weeknights and a little later at weekends, according to a resident quoted by BioBioChile in 2022. The municipality sets the hours, so check locally.
 - **Order food with drinks:** most venues hold restaurant licences, so you order food with alcohol. **Chela Cabur** is the well-known beer bar with loud rock, and **Cervecería St. Peter** brews local beers, including one with rica-rica.
 - **Drinking in the street or plaza is illegal**, and the Carabineros (police) fine people for it.
 - **The best late-night activity is a stargazing tour.** Alcohol, altitude and a 04:30 El Tatio pickup are a bad combination.
@@ -352,7 +352,7 @@ Nights in San Pedro are quiet on purpose: dinner by the fire, live Andean music,
 
 - **How many days?** Four full days cover the top five; five or six give you a buffer for weather and altitude. Add three or four days if you are crossing to Uyuni. See [how many days to spend](/how-many-days/) and the [two-day](/2-day-itinerary/), [three-day](/3-day-itinerary/) and [four-day](/4-day-itinerary/) plans.
 - **Altitude order:** spend days 1–2 on low trips (Valle de la Luna, Cejar, Rainbow Valley), day 3 on Puritama or El Tatio, and days 4–5 on the lagoons above 4,000 m. Read the [altitude guide](/altitude/).
-- **Getting there:** fly to Calama, then take a transfer of about 1.5 hours; the {{< gyg-link tour="190838" >}}Calama Airport transfer (4.6/5 from 857 reviews){{< /gyg-link >}} starts at about US$30. See [Calama airport to San Pedro](/calama-airport-to-san-pedro-de-atacama/).
+- **Getting there:** fly to Calama, then take a transfer of about 1.5 hours; the {{< gyg-link tour="190838" >}}Calama Airport transfer (4.6/5 from 858 reviews){{< /gyg-link >}} starts at about US$30. See [Calama airport to San Pedro](/calama-airport-to-san-pedro-de-atacama/).
 - **Where to stay:** see [where to stay in San Pedro de Atacama](/where-to-stay/).
 - **Cash:** bring Chilean pesos. Many park and community entries, Rainbow Valley, Tebinquiche, Tulor and Quitor among them, are cash only, and the ATMs in town can run dry in high season, so withdraw in Calama.
 - **Booking in town or online:** in town you can sometimes negotiate multi-tour packs. Online you get a guaranteed place, free cancellation on many listings and verified reviews. In peak season (December to February, July and Easter), book Valle de la Luna tickets, Puritama entry, Laguna Cejar and stargazing in advance.
