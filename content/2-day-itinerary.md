@@ -89,7 +89,7 @@ This version swaps the free morning on day two for Rainbow Valley and makes Ceja
 - 06:00–08:00: fly from Santiago to Calama (a little over two hours).
 - 09:30–11:30: shuttle to San Pedro (about an hour and a half); drop your bags.
 - 12:00–14:30: lunch, water and a slow walk around the plaza and church. No alcohol today.
-- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}}: the Duna Mayor viewpoint, the Tres Marías and a sunset stop your guide chooses. Ask where, because the Mirador de Ckari is closed.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 366 reviews){{< /gyg-link >}}: the Duna Mayor viewpoint, the Tres Marías and a sunset stop your guide chooses. Ask where, because the Mirador de Ckari is closed.
 - 20:30: an early dinner, then bed.
 
 **Day 2: Rainbow Valley, Laguna Cejar and the stars**
@@ -97,7 +97,7 @@ This version swaps the free morning on day two for Rainbow Valley and makes Ceja
 - 07:00–12:30: the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}} with the Yerbas Buenas petroglyphs (about 3,500 m; easy walking; breakfast in the field).
 - 12:45–13:45: a quick lunch. Put your swimwear on under your clothes, and leave the sunscreen until after you swim.
 - 14:00–19:30: the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}: float at Laguna Piedra, flamingos at Cejar, the Ojos del Salar and sunset at Laguna Tebinquiche.
-- 20:30–23:45: the {{< gyg-link tour="542449" >}}stargazing experience (from about US$30, 4.7/5 from 810 reviews){{< /gyg-link >}}; choose an early slot if you fly out the next morning.
+- 20:30–23:45: the {{< gyg-link tour="542449" >}}stargazing experience (from about US$30, 4.7/5 from 814 reviews){{< /gyg-link >}}; choose an early slot if you fly out the next morning.
 
 **Day 3:** leave after breakfast.
 

@@ -160,13 +160,13 @@ The full day-by-day versions are on the [two-day](/2-day-itinerary/), [three-day
 
 | Tour | Typical pickup and return | Highest point | Entry (adult, foreign visitor) | Notes |
 |---|---|---|---|---|
-| {{< gyg-link tour="466455" >}}Valle de la Luna shared sunset tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}} | About 15:00–20:00 | About 2,500 m | CLP 10,800, online only, for a set date | The Mirador de Ckari sunset viewpoint has been closed until further notice since 27 May 2026 |
+| {{< gyg-link tour="466455" >}}Valle de la Luna shared sunset tour (from about US$32, 4.7/5 from 366 reviews){{< /gyg-link >}} | About 15:00–20:00 | About 2,500 m | CLP 10,800, online only, for a set date | The Mirador de Ckari sunset viewpoint has been closed until further notice since 27 May 2026 |
 | {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}}, with the Yerbas Buenas petroglyphs | About 07:00–12:30 | About 3,500 m | Two small fees, paid in cash | Easy walking; breakfast usually included |
 | {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}, with Ojos del Salar and Tebinquiche | About 13:30–18:30 or 14:00–19:00 | About 2,400 m | CLP 15,000 for ages 13–59 at Cejar, plus a small fee at Tebinquiche | Timed ticket; about an hour on site; no sunscreen before swimming |
-| {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 832 reviews){{< /gyg-link >}} | About 06:00–07:00 to 17:00–18:00 | About 4,200 m | Reserve fees, paid separately; check the current amounts | Snow can close the Miscanti and Miñiques road in winter |
-| {{< gyg-link tour="345946" >}}El Tatio at sunrise with breakfast (from about US$73, 4.7/5 from 1,149 reviews){{< /gyg-link >}} | About 04:30–05:10 to 12:30 | About 4,300 m | CLP 15,000 | Park rule: no children under 9 |
+| {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 834 reviews){{< /gyg-link >}} | About 06:00–07:00 to 17:00–18:00 | About 4,200 m | Reserve fees, paid separately; check the current amounts | Snow can close the Miscanti and Miñiques road in winter |
+| {{< gyg-link tour="345946" >}}El Tatio at sunrise with breakfast (from about US$73, 4.7/5 from 1,151 reviews){{< /gyg-link >}} | About 04:30–05:10 to 12:30 | About 4,300 m | CLP 15,000 | Park rule: no children under 9 |
 | [Termas de Puritama](/puritama-hot-springs-tours/) | Morning or afternoon slot, with a shuttle | About 3,500 m | Check the current price on the official site | Book your entry slot online in advance |
-| {{< gyg-link tour="542449" >}}Stargazing experience (from about US$30, 4.7/5 from 810 reviews){{< /gyg-link >}} | Start times vary by season, from about 19:00 to 21:15 | About 2,400 m | None beyond the tour price | Earlier in winter, later in summer |
+| {{< gyg-link tour="542449" >}}Stargazing experience (from about US$30, 4.7/5 from 814 reviews){{< /gyg-link >}} | Start times vary by season, from about 19:00 to 21:15 | About 2,400 m | None beyond the tour price | Earlier in winter, later in summer |
 | Valle de Marte (sandboarding or a walk) | Half day, flexible | About 2,500 m | Small community fee | Reported to close on Mondays |
 
 ## How your flight shapes day one
@@ -195,11 +195,11 @@ The full day-by-day versions are on the [two-day](/2-day-itinerary/), [three-day
 - **Salt Flats Route (Ruta de los Salares):** the legal alternative to the closed Salar de Tara, visiting the area near Tara, the Monjes de la Pacana rock pillars and the Aguas Calientes and Quisquiro salt flats above 4,000 m. The {{< viator-link path="San-Pedro-de-Atacama/Full-Day-Tour-to-Ruta-de-los-Salares/d5499-422580P4" >}}Full Day Tour to Ruta de los Salares on Viator (from about US$102, 4.8/5 from 130 reviews){{< /viator-link >}} is the best-reviewed listing we found. Do it only after El Tatio.
 - **Lagunas Escondidas de Baltinache:** seven turquoise salt pools about an hour west of town. Bathing is suspended; operators expect it to reopen around December 2026, so visit for the scenery and float at Cejar instead. The {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons tour (from about US$55, 4.5/5 from 146 reviews){{< /gyg-link >}} runs as a sightseeing trip meanwhile.
 - **Sandboarding in Valle de Marte, horse riding, or cycling to Aldea de Tulor.**
-- **A second night of stargazing:** an astrophotography tour on a moonless night, such as the {{< gyg-link tour="209091" >}}Stargazing & Andean Astronomy with Wine tour (from about US$30, 4.7/5 from 797 reviews){{< /gyg-link >}}.
+- **A second night of stargazing:** an astrophotography tour on a moonless night, such as the {{< gyg-link tour="209091" >}}Stargazing & Andean Astronomy with Wine tour (from about US$30, 4.7/5 from 798 reviews){{< /gyg-link >}}.
 
 ### With the Uyuni crossing (four days plus three)
 
-Follow the four-day plan, then leave on day five for the three-day 4x4 tour to the Salar de Uyuni, or take the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (from about US$352, 4.5/5 from 87 reviews){{< /gyg-link >}} if you are flying home from Calama. You cross at Hito Cajón, about 4,480 m, and sleep well above 4,000 m on the first night, so El Tatio and Piedras Rojas serve as your altitude training. In 2026, Bolivia's diesel shortage and the floating boliviano have made prices and departures less predictable, and Hito Cajón closes in snow, especially from June to September. Do not book a same-day onward flight after the crossing, and get the inclusions confirmed in writing. The [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) has the details.
+Follow the four-day plan, then leave on day five for the three-day 4x4 tour to the Salar de Uyuni, or take the {{< gyg-link tour="774308" >}}4-Day Uyuni Salt Flats Tour (from about US$352, 4.5/5 from 88 reviews){{< /gyg-link >}} if you are flying home from Calama. You cross at Hito Cajón, about 4,480 m, and sleep well above 4,000 m on the first night, so El Tatio and Piedras Rojas serve as your altitude training. In 2026, Bolivia's diesel shortage and the floating boliviano have made prices and departures less predictable, and Hito Cajón closes in snow, especially from June to September. Do not book a same-day onward flight after the crossing, and get the inclusions confirmed in writing. The [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/) has the details.
 
 ### The self-drive version
 
@@ -227,7 +227,7 @@ We do not add up a single total per plan: tour prices change with the date and t
 
 | Item | Tour price | Entry (adult, foreign visitor) | 2 days | 3 days | 4 days | 5 days |
 |---|---|---|---|---|---|---|
-| Airport transfer (both ways) | {{< gyg-link tour="190838" >}}Calama airport shared transfer, from about US$30 each way (4.6/5 from 857 reviews){{< /gyg-link >}} | — | ✔ | ✔ | ✔ | ✔ |
+| Airport transfer (both ways) | {{< gyg-link tour="190838" >}}Calama airport shared transfer, from about US$30 each way (4.6/5 from 858 reviews){{< /gyg-link >}} | — | ✔ | ✔ | ✔ | ✔ |
 | Valle de la Luna | From about US$32 on GetYourGuide | CLP 10,800 | ✔ | ✔ | ✔ | ✔ |
 | Rainbow Valley and Yerbas Buenas | Viator listing above | Two small cash fees | ✔ | ✔ | ✔ | ✔ |
 | Laguna Cejar and Tebinquiche | Viator listing above | CLP 15,000, plus Tebinquiche | ✔ | ✔ | ✔ | ✔ |

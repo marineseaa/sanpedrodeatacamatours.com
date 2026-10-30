@@ -97,7 +97,7 @@ After returning, plan lunch and rest. A spare afternoon is useful for packing, a
 **Day 1: arrive and Valle de la Luna (about 2,500 m)**
 
 - Morning: arrive, have lunch and drink plenty of water.
-- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}} at sunset.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 366 reviews){{< /gyg-link >}} at sunset.
 - 20:30: dinner on Caracoles, then bed.
 
 **Day 2: Rainbow Valley, Laguna Cejar and stargazing (up to about 3,500 m)**
@@ -105,17 +105,17 @@ After returning, plan lunch and rest. A spare afternoon is useful for packing, a
 - 07:00–12:30: the {{< viator-link path="San-Pedro-de-Atacama/Rainbow-Valley-Tour-from-San-Pedro-de-Atacama/d5499-6315CJCRAIN" >}}Rainbow Valley Tour on Viator (4.7/5 from 35 reviews){{< /viator-link >}} with Yerbas Buenas.
 - 12:45–13:45: lunch.
 - 14:00–19:30: the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator (5.0/5 from 80 reviews){{< /viator-link >}}: Laguna Piedra, the Ojos del Salar and Tebinquiche.
-- 20:30–23:45: the {{< gyg-link tour="542449" >}}stargazing experience (from about US$30, 4.7/5 from 810 reviews){{< /gyg-link >}}. The next pickup is around 07:00, not 04:30, so tonight is the right night for it.
+- 20:30–23:45: the {{< gyg-link tour="542449" >}}stargazing experience (from about US$30, 4.7/5 from 814 reviews){{< /gyg-link >}}. The next pickup is around 07:00, not 04:30, so tonight is the right night for it.
 
 **Day 3: Piedras Rojas and the highland lagoons (about 4,200 m)**
 
-- About 06:30–07:00: pickup for the {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 832 reviews){{< /gyg-link >}}, with a breakfast stop on the way.
+- About 06:30–07:00: pickup for the {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 834 reviews){{< /gyg-link >}}, with a breakfast stop on the way.
 - Laguna Chaxa (flamingos, about 2,300 m), Socaire village, the Miscanti and Miñiques lagoons (about 4,100–4,200 m), then Piedras Rojas and the Salar de Talar.
 - About 17:00–18:00: back in town. A light dinner, and bed by 21:30.
 
 **Day 4: El Tatio and Puritama (about 4,300 m)**
 
-- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,149 reviews){{< /gyg-link >}}.
+- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,151 reviews){{< /gyg-link >}}.
 - 12:30: back in town for lunch.
 - Afternoon: the [Puritama hot springs](/puritama-hot-springs-tours/) on an afternoon slot with the shuttle, the best way we know to recover from a 04:30 start.
 - Evening: a farewell dinner.

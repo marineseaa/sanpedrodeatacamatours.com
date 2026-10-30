@@ -109,7 +109,7 @@ This version fills day two with a morning and an afternoon tour, then takes El T
 **Day 1: Valle de la Luna**
 
 - Arrive in the morning, have lunch and rest.
-- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 365 reviews){{< /gyg-link >}} at sunset.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 366 reviews){{< /gyg-link >}} at sunset.
 - An early night.
 
 **Day 2: Rainbow Valley and Laguna Cejar, the classic double**
@@ -121,7 +121,7 @@ This version fills day two with a morning and an afternoon tour, then takes El T
 
 **Day 3: El Tatio at dawn, then the stars**
 
-- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,149 reviews){{< /gyg-link >}}. Wear layers: it is often well below freezing at the geysers at sunrise.
+- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,151 reviews){{< /gyg-link >}}. Wear layers: it is often well below freezing at the geysers at sunrise.
 - About 06:30–08:30: the geyser field at sunrise, breakfast on site, and the Putana wetlands and Machuca on the way back.
 - 12:30: back in town for lunch and a two to three hour nap.
 - *Optional:* swap the nap for the [Puritama hot springs](/puritama-hot-springs-tours/) on an afternoon slot if you have the energy.
