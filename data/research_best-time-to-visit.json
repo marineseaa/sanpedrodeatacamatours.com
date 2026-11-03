@@ -1,156 +1,679 @@
 {
-  "checked": "2026-10-09",
-  "subject_scope": {
-    "named": "San Pedro de Atacama excursions; highland day trips and night-sky sessions"
-  },
-  "availability_status": "normal",
-  "visit_profile": {
-    "typical_visit": "Four-hour lower-desert sunset trip, ten-hour highland route, or 2.5-hour outdoor astronomy session",
-    "hours_outdoors": "Varies by product; exposed stops and outdoor observing, with vehicle travel between sites",
-    "bundled_sites": [
-      "Piedras Rojas, Miscanti, Mi\u00f1iques and Chaxa on selected highland circuits"
-    ],
-    "transport_part_of_experience": "Road travel connects exposed outdoor stops; it is not the entire visitor experience.",
-    "seasonal_versions": "Llama describes stargazing and Moon-and-planets formats; summer route substitutions depend on access.",
-    "shelter_checked": "Product inclusions confirm vehicle transport between stops. Telescope viewing and named scenic stops are outdoors; no heated observing enclosure is promised."
-  },
-  "weather_exposure": "high",
-  "factor_weights": [
-    {
-      "factor": "Highland access and summer storms",
-      "why": "December\u2013March highland rainfall can change routes and access."
-    },
-    {
-      "factor": "Moonlight and cloud for astronomy",
-      "why": "Faint-object viewing depends on the actual observing period, not simply month."
-    },
-    {
-      "factor": "Cold at dawn and at night",
-      "why": "El Tatio and outdoor astronomy expose visitors to cold, especially winter."
-    },
-    {
-      "factor": "Departure times and rest",
-      "why": "Sunrise and late-night sessions should not be stacked without enough sleep."
-    }
+ "checked": "2026-11-03",
+ "slug": "best-time-to-visit",
+ "prose_locale": "en_US",
+ "site_intent": {
+  "subject": "San Pedro de Atacama tours",
+  "markers": [
+   "San Pedro de Atacama"
   ],
-  "verdict_shape": "best_overall_period",
-  "verdict_split": {
-    "best_overall": "April\u2013May for a first visit combining highlands and night tours; editorial choice within Chile Travel April\u2013June recommendation",
-    "best_time_of_day": "Sunset for Moon Valley, sunrise for the featured El Tatio trip, dark observing period for astronomy"
+  "note": "Site about San Pedro de Atacama day tours; the destination and the site subject coincide."
+ },
+ "existing_page": {
+  "searched": "content/**/*.md via tools/find_existing.py (best time, when to visit, best month, weather by month, month by month, seasons)",
+  "found": "content/best-time-to-visit.md",
+  "url": "/best-time-to-visit/",
+  "action": "rebuild",
+  "why": "Found under the same slug; kept the URL because el-tatio-geysers-tours, stargazing-tours, things-to-do and the homepage link to it. Rebuilt from new research with a live date checker; old structure and sentences not reused.",
+  "old_claims": [
+   {
+    "claim": "April or May is the best first-visit choice",
+    "new": "April and October to November offer the best overall balance; May is a colder alternative (about 13 nights a month below freezing in town against about 2 in April)",
+    "source": "DMC climate portal, San Pedro de Atacama INIA station 220024 daily records 2011-2025",
+    "disposition": "corrected"
+   },
+   {
+    "claim": "Chile Travel recommends April to June",
+    "source": "https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/ (created March 10, 2026; re-read 2026-11-03)",
+    "disposition": "kept"
+   },
+   {
+    "claim": "December to March highland summer rains (altiplanic winter) can close routes",
+    "source": "Chile Travel article above; CR2 Universidad de Chile, The Altiplanic Winter has begun",
+    "disposition": "kept"
+   },
+   {
+    "claim": "We publish no monthly temperature or rainfall figures because we found no official series",
+    "new": "DMC's climate portal publishes daily maximum, minimum and rainfall records for the San Pedro de Atacama INIA station; monthly averages for 2011-2025 now on the page",
+    "source": "https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/220024",
+    "disposition": "corrected"
+   },
+   {
+    "claim": "23 January 2026 rain flooded streets in San Pedro",
+    "source": "https://www.t13.cl/noticia/nacional/san-pedro-atacama-registra-anegamientos-lluvias-asociadas-invierno-altiplanico-23-1-2026",
+    "disposition": "kept"
+   },
+   {
+    "claim": "11 August 2026 Carabineros closed Route B-223 at Machuca for snow",
+    "source": "https://noticias.calamaenlinea.cl/region/san-pedro-de-atacama/video-mantienen-cierre-de-ruta-hacia-geiseres-del-tatio-por-intensa-nieve-en-el-sector/",
+    "disposition": "kept"
+   },
+   {
+    "claim": "On 13 August the municipality said El Tatio, Miscanti and Miniques, Piedras Rojas and Rainbow Valley were closed while lower sites reopened",
+    "new": "the open list came from the Sernatur tourist information office, with the municipality's tourism head quoted that only high-altitude sites stayed closed",
+    "source": "https://g5noticias.cl/2026/08/13/tras-dos-jornadas-de-leves-lluvias-la-gran-mayoria-de-los-atractivos-turisticos-esta-disponible-en-san-pedro-de-atacama/",
+    "disposition": "corrected"
+   },
+   {
+    "claim": "El Tatio admits no one under 9",
+    "new": "the El Tatio fee page says children aged 0 to 7 are not admitted and lists the general ticket from age 9; tour operators can set a stricter limit",
+    "source": "https://eltatio.net/tarifas-geysers-del-tatio/ (read 2026-11-03)",
+    "disposition": "corrected"
+   },
+   {
+    "claim": "SPACE runs no tours on the 7 nights around the full moon",
+    "source": "https://www.spaceobs.com/en/Services/Star-Tours (re-read 2026-11-03)",
+    "disposition": "kept"
+   },
+   {
+    "claim": "DMC June 2026 bulletin expected a moderate to strong El Nino in the second half of 2026",
+    "reason": "a seasonal outlook that expires with the season; not a durable fact for an evergreen page, and DMC itself gives no San Pedro summer forecast",
+    "disposition": "dropped",
+    "note": "a seasonal outlook that expires with the season; not a durable fact for an evergreen page, and DMC itself gives no San Pedro summer forecast"
+   },
+   {
+    "claim": "Afternoons are often windier than mornings",
+    "source": "kept only as a hedged packing tip in the activity table; no wind series used to rank months",
+    "disposition": "kept"
+   },
+   {
+    "claim": "Festival dates (Candelaria Feb 2, Cruz de Mayo May 3, San Pedro y San Pablo June 29, San Santiago July 25, Mesa de los difuntos Nov 1-2)",
+    "source": "https://turismosanpedrodeatacama.com/festividades-y-bailes/",
+    "disposition": "kept"
+   },
+   {
+    "claim": "Clock changes April 4 2026, September 5 2026, next April 3 2027",
+    "source": "Decree 98 as reported by https://www.meganoticias.cl/nacional/529110-cambio-hora-horario-verano-chile-fecha-septiembre-11-08-2026.html",
+    "disposition": "kept"
+   },
+   {
+    "claim": "Easter falls on 28 March in 2027",
+    "source": "computus; Easter Sunday 2027 is March 28",
+    "disposition": "kept"
+   },
+   {
+    "claim": "Photographers: winter for snow on the volcanoes",
+    "reason": "snow cover is not reliable in any month; a luck-gated outcome, kept only as a possible bonus",
+    "disposition": "dropped",
+    "note": "snow cover is not reliable in any month; a luck-gated outcome, kept only as a possible bonus"
+   },
+   {
+    "claim": "Floating at Laguna Cejar is best on warm, calm afternoons",
+    "source": "kept as a hedged activity tip; the town's average highs by month support the warm-afternoon part",
+    "disposition": "kept"
+   }
+  ]
+ },
+ "product_place": {
+  "name": "San Pedro de Atacama town (about 2,400 m) as the base, with day trips to lower desert sites near town (Valle de la Luna, Laguna Cejar, Chaxa) and to the high plateau above about 4,000 m (El Tatio at about 4,300 m, Miscanti and Miniques, Piedras Rojas)",
+  "unit": "Comuna de San Pedro de Atacama, Region de Antofagasta, Chile",
+  "figures_measure": [
+   {
+    "series": "DMC climate portal, San Pedro de Atacama INIA (220024), 2,416 m, daily max/min/rain 2011-2025",
+    "measures": "the town and the lower desert sites near it",
+    "not": "the high plateau, which is far colder and gets much more summer rain"
+   },
+   {
+    "series": "El Tatio official fee page",
+    "measures": "El Tatio itself",
+    "not": "other sites"
+   }
+  ]
+ },
+ "subject_scope": {
+  "named": "San Pedro de Atacama and its standard day tours: lower desert sites, high-altitude Altiplano trips and night-sky sessions"
+ },
+ "evidence_scope": [
+  {
+   "claim": "average highs, lows, frost nights and rain by month",
+   "measured_at": "San Pedro de Atacama INIA station, 2,416 m, at the town",
+   "generalises": false,
+   "must_name": "town",
+   "markers": [
+    "in town",
+    "the town"
+   ]
   },
-  "sources": [
-    {
-      "url": "https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/",
-      "supports": "April\u2013June recommendation and December\u2013March highland summer rain; no price-discount percentage reused"
-    },
-    {
-      "url": "https://chile.travel/en/destinations/san-pedro-de-atacama/",
-      "supports": "Winter cold and advance booking in summer"
-    },
-    {
-      "url": "https://www.spaceobs.com/en/Services/Star-Tours",
-      "supports": "Operator-specific full-moon closure; not a regional rule"
-    },
-    {
-      "url": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/",
-      "supports": "2.5-hour visitor tour with Moon-and-planets variation"
-    }
-  ],
-  "device": {
-    "type": "Seasonal date guide plus approximate lunar illumination",
-    "forecast": false,
-    "rejected": [
-      "No fabricated daily temperature or precipitation values",
-      "No moonrise/set without ephemeris",
-      "No claim of current road safety or bookability"
-    ],
-    "material_factors": [
-      "Highland rainfall season",
-      "Cold dawn/night exposure",
-      "Lunar illumination; session-specific Moon position remains unknown"
-    ]
+  {
+   "claim": "December to March highland storms",
+   "measured_at": "Altiplano above about 3,000 m (CR2, Chile Travel)",
+   "generalises": false,
+   "must_name": "highlands",
+   "markers": [
+    "highland",
+    "high plateau",
+    "Altiplano",
+    "high-altitude"
+   ]
   },
-  "autocomplete_file": "autocomplete.json",
-  "spokes": [
-    {
-      "disposition": "built",
-      "url": "/stargazing-tours/",
-      "name": "stargazing tours"
-    },
-    {
-      "disposition": "built",
-      "url": "/how-many-days/",
-      "name": "how many days"
-    },
-    {
-      "disposition": "rejected",
-      "url": "/best-time-to-visit/#month-by-month-planning",
-      "name": "weather by month",
-      "reason": "Separate weather page deferred because this page already provides the month-by-month planning table."
-    },
-    {
-      "disposition": "queued",
-      "inbox_id": "future-stargazing-cluster",
-      "name": "full moon stargazing"
-    }
-  ],
-  "limitations": [
-    "No verified local monthly crowd series",
-    "No climate-station normal table claimed",
-    "No live weather forecast or road-status feed"
-  ],
-  "seasonal_archetype": "B",
-  "seasonal_archetype_evidence": "Official Chile Travel recommends April\u2013June; highland rain and winter cold favour an April\u2013May first visit, while astronomy follows moonlight and session conditions rather than a single month.",
-  "experience_recommendations": {
-    "highland_landscapes": "April\u2013May editorial preference; daily route checks still required",
-    "astronomy": "Dark observing period with cloud and Moon position checked; lunar/planetary viewing is a different format"
-  },
-  "autocomplete_run": "research/autocomplete.log; data/autocomplete.json, queried 9 October 2026",
-  "top_attractors": [
-    "highland weather",
-    "stargazing and full moon",
-    "trip length",
-    "monthly planning"
-  ],
-  "availability_source": "Chile Travel destination guidance; SPACE published Star Tours page; Llama product activity description, not a booking-calendar inference",
-  "operator_facts": {
-    "published_seasons": [
-      {
-        "operator": "SPACE",
-        "url": "https://www.spaceobs.com/en/Services/Star-Tours",
-        "finding": "Published full-moon closure window; not a regional rule"
-      },
-      {
-        "operator": "Llama Stargazing",
-        "url": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/",
-        "finding": "Published stargazing or Moon-and-planets format; no annual closed season captured. Exact departures not guaranteed."
-      }
-    ]
-  },
-  "evidence_scope": [
-    {
-      "claim": "December\u2013March highland summer-rain period",
-      "measured_at": "Chile Travel description of San Pedro highland excursion region; qualitative seasonal guidance",
-      "generalises": false,
-      "must_name": "highlands",
-      "markers": [
-        "highland",
-        "plateau"
-      ]
-    },
-    {
-      "claim": "SPACE closes near full moon",
-      "measured_at": "SPACE operator published Star Tours schedule",
-      "generalises": false,
-      "must_name": "SPACE",
-      "markers": [
-        "SPACE"
-      ]
-    }
-  ],
-  "availability_note": "year-round destination with weather-dependent routes and operator-specific astronomy schedules",
-  "conditions_notes": {
-    "weather": "Outside typical December\u2013March highland summer-rain period; no all-clear promise",
-    "crowds": "No measured local monthly series, so no single quietest month asserted"
+  {
+   "claim": "SPACE closes near full moon",
+   "measured_at": "SPACE operator page",
+   "generalises": false,
+   "must_name": "SPACE",
+   "markers": [
+    "SPACE"
+   ]
   }
+ ],
+ "availability_status": "normal",
+ "availability_sentence": "You can visit San Pedro de Atacama year-round, and the standard tours are offered in every month, although summer storms and winter snow can close the high-altitude trips for a day or more.",
+ "availability_source": "GYG listings for the featured tours show departures across the year; Chile Travel and the 2026 closure reports describe weather closures of high sites, not a closed season; SPACE's cold-season pause applies only to its Bucket list tours (June-August).",
+ "visit_profile": {
+  "typical_visit": "A stay of three or four days built from day tours: a four-hour sunset trip to Valle de la Luna, a dawn trip to El Tatio (about six hours, pickup around 4:30 to 5 a.m.), a ten-hour Altiplanic lagoons and Piedras Rojas day, a salt-lagoon afternoon at Cejar or Chaxa, and a two-to-three-hour evening of stargazing.",
+  "hours_outdoors": "Much of each tour is outdoors at exposed stops, with vehicle transport between them; El Tatio and stargazing involve standing still in the cold.",
+  "bundled_sites": [
+   "Miscanti and Miniques lagoons, Piedras Rojas and Laguna Chaxa on the featured full-day tour",
+   "Machuca village on most El Tatio tours"
+  ],
+  "transport_part_of_experience": "Yes for the high trips: the road climbs from about 2,400 m to above 4,000 m, and those roads are what storms and snow close.",
+  "seasonal_versions": "Highland routes can be shortened or swapped on storm or snow days; some astronomy operators skip the nights around the full moon or run a Moon-focused session instead; SPACE pauses its Bucket list tours June to August.",
+  "shelter_checked": "Tours travel by van or minibus between stops (featured listing: transport included). Telescope viewing and the scenic stops are outdoors; no listing promises a heated observing room.",
+  "itinerary_controlled": false
+ },
+ "weather_exposure": "high",
+ "season_proof": false,
+ "view_product": false,
+ "factor_weights": [
+  {
+   "factor": "Access to the high-altitude trips",
+   "why": "December to March storms and June to August snow are what close El Tatio, the Altiplanic lagoons and Piedras Rojas; the lower sites near town rarely close."
+  },
+  {
+   "factor": "Cold at dawn and at night",
+   "why": "El Tatio is visited at dawn above 4,000 m and stargazing means standing still outdoors; town lows average below 0 C in June to August, with about 20 to 23 nights a month below freezing."
+  },
+  {
+   "factor": "Moonlight on the night of a stargazing tour",
+   "why": "A bright Moon washes out faint stars in any month; it changes every few days, so it is a date choice, not a month choice."
+  },
+  {
+   "factor": "Daytime heat in town and at the lower sites",
+   "why": "Average highs in town reach about 31 to 32 C from December to February against about 22 to 23 C in June and July."
+  },
+  {
+   "factor": "Chilean holiday dates",
+   "why": "The January-February summer school holidays, the July winter break and the September 18 holidays are when many Chileans travel; a booking-ahead factor, not a measured crowd series."
+  }
+ ],
+ "answer_figures": [
+  {
+   "row": "Average low in town, April and October",
+   "factor": "Cold at dawn and at night"
+  },
+  {
+   "row": "Nights below freezing in town, June and July",
+   "factor": "Cold at dawn and at night"
+  },
+  {
+   "row": "Highland storm season",
+   "factor": "Access to the high-altitude trips"
+  }
+ ],
+ "verdict_shape": "best_overall_period",
+ "verdict_split": {
+  "best_overall": "April, and October to November",
+  "best_for_fewer_crowds": "outside the January-February and July school holidays and the September 18 holidays (calendar, not a measured series)",
+  "best_time_of_day": "sunset for Valle de la Luna, dawn for El Tatio, a dark, moonless part of the evening for stargazing"
+ },
+ "seasonal_archetype": "B",
+ "seasonal_archetype_evidence": "One balance period exists on the evidence (dry high roads and milder nights in April and October-November), with real alternatives: May and September for travelers who accept colder nights, December-March for the warmest nights and the Uyuni mirror with a storm risk, June-August for long cold nights. Two priorities in the split, so B, not C.",
+ "constraint_clocks": {
+  "season": "sets how likely storms (December-March) or snow (June-August) are on the high routes, and how cold the dawns and nights are",
+  "day": "the weather on the day decides whether a particular high route runs; the Moon on the night decides how dark a stargazing session is",
+  "ranked": false
+ },
+ "bonus_not_bookable": [
+  {
+   "outcome": "snow on the volcanoes",
+   "why": "luck-gated; no month delivers it reliably"
+  },
+  {
+   "outcome": "Uyuni mirror",
+   "why": "needs water on the salt flat on your date"
+  },
+  {
+   "outcome": "Milky Way core",
+   "why": "needs a clear, moonless night"
+  }
+ ],
+ "group_check": {
+  "April": {
+   "town_low_C": 4.0,
+   "frost_nights": 2,
+   "town_rain_mm": 0.2,
+   "daylight": "11h 34m",
+   "highland_storm_season": false,
+   "snow_season": false
+  },
+  "May": {
+   "town_low_C": 0.7,
+   "frost_nights": 13,
+   "town_rain_mm": 1.8,
+   "daylight": "11h 02m",
+   "note": "moved out of the best-overall group: colder nights"
+  },
+  "September": {
+   "town_low_C": 1.9,
+   "frost_nights": 8,
+   "town_rain_mm": 0.0,
+   "daylight": "11h 57m",
+   "note": "kept as an alternative: late-winter snow still possible on the high routes"
+  },
+  "October": {
+   "town_low_C": 3.6,
+   "frost_nights": 2,
+   "town_rain_mm": 0.0,
+   "daylight": "12h 36m"
+  },
+  "November": {
+   "town_low_C": 4.9,
+   "frost_nights": 0,
+   "town_rain_mm": 0.2,
+   "daylight": "13h 12m"
+  }
+ },
+ "climate": {
+  "source": "Direccion Meteorologica de Chile (DMC) climate portal, station San Pedro de Atacama INIA (national code 220024, owner INIA, 2,416 m, -22.932 -68.213); annual reports RE2009 (daily rain), daily maximum and daily minimum temperature, years 2011-2025, read 2026-11-03",
+  "method": "mean of daily maxima and minima per month for each year with at least 20 valid days, then averaged across years; rain = mean monthly total over years with at least 25 reported days; frost nights = days with minimum below 0 C, scaled to a 30.4-day month. Not a WMO 1991-2020 normal: the station opened in 2010.",
+  "monthly": {
+   "1": {
+    "tmax": 31.8,
+    "tmin": 8.7,
+    "rain_mm": 8.0,
+    "rain_median_mm": 0.8,
+    "frost_nights": 0
+   },
+   "2": {
+    "tmax": 31.0,
+    "tmin": 9.5,
+    "rain_mm": 20.6,
+    "rain_median_mm": 14.7,
+    "frost_nights": 0
+   },
+   "3": {
+    "tmax": 30.3,
+    "tmin": 7.4,
+    "rain_mm": 4.8,
+    "rain_median_mm": 0.6,
+    "frost_nights": 0
+   },
+   "4": {
+    "tmax": 28.2,
+    "tmin": 4.0,
+    "rain_mm": 0.2,
+    "frost_nights": 2
+   },
+   "5": {
+    "tmax": 24.8,
+    "tmin": 0.7,
+    "rain_mm": 1.8,
+    "frost_nights": 13
+   },
+   "6": {
+    "tmax": 22.5,
+    "tmin": -1.5,
+    "rain_mm": 0.9,
+    "frost_nights": 23
+   },
+   "7": {
+    "tmax": 22.7,
+    "tmin": -1.7,
+    "rain_mm": 0.7,
+    "frost_nights": 23
+   },
+   "8": {
+    "tmax": 24.6,
+    "tmin": -0.8,
+    "rain_mm": 1.4,
+    "frost_nights": 20
+   },
+   "9": {
+    "tmax": 27.3,
+    "tmin": 1.9,
+    "rain_mm": 0.0,
+    "frost_nights": 8
+   },
+   "10": {
+    "tmax": 29.0,
+    "tmin": 3.6,
+    "rain_mm": 0.0,
+    "frost_nights": 2
+   },
+   "11": {
+    "tmax": 30.6,
+    "tmin": 4.9,
+    "rain_mm": 0.2,
+    "frost_nights": 0
+   },
+   "12": {
+    "tmax": 31.6,
+    "tmin": 6.8,
+    "rain_mm": 0.3,
+    "frost_nights": 0
+   }
+  },
+  "cross_check": "Atlas Agroclimatico de Chile (Universidad de Chile, 2017) for San Pedro: same seasonal shape, lower summer highs (28 C, temperatures 1958-1989); the difference is in the older period, not the direction. Reanalysis not published.",
+  "plateau": "No public monthly series found for El Tatio or the lagoons; the page gives the direction (far colder, more summer rain) and the El Tatio site's own statement that dawn temperatures can be below zero."
+ },
+ "daylight": {
+  "tool": "tools/daylight.py, lat -22.911 lon -68.200, 2027 mid-month",
+  "range": "10h 44m (June) to 13h 32m (December)",
+  "used": "only as a chooser between April and October-November"
+ },
+ "crowds": {
+  "series": "none usable",
+  "checked": "INE EMAT destination tables (San Pedro de Atacama is an EMAT destination, but no machine-readable monthly series was reachable on ine.gob.cl on 2026-11-03)",
+  "use": "no month ranked as quieter; holiday calendars named as booking-ahead dates only"
+ },
+ "holidays": {
+  "summer_school": "January-February",
+  "winter_school": "two weeks set region by region by the Education Ministry, late June or July",
+  "fiestas_patrias": "September 18-19 (national holidays)",
+  "source": "https://www.mineduc.cl/ministerio-de-educacion-recuerda-fechas-de-vacaciones-de-invierno-en-cada-region/"
+ },
+ "operator_facts": {
+  "published_seasons": [
+   {
+    "operator": "SPACE",
+    "url": "https://www.spaceobs.com/en/Services/Star-Tours",
+    "finding": "Tours every night except the 7 nights around the full moon; start 7 p.m. in winter, 9 p.m. in summer; Bucket list tours do not run June-August; tours cancelled for cloud"
+   },
+   {
+    "operator": "Llama stargazing (GYG 542449)",
+    "url": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/",
+    "finding": "2.5-hour session; stargazing or Moon-and-planets format"
+   },
+   {
+    "operator": "Geysers del Tatio administration",
+    "url": "https://eltatio.net/tarifas-geysers-del-tatio/",
+    "finding": "Open 6:00 a.m. to 4:00 p.m.; CLP 15,000 general ticket from age 9; children 0-7 not admitted; geothermal pool not open; temperatures can be below zero, especially early in the morning"
+   },
+   {
+    "operator": "Featured Piedras Rojas tour (GYG 190853)",
+    "url": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/",
+    "finding": "10-hour full-day tour, live 2026-11-03, 4.7/5 from 837 reviews"
+   }
+  ],
+  "time_of_day_dissent": [],
+  "time_of_day_note": "No dissent: every El Tatio listing runs at dawn; Valle de la Luna afternoon tours end at a sunset viewpoint; Piedras Rojas is a full day."
+ },
+ "current_status_snapshot": {
+  "checked": "2026-11-03",
+  "status": "No current closure found for El Tatio, the Altiplanic lagoons, Piedras Rojas or Valle de la Luna in a dated search; Valle de la Luna admits visitors with tickets bought in advance.",
+  "recheck_before": "2027-01-15"
+ },
+ "device": {
+  "type": "Live date checker: Open-Meteo forecast for the town and for the high plateau (El Tatio point, 4,300 m) inside the 16-day window, the town's DMC monthly averages beyond it, plus Moon phase and moonrise/moonset and sunrise/sunset for the chosen date",
+  "forecast": true,
+  "forecast_source": "Open-Meteo forecast API (best-match models), daily and hourly, timezone America/Santiago; read in the browser",
+  "window_days": 16,
+  "says_which": true,
+  "rows": [
+   "Highland trips (storm or snow risk, wind gusts)",
+   "Holiday dates",
+   "Stargazing (Moon and night cloud)",
+   "Cold at dawn",
+   "Daytime in town",
+   "Sunrise and sunset"
+  ],
+  "material_factors": [
+   "plateau precipitation, snowfall and thunderstorm codes",
+   "plateau wind gusts",
+   "plateau dawn minimum",
+   "town max and min",
+   "night cloud cover",
+   "Moon illumination and whether the Moon is up 9 p.m. to midnight"
+  ],
+  "rejected": [
+   {
+    "factor": "humidity",
+    "why": "very low all year; changes no booking"
+   },
+   {
+    "factor": "UV index",
+    "why": "high in every month; the advice (sunscreen, hat) never changes"
+   },
+   {
+    "factor": "visibility",
+    "why": "not a decision on a desert day; cloud and storms are already covered"
+   },
+   {
+    "factor": "daylight hours",
+    "why": "10h 44m to 13h 32m; tours are scheduled around sunrise and sunset, so the device shows those times instead"
+   },
+   {
+    "factor": "road status",
+    "why": "no public machine-readable feed; the device tells the reader to check with the operator on the morning"
+   }
+  ],
+  "cta_logic": "storm or snow signal on the plateau -> Valle de la Luna tours (lower sites); dark Moon -> stargazing tours; otherwise -> the featured Piedras Rojas tour",
+  "no_js_default": "date-neutral: the four seasons in brief and a working CTA"
+ },
+ "derived_times": [
+  "sunrise",
+  "sunset",
+  "moonrise",
+  "moonset"
+ ],
+ "jargon_swaps": [
+  {
+   "trade": "invierno altiplanico / altiplanic winter",
+   "reader": "summer storms on the high plateau (December to March)"
+  },
+  {
+   "trade": "puna",
+   "reader": "high plateau"
+  }
+ ],
+ "autocomplete_file": "autocomplete.json",
+ "autocomplete_run": "2026-11-03",
+ "top_attractors": [
+  "weather by month (24 month-named completions plus 23 weather completions)",
+  "best time to visit / best month",
+  "stargazing best time (6 completions)",
+  "how cold / hot or cold"
+ ],
+ "spokes": [
+  {
+   "name": "stargazing best time / full moon",
+   "disposition": "built",
+   "url": "/stargazing-tours/"
+  },
+  {
+   "name": "how many days",
+   "disposition": "built",
+   "url": "/how-many-days/"
+  },
+  {
+   "name": "weather by month",
+   "disposition": "rejected",
+   "reason": "This page carries the month-by-month table and the date checker; a separate weather page would split the same query."
+  },
+  {
+   "name": "what to pack / how cold",
+   "disposition": "built",
+   "url": "/what-to-pack/"
+  },
+  {
+   "name": "altitude",
+   "disposition": "built",
+   "url": "/altitude/"
+  },
+  {
+   "name": "is it worth visiting",
+   "disposition": "built",
+   "url": "/is-san-pedro-de-atacama-worth-visiting/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "DMC climate portal, San Pedro de Atacama INIA (220024)",
+   "url": "https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/220024",
+   "supports": "monthly highs, lows, frost nights and rain in town, 2011-2025"
+  },
+  {
+   "name": "Chile Travel (Sernatur) seasonal guide",
+   "url": "https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/",
+   "supports": "April-June recommendation; December-March altiplanic winter with storms and route closures"
+  },
+  {
+   "name": "CR2, Universidad de Chile",
+   "url": "https://www.cr2.cl/eng/?p=20780",
+   "supports": "Altiplanic winter: convective summer rain on the Altiplano above 3,000 m"
+  },
+  {
+   "name": "El Tatio fee page",
+   "url": "https://eltatio.net/tarifas-geysers-del-tatio/",
+   "supports": "hours, age rule, dawn cold"
+  },
+  {
+   "name": "SPACE Star Tours",
+   "url": "https://www.spaceobs.com/en/Services/Star-Tours",
+   "supports": "full-moon pause, seasonal start times"
+  },
+  {
+   "name": "T13",
+   "url": "https://www.t13.cl/noticia/nacional/san-pedro-atacama-registra-anegamientos-lluvias-asociadas-invierno-altiplanico-23-1-2026",
+   "supports": "January 23, 2026 flooding"
+  },
+  {
+   "name": "Calama en Linea",
+   "url": "https://noticias.calamaenlinea.cl/region/san-pedro-de-atacama/video-mantienen-cierre-de-ruta-hacia-geiseres-del-tatio-por-intensa-nieve-en-el-sector/",
+   "supports": "August 11, 2026 snow closure of Route B-223"
+  },
+  {
+   "name": "G5 Noticias",
+   "url": "https://g5noticias.cl/2026/08/13/tras-dos-jornadas-de-leves-lluvias-la-gran-mayoria-de-los-atractivos-turisticos-esta-disponible-en-san-pedro-de-atacama/",
+   "supports": "August 13, 2026 open and closed site lists; Valle de la Luna tickets bought in advance"
+  },
+  {
+   "name": "Corporacion de Turismo San Pedro de Atacama",
+   "url": "https://turismosanpedrodeatacama.com/festividades-y-bailes/",
+   "supports": "festival dates"
+  },
+  {
+   "name": "Meganoticias (Decree 98)",
+   "url": "https://www.meganoticias.cl/nacional/529110-cambio-hora-horario-verano-chile-fecha-septiembre-11-08-2026.html",
+   "supports": "clock changes"
+  },
+  {
+   "name": "Mineduc",
+   "url": "https://www.mineduc.cl/ministerio-de-educacion-recuerda-fechas-de-vacaciones-de-invierno-en-cada-region/",
+   "supports": "winter school holidays set by region"
+  },
+  {
+   "name": "Open-Meteo forecast API",
+   "url": "https://open-meteo.com/en/docs",
+   "supports": "the date checker's forecast inside 16 days"
+  }
+ ],
+ "limitations": [
+  "The town series is 2011-2025 from an agricultural station that opened in 2010, not a 1991-2020 WMO normal.",
+  "No public monthly series for the high plateau; its cold and summer rain are given as a direction.",
+  "No reachable monthly visitor or price series for San Pedro; no month is ranked as quieter or cheaper.",
+  "No public road-status feed; closures are announced on the day by Carabineros, the municipality and operators.",
+  "Forecasts beyond about a week are unreliable; the checker says which source it is showing."
+ ],
+ "regulated_season": null,
+ "tier_specific_figures": [],
+ "panel_flagged_uncharged": [
+  "re:skip (January|February|July)",
+  "re:pack for nights around 1 to 2",
+  "re:April is slightly cooler;"
+ ],
+ "owner_overrides": [],
+ "site_sweep": {
+  "checked": "2026-11-03",
+  "pages": [
+   "content/*.md (all 46)",
+   "data/offers.json",
+   "data/stay.yaml",
+   "data/homecards.json",
+   "data/homecomparison.json",
+   "layouts/partials/*"
+  ],
+  "terms": [
+   "best time",
+   "April",
+   "May",
+   "December-March",
+   "altiplanic",
+   "snow",
+   "full moon",
+   "under 9",
+   "under-9",
+   "°C",
+   "quieter",
+   "busiest",
+   "links to /best-time-to-visit/"
+  ],
+  "fixed": [
+   {
+    "page": "content/tours.md",
+    "what": "El Tatio age rule (fee page says 0-7 not admitted, ticket from 9); town temperatures replaced with DMC averages (was 'about 25 C by day and about 5 C at dawn'); snow season June-August with late snow in September (was June-September); 13 August list attributed to the tourist office and municipality"
+   },
+   {
+    "page": "content/el-tatio-geysers-tours.md",
+    "what": "FAQ age rule corrected from '0 to 8 not admitted' to '0 to 7 not admitted, ticket from 9'"
+   },
+   {
+    "page": "content/altitude.md",
+    "what": "FAQ and body age rule corrected from '0-8' to '0-7, general ticket from 9'"
+   },
+   {
+    "page": "content/atacama-desert-travel-guide.md",
+    "what": "best-time paragraph: was 'September to November and March to May ... fewer crowds ... December to February is peak season'; now April and October-November best balance, December-March storm season (March included), no unmeasured crowd claim"
+   },
+   {
+    "page": "layouts/partials/booking-site.html",
+    "what": "date in US format (October 9, 2026) on an en-US site"
+   },
+   {
+    "page": "layouts/partials/reviews-site.html",
+    "what": "'travellers' -> 'travelers' (en-US)"
+   },
+   {
+    "page": "layouts/partials/tour-card.html",
+    "what": "dt labels end with a colon (STR-GLUE)"
+   }
+  ],
+  "left": [
+   {
+    "page": "content/el-tatio-geysers-tours.md, content/tours.md",
+    "what": "'-5 C to -10 C at dawn' at El Tatio: no official figure found, but nothing contradicts it and the El Tatio site confirms sub-zero dawns; left"
+   },
+   {
+    "page": "content/multi-day-tours.md, data/offers.json",
+    "what": "'El Tatio prohibits under-9s' quotes the listing's own note, not the fee page; left as the product's condition"
+   },
+   {
+    "page": "content/uyuni-tours-from-san-pedro-de-atacama.md",
+    "what": "'Best overall: April-May and September-November' is for the Uyuni crossing, a different product with its own season; consistent in direction, left"
+   },
+   {
+    "page": "content/things-to-do.md:358",
+    "what": "'peak season (December to February, July...)' - unmeasured but phrased as booking advice; left, flagged for the next voice pass"
+   },
+   {
+    "page": "anchor text of links to this page",
+    "what": "el-tatio, stargazing-tours ('includes a date checker'), things-to-do ('month-level advice'), homepage: all still true of the rebuilt page"
+   }
+  ]
+ },
+ "experience_recommendations": {
+  "highland_trips": "April, October and November; avoid relying on one high day in December-March or June-August",
+  "el_tatio": "any month at dawn; dress for well below freezing; snow closures June-August",
+  "stargazing": "nights near the new moon in any month; April-November carries less cloud risk",
+  "valle_de_la_luna": "all year on an afternoon tour ending at sunset",
+  "laguna_cejar": "warm afternoons, October to April",
+  "uyuni": "mirror after the summer rains; full route in drier months (see sibling page)"
+ },
+ "period_edges": [
+  {
+   "edge": "late June",
+   "source": "https://www.mineduc.cl/ministerio-de-educacion-recuerda-fechas-de-vacaciones-de-invierno-en-cada-region/",
+   "reason": "The Education Ministry sets the two-week winter school break region by region; in 2025 Antofagasta's break began June 23 (Meganoticias), so the break can start in late June rather than July."
+  }
+ ]
 }

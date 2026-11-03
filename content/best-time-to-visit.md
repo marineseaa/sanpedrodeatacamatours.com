@@ -1,235 +1,253 @@
 ---
-title: Best Time to Visit San Pedro de Atacama for a First Visit
-description: 'Compare 12 months in San Pedro de Atacama: April–May for a first trip,
-  highland summer rain, cold nights and the Moon’s effect on stargazing.'
+title: 'Best Time to Visit San Pedro de Atacama: Weather by Month & Stargazing'
+description: 'For a first trip to San Pedro de Atacama, April and October to November
+  offer the best balance: open high roads and town lows near 4 °C. Compare 12 months
+  and check your date.'
 url: /best-time-to-visit/
 type: landing
 exploreGroup: guides
 exploreLabel: Best time to visit San Pedro
 weight: 190
-lastmod: 2026-10-21
+lastmod: 2026-11-03
 offerIds:
 - 190853
 - 542449
+bookingEyebrow: TOURS FOR YOUR DATES
+bookingTitle: The high plateau by day, the sky by night
+bookingIntro: The full-day Piedras Rojas and Altiplanic lagoons tour is the trip the season affects most, and the stargazing session is the one the Moon affects most. Pick a date in the calendar below to see what is available.
 heroImage: /images/atacama-highland-lagoon.webp
 heroAlt: A blue highland lagoon and Andean mountains
-deck: Compare 12 months of highland weather, cold nights and astronomy conditions
-  to choose the right dates for your first San Pedro visit.
-intro: April and May offer a useful first-trip balance after the usual highland summer
-  rains and before the coldest winter nights. June suits travellers prepared for colder
-  dawn and astronomy sessions. Compare all 12 months below, or use the date guide
-  if your travel dates are fixed.
+deck: 'For a first trip to San Pedro de Atacama, April and October to November offer
+  the best overall balance, because the roads to the high plateau are usually open
+  and the nights are milder than in winter. This guide compares every month, the
+  storm and snow seasons up high and the Moon for stargazing, and lets you check
+  the conditions for your exact date.'
+intro: 'Already have dates? Use the [date checker](#date-check) to see the forecast
+  for the high plateau, how dark the night will be and the sunrise and sunset times
+  for your day.'
+heroSecondaryUrl: '#date-check'
+heroSecondaryLabel: Check the conditions for your date
+facts:
+- value: April, Oct–Nov
+  label: Best overall balance
+- value: Dec–Mar
+  label: Storm season up high
+- value: Jun–Aug
+  label: Snow risk and the coldest nights
 faq:
-- q: What is the best month for a first visit?
-  a: We would start with April or May for a combined landscape-and-astronomy visit,
-    based on the usual highland summer-rain period and winter cold. This is not a
-    guarantee of clear weather.
+- q: What is the best month to visit San Pedro de Atacama?
+  a: If your dates are flexible, April, October and November offer the best overall
+    balance. The summer storms on the high plateau are over or have not started, winter
+    snow is less likely, and town lows average about 4 °C rather than below freezing.
+    May and September also work if you pack for colder nights.
 - q: Can I visit in January or February?
-  a: Yes, but highland rain and storms can affect routes. Keep flexibility and confirm
-    the named stops with your supplier near departure.
-- q: Is winter too cold?
-  a: It can still suit a visit, but dawn and night excursions require substantial
-    warm clothing. Check highland access as well as the town forecast.
-- q: Is full moon bad for every astronomy tour?
-  a: No. It reduces faint-object visibility but can suit lunar viewing. Some operators
-    close around full moon; others offer a different session.
-- q: Does the date guide predict the weather?
-  a: No. It provides seasonal advice and approximate lunar illumination. It does not
-    show a live forecast, moonrise times or road safety.
-- q: Which month is cheapest?
-  a: We have not verified a local monthly price series. Compare actual hotel and tour
-    quotes for your dates rather than relying on an unsupported discount percentage.
-- q: Is April guaranteed to have open highland roads?
-  a: No. Individual routes can close or change in any month. Check current conditions
-    with the selected operator.
-- q: What time of day should I book?
-  a: Sunset is the standard focus for the Moon Valley options here, sunrise for the
-    featured El Tatio trip, and the confirmed after-dark session for astronomy. Each
-    activity needs its own timing.
-- q: Is there a bad month to visit?
-  a: Not for the town and the lower sites, which open most days of the year. The
-    risk falls on the high-altitude trips. December to March can bring highland storms,
-    and winter snow closed El Tatio and the high lagoons for several days in August
-    2026.
-- q: Does it snow in the Atacama?
-  a: On the high plateau, yes, mainly in winter. On 11 August 2026 Carabineros closed
-    the road to El Tatio at Machuca because of snow, and two days later the high sites
-    were still closed while the lower ones had reopened.
+  a: Yes. Days in town are hot and nights are mild, but this is the storm season on
+    the high plateau, so El Tatio, the Altiplanic lagoons or Piedras Rojas can close
+    or change route on some days. Keep a spare day and choose free cancellation where the listing
+    offers it. January and February are also Chile's summer school holidays.
+- q: How cold is San Pedro de Atacama in winter?
+  a: In June and July the average high in town is about 22 to 23 °C, but the average
+    low is about −2 °C, with about 23 nights a month below freezing. El Tatio and the
+    lagoons, above 4,000 meters, are colder still, so dress in full winter layers for
+    dawn and night tours.
+- q: Does it snow in San Pedro de Atacama?
+  a: Snow falls on the high plateau, mainly from June to August, and can close the
+    high-altitude sites. On August 11, 2026, Carabineros closed the road to El Tatio
+    at Machuca because of snow, and two days later the high sites were still closed
+    while the lower ones near town had reopened.
+- q: When is the best time for stargazing?
+  a: Any month, on a night when the Moon is down or a thin crescent during your session.
+    The dry months from April to November carry less risk of cloud than the summer
+    storm season. Winter nights are long but very cold. The date checker shows the
+    Moon for your date.
+- q: Is a full moon bad for stargazing tours?
+  a: It washes out faint stars and the Milky Way. SPACE does not run tours on the 7 nights
+    around the full moon; some other operators run a Moon-and-planets session instead,
+    so ask which one you are booking.
+- q: Which months are busiest?
+  a: We could not find a monthly visitor series for San Pedro, so we do not rank months.
+    Chile's summer school holidays in January and February, the winter school break
+    in late June or July and the September 18 holidays are when many Chileans travel,
+    so book rooms and tours earlier on those dates.
 - q: What happens if my tour is cancelled for weather?
-  a: Ask the operator before you book. When authorities close a site, operators usually
-    offer another date, a refund or a substitute stop. Book a refundable option in
-    the December–March and winter months and leave a spare day.
+  a: When authorities close a site, ask the operator whether you get another date,
+    a refund or a different stop, and check the listing's cancellation terms before
+    you book. Put the high-altitude trip early in your stay so a closure still leaves
+    time for another date, if a later tour has space.
+- q: Can children visit El Tatio?
+  a: The El Tatio fee page says children aged 0 to 7 are not admitted and lists the
+    general ticket from age 9. Tour operators often set their own, sometimes stricter,
+    age limit, so check the listing before you pick the dates.
 - q: When do the clocks change in Chile?
-  a: Mainland Chile, including San Pedro, moved its clocks back one hour on 4 April
-    2026 and forward on 5 September 2026. Under the current decree, the next change
-    back is on the night of Saturday 3 April 2027. Recheck the time of an early pickup
-    around those dates.
+  a: Mainland Chile, including San Pedro, moved its clocks back one hour on April
+    4, 2026 and forward on September 5, 2026. Under the current decree, the next change
+    back is on the night of Saturday, April 3, 2027. Recheck an early pickup time around
+    those dates.
 related:
 - /stargazing-tours/
 - /what-to-pack/
 - /3-day-itinerary/
 ogImage: /images/best-time-to-visit-og.jpg
-heroSecondaryUrl: '#season-checker'
-heroSecondaryLabel: Already have dates? Check your day
 ---
 
-## When should you go?
+## The best months for a first trip
 
 <div class="answer-box guide-answer">
-<p class="guide-answer__text">For a first visit combining highland scenery and stargazing, we would choose April or May. The destination can be visited throughout the year, but weather may alter individual routes; no month guarantees that every excursion runs. April and May fall after the usual December–March highland summer-rain period and before the coldest winter nights.</p>
-<p class="guide-answer__text">For astronomy, check the Moon and the actual observing time before choosing the date. A bright Moon can reduce faint-star visibility even on a clear night, while some tours offer Moon-and-planets viewing instead. If you have already booked summer dates, keep a spare day for highland route changes. In winter, bring substantial warm layers for dawn and night excursions.</p>
+<p class="guide-answer__text">San Pedro de Atacama can be visited year-round, and its standard tours are available in every month, although summer storms and winter snow can close the high-altitude trips for a day or more. Those trips climb above 4,000 meters to the El Tatio geysers, the Altiplanic lagoons and the red rocks of Piedras Rojas. Valle de la Luna and the salt lagoons near town are much less exposed.</p>
+<p class="guide-answer__text">If your dates are flexible, April, October and November offer the best overall balance. The summer storm season up high is over or has not begun, and snow is less likely than in winter. Nights in town average about 4 °C, although dawn at El Tatio can still be below zero. April afternoons are slightly cooler; October and November have longer days. May and September are colder, with average lows near freezing in town, and in September late snow can still close the high routes.</p>
+<p class="guide-answer__text">From December to March, town afternoons are hot and nights mild, but storms can close the high roads; from June to August, dawns are coldest and snow can close them. Either way, put the high trip early in your stay, keep a spare day and check the weather up high the day before. Book rooms and tours earlier for January and February, the winter school break in late June or July, and the days around September 18, when many Chileans travel. In any month, see Valle de la Luna at sunset and El Tatio at dawn, and book stargazing when the Moon is down during the session.</p>
+<dl class="guide-decide guide-answer__decide">
+<div class="guide-decide__row"><dt class="guide-decide__label">Best overall balance:</dt> <dd>April, October and November</dd></div>
+<div class="guide-decide__row"><dt class="guide-decide__label">Good, with colder nights:</dt> <dd>May and September</dd></div>
+<div class="guide-decide__row"><dt class="guide-decide__label">Warmest nights, storms up high:</dt> <dd>December to March</dd></div>
+<div class="guide-decide__row"><dt class="guide-decide__label">Coldest dawns, snow up high:</dt> <dd>June to August</dd></div>
+<div class="guide-decide__row"><dt class="guide-decide__label">Chilean holidays, book ahead:</dt> <dd>January, February, late June–July, September 18–19</dd></div>
+<div class="guide-decide__row"><dt class="guide-decide__label">Stargazing:</dt> <dd>Nights near the new moon</dd></div>
+<div class="guide-decide__row"><dt class="guide-decide__label">Check on the day:</dt> <dd>Storms, snow, wind, night cloud</dd></div>
+</dl>
+<ul class="guide-figures">
+<li><strong>4 °C</strong> Average low in town, April and October</li>
+<li><strong>23 nights</strong> Below freezing in town, June and July</li>
+<li><strong>32 °C</strong> Average high in town, January</li>
+<li><strong>Dec–Mar</strong> Storm season on the high plateau</li>
+</ul>
 </div>
 
-Our April–May choice is an editorial recommendation within [Chile Travel’s April–June advice](https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/). The useful reason is the change in highland conditions; we have not verified a monthly price or visitor-count series that would establish a cheapest or quietest month. For the wider picture, including the rare snow and the 2026 flowering desert far to the south, see our [Atacama Desert travel guide](/atacama-desert-travel-guide/).
+## Check the conditions for your date {#check-dates}
+
+Pick a day to see the forecast for the high plateau and the town, how dark the evening will be, and the sunrise and sunset times. Inside the next 16 days the checker reads a live weather forecast; further ahead it shows the season and the town's monthly averages, and it always says which one you are looking at.
+
+<form class="day-checker btv-device cvd" id="date-check" data-device>
+<label for="date-check-input">Your date in San Pedro</label><input type="date" id="date-check-input" required min="2026-01-01" max="2036-12-31"> <button class="btn-primary" type="submit">Check this date</button>
+<div id="date-check-out" class="checker-result" aria-live="polite">
+<h3>What the checker shows</h3>
+<dl class="cvd-rows">
+<div class="cvd-row"><dt>Highland trips:</dt><dd>December to March is the storm season on the high plateau and June to August the snow season; either can close El Tatio, the lagoons and Piedras Rojas on some days.</dd></div>
+<div class="cvd-row"><dt>Holidays:</dt><dd>Chile's school holidays in January, February and July and the September 18 holidays are when many Chileans travel.</dd></div>
+<div class="cvd-row"><dt>Stargazing:</dt><dd>A bright Moon washes out faint stars, so the nights near the new moon are darkest.</dd></div>
+<div class="cvd-row"><dt>Cold at dawn:</dt><dd>Lows in town average below freezing from June to August; El Tatio and the lagoons are colder in every month.</dd></div>
+</dl>
+<p class="fineprint">Choose a date and press the button to see the forecast or the season for that day. Not a road-status service: check with your operator on the morning.</p>
+</div>
+<a id="date-check-cta" class="btn-primary cvd-cta" href="https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/" data-gyg-href="https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/" target="_blank" rel="sponsored noopener">Check Piedras Rojas tour dates</a>
+</form>
+<script src="/js/best-time.js" defer></script>
 
 ## Other experiences you might enjoy
 
-Whatever month you pick, compare sunset at **Valle de la Luna**, the sunrise **El Tatio geysers**, the **Altiplanic lagoons and Piedras Rojas** and an evening of **stargazing** near San Pedro.
+Whatever month you choose, these are the San Pedro de Atacama tours most visitors fit into a stay: Valle de la Luna at sunset, the El Tatio geysers at dawn, the Altiplanic lagoons and Piedras Rojas, and an evening of stargazing.
 
 {{< gyg-experiences >}}
 
-## Check your travel date
+## How the seasons change a trip
 
-<form class="day-checker btv-device" id="season-checker">
-<label for="visit-date">Date you plan to visit</label><input type="date" id="visit-date" required min="2026-01-01" max="2035-12-31"><br><button class="btn-primary" type="submit">Check seasonal guidance</button>
-<div id="checker-output" class="checker-result" aria-live="polite"><h3>Highland trips and night-sky sessions need different checks</h3><p>December–March can bring highland storms. Winter dawns and nights need particularly warm clothing. For stargazing, ask about moonlight during the actual session and the operator’s cloud policy.</p><p class="fineprint">Choose a date for seasonal guidance and an approximate lunar estimate. This tool does not provide a weather forecast, road status or booking availability.</p></div>
-<a id="checker-cta" href="/piedras-rojas-tours/#availability">Check highland tour dates</a> · <a href="/stargazing-tours/#availability">Compare astronomy sessions</a>
-</form>
+The months mostly change three things: whether storms or snow can close the road to the high sites, how cold the dawn and night tours feel, and how hot the afternoons are in town. The landscape itself stays dry and open in every month.
 
-## No month is closed, but the high trips carry the risk
+### December to March: hot days, storms up high
 
-You can visit San Pedro in any month. The town, Valle de la Luna and the salt lagoons near the Salar open most days of the year; the closures fall mainly on the trips that climb above about 4,000 metres, such as El Tatio, the Altiplanic lagoons and Piedras Rojas (see [altitude by tour](/altitude/)).
+Days in town are the warmest of the year, with average highs around 31 to 32 °C, and nights are mild at about 7 to 10 °C. Up on the plateau this is the storm season, which Chileans call the *invierno altiplánico* even though it falls in summer: moist air from the east brings thunderstorms and rain above about 3,000 meters. Storms can close or reroute the trips to El Tatio, the Altiplanic lagoons and Piedras Rojas, and heavy rain occasionally reaches town: on January 23, 2026, it flooded several streets. February is usually the wettest month in town, and even then it rains on only two or three days.
 
-| Season | Lower sites near town | High-altitude trips | What happened in 2026 |
-|---|---|---|---|
-| December–March | Usually open; heavy rain can flood streets for a day | Highland rain and storms can close roads and change routes | On 23 January 2026 rain flooded several streets in San Pedro, and the national emergency service issued a preventive alert |
-| April–May | Usually open | Our first choice for the core tours, though any route can still close for a day | |
-| June–August | Usually open, with cold mornings and nights | Snow can close El Tatio, the high lagoons and the border passes for days | On 11 August Carabineros closed Route B-223 at Machuca because of snow; on 13 August the municipality said El Tatio, Miscanti and Miñiques, Piedras Rojas and Rainbow Valley were still closed while Cejar, Chaxa, Tebenquiche, Baltinache and the Pukará de Quitor had reopened |
-| September–November | Usually open | Late snow and strong wind can still affect the highest routes | |
+Keep a spare day for the high trip and choose free cancellation where the listing offers it. January and February are also Chile's summer school holidays, so book rooms and tours earlier. If you are crossing to Bolivia's Uyuni salt flat, this is when it can hold water for the mirror reflections, although a mirror on your date is never guaranteed (see our [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/)).
 
-The pattern matters most for a short stay. If El Tatio or Piedras Rojas is the reason for your trip, put it early in your stay after a lower day or two, so a closure still leaves you a second chance.
+### April and May: dry roads, cooling nights
 
-### Wind
+April is the first month after the storms, with almost no rain in town, average highs around 28 °C and lows around 4 °C. Chile's tourism board recommends the April to June period and describes the skies after the storm season as intensely clear; on the town's own records, though, June is already the coldest month of the year. May is still dry but colder at night, with lows averaging about 1 °C and around 13 nights a month below freezing in town, so a warm jacket matters on every early start.
 
-Wind affects comfort more than access on most days. Afternoons are often windier than mornings, so plan cycling, sandboarding and long walks in the morning and carry a windproof layer for the high plateau, where gusts feel much colder. If a strong wind or snow makes a high road unsafe, sites can close for the day.
+### June to August: cold nights, snow up high
 
-### El Niño in 2026 {#el-nino-in-2026}
+Afternoons are still sunny and pleasant in town, with average highs around 22 to 25 °C, but the average low is about −2 °C in June and July and there are around 20 to 23 nights a month below freezing. El Tatio at dawn and an evening at the telescopes are the coldest experiences of the trip. Snow is the main risk: on August 11, 2026, Carabineros closed the road to El Tatio at Machuca because of snow, and on August 13 El Tatio, Miscanti and Miñiques, Piedras Rojas and Rainbow Valley were still closed while Laguna Cejar, Chaxa, Tebenquiche, Baltinache and the Pukará de Quitor had reopened. Put the high trip early in your stay so a closure still leaves time for another date, if a later tour has space. SPACE also pauses its Bucket list astronomy tours from June to August, while its other tours continue.
 
-Chile's weather service (DMC) said in its June 2026 climate bulletin that it expected a moderate to strong El Niño through the second half of 2026, possibly strong or very strong from September to November. The same bulletin notes that El Niño does not fully determine Chile's weather, and it gives no forecast for the San Pedro summer, so plan the coming December–March as you would any other: with a spare day for the high trips.
+### September to November: dry and warming
 
-## Summer: December to March
+September is dry but still cold at night, with lows averaging about 2 °C and late-winter snow still possible up high. By October, lows in town are back around 4 °C, and November has the mildest nights of the dry months at about 5 °C, with afternoons around 29 to 31 °C. Days are also getting longer: about 12½ hours in October and 13 hours in November, compared with about 11½ in April. Around September 18, Chile's Fiestas Patrias holidays bring a busy long weekend.
 
-Despite the desert’s dry reputation, high elevation can still get rain. Chile Travel describes the December–March “altiplanic winter” as a period when moist air can bring highland rain, storms and route closures. Operators may still run excursions, subject to the particular route and conditions.
+## San Pedro de Atacama weather by month
 
-For [Piedras Rojas](/piedras-rojas-tours/) or [El Tatio](/el-tatio-geysers-tours/), ask about the actual route and keep a spare date where practical. A town forecast does not tell you what the high plateau is doing. If the operator changes the route, ask which stops remain and what refund or rescheduling conditions apply.
+The figures are averages for the town, at about 2,400 meters. El Tatio and the Altiplanic lagoons sit 1,600 to 1,900 meters higher and are much colder in every month, and most of the summer rain falls up there rather than in town.
 
-## Autumn: April and May, then colder June
+| Month | Average high in town | Average low in town | Nights below freezing in town | Rain in town | What it means for the high trips |
+|---|---|---|---|---|---|
+| January | 32 °C | 9 °C | 0 | 8 mm | Storm season up high; keep a spare day |
+| February | 31 °C | 10 °C | 0 | 21 mm | Storm season up high, usually the wettest month |
+| March | 30 °C | 7 °C | 0 | 5 mm | Storms easing; routes can still close |
+| April | 28 °C | 4 °C | 2 | under 1 mm | Usually open; cold dawns |
+| May | 25 °C | 1 °C | 13 | 2 mm | Usually open; freezing dawns up high |
+| June | 23 °C | −2 °C | 23 | 1 mm | Snow can close El Tatio and the lagoons |
+| July | 23 °C | −2 °C | 23 | 1 mm | Snow can close El Tatio and the lagoons |
+| August | 25 °C | −1 °C | 20 | 1 mm | Snow can close the high sites, as in 2026 |
+| September | 27 °C | 2 °C | 8 | under 1 mm | Late snow still possible |
+| October | 29 °C | 4 °C | 2 | under 1 mm | Usually open |
+| November | 31 °C | 5 °C | 0 | under 1 mm | Usually open; the mildest dry-season nights |
+| December | 32 °C | 7 °C | 0 | under 1 mm | Storms can begin late in the month |
 
-April and May are where we would start if you want the standard landscape mix and would rather not travel in the summer-rain period. They still require warm layers for early starts and nights. A lower chance of seasonal rain is not proof of safe roads, calm wind or clear astronomy conditions on a particular day.
-
-Chile Travel’s recommendation extends into June. Treat June as a colder-night choice and pack accordingly, particularly for standing at telescopes or waiting for sunrise. Do not use a pleasant daytime temperature as your night-tour clothing guide.
-
-## Winter: June to August
-
-Cold bites hardest on the two experiences where you spend time outside without moving much: [stargazing](/stargazing-tours/) and the dawn geyser visit. Insulating layers, wind protection and warm footwear matter. A blanket from the operator is a bonus and does not replace dressing properly.
-
-Winter can still suit a landscape trip, but highland snow and road conditions may change access. Confirm conditions on the specific excursion route as well as the forecast for San Pedro.
-
-## Spring: September to November
-
-Spring is a second period to consider for the core tour mix. Check the day’s wind and road conditions and pack warm night layers. We do not claim that every spring month has fewer visitors or lower prices; those choices depend on your actual travel dates and live room and tour quotes.
-
-If photography is your priority, the departure and light can matter more than choosing one spring month over another. Compare a sunset [Moon Valley tour](/moon-valley-tours/) with the predawn format of El Tatio; the light and departure times serve different experiences.
-
-## Month-by-month planning
-
-| Month | Main planning question | Practical action |
-|---|---|---|
-| January | Are summer storms affecting the highland route? | Keep a flexible date and ask about substitutions |
-| February | Which plateau roads and reserves are accessible? | Reconfirm the full route near departure |
-| March | Is highland summer weather still active? | Keep the same route checks as earlier summer |
-| April | Does the selected trip fit your arrival and altitude plan? | Compare the core routes and leave rest time |
-| May | Are you prepared for cold dawns and nights? | Pack warm layers even for a sunny daytime forecast |
-| June | How cold will the actual highland or night stop be? | Ask the operator about clothing and access |
-| July | Are cold, snow or road conditions changing departures? | Check route status, not only the town forecast |
-| August | Is the advertised highland circuit running in full? | Confirm the named stops and cancellation terms |
-| September | What are the departure times for the current season? | Verify sunset and astronomy session timing |
-| October | Is wind affecting comfort or route access? | Carry wind protection and check operator messages |
-| November | Does your astronomy date provide a dark session? | Ask about Moon rise/set at observing time |
-| December | Are highland summer rains beginning to affect the route? | Leave a spare day and confirm access |
+Rain in town is the total depth for the whole month, not a daily figure, and in most years most months get none at all. A single storm can bring more than the average: one February in the records had 80 mm.
 
 ## Best time for each activity
 
 | Activity | When it works best | What to plan around | Our guide |
 |---|---|---|---|
-| Altiplanic lagoons and Piedras Rojas | April–May for a first visit | Highland storms from December to March; snow closures in winter | [Piedras Rojas tours](/piedras-rojas-tours/) |
-| El Tatio geysers | Any month; the steam is thickest on the coldest mornings | Snow closures from June to August, storms from December to March, and a dawn below freezing all year | [El Tatio tours](/el-tatio-geysers-tours/) |
-| Stargazing | Any month on a dark, clear night; check the Moon first | Cloud during the December–March highland rains, cold winter nights and tours that pause around full moon | [Stargazing tours](/stargazing-tours/) |
-| Valle de la Luna | All year, at sunset | Storm days and the ticket slot you book | [Moon Valley tours](/moon-valley-tours/) |
-| Floating at Laguna Cejar | Warm, calm afternoons | Cold water and wind in winter | [Laguna Cejar tours](/laguna-cejar-tours/) |
-| Puritama hot springs | Any month; a soak feels best on a cold day | Summer storm days and the two daily entry blocks | [Puritama guide](/puritama-hot-springs-tours/) |
-| Cycling and sandboarding | Mornings in any month | Afternoon wind | [Things to do](/things-to-do/) |
-| Uyuni crossing | The reflections need water on the salt flat, usually after the summer rains; drier months suit the full route | Flooded tracks in the wet season and snow at the border in winter | [Uyuni tours](/uyuni-tours-from-san-pedro-de-atacama/) |
+| Altiplanic lagoons and Piedras Rojas | April, October and November | Storms from December to March; snow from June to August | [Piedras Rojas tours](/piedras-rojas-tours/) |
+| El Tatio geysers | Any month, at dawn | Snow closures from June to August, storms from December to March, and a dawn below freezing in every month | [El Tatio tours](/el-tatio-geysers-tours/) |
+| Stargazing | Any month, on a night with no Moon up | Cloud during the summer storm season, very cold winter nights, and tours that pause around the full moon | [Stargazing tours](/stargazing-tours/) |
+| Valle de la Luna | All year, on an afternoon tour that ends at sunset | Tickets for a set date, bought online in advance; the Mirador de Ckari viewpoint has been closed since May 27, 2026 | [Moon Valley tours](/moon-valley-tours/) |
+| Floating at Laguna Cejar | Warm afternoons, October to April | Cooler afternoons from May to September | [Laguna Cejar tours](/laguna-cejar-tours/) |
+| Puritama hot springs | Any month; a soak feels best on a cold day | Storm days in summer and the set entry times | [Puritama guide](/puritama-hot-springs-tours/) |
+| Cycling and sandboarding | Mornings, in any month | Hot afternoons from December to February; wind often picks up later in the day | [Things to do](/things-to-do/) |
+| Uyuni crossing | Mirror reflections need water on the salt flat, mainly after the summer rains; drier months suit the full route | Flooded tracks in the wet season and snow at the border in winter | [Uyuni tours](/uyuni-tours-from-san-pedro-de-atacama/) |
 
-## Best time for stargazing is a separate decision
+## Stargazing and the Moon
 
-Darkness, moonlight and cloud influence the actual session. The featured astronomy tours last around two and a half hours, with outdoor observation and vehicle travel. A monthly recommendation cannot tell you which objects will be visible that evening.
+The night sky changes more with the Moon than with the month. A bright Moon washes out faint stars and the Milky Way even on a cloudless night, and it rises about 50 minutes later each day, so the darkest evenings are the few around the new moon. The date checker above shows how much of the Moon is lit on your date and when it rises and sets.
 
-[SPACE](https://www.spaceobs.com/en/Services/Star-Tours), a separate local operator, does not run tours on the 7 nights around the full moon (checked October 2026). If those nights are your only free evenings, compare other [stargazing tours](/stargazing-tours/). Llama’s selected listing instead offers stargazing or Moon-and-planets formats. Ask which experience you are booking, and whether the photograph or faint-object view you want is realistic on that date.
+Astronomy tours usually last two to three hours, mostly standing outdoors at telescopes. SPACE does not run tours on the 7 nights around the full moon and starts at about 7 p.m. in winter and 9 p.m. in summer. The [Llama stargazing session](/tours/llama-stargazing-experience/) offers either stargazing or a Moon-and-planets format, so ask which one runs on your night. Cloud is the other check: operators cancel when the sky is overcast, which is more likely during the summer storm season, so book stargazing for an early night of your stay and keep a later one free.
 
-The date guide estimates the fraction of the Moon illuminated; it does not calculate whether the Moon is above the horizon during your session. Confirm that final detail with the astronomy provider. Reserve an earlier available evening in your stay when feasible, leaving another night as a possible alternative if conditions change.
+## Holidays, festivals and clock changes
 
-## Festivals, holidays and clock changes
-
-San Pedro's local festivals mix Catholic feast days with Atacameño tradition. The dates below are the ones the Corporación de Turismo San Pedro de Atacama publishes; ask locally for the programme, and before photographing a ceremony.
+San Pedro's festivals mix Catholic feast days with Atacameño tradition. These are the dates the town's tourism corporation publishes; ask locally for the program, and ask before photographing a ceremony.
 
 | Date | Event |
 |---|---|
-| 2 February | Fiesta de la Candelaria |
+| February 2 | Fiesta de la Candelaria |
 | Before Lent (February or March) | Carnaval |
-| 3 May | Cruz de Mayo, with decorated crosses carried through the streets |
-| 29 June | Fiesta de San Pedro y San Pablo, the town's patron-saint festival |
-| 25 July | San Santiago |
-| 1–2 November | Mesa de los difuntos, when families set offering tables for the dead |
+| May 3 | Cruz de Mayo, with decorated crosses carried through the streets |
+| June 29 | Fiesta de San Pedro y San Pablo, the town's patron-saint festival |
+| July 25 | San Santiago |
+| November 1–2 | Mesa de los difuntos, when families set offering tables for the dead |
 
-National holidays such as Easter (28 March in 2027), Fiestas Patrias on 18 and 19 September and the long weekend around 12 October are times when many Chileans travel, so book rooms and tours earlier if your dates overlap.
+National holidays such as Easter (March 28 in 2027), the Fiestas Patrias on September 18 and 19 and the long weekend around October 12 are times when many Chileans travel, as are the summer school holidays in January and February and the two-week winter school break, which the Education Ministry sets region by region in late June or July. Book rooms and tours earlier if your dates overlap.
 
-Mainland Chile, including San Pedro, moved its clocks back one hour on 4 April 2026 and forward one hour on 5 September 2026. The current decree sets the next change back for the night of Saturday 3 April 2027. If a predawn pickup falls the morning after a change, confirm the time with your operator.
-
-## Best time by type of traveller
-
-- **First visit:** April or May, our headline choice, for the standard landscape mix with fewer storm closures.
-- **Stargazers:** any month, chosen by the Moon; winter nights are long but cold, and December–March cloud can cancel sessions.
-- **Families:** the school holidays fit children's calendars, but El Tatio admits no one under 9 in any month, so check age rules before you pick the dates.
-- **Photographers:** winter for snow on the volcanoes, if you can accept closures; the clear months either side for steadier access.
-- **Short stays:** avoid relying on one high-altitude day in December–March or June–August; leave a spare day.
+Mainland Chile, including San Pedro, moved its clocks back one hour on April 4, 2026 and forward one hour on September 5, 2026. The current decree sets the next change back for the night of Saturday, April 3, 2027. If a predawn pickup falls on the morning after a change, confirm the time with your operator.
 
 ## What to pack by season
 
 | Season | Add to the basics |
 |---|---|
 | All year | Sunscreen, lip balm, sunglasses, a hat, a refillable bottle and warm layers for dawn and night tours |
-| December–March | A light rain jacket and quick-drying clothes, plus a spare day in your plan |
-| April–May and September–November | A down or synthetic jacket and a fleece for early starts |
-| June–August | Full winter kit for dawn and night: thermal layers, a down jacket, a windproof shell, insulated gloves, warm socks and a hat |
+| December to March | A light rain jacket and quick-drying clothes |
+| April, May and September to November | A down or synthetic jacket, a fleece, a hat and gloves for early starts |
+| June to August | Full winter kit for dawn and night: thermal layers, a down jacket, a windproof shell, insulated gloves, warm socks and a hat |
 
 The [packing list](/what-to-pack/) covers each tour in more detail.
 
-## What if your dates are already fixed?
+## If your dates are already fixed
 
-Choose your route and packing around the conditions you can check. Summer visitors can keep a spare day for highland changes. Winter visitors can prioritise proper cold-weather clothing. Travellers on bright-moon dates can compare a lunar-focused session and ask which objects are likely to be visible.
+Every month has a way to make the trip work. In summer, keep a spare day for the high plateau and plan the lower sites around it. In winter, pack proper cold-weather clothing and put El Tatio and the lagoons early in your stay. On bright-Moon dates, compare a Moon-and-planets session with a standard stargazing tour. The [three-day](/3-day-itinerary/) and [four-day](/4-day-itinerary/) plans separate late nights from early starts, and our [altitude guide](/altitude/) explains why the lower sites come first.
 
-Use the [three-day](/3-day-itinerary/) or [four-day](/4-day-itinerary/) plan to separate late nights from early starts. The longest day tour is not automatically the best choice when time or comfort is limited. Compare inclusions and cancellation terms before completing the reservation.
+If weather closes a site, ask the operator which stops remain and whether you get another date, a refund or a different stop. For the latest closures, ask at the Sernatur tourist office on the plaza or check the municipality's announcements on the morning of the trip.
 
-If weather closes a site, ask the operator which stops remain and whether you get another date, a refund or a substitute stop. In the December–March and June–August months, choose refundable bookings and keep one or two days free. For the latest closures, ask at the Sernatur tourist office on the plaza or check the municipality's announcements on the morning of the trip.
+## How we know: sources and limits
 
+<details class="btv-sources">
+<summary>Where the figures come from, and where they stop</summary>
 
-## How we know: sources and limitations
+**Town weather.** The monthly figures come from the daily maximum, minimum and rainfall records of the San Pedro de Atacama INIA station (national code 220024, 2,416 m), published on the [Dirección Meteorológica de Chile climate portal](https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/220024). We averaged every year from 2011 to 2025 with enough reported days; the station opened in 2010, so this is not a 1991–2020 WMO normal. Rain is a mean monthly total, and February's median is lower than its mean because a few storms carry it. The University of Chile's 2017 agroclimatic atlas shows the same seasonal shape from older records, with summer highs about 3 to 4 °C lower. We found no public monthly series for El Tatio or the lagoons, so the page gives their direction (colder, wetter in summer) rather than figures.
 
-We checked these sources on **9 October 2026**. [Chile Travel’s seasonal guide](https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/) recommends April–June and describes the December–March highland rain period. Its [destination guide](https://chile.travel/en/destinations/san-pedro-de-atacama/) adds context on cold and advance planning. Our April–May preference is an editorial choice within that wider recommendation, for travellers combining highland scenery and outdoor astronomy.
+**Seasons up high.** The December to March storm season is described by [Chile Travel](https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/), which recommends April to June (article created March 10, 2026, re-read November 3, 2026), and by the University of Chile's climate research center [CR2](https://www.cr2.cl/eng/?p=20780). The 2026 closures come from press reports: [T13 on the January 23 rain](https://www.t13.cl/noticia/nacional/san-pedro-atacama-registra-anegamientos-lluvias-asociadas-invierno-altiplanico-23-1-2026), [Calama en Línea on the August 11 closure of Route B-223](https://noticias.calamaenlinea.cl/region/san-pedro-de-atacama/video-mantienen-cierre-de-ruta-hacia-geiseres-del-tatio-por-intensa-nieve-en-el-sector/) and [G5 Noticias on the Sernatur tourist office's August 13 site list](https://g5noticias.cl/2026/08/13/tras-dos-jornadas-de-leves-lluvias-la-gran-mayoria-de-los-atractivos-turisticos-esta-disponible-en-san-pedro-de-atacama/). A dated search on November 3, 2026 found no current closure of El Tatio, the lagoons, Piedras Rojas or Valle de la Luna.
 
-Astronomy schedules are operator-specific. We compared [SPACE’s published star-tour information](https://www.spaceobs.com/en/Services/Star-Tours) with the [Llama experience](/tours/llama-stargazing-experience/), whose listing describes a Moon-and-planets variation. We do not have a regional monthly crowd or price series, and these sources cannot tell you whether a particular road will be open on your date.
+**Tours and sites.** The El Tatio hours, age rule and cold warning are from the [El Tatio fee page](https://eltatio.net/tarifas-geysers-del-tatio/). The astronomy schedule is from [SPACE's Star Tours page](https://www.spaceobs.com/en/Services/Star-Tours) and the Llama listing, both read November 3, 2026. Festival dates are from the [Corporación de Turismo San Pedro de Atacama](https://turismosanpedrodeatacama.com/festividades-y-bailes/), school holidays from the [Education Ministry](https://www.mineduc.cl/ministerio-de-educacion-recuerda-fechas-de-vacaciones-de-invierno-en-cada-region/), and the clock changes from the Interior Ministry's Decree 98 as reported by [Meganoticias](https://www.meganoticias.cl/nacional/529110-cambio-hora-horario-verano-chile-fecha-septiembre-11-08-2026.html). Daylight is computed for the town's latitude.
 
-The date guide uses a mean 29.530588853-day lunar cycle from a reference new Moon on 6 January 2000. It estimates illumination at noon UTC; it does not calculate local Moon rise/set or correct for every variation in lunar motion. These limitations matter when choosing an actual observing session. It is not a forecast, and neither its seasonal advice nor its Moon estimate confirms departure availability.
+**The date checker.** Inside 16 days it reads the [Open-Meteo](https://open-meteo.com/) forecast for the town and two points on the plateau (El Tatio and Miscanti); beyond that it shows the town averages above. Sun and Moon times are computed in your browser with standard astronomical formulas and are accurate to a few minutes. It does not know whether a road is open.
 
-On **21 October 2026** we added the closure, festival and clock-change material from these sources. The 2026 closures come from press reports: [T13 on the 23 January rain](https://www.t13.cl/noticia/nacional/san-pedro-atacama-registra-anegamientos-lluvias-asociadas-invierno-altiplanico-23-1-2026), [Calama en Línea on the 11 August closure of Route B-223](https://noticias.calamaenlinea.cl/region/san-pedro-de-atacama/video-mantienen-cierre-de-ruta-hacia-geiseres-del-tatio-por-intensa-nieve-en-el-sector/) and [G5 Noticias on the municipality's 13 August site list](https://g5noticias.cl/2026/08/13/tras-dos-jornadas-de-leves-lluvias-la-gran-mayoria-de-los-atractivos-turisticos-esta-disponible-en-san-pedro-de-atacama/). The El Niño note is from the [DMC's June 2026 climate bulletin](https://climatologia.meteochile.gob.cl/application/publicaciones/documentoPdf/boletinTendenciasClimaticas/boletinTendenciasClimaticas-202606.pdf). Festival dates are from the [Corporación de Turismo San Pedro de Atacama](https://turismosanpedrodeatacama.com/festividades-y-bailes/). The clock changes follow the Interior Ministry's Decree 98, as reported by [Meganoticias](https://www.meganoticias.cl/nacional/529110-cambio-hora-horario-verano-chile-fecha-septiembre-11-08-2026.html). The El Tatio age rule is from the [El Tatio fee page](https://eltatio.net/tarifas-geysers-del-tatio/). We publish no monthly temperature, rainfall, price or occupancy figures, because we found no official series for San Pedro.
+**Limitations.** Chile's statistics institute surveys hotel stays in San Pedro, but we could not reach a monthly series, so the page ranks no month as quieter or cheaper and names holiday dates instead. The town averages cannot tell you how cold or wet it will be at El Tatio or the lagoons, and none of these sources says whether a road is open on your date: closures are announced on the day.
+
+</details>

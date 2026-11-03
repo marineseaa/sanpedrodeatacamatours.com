@@ -35,8 +35,9 @@ faq:
   a: No. Urban San Pedro pickup is included, but the listing excludes several surrounding
     ayllus and Toconao.
 - q: Can children visit on this product?
-  a: No child under 9 can go. The El Tatio fee page says children aged 0 to 8 are not
-    admitted, without exception, and the featured listing excludes under-9s too.
+  a: Not under 9. The El Tatio fee page says children aged 0 to 7 are not admitted,
+    without exception, and lists the general ticket from age 9; the featured listing
+    excludes under-9s.
 - q: Is there an upper age limit?
   a: The featured listing excludes people over 60; that is a condition of this product.
     The park itself does not recommend the visit for people over 70 and asks visitors

@@ -1,0 +1,977 @@
+{
+ "checked": "2026-11-03",
+ "gates": {
+  "HON-CURRENTPOLICY": {
+   "verdict": "pass",
+   "note": "El Tatio hours/age rule and SPACE schedule re-read 2026-11-03 on the operators' current pages; age rule corrected sitewide to 0-7 not admitted, ticket from 9"
+  },
+  "PROSE-EVENPAIR": {
+   "verdict": "pass",
+   "note": "April vs October-November chooser gives each side its own fact (cooler afternoons / longer days)"
+  },
+  "PROSE-ALARMSCALE": {
+   "verdict": "pass",
+   "note": "closures sized as \"for a day or more\"/\"on some days\"; no drama words"
+  },
+  "PROSE-NEXTSTEP": {
+   "verdict": "pass",
+   "note": "each constraint (storms, snow, holidays, Moon) followed by the action: spare day, early high trip, book earlier, Moon-down night"
+  },
+  "PROSE-OFFSEASONAPPEAL": {
+   "verdict": "pass",
+   "note": "June-August section opens on sunny pleasant afternoons before the cold and snow"
+  },
+  "VOICE-BLEND": {
+   "verdict": "pass",
+   "note": "box read aloud: guide voice with one picture per section (red rocks, geysers at dawn); not a bulletin"
+  },
+  "STAT-CONSEQUENCE": {
+   "verdict": "pass",
+   "note": "each figure followed by its consequence (4 C lows -> not freezing in town but El Tatio below zero; frost nights -> warm jacket)"
+  },
+  "STAT-NOUNSTACK": {
+   "verdict": "pass",
+   "note": "month numbers live in the table; prose carries one measure per sentence with its name (average high/low)"
+  },
+  "WARMTH-SCOPE": {
+   "verdict": "na",
+   "note": "no warm adjective about a class of places"
+  },
+  "LOCALE-DESTINATION": {
+   "verdict": "pass",
+   "note": "site and prose_locale en_US: month-first dates, meters, 12-hour times; Spanish place names kept"
+  },
+  "TERM-GLOSSFIRST": {
+   "verdict": "pass",
+   "note": "invierno altiplanico glossed where it first appears as the summer storm season on the high plateau"
+  },
+  "SAFETY-OWNPARA": {
+   "verdict": "pass",
+   "note": "the day-before weather check and closure handling have their own sentences in the box and their own section (If your dates are already fixed)"
+  },
+  "LABEL-WARM": {
+   "verdict": "pass",
+   "note": "decision labels name priorities with their cost (Warmest nights, storms up high)"
+  },
+  "HAZARD-CLASSNOTINSTANCE": {
+   "verdict": "pass",
+   "note": "hazard named as the class (summer storms, winter snow) with both outcomes (close or change route)"
+  },
+  "NOREQ-BESTBET": {
+   "verdict": "na",
+   "note": "no recommendation rests on an authority not acting"
+  },
+  "AUTHORITY-AVOIDDATES": {
+   "verdict": "na",
+   "note": "no authority publishes do-not-visit dates for San Pedro"
+  },
+  "TENSE-CURRENTCALENDAR": {
+   "verdict": "pass",
+   "note": "current decree clock change in present tense; 2026 events dated in past tense"
+  },
+  "CHOOSER-NOTTAUTOLOGY": {
+   "verdict": "pass",
+   "note": "chooser gives facts: April afternoons cooler, Oct-Nov longer days (daylight table)"
+  },
+  "DATA-REGIMECHANGE": {
+   "verdict": "na",
+   "note": "no figure predates a rule change; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-GLOSSLOCAL": {
+   "verdict": "pass",
+   "note": "El Tatio glossed as geysers, Piedras Rojas as red rocks in the box; Carabineros only in body/FAQ with context"
+  },
+  "SRC-ABSENCELIVE": {
+   "verdict": "pass",
+   "note": "absence claims (no plateau monthly series, no visitor series) checked live: DMC portal station list, INE pages 2026-11-03"
+  },
+  "ANS-ACTFIRST": {
+   "verdict": "na",
+   "note": "no timed-entry or sell-out booking rule decides the visit; Valle de la Luna date tickets are in the activity table"
+  },
+  "DEV-DECISIONORDER": {
+   "verdict": "pass",
+   "note": "device rows ordered highland access, holidays, stargazing, cold, town day, sun times"
+  },
+  "ADVICE-INDOORREFUGE": {
+   "verdict": "na",
+   "note": "no indoor sight on the page; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-TRADEOFFNOTASSIGN": {
+   "verdict": "pass",
+   "note": "products described by what they do (Moon-and-planets vs standard session), not assigned to a kind of reader"
+  },
+  "PROSE-POSITIVEMECHANISM": {
+   "verdict": "pass",
+   "note": "mechanisms stated positively (storms close high roads; lower sites much less exposed)"
+  },
+  "PROSE-ONEHEDGE": {
+   "verdict": "pass",
+   "note": "offers stated once with one hedge; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "RULE-EDGEINSTANCE": {
+   "verdict": "pass",
+   "note": "SPACE 7-night rule and El Tatio age rule checked at their edges; 8-year-olds ambiguous so page says plan on 9"
+  },
+  "SWEEP-CONSEQUENCE": {
+   "verdict": "pass",
+   "note": "age-rule correction swept to tours.md, altitude.md, el-tatio-geysers-tours.md FAQ and body"
+  },
+  "WIDERTRIP-NOCHANGE": {
+   "verdict": "na",
+   "note": "not a season-proof attraction; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PHENOM-MULTIDRIVER": {
+   "verdict": "na",
+   "note": "no seasonal phenomenon sold; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "NUISANCE-UPSIDE": {
+   "verdict": "na",
+   "note": "no nuisance claim that a condition does not matter"
+  },
+  "FRONT-EXCEPTIONNAMED": {
+   "verdict": "pass",
+   "note": "exceptions named: El Tatio dawn below zero, September late snow"
+  },
+  "FRONT-CURRENTSCHEDULE": {
+   "verdict": "na",
+   "note": "no timetable pattern on the front surfaces; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-TACTICBODY": {
+   "verdict": "na",
+   "note": "no multi-step tactic in the box; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "FRONT-PORTSCOPE": {
+   "verdict": "na",
+   "note": "no multi-port date range; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-PAIRREASONS": {
+   "verdict": "pass",
+   "note": "April and Oct-Nov each get their own reason"
+  },
+  "DOCS-OPERATORRULE": {
+   "verdict": "pass",
+   "note": "El Tatio entry rule attributed to the El Tatio fee page; tour limits to listings"
+  },
+  "SEE-VS-VISIT": {
+   "verdict": "na",
+   "note": "not a see-from-afar product; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PHENOM-RELIABLEWINDOW": {
+   "verdict": "na",
+   "note": "no natural-phenomenon window; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-GENERATEDTELLS": {
+   "verdict": "pass",
+   "note": "front read for generated tells; no \"whether you are\", no staging"
+  },
+  "REVIEW-REGRESSION": {
+   "verdict": "pass",
+   "note": "round-2 and round-3 rewrites re-checked against the record and re-panelled"
+  },
+  "ROW-DATEDWINDOW": {
+   "verdict": "na",
+   "note": "no named product with a dated window in the list"
+  },
+  "HERO-SEASONDEFINED": {
+   "verdict": "pass",
+   "note": "hero facts give months (Dec-Mar, Jun-Aug), not bare season words"
+  },
+  "FRONT-PATTERNNOTGAP": {
+   "verdict": "pass",
+   "note": "box states patterns (storm season, snow season), dates left to the device and body"
+  },
+  "PANEL-CREEP": {
+   "verdict": "pass",
+   "note": "round-1 incomplete-fact charges answered by stating the pattern, not adding dates"
+  },
+  "PROSE-FEATUREHEDGE": {
+   "verdict": "na",
+   "note": "no marketed feature on the front; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-NOABSOLUTECOMFORT": {
+   "verdict": "na",
+   "note": "no weather-proofing claim; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-EFFECTNOTIMAGE": {
+   "verdict": "pass",
+   "note": "weather described by effect: hot afternoons, freezing dawns, closed roads"
+  },
+  "EXAMPLE-SPECIFIC": {
+   "verdict": "pass",
+   "note": "snow risk shown with the dated August 11-13 2026 closure"
+  },
+  "SHOULDER-FREQUENCYCOST": {
+   "verdict": "pass",
+   "note": "May and September cost stated as lows near freezing and late snow"
+  },
+  "CHECKS-ROWFULL": {
+   "verdict": "pass",
+   "note": "check row names storms, snow, wind and night cloud, which the device shows"
+  },
+  "AVAIL-PRACTICAL": {
+   "verdict": "pass",
+   "note": "tours offered every month on the GYG listings; closures stated as day-level"
+  },
+  "SEAS-GROUPALLFACTORS": {
+   "verdict": "pass",
+   "note": "group_check in record tabulates April/Oct/Nov on lows, frost nights, rain, daylight, storm and snow seasons; May and September moved out"
+  },
+  "PANEL-PAUSEFACT": {
+   "verdict": "pass",
+   "note": "round-2 OVERCLAIM on April cooler answered by narrowing to afternoons; July break widened to late June"
+  },
+  "ANS-NOPRODUCT": {
+   "verdict": "pass",
+   "note": "box names sites, not a single product or its timetable"
+  },
+  "ANS-NOSNAPSHOT": {
+   "verdict": "pass",
+   "note": "no dated snapshot in the box; 2026 closures live in the body"
+  },
+  "PROSE-STANDARDSTAT": {
+   "verdict": "pass",
+   "note": "average high/average low used on every surface; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DECK-ANGLECONTRAST": {
+   "verdict": "pass",
+   "note": "box says the high trips above 4,000 m carry the season while the lower sites are much less exposed"
+  },
+  "ANS-WIDERANSWER": {
+   "verdict": "na",
+   "note": "not a wider-trip page; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-FACTSFIRST": {
+   "verdict": "na",
+   "note": "season-proof rule; not this subject; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ADVICE-DAYSHAPE": {
+   "verdict": "na",
+   "note": "season-proof visit-time rule; tours set their own times"
+  },
+  "SEAS-PROOFBENEFIT": {
+   "verdict": "na",
+   "note": "not season-proof; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-ROWADVICE": {
+   "verdict": "pass",
+   "note": "rows recommend periods or actions, none restates a timetable"
+  },
+  "SRC-RENDERJS": {
+   "verdict": "pass",
+   "note": "DMC portal and El Tatio pages read as rendered HTML; GYG listings read in headless Chromium"
+  },
+  "SEAS-ODDSNOTNOISE": {
+   "verdict": "na",
+   "note": "month not handed to a wider trip; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-PEROPERATOR": {
+   "verdict": "pass",
+   "note": "SPACE figure given in its own sentence, Llama format in its own"
+  },
+  "SRC-ALLPAGES": {
+   "verdict": "pass",
+   "note": "SPACE Star Tours page and El Tatio fee page read in full"
+  },
+  "OWNER-FACTCHECK": {
+   "verdict": "na",
+   "note": "no owner correction in this round; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-CATEGORYLABEL": {
+   "verdict": "pass",
+   "note": "statistics named by what was counted: nights below freezing in town, rain in town"
+  },
+  "SEASON-SCOPE": {
+   "verdict": "pass",
+   "note": "season words scoped with months every time (summer storm season, December to March)"
+  },
+  "DEV-MATERIALORDER": {
+   "verdict": "pass",
+   "note": "device and checks row list the same material factors in decision order"
+  },
+  "ANS-READERSEQUENCE": {
+   "verdict": "pass",
+   "note": "box runs availability, what matters, best period, alternatives, booking, time of day"
+  },
+  "FRONT-SECONDHANDCOUNT": {
+   "verdict": "na",
+   "note": "no second-hand count on the front; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "VENUE-PARTS": {
+   "verdict": "na",
+   "note": "no mixed venue; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "RULE-CHANGEDNOTE": {
+   "verdict": "na",
+   "note": "no regulated date changed recently on the page"
+  },
+  "OFFSEASON-WHOFOR": {
+   "verdict": "pass",
+   "note": "harder seasons end on the action that makes them work (spare day, high trip early)"
+  },
+  "DECK-FRAMEONLY": {
+   "verdict": "pass",
+   "note": "deck: verdict with condition, then roadmap and device; no alternative period"
+  },
+  "GEO-REFERENCELABEL": {
+   "verdict": "pass",
+   "note": "town station figures labelled in town; plateau given as direction"
+  },
+  "WINDOW-CLOSESECOND": {
+   "verdict": "pass",
+   "note": "April and Oct-Nov pass the group test; May and September named as colder alternatives"
+  },
+  "WINDOW-RECOMMENDFIRST": {
+   "verdict": "na",
+   "note": "no specialist window; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ADVICE-CHOICECONDITIONAL": {
+   "verdict": "pass",
+   "note": "time-of-day advice follows how the tours run (sunset tour, dawn tour, session time)"
+  },
+  "LIVECHECK-ORDER": {
+   "verdict": "pass",
+   "note": "live checks ranked: storms/snow, wind, then night cloud"
+  },
+  "OFFSEASON-PRODUCTTRADEOFF": {
+   "verdict": "pass",
+   "note": "off-season written for the tours: closures of high trips, cold dawns"
+  },
+  "HAZARD-MECHANISMLIMITS": {
+   "verdict": "pass",
+   "note": "storm and snow named by mechanism, what they close (high sites) and what continues (lower sites)"
+  },
+  "OWNER-CLAIMSOURCED": {
+   "verdict": "na",
+   "note": "no owner copy this round; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-SOURCEVISIBLE": {
+   "verdict": "pass",
+   "note": "front facts rest on dated, visible sources; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-EXCEPTIONFIRST": {
+   "verdict": "na",
+   "note": "no reduced-service paragraph; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DATA-NEXTDATES": {
+   "verdict": "pass",
+   "note": "next clock change (April 3, 2027) and Easter 2027 given"
+  },
+  "SEAS-STRONGESTWINDOW": {
+   "verdict": "pass",
+   "note": "Chile Travel window April-June named, narrowed explicitly to April with the June cold as reason"
+  },
+  "PROSE-PLAINATTRIB": {
+   "verdict": "pass",
+   "note": "front states patterns; attribution in the body; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-GOALOPENER": {
+   "verdict": "na",
+   "note": "no specialist paragraph in the box; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-SEASONSUBJECT": {
+   "verdict": "pass",
+   "note": "season sentences use plain verbs with an action"
+  },
+  "PANEL-OWNERRECORD": {
+   "verdict": "na",
+   "note": "no owner decisions this round; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-PREDICTORLABEL": {
+   "verdict": "pass",
+   "note": "average low, nights below freezing, rain in town; no proxy labelled as dawn"
+  },
+  "SEAS-HAZARDDURABLE": {
+   "verdict": "pass",
+   "note": "front hazard durable (storms Dec-Mar, snow Jun-Aug) with the check; dated 2026 window in body"
+  },
+  "ADVICE-SHAPENOTRANGE": {
+   "verdict": "pass",
+   "note": "sunrise/sunset minutes only in the device; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-COINEDHEDGE": {
+   "verdict": "pass",
+   "note": "no invented qualifier; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-SAMPLESEASON": {
+   "verdict": "pass",
+   "note": "storm season from Chile Travel and CR2, not an operator sample"
+  },
+  "SEAS-SPECIALISTMAIN": {
+   "verdict": "na",
+   "note": "no specialist-only season; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "RULE-GEOSCOPE": {
+   "verdict": "pass",
+   "note": "clock-change rule scoped to mainland Chile; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SWEEP-NATIVESOURCE": {
+   "verdict": "pass",
+   "note": "El Tatio rule read on the Spanish fee page before narrowing sitewide"
+  },
+  "ANS-MARKETPLACE": {
+   "verdict": "pass",
+   "note": "no marketplace observation in the box; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-READERBEST": {
+   "verdict": "na",
+   "note": "no specialist season is the main reason to travel"
+  },
+  "ANS-PHANTOMCOMPARE": {
+   "verdict": "pass",
+   "note": "comparisons only against figures in the table; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-PLACEHOURS": {
+   "verdict": "pass",
+   "note": "no hours given to a landscape; El Tatio hours attributed to the site administration"
+  },
+  "ADVICE-NUISANCESCALE": {
+   "verdict": "pass",
+   "note": "afternoon heat sized to cycling and walks only"
+  },
+  "ANS-PROXYSUPER": {
+   "verdict": "pass",
+   "note": "no proxy superlative in the box; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-OPTIONALDETAIL": {
+   "verdict": "pass",
+   "note": "Uyuni mirror, festivals and clock changes kept to the body"
+  },
+  "ANS-SPECIALISTFRAME": {
+   "verdict": "na",
+   "note": "no month chosen for one priority in the box"
+  },
+  "SEAS-ELEVATION": {
+   "verdict": "pass",
+   "note": "conditions scoped by elevation: town vs above 4,000 m"
+  },
+  "TITLE-INTENT": {
+   "verdict": "pass",
+   "note": "title carries the strongest demand cluster (weather by month) and the stargazing cluster"
+  },
+  "ANS-PEAKADVANTAGE": {
+   "verdict": "na",
+   "note": "no product that solves a season problem; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ADVICE-ISSUER": {
+   "verdict": "na",
+   "note": "no official alert named in the advice; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-DEFARTICLE": {
+   "verdict": "pass",
+   "note": "no universal article after a many claim; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-TOPOGRAPHY": {
+   "verdict": "pass",
+   "note": "climate scoped town vs high plateau; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-PRODUCTSCARCITY": {
+   "verdict": "na",
+   "note": "no mainly-X product claim; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DATA-OPERATORSPREAD": {
+   "verdict": "pass",
+   "note": "SPACE start times attributed in the body; front carries no operator figure"
+  },
+  "ANS-ROUTEFIRST": {
+   "verdict": "na",
+   "note": "not a route-sold subject; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SCOPE-OBSERVATION": {
+   "verdict": "pass",
+   "note": "2026 closure reports name the sites they listed"
+  },
+  "ANS-VALUEMONTH": {
+   "verdict": "na",
+   "note": "no published price changeover; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-GREENSEASON": {
+   "verdict": "na",
+   "note": "no low-demand rainy season claim; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-FAVOURABLE": {
+   "verdict": "na",
+   "note": "no per-park calendar; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-CHECKSOURCE": {
+   "verdict": "pass",
+   "note": "check row names conditions the device shows; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-NAMEMEMBERS": {
+   "verdict": "pass",
+   "note": "high trips named (El Tatio, Altiplanic lagoons, Piedras Rojas) wherever the category appears"
+  },
+  "FRONT-INVENTORY": {
+   "verdict": "pass",
+   "note": "front promises only site tours (El Tatio, lagoons, Piedras Rojas, Valle de la Luna, stargazing)"
+  },
+  "ANS-BESTAXIS": {
+   "verdict": "pass",
+   "note": "best overall balance followed by what is balanced"
+  },
+  "ANS-ONEMONTH": {
+   "verdict": "na",
+   "note": "verdict is a two-period group, not a 3+ month range"
+  },
+  "ANS-CROWDINFER": {
+   "verdict": "pass",
+   "note": "no fewer-people claim; holidays given as book-ahead dates"
+  },
+  "SEAS-COREEDGE": {
+   "verdict": "na",
+   "note": "no operator two-window season; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-SEASONGROUP": {
+   "verdict": "pass",
+   "note": "May and September split out of the best group"
+  },
+  "OFFSEASON-HONEST": {
+   "verdict": "pass",
+   "note": "storm and snow seasons redirect to lower sites and a spare day, not relabelled"
+  },
+  "ANS-SIDEROW": {
+   "verdict": "pass",
+   "note": "no charming side row; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "EVID-VERBMATCH": {
+   "verdict": "pass",
+   "note": "verbs match evidence: can close, less likely, average"
+  },
+  "ANS-HIERARCHY": {
+   "verdict": "pass",
+   "note": "season and day not ranked against each other"
+  },
+  "ANS-GROUPMAINFACTOR": {
+   "verdict": "pass",
+   "note": "group checked against access (storm/snow) and cold, the top two factors"
+  },
+  "ANS-INSIGHT": {
+   "verdict": "pass",
+   "note": "the useful counterintuitive fact kept: summer is the storm season despite the desert"
+  },
+  "ANS-ALTPROMINENCE": {
+   "verdict": "pass",
+   "note": "May/September and December-March each get their own sentence"
+  },
+  "SEAS-SAFETYFIRST": {
+   "verdict": "pass",
+   "note": "closing hazard in the first sentence of the box"
+  },
+  "SEAS-EDGEWORDING": {
+   "verdict": "pass",
+   "note": "edges written as edges (late snow in September, storms beginning late December)"
+  },
+  "ADVICE-OFFSEASONFRAME": {
+   "verdict": "pass",
+   "note": "off-season lines say what to plan for, not what not to expect"
+  },
+  "PANEL-REDRAFT": {
+   "verdict": "pass",
+   "note": "three rounds; rewrites reconciled from shared charges, not pasted"
+  },
+  "ADVICE-OPTIONAL": {
+   "verdict": "na",
+   "note": "no risky tactic; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ADVICE-RULESCOPE": {
+   "verdict": "pass",
+   "note": "SPACE rule scoped to SPACE; age rule to El Tatio"
+  },
+  "PROC-UNIVERSAL": {
+   "verdict": "pass",
+   "note": "cancellation handling told as ask the operator, not one procedure"
+  },
+  "ADVICE-SPLITREASON": {
+   "verdict": "pass",
+   "note": "time of day per activity with its own reason"
+  },
+  "ANS-DERIVEDVERDICT": {
+   "verdict": "pass",
+   "note": "verdict rests on published seasons and station averages, not a computed index"
+  },
+  "SLOT-MIX": {
+   "verdict": "na",
+   "note": "no choice-of-times claim; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-SEASONUSE": {
+   "verdict": "pass",
+   "note": "each season says what it does for the tours"
+  },
+  "ANS-REASONRANK": {
+   "verdict": "na",
+   "note": "no especially-good-because reason; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-OPTERM": {
+   "verdict": "pass",
+   "note": "operator terms kept (Moon-and-planets session, Bucket list tours)"
+  },
+  "SEAS-WIDERTRIP": {
+   "verdict": "na",
+   "note": "single calendar: the destination is the subject; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-AMBIGAXIS": {
+   "verdict": "pass",
+   "note": "no ambiguous axis word; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-COMPUTABLEROW": {
+   "verdict": "pass",
+   "note": "no row spent on something the device computes"
+  },
+  "DATA-BANDRANK": {
+   "verdict": "pass",
+   "note": "best band excludes no month that ties it on the ranked factors"
+  },
+  "ANS-FIGUSE": {
+   "verdict": "pass",
+   "note": "figure strip values are ones a traveler packs or plans by"
+  },
+  "ANS-DRAWBACK": {
+   "verdict": "pass",
+   "note": "drawbacks named are closures and cold dawns, the costs a tour-taker feels"
+  },
+  "AIO-CONSIST": {
+   "verdict": "pass",
+   "note": "title points at no figure the box contradicts"
+  },
+  "DEV-STATE": {
+   "verdict": "pass",
+   "note": "card says forecast vs averages and the verdict line reads from the same branch"
+  },
+  "DEV-NOSCRIPT": {
+   "verdict": "pass",
+   "note": "static card date-neutral, no value= on the input, working CTA"
+  },
+  "DEV-FACTORS": {
+   "verdict": "pass",
+   "note": "device shows temperature and rain (forecast or monthly average) plus storm/snow, gusts, Moon; rejected rows recorded"
+  },
+  "DATA-SOURCE": {
+   "verdict": "pass",
+   "note": "town figures from DMC portal station records; Open-Meteo only in the live device"
+  },
+  "HON-MECHANISM": {
+   "verdict": "pass",
+   "note": "closures stated as reported (Carabineros road closure, tourist office list)"
+  },
+  "STR-OVERFLOW": {
+   "verdict": "pass",
+   "note": "render_check: overflow +0 at 390, 768, 1280; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ADVICE-MECHANISM": {
+   "verdict": "pass",
+   "note": "round-1 holiday and packing chains fixed; panel round 3 re-checked"
+  },
+  "STR-CYCLE": {
+   "verdict": "pass",
+   "note": "How the seasons change a trip section describes what each period does on the plateau and in town"
+  },
+  "PROSE-VOICE": {
+   "verdict": "pass",
+   "note": "read aloud; staging and frames removed; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-DEADLINEROW": {
+   "verdict": "pass",
+   "note": "no deadline row; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-COMPARATIVE": {
+   "verdict": "pass",
+   "note": "plain comparatives (slightly cooler afternoons, colder); read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SITE-OUTSIDEADVICE": {
+   "verdict": "pass",
+   "note": "Chile Travel April-June advice adopted with the June narrowing recorded; its 5 C nights figure and 20-25% price claim declined"
+  },
+  "HON-CROWD": {
+   "verdict": "pass",
+   "note": "no crowd claim; holiday dates only; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-CURRENTCLOSURE": {
+   "verdict": "pass",
+   "note": "dated search 2026-11-03 found no current closure; recheck date in record"
+  },
+  "SITE-ECHO": {
+   "verdict": "pass",
+   "note": "siblings grepped for best months, ages, temperatures; atacama-desert-travel-guide, tours, altitude, el-tatio fixed"
+  },
+  "SEAS-DAYWEATHER": {
+   "verdict": "na",
+   "note": "not a view product; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-DURATION": {
+   "verdict": "pass",
+   "note": "daylight not ranked; used only as a chooser"
+  },
+  "SEAS-LEAD": {
+   "verdict": "pass",
+   "note": "box opens on availability then the top factor (high-trip access)"
+  },
+  "SEAS-CANON": {
+   "verdict": "pass",
+   "note": "every ranked factor belongs to the site tours"
+  },
+  "SEAS-SPLIT": {
+   "verdict": "na",
+   "note": "archetype B, not C; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SCOPE-WIDERTRIP": {
+   "verdict": "na",
+   "note": "not season-proof; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DATA-BRITTLECOUNT": {
+   "verdict": "pass",
+   "note": "frost-night counts rounded and labelled as monthly averages"
+  },
+  "DATA-DERIVEDUNIT": {
+   "verdict": "pass",
+   "note": "nights below freezing defines its threshold (below 0 C)"
+  },
+  "PROSE-NOTHAPPEN": {
+   "verdict": "na",
+   "note": "no phenomenon denied; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-PROMO": {
+   "verdict": "pass",
+   "note": "no promotional claim about the place; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-EVENTVERB": {
+   "verdict": "pass",
+   "note": "events happen with plain verbs; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-FLOURISH": {
+   "verdict": "pass",
+   "note": "no personification; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SEAS-GENERALWINDOW": {
+   "verdict": "pass",
+   "note": "published storm season and computed averages kept distinct"
+  },
+  "SCOPE-UNIVERSAL": {
+   "verdict": "pass",
+   "note": "lower sites much less exposed, not never closed"
+  },
+  "PROSE-STACK": {
+   "verdict": "pass",
+   "note": "no conclusion assembled from several places' series; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SCOPE-ROW": {
+   "verdict": "pass",
+   "note": "each row answers one question; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "MEAS-BASELINE": {
+   "verdict": "pass",
+   "note": "data/baseline_best-time-to-visit.json read 2026-11-03 (Aug 1-Nov 1: 0 clicks, 9 impressions, position 21.2)"
+  },
+  "MEAS-FREEZE": {
+   "verdict": "pass",
+   "note": "page to be left unchanged after ship until a re-measure"
+  },
+  "SEAS-SHAREDSUPER": {
+   "verdict": "pass",
+   "note": "mildest nights Dec-Mar and coldest dawns Jun-Aug hold for every month in each block"
+  },
+  "SEAS-ABSENTEDGE": {
+   "verdict": "pass",
+   "note": "storm season tested at its edges: April and November rain under 1 mm in town"
+  },
+  "PROSE-DRAMATISE": {
+   "verdict": "pass",
+   "note": "no dramatised nuisance; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "HON-NUISANCEABSOLUTE": {
+   "verdict": "na",
+   "note": "no disputed nuisance edge; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "HON-MOSTCOUNT": {
+   "verdict": "pass",
+   "note": "\"most months get none\" counted from the station record"
+  },
+  "SEAS-PRACTICALWINDOW": {
+   "verdict": "pass",
+   "note": "headline season is the practical window for the high trips"
+  },
+  "ANS-IRRELEVANTCOST": {
+   "verdict": "pass",
+   "note": "no irrelevant cost in the box; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SCOPE-ROWHAZARD": {
+   "verdict": "na",
+   "note": "no activity hazard row; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PANEL-BRIEFFULL": {
+   "verdict": "pass",
+   "note": "brief rebuilt from the record each round: availability, factor_weights, verdict_split, climate table, clocks, visit_profile, outside-box items"
+  },
+  "SEAS-SPLITTERSE": {
+   "verdict": "pass",
+   "note": "verdict_split holds best overall, fewer crowds, time of day"
+  },
+  "SRC-DRIFT": {
+   "verdict": "pass",
+   "note": "Chile Travel, SPACE and El Tatio pages re-read on build day 2026-11-03"
+  },
+  "STR-STATPLACE": {
+   "verdict": "pass",
+   "note": "overview says what changes; numbers in the table"
+  },
+  "STR-PLAINLABEL": {
+   "verdict": "pass",
+   "note": "table columns in reader words (Average high in town, What it means for the high trips)"
+  },
+  "STR-SOURCESFOLD": {
+   "verdict": "pass",
+   "note": "How we know body sits in a details block"
+  },
+  "PROSE-HAZARDNAME": {
+   "verdict": "pass",
+   "note": "hazards named by kind and effect (storms, snow; close the high roads)"
+  },
+  "PROSE-NOGATEBEND": {
+   "verdict": "pass",
+   "note": "ANS-LENGTH warning left at about 260 words rather than cutting the safety or chooser sentences"
+  },
+  "AVAIL-MECHANISM": {
+   "verdict": "pass",
+   "note": "front carries the closure rule; the body carries the 2026 instances"
+  },
+  "HON-CAUSEEVIDENCE": {
+   "verdict": "pass",
+   "note": "causes of closures are the reported ones (snow, rain)"
+  },
+  "ADVICE-SEASONREASON": {
+   "verdict": "pass",
+   "note": "all-season instructions (Moon-down night, sunset, dawn) carry their reason"
+  },
+  "SWEEP-DATALANG": {
+   "verdict": "pass",
+   "note": "data/ grepped (offers.json restrictions kept: they quote listings)"
+  },
+  "PROSE-SWEEPREGISTER": {
+   "verdict": "pass",
+   "note": "swept age phrasing varied to fit each page"
+  },
+  "ANS-CLARITYFIRST": {
+   "verdict": "pass",
+   "note": "clarity charges won over the length budget (box about 260 words, warning recorded)"
+  },
+  "INTRO-SAMENESS": {
+   "verdict": "na",
+   "note": "the sight changes with season; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-TRADEOFF": {
+   "verdict": "pass",
+   "note": "each recommended period names its cost; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DATA-BANDBOUNDARY": {
+   "verdict": "pass",
+   "note": "season ends stated on the month the rule covers"
+  },
+  "SEAS-AUTHORITYREASON": {
+   "verdict": "pass",
+   "note": "Chile Travel own reasons used (summer rains ended, routes open)"
+  },
+  "AVAIL-FEEEXCEPTION": {
+   "verdict": "na",
+   "note": "no fee lifted; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ADVICE-CHANNELSCOPE": {
+   "verdict": "pass",
+   "note": "box instructions hold for every booking channel; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "TITLE-FACETEVIDENCE": {
+   "verdict": "pass",
+   "note": "weather by month (table + device) and stargazing (Moon section + device) both evidenced"
+  },
+  "OWNER-SOURCECLASS": {
+   "verdict": "na",
+   "note": "no reviewer copy; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "PROSE-CLEFTREACH": {
+   "verdict": "pass",
+   "note": "no cleft; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DATA-DROPPEDSERIES": {
+   "verdict": "pass",
+   "note": "El Nino bulletin dropped; no sentence leaned on it"
+  },
+  "PROSE-REVIEWERSHORTER": {
+   "verdict": "na",
+   "note": "no reviewer replacement; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "SELF-ECHO": {
+   "verdict": "pass",
+   "note": "deck, box, table, FAQ and device agree on windows (Dec-Mar storms, Jun-Aug snow, Sept late snow)"
+  },
+  "SWEEP-WORDNOTPHRASE": {
+   "verdict": "pass",
+   "note": "grepped the word \"under-9\"/\"9\" and \"0-8\", not only the sentence"
+  },
+  "GEO-PRODUCTPLACE": {
+   "verdict": "pass",
+   "note": "product_place recorded: town base plus plateau above 4,000 m; every figure labelled"
+  },
+  "GEO-UNITRANK": {
+   "verdict": "pass",
+   "note": "no foreign-unit ranking; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "GEO-BAREPLACE": {
+   "verdict": "pass",
+   "note": "town figures always say in town; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "EV-BOTHSIDES": {
+   "verdict": "pass",
+   "note": "comparatives have data on both sides (station table)"
+  },
+  "EV-KEEPHEDGE": {
+   "verdict": "pass",
+   "note": "source hedges kept (can be below zero); read title, deck, box, body, FAQ and device strings for it"
+  },
+  "EV-OPERATORPAGE": {
+   "verdict": "pass",
+   "note": "operator facts from SPACE and El Tatio pages directly"
+  },
+  "EV-ADVICEPREMISE": {
+   "verdict": "pass",
+   "note": "spare-day advice states its premise (closures happen); read title, deck, box, body, FAQ and device strings for it"
+  },
+  "BUILD-FIXATSOURCE": {
+   "verdict": "pass",
+   "note": "page built from content markdown, data in data/; device in static/js"
+  },
+  "PANEL-RECONCILE": {
+   "verdict": "pass",
+   "note": "no judge rewrite pasted; charges reconciled; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "ANS-WEAKESTREASON": {
+   "verdict": "pass",
+   "note": "recommendation leads on its strongest reason (storm season over, snow less likely)"
+  },
+  "DATA-SAMPLEORDER": {
+   "verdict": "pass",
+   "note": "15-year station sample used for direction and rounded values"
+  },
+  "DATA-RIVALSERIES": {
+   "verdict": "pass",
+   "note": "Atlas Agroclimatico rival series noted in How we know; same shape, older period"
+  },
+  "TITLE-SEARCHWORD": {
+   "verdict": "pass",
+   "note": "title uses search words (best time to visit, weather by month, stargazing)"
+  },
+  "PROSE-CONDITIONADJ": {
+   "verdict": "pass",
+   "note": "costs named concretely (hot afternoons, freezing dawns); read title, deck, box, body, FAQ and device strings for it"
+  },
+  "EDIT-COMPRESSSCOPE": {
+   "verdict": "na",
+   "note": "no repetition review; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "REVIEW-VERBATIM": {
+   "verdict": "na",
+   "note": "no reviewer copy; read title, deck, box, body, FAQ and device strings for it"
+  },
+  "DEV-THRESHOLDCOPY": {
+   "verdict": "pass",
+   "note": "device threshold labels read as copy (Windy up high, Very strong gusts) and checked in the browser sweep"
+  }
+ }
+}

@@ -249,7 +249,7 @@ Fly to **Calama (CJC)** from Santiago, which takes about 2 hours, then take a sh
 
 ### When to go
 
-Any month works. **September to November and March to May** give the best balance of mild days, fewer crowds and steady stargazing. December to February is peak season, and January and February can bring Altiplanic storms that close the high routes. June to August is cold and occasionally snowy, with very clear skies. See the [best time to visit](/best-time-to-visit/).
+Any month works. **April and October to November** give the best overall balance, with the high roads usually open and milder nights than in winter; May and September also work, with colder nights. December to March is the storm season on the high plateau, when storms can close the high routes, and January and February are Chile's summer school holidays. June to August has the coldest nights and a risk of snow closures up high. See the [best time to visit](/best-time-to-visit/).
 
 ### How long to stay
 

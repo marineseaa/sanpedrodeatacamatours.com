@@ -54,8 +54,8 @@ faq:
     it is sometimes sold informally. It is legal in Bolivia and Peru, but do not carry
     it across a border, and it can cause a positive drug test.
 - q: Can children go to El Tatio?
-  a: Only from age 9. The park's fee page says children aged 0–8 are not admitted
-    without exception, and the featured tour and some other operators set their own
+  a: Plan on age 9. The park's fee page says children aged 0–7 are not admitted
+    without exception and lists the general ticket from age 9, and the featured tour and some other operators set their own
     limits. Check when booking.
 - q: Which signs need urgent help?
   a: Confusion, stumbling, unusual drowsiness or breathlessness at rest. Descend, get
@@ -334,7 +334,7 @@ Medical care near San Pedro:
 
 ## Product restrictions and special groups
 
-The El Tatio park's [own fee page](https://eltatio.net/tarifas-geysers-del-tatio/) sets the site rules: children aged 0–8 are not admitted, pregnant visitors are not permitted, visitors over 60 should tell staff, and the visit is not recommended for people over 70. The featured [El Tatio tour](/el-tatio-geysers-tours/) adds its own, stricter limit and excludes under-9s and over-60s, along with specified conditions. The [Piedras Rojas options](/piedras-rojas-tours/) use different age limits. These are conditions of the selected products, so check them for your exact reservation.
+The El Tatio park's [own fee page](https://eltatio.net/tarifas-geysers-del-tatio/) sets the site rules: children aged 0–7 are not admitted and the general ticket starts at age 9, pregnant visitors are not permitted, visitors over 60 should tell staff, and the visit is not recommended for people over 70. The featured [El Tatio tour](/el-tatio-geysers-tours/) adds its own, stricter limit and excludes under-9s and over-60s, along with specified conditions. The [Piedras Rojas options](/piedras-rojas-tours/) use different age limits. These are conditions of the selected products, so check them for your exact reservation.
 
 Do not look for a less explicit listing merely to get around a restriction. Ask the operator about the actual route, highest point, time spent high, walking and arrangements for someone who needs to turn back.
 

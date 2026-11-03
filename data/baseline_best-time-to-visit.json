@@ -1,0 +1,31 @@
+{
+ "read_date": "2026-11-03",
+ "page": "https://sanpedrodeatacamatours.com/best-time-to-visit/",
+ "window": [
+  "2026-08-01",
+  "2026-11-01"
+ ],
+ "project": "gsc-marinamaslows",
+ "totals": [
+  {
+   "keys": [
+    "https://sanpedrodeatacamatours.com/best-time-to-visit/"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 21.22222222222222
+  }
+ ],
+ "queries": [
+  {
+   "keys": [
+    "best time to visit atacama desert"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 73
+  }
+ ]
+}
