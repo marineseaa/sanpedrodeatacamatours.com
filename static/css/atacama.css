@@ -22,3 +22,5 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}body{background:var(--marble
 .cvd a.btn-primary,.cvd a.btn-primary:hover{color:#fff;text-decoration:none;display:inline-block;margin-top:14px}
 @media (max-width:560px){.guide-decide__row,.cvd .cvd-row{grid-template-columns:minmax(0,1fr);gap:2px}}
 .cvd .cvd-verdict{font-weight:600;margin:4px 0 6px}
+/* Affiliate tour links in body copy: bolder, thicker underline so they read as the booking link (tour-review-article, 2026-11-10). */
+.prose a[data-gyg-href],.page-intro a[data-gyg-href]{font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
