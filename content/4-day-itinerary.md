@@ -109,7 +109,7 @@ After returning, plan lunch and rest. A spare afternoon is useful for packing, a
 
 **Day 3: Piedras Rojas and the highland lagoons (about 4,200 m)**
 
-- About 06:30–07:00: pickup for the {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 834 reviews){{< /gyg-link >}}, with a breakfast stop on the way.
+- About 06:30–07:00: pickup for the {{< gyg-link tour="190853" >}}Piedras Rojas and Altiplanic Lagoons full day (from about US$86, 4.7/5 from 850 reviews){{< /gyg-link >}}, with a breakfast stop on the way.
 - Laguna Chaxa (flamingos, about 2,300 m), Socaire village, the Miscanti and Miñiques lagoons (about 4,100–4,200 m), then Piedras Rojas and the Salar de Talar.
 - About 17:00–18:00: back in town. A light dinner, and bed by 21:30.
 
