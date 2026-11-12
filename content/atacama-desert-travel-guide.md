@@ -245,7 +245,7 @@ Distances are approximate road figures; check your route before you drive.
 
 ### How to get there
 
-Fly to **Calama (CJC)** from Santiago, which takes about 2 hours, then take a shared or private transfer of about 1.5 hours to San Pedro. The {{< gyg-link tour="190838" >}}Calama Airport transfer to or from San Pedro de Atacama (4.6/5 from 858 reviews){{< /gyg-link >}} starts at about US$30. Overnight buses from Santiago or Antofagasta are the budget option. See [Calama airport to San Pedro](/calama-airport-to-san-pedro-de-atacama/) and [getting there](/getting-there/).
+Fly to **Calama (CJC)** from Santiago, which takes about 2 hours, then take a shared or private transfer of about 1.5 hours to San Pedro. The {{< gyg-link tour="190838" >}}Calama Airport transfer to or from San Pedro de Atacama (4.6/5 from 850+ reviews){{< /gyg-link >}} starts at about US$30. Overnight buses from Santiago or Antofagasta are the budget option. See [Calama airport to San Pedro](/calama-airport-to-san-pedro-de-atacama/) and [getting there](/getting-there/).
 
 ### When to go
 
@@ -270,12 +270,12 @@ San Pedro is one of the more expensive places in Chile, because almost everythin
 | Item | What to budget |
 |---|---|
 | Calama airport transfer | {{< gyg-link tour="190838" >}}Shared transfer from about US$30{{< /gyg-link >}} each way |
-| Valle de la Luna | {{< gyg-link tour="466455" >}}Shared tour from about US$32 (4.7/5 from 366 reviews){{< /gyg-link >}}, plus the CLP 10,800 online entry ticket |
-| Stargazing | {{< gyg-link tour="542449" >}}Telescope session from about US$30 (4.7/5 from 814 reviews){{< /gyg-link >}} |
-| El Tatio geysers | {{< gyg-link tour="345946" >}}Sunrise tour with breakfast from about US$73 (4.7/5 from 1,151 reviews){{< /gyg-link >}}, plus CLP 15,000 entry |
-| Piedras Rojas and the Altiplanic lagoons | {{< gyg-link tour="190853" >}}Full-day tour from about US$86 (4.7/5 from 850 reviews){{< /gyg-link >}}, entry fees extra |
+| Valle de la Luna | {{< gyg-link tour="466455" >}}Shared tour from about US$32 (4.7/5 from 360+ reviews){{< /gyg-link >}}, plus the CLP 10,800 online entry ticket |
+| Stargazing | {{< gyg-link tour="542449" >}}Telescope session from about US$30 (4.7/5 from 810+ reviews){{< /gyg-link >}} |
+| El Tatio geysers | {{< gyg-link tour="345946" >}}Sunrise tour with breakfast from about US$73 (4.7/5 from 1,150+ reviews){{< /gyg-link >}}, plus CLP 15,000 entry |
+| Piedras Rojas and the Altiplanic lagoons | {{< gyg-link tour="190853" >}}Full-day tour from about US$86 (4.7/5 from 850+ reviews){{< /gyg-link >}}, entry fees extra |
 | Laguna Cejar | CLP 15,000 entry for ages 13–59, plus the {{< viator-link path="San-Pedro-de-Atacama/San-Pedro-de-Atacama-Cejar-Lagoon/d5499-422580P12" >}}Laguna Cejar floating tour on Viator from about US$86 (5.0/5 from 80 reviews){{< /viator-link >}} or your own transport |
-| Several tours as a package | {{< gyg-link tour="374134" >}}Best of Atacama: 4 tours in 3 days from about US$370 (4.7/5 from 346 reviews){{< /gyg-link >}} |
+| Several tours as a package | {{< gyg-link tour="374134" >}}Best of Atacama: 4 tours in 3 days from about US$370 (4.7/5 from 340+ reviews){{< /gyg-link >}} |
 | Food | A set lunch (menú del día) in town is the cheapest sit-down meal; dinner on Caracoles costs more. See the [best restaurants in San Pedro](/best-restaurants-san-pedro-de-atacama/) |
 | Accommodation | Compare dorms, guesthouses and lodges on our [where-to-stay guide](/where-to-stay/) |
 

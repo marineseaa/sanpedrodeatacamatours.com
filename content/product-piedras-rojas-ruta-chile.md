@@ -9,7 +9,7 @@ categories:
 - tour reviews
 tour_id: 190853
 tour_url: https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/
-rating_snapshot: "4.7/5 from 850 GetYourGuide reviews (ratingValue 4.7237), checked 2026-11-10"
+rating_snapshot: "4.7/5 from 850+ GetYourGuide reviews (ratingValue 4.7237), checked 2026-11-10"
 price_snapshot: "From US$86 per person (AggregateOffer lowPrice 86 USD), checked 2026-11-10"
 exploreGroup: tours
 exploreLabel: "Piedras Rojas tour: what to know before you book"
@@ -27,7 +27,7 @@ heroSecondaryUrl: "#five-tips-before-you-book"
 heroSecondaryLabel: Tips before you book
 facts:
 - value: "4.7/5 on GetYourGuide"
-  label: "More than 800 reviews, checked 10 Nov 2026"
+  label: "More than 800+ reviews, checked 10 Nov 2026"
 - value: "From $86 per person"
   label: "Park fees of about CLP 29,000 extra"
 - value: "About 10 hours"

@@ -84,7 +84,7 @@ Eating out is not cheap here, because almost everything is trucked in across the
 | **Best vegetarian / vegan** | Estrella Negra (vegan) | Karavan, Tierra Todo Natural |
 | **Best craft beer** | Cervecería St. Peter | Chela Cabur |
 | **Best for a drink without dinner** | Chela Cabur | Agua Loca |
-| **Best food experience outside town** | Ayllu wine tasting, Toconao | Llama anticuchos at Machuca, on the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from US$73, 4.7/5 from 1,151 reviews){{< /gyg-link >}} |
+| **Best food experience outside town** | Ayllu wine tasting, Toconao | Llama anticuchos at Machuca, on the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from US$73, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} |
 
 ## Other experiences you might enjoy
 
@@ -135,7 +135,7 @@ Ckunna is in a restored adobe house with a large courtyard and a fire pit. It mi
 
 ### Rai: best newer restaurant
 
-Rai is the restaurant at {{< hotel-link "desertica" >}}Hotel Desertica{{< /hotel-link >}} (Caracoles 455) and takes non-guests for lunch and dinner. It serves contemporary Chilean food using ingredients from the Altiplano, the desert and the Pacific, with dishes finished with chañar, rica-rica and algarrobo. The room is quiet and well lit. In October 2026 it had one of the highest TripAdvisor scores in town, from fewer than 100 reviews: a small sample, but a consistent one.
+Rai is the restaurant at {{< hotel-link "desertica" >}}Hotel Desertica{{< /hotel-link >}} (Caracoles 455) and takes non-guests for lunch and dinner. It serves contemporary Chilean food using ingredients from the Altiplano, the desert and the Pacific, with dishes finished with chañar, rica-rica and algarrobo. The room is quiet and well lit. In October 2026 it had one of the highest TripAdvisor scores in town, from fewer than 100+ reviews: a small sample, but a consistent one.
 
 ### Baltinache restaurant: best Atacameño cooking (if it's open)
 
@@ -159,7 +159,7 @@ This is the place to taste the desert as ice cream. Flavours include rica-rica, 
 
 ### Rincón de Sal: best casual dinner
 
-Rincón de Sal has some of the best-rated burgers and pizza in town on TripAdvisor. It opens early on some days and does takeaway, so it is the easiest option after a sunset tour such as the {{< gyg-link tour="466455" >}}Valle de la Luna shared tour (from US$32, 4.7/5 from 366 reviews){{< /gyg-link >}}.
+Rincón de Sal has some of the best-rated burgers and pizza in town on TripAdvisor. It opens early on some days and does takeaway, so it is the easiest option after a sunset tour such as the {{< gyg-link tour="466455" >}}Valle de la Luna shared tour (from US$32, 4.7/5 from 360+ reviews){{< /gyg-link >}}.
 
 ## Local dishes and drinks to try
 
@@ -208,7 +208,7 @@ Coca tea is offered informally in some places, but coca leaf is a controlled sub
 
 - **Lunch** runs from about 12:30 to 15:30, and that is when set menus are served. Many kitchens close around 15:30–16:00 and reopen for dinner around 18:00–19:30.
 - **Dinner** is usually from about 19:30 to 22:30, and many kitchens stop taking orders between 22:00 and 23:00.
-- **Early tour days:** El Tatio departures are around 04:30–05:10 and most tours include breakfast; the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from US$73, 4.7/5 from 1,151 reviews){{< /gyg-link >}} also stops at Machuca, where stalls sell llama anticuchos. Buy empanadas the night before. Our [El Tatio geysers guide](/el-tatio-geysers-tours/) compares the departures.
+- **Early tour days:** El Tatio departures are around 04:30–05:10 and most tours include breakfast; the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from US$73, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} also stops at Machuca, where stalls sell llama anticuchos. Buy empanadas the night before. Our [El Tatio geysers guide](/el-tatio-geysers-tours/) compares the departures.
 - **Day off:** several restaurants close one weekday, often Monday or Tuesday.
 
 ## Nightlife: best things to do at night in San Pedro de Atacama
@@ -218,7 +218,7 @@ Night-time here means stargazing, a long fire-pit dinner and one or two drinks. 
 - **Why it's quiet:** in 2022 BioBioChile reported that a municipal ordinance stops dancing in night venues. There has been nowhere to dance since 2000, when the town's only dance venue, on the corner of Caracoles and Toconao, closed. A resident quoted in that report said the centre closes at about 1 a.m. from Sunday to Thursday and 2 a.m. on Friday and Saturday. Treat those hours as a guide and check locally, because the municipality sets them under its ordinance on alcohol licences and opening hours.
 - **Alcohol with food:** many licensed restaurants serve alcohol only with a meal. That is why travellers keep asking whether they "have to order chips with a beer". **Chela Cabur** is one of the few places where you can just drink.
 - **Top night-time options:**
-  1. **Stargazing tour.** The town's main night out. The {{< gyg-link tour="209091" >}}Stargazing & Andean Astronomy with Wine tour (from about US$30, 4.7/5 from 798 reviews){{< /gyg-link >}} adds a glass of wine to the telescope session, and the {{< gyg-link tour="542449" >}}llama stargazing session (from US$30, 4.7/5 from 814 reviews){{< /gyg-link >}} is the alternative if you would rather meet the llamas. Our [stargazing tours guide](/stargazing-tours/) compares them.
+  1. **Stargazing tour.** The town's main night out. The {{< gyg-link tour="209091" >}}Stargazing & Andean Astronomy with Wine tour (from about US$30, 4.7/5 from 790+ reviews){{< /gyg-link >}} adds a glass of wine to the telescope session, and the {{< gyg-link tour="542449" >}}llama stargazing session (from US$30, 4.7/5 from 810+ reviews){{< /gyg-link >}} is the alternative if you would rather meet the llamas. Our [stargazing tours guide](/stargazing-tours/) compares them.
   2. **Fire-pit dinner with live Andean music** at Adobe, Ckunna, La Casona or Caracol Bar.
   3. **Happy hour** on Tocopilla (La Picada del Indio) or at Rai.
   4. **Craft beer** at Chela Cabur or St. Peter.
@@ -244,7 +244,7 @@ Night-time here means stargazing, a long fire-pit dinner and one or two drinks. 
 
 - **Ayllu winery, Toconao (about 40 km south):** the Lickanantay high-altitude winegrowers' cooperative makes Ayllu wine from vineyards around Toconao. Its winery tours are sold through Enoticket: the basic visit with three wines starts at about CLP 25,000, and longer tours add a vineyard walk. Transport is not included, so combine it with a Salar de Atacama or lagoons day; our [tour comparison](/tours/) lists those trips.
 - **Culinary walking tour:** Nomades lists a walking food tour from the town plaza, with tastings of local infusions with chañar syrup, Rica Rica Ale and a rica-rica pisco sour. Check its current price when you book.
-- **Machuca village:** the stop on the way back from El Tatio on the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from US$73, 4.7/5 from 1,151 reviews){{< /gyg-link >}}, with llama anticuchos and goat-cheese empanadas (cash only).
+- **Machuca village:** the stop on the way back from El Tatio on the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from US$73, 4.7/5 from 1,150+ reviews){{< /gyg-link >}}, with llama anticuchos and goat-cheese empanadas (cash only).
 - **Fiestas:** the Toconao Vendimia (harvest festival) and village carnivals are the best chance to eat patasca the traditional way.
 
 ## Fine dining and Michelin Keys

@@ -406,7 +406,7 @@ Once you arrive, see [where to stay in San Pedro](/where-to-stay/), [things to d
 
 | Alternative | Who it suits | Trade-off |
 |---|---|---|
-| **Fly to Uyuni and take a one-day tour**, such as the {{< viator-link path="Uyuni/Day-Trip-to-Uyuni-Salt-Flats/d22256-40568P1" >}}Day Trip to Uyuni Salt Flats on Viator (from about US$130, 4.2/5 from 603 reviews){{< /viator-link >}} | Short on time; only want the salt flat | You miss the lagoons, geysers and flamingos |
+| **Fly to Uyuni and take a one-day tour**, such as the {{< viator-link path="Uyuni/Day-Trip-to-Uyuni-Salt-Flats/d22256-40568P1" >}}Day Trip to Uyuni Salt Flats on Viator (from about US$130, 4.2/5 from 600+ reviews){{< /viator-link >}} | Short on time; only want the salt flat | You miss the lagoons, geysers and flamingos |
 | **The Tupiza to Uyuni four-day route** | Coming from Argentina; want fewer crowds and red-rock canyons | Longer, and it starts in southern Bolivia |
 | **Private or luxury**, such as {{< hotel-link "kachi_lodge" >}}Kachi Lodge{{< /hotel-link >}} or a private 4x4 with an English-speaking guide | Comfort-first travellers | Many times the price of a shared seat |
 | **The direct bus from San Pedro to Uyuni** | Pure transport, on a budget | It crosses at Ollagüe, not through the reserve, so you skip the highlights |

@@ -1,0 +1,14 @@
+{{- /* Rounded review count for VISIBLE copy (berninatraintour.com 2026-11-12, Marina:
+     "round the number of reviews - like 4090+ - don't use the exact number as it may
+     change over time"). Floors to the nearest 10 and adds "+": 4096 -> "4,090+",
+     61 -> "60+"; under 20 stays exact. Structured data (structured-data.html) keeps
+     the exact reviewCount: Google wants the real figure there.
+     Usage: {{ partial "review-count.html" $tour.reviewCount }} */ -}}
+{{- $n := int (. | default 0) -}}
+{{- $s := "" -}}
+{{- if ge $n 20 -}}
+  {{- $s = printf "%s+" (lang.FormatNumber 0 (mul (div $n 10) 10)) -}}
+{{- else -}}
+  {{- $s = lang.FormatNumber 0 $n -}}
+{{- end -}}
+{{- return $s -}}

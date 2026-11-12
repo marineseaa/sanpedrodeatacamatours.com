@@ -3782,3 +3782,45 @@ body { line-height: 1.75; }
 .gyg-inline-widget { margin-block: var(--space-6); }
 .section--slim { padding-block: var(--space-6); }
 .prose li > input[type="checkbox"] { display: none; }
+
+/* -- 16. GALLERY: FULL-BLEED STRIP, ARROWS AT THE PAGE EDGES ------------------
+   (berninatraintour.com 2026-11-12) --
+   Marina: arrows at the edges of the page, strip full width with the first photo
+   flush to the left edge like the last one runs off the right. Arrows are centred
+   on the PHOTO (3:2, so height = card width / 1.5), not on photo + caption, and
+   carry a dark square backing so they read over any frame. Placed last so it
+   beats the base and flat-overlay rules. `.gallery-section` raises specificity
+   so it wins over the base rule and over sections 9/11 wherever it sits.
+   apply-design step 9 installs it, plus the main.js end-state, on older sites. */
+.gallery-scroll {
+  padding-left: 0;
+  padding-right: 0;
+  scroll-padding-left: 0;
+  scroll-padding-right: 0;
+}
+.gallery-section .gallery-arrow {
+  position: absolute;
+  z-index: 3;
+  top: calc(var(--space-2) + min(78vw, 480px) / 3);
+  transform: translateY(-50%);
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid rgba(255,255,255,0.35);
+  background: var(--deep-canal);
+  color: var(--white);
+  transition: background var(--transition-fast), border-color var(--transition-fast), opacity var(--transition-fast);
+}
+@media (min-width: 720px)  { .gallery-section .gallery-arrow { top: calc(var(--space-2) + min(44vw, 480px) / 3); } }
+@media (min-width: 1080px) { .gallery-section .gallery-arrow { top: calc(var(--space-2) + min(29vw, 480px) / 3); } }
+.gallery-section .gallery-arrow--prev { left: var(--space-3); right: auto; }
+.gallery-section .gallery-arrow--next { right: var(--space-3); left: auto; }
+.gallery-section .gallery-arrow:hover:not(:disabled),
+.gallery-section .gallery-arrow:focus-visible {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--on-accent);
+}
+.gallery-section .gallery-arrow:disabled { opacity: 0; pointer-events: none; }
