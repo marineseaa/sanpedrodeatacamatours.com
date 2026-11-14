@@ -1,6 +1,9 @@
 [build]
   command = "hugo"
   publish = "public"
+  # Deploys go out from the PC (netlify-cli-deploy). Netlify builds only commits whose
+  # message contains [netlify-build]; every other push is cancelled before Hugo runs.
+  ignore = 'git log -1 --pretty=%B | grep -qF "[netlify-build]" && exit 1 || exit 0'
 
 [build.environment]
-  HUGO_VERSION = "0.164.0"
+  HUGO_VERSION = "0.169.0"

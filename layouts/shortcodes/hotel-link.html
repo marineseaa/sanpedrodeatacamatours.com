@@ -10,8 +10,8 @@
      whitespace rule as gyg-link.                                                */}}
 {{- $key := .Get 0 -}}
 {{- $h := "" -}}
-{{- with .Site.Data.stay -}}{{- with .hotels -}}{{- $h = index . $key -}}{{- end -}}{{- end -}}
-{{- if not $h -}}{{- with .Site.Data.hotel_links -}}{{- $h = index . $key -}}{{- end -}}{{- end -}}
+{{- with hugo.Data.stay -}}{{- with .hotels -}}{{- $h = index . $key -}}{{- end -}}{{- end -}}
+{{- if not $h -}}{{- with hugo.Data.hotel_links -}}{{- $h = index . $key -}}{{- end -}}{{- end -}}
 {{- if not $h -}}
   {{- errorf "hotel-link: %q not found in data/stay.yaml hotels or data/hotel_links.yaml (page %s)" $key .Page.File.Path -}}
 {{- end -}}

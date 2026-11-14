@@ -19,7 +19,7 @@
      would strip the sponsored rel at runtime.                                  */}}
 {{ $page := .Page }}
 {{ $site := .Site }}
-{{ $stay := $site.Data.stay }}
+{{ $stay := hugo.Data.stay }}
 {{ $show := false }}
 {{ if $page }}
   {{ $show = $page.IsHome }}

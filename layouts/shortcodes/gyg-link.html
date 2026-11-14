@@ -6,7 +6,7 @@
 {{- $site := .Site -}}
 {{- $id   := .Get "tour" -}}
 {{- $tour := dict -}}
-{{- range (index $site.Data $site.Params.offersDataKey) -}}
+{{- range (index hugo.Data $site.Params.offersDataKey) -}}
   {{- if eq (int .id) (int $id) -}}{{- $tour = . -}}{{- end -}}
 {{- end -}}
 {{- $url := index (split ($tour.url | default "") "?") 0 -}}
