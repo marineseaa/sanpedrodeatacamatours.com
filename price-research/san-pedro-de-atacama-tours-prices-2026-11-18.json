@@ -1,0 +1,1501 @@
+{
+ "scrapedAt": "2026-11-18T16:45:39",
+ "source": "getyourguide.com JSON-LD AggregateOffer.lowPrice, via CDP browser",
+ "products": [
+  {
+   "id": "784048",
+   "url": "https://www.getyourguide.com/-t784048/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/",
+   "status": 200,
+   "live": false,
+   "note": "DELISTED — redirected to a listing page; do not link or price it",
+   "note2": "Delisted (redirects to location listing) 2026-11-18. Not linked anywhere on the site (only in research/gyg-location.html scrape archive); no rewire needed."
+  },
+  {
+   "id": "466455",
+   "url": "https://www.getyourguide.com/-t466455/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-valle-de-la-luna-shared-sightseeing-tour-t466455/",
+   "status": 200,
+   "lowPrice": 35,
+   "currency": "USD",
+   "ratingValue": 4.66814263417233,
+   "reviewCount": 401,
+   "title": "San Pedro de Atacama: Valle de la Luna Shared Sightseeing Tour",
+   "inclusions": [
+    "Amphitheater",
+    "Departure: From our agency, located at: Tocopilla #418, San Pedro de Atacama town center",
+    "Drop-off: San Pedro de Atacama Town Center",
+    "Duna Mayor",
+    "Moon Valley Sightseeing Tour",
+    "Sunset (Route)",
+    "Tres Marías Rock Formation",
+    "Visit:"
+   ],
+   "exclusions": [
+    "Beverages",
+    "Does not include the entrance ticket to the National Reserve (10,800 Chilean pesos per person). You must purchase it before the sightseeing tour at valledelaluna.com",
+    "Food",
+    "If you have trouble purchasing your ticket, please contact us for assistance: +56966501961",
+    "Tips"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4 hours",
+    "Live tour guide"
+   ],
+   "duration": "4 hours",
+   "provider": "Whipala Expedition",
+   "highlights": [
+    "Visit the Duna Mayor on a hike Visit the Tres Marias formation on foot See the Amphitheater Watch the sunset along the route"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "6467b2fb3bd50",
+    "6467b2fb547ef",
+    "8757f40f0c131780e9fa9d9059f56d834bb28f7127c15be9f7174df269e94f6f",
+    "920684ae45e1caee2d997df0b5273fc9a24da8d6b41a8ee3ebddb360219059c8"
+   ],
+   "live": true
+  },
+  {
+   "id": "347041",
+   "url": "https://www.getyourguide.com/-t347041/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-valle-de-la-luna-t347041/",
+   "status": 200,
+   "lowPrice": 69.29,
+   "currency": "USD",
+   "ratingValue": 4.62375795365197,
+   "reviewCount": 960,
+   "title": "Valley of the Moon | Stunning Atacama Sunset Tour",
+   "inclusions": [
+    "Bookings made from October 1, 2026 onward will include entrance fees in the booking price",
+    "English and Spanish-speaking tour guide",
+    "Roundtrip transportation from meeting point in San Pedro de Atacama"
+   ],
+   "exclusions": [
+    "For bookings made on or before September 30, 2026, entrance fees are not included in the booking price and must be paid separately",
+    "Hotel drop-off"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4.5 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "4.5 hours",
+   "provider": "PUKARUMI TRAVEL AGENCY",
+   "highlights": [
+    "See beautiful rock formations formed over thousands of years of erosion Discover one of the most popular sites in Atacama for a spectacular sunset Enjoy a panoramic view of the Atacama Desert"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "30f84294f1cffd0dfcbfacd8ef61d3a13b82ea88898beca6e9645f63285ce217",
+    "45e658decca0d4d9bda7f7629314427b1c82c39d6663c758229b54b5cfcaee2b",
+    "75d8bf90719604e2870b74e020d1bee33684695105cc1559e74fc54a83cddfec",
+    "924d803526b733757578be23d28a1df33f8450904d126d30d571ce957d4efe08",
+    "f76b1b20e606a862d47aa9a21c081369c76558438c8312200efefbc7195f9e5b"
+   ],
+   "live": true
+  },
+  {
+   "id": "190598",
+   "url": "https://www.getyourguide.com/-t190598/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/valle-de-la-luna-moon-valley-from-san-pedro-de-atacama-t190598/",
+   "status": 200,
+   "lowPrice": 42,
+   "currency": "USD",
+   "ratingValue": 4.631424361984188,
+   "reviewCount": 227,
+   "title": "Valle de la Luna (Moon Valley) from San Pedro de Atacama",
+   "inclusions": [
+    "Local expert guide",
+    "Pickup from your accommodation in San Pedro de Atacama",
+    "Snacks"
+   ],
+   "exclusions": [
+    "Entrance ticket to Los Flamencos National Reserve",
+    "Food or drink",
+    "Gratuities (optional)"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 5 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "5 hours",
+   "provider": "Ruta Chile",
+   "highlights": [
+    "Discover one of the most popular sites in San Pedro de Atacama Experience the magic of the desert Visit the Salt Caves See the salt sculptures of Tres Marias Watch the mesmerizing afternoon sunset from the Gran Duna"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "5bd896237a2c6",
+    "5bd896240a87f",
+    "5bd896249afe8",
+    "63c9de6d931ef",
+    "63c9de6d989a9"
+   ],
+   "live": true
+  },
+  {
+   "id": "471706",
+   "url": "https://www.getyourguide.com/-t471706/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-valle-de-la-luna-guided-tour-t471706/",
+   "status": 200,
+   "lowPrice": 63,
+   "currency": "USD",
+   "ratingValue": 4.475781600144559,
+   "reviewCount": 449,
+   "title": "Valle de la Luna Guided Desert Tour",
+   "inclusions": [
+    "Cocktail",
+    "Hotel pickup and drop-off",
+    "Snacks",
+    "Tour guide",
+    "Valle de la Luna entry ticket"
+   ],
+   "exclusions": [],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "4 hours",
+   "provider": "Feel Atacama",
+   "highlights": [
+    "Experience the best of the Atacama Desert while you explore the Valle de la Luna Admire the view of salt deposits in the desert at the Duna Mayor lookout point Trek along the desert to see the Tres Marias, rock formations formed by erosion Arrive at the Ckari viewpoint so you can watch the sun go down over the desert Finish up your desert adventure with a traditional pisco sour cocktail to drink"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "647fc0f49d3f0",
+    "647fc12615759",
+    "647fc19a592c1",
+    "647fc1bf3ac2b"
+   ],
+   "live": true
+  },
+  {
+   "id": "345946",
+   "url": "https://www.getyourguide.com/-t345946/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-el-tatio-geysers-tour-t345946/",
+   "status": 200,
+   "lowPrice": 72.26,
+   "currency": "USD",
+   "ratingValue": 4.7416799424675995,
+   "reviewCount": 1161,
+   "title": "Tatio Geysers at Sunrise | Breakfast & Incredible Landscapes",
+   "inclusions": [
+    "Bilingual Spanish and English-speaking tour guide",
+    "Breakfast",
+    "Entrance fee included",
+    "Hotel pickup"
+   ],
+   "exclusions": [
+    "Children under 9 years old are not allowed by the park*****"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 6 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "6 hours",
+   "provider": "PUKARUMI TRAVEL AGENCY",
+   "highlights": [
+    "Experience the beauty and thrill of the El Tatio Geysers Observe the contrast between the colors of the geysers' steam and the sunrise Discover a lagoon full of flamingos See the flora and fauna of the Putana Valley Enjoy an inclusive breakfast as well as hotel pickup"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "1e121fd42fd0c8b7f3440a5b447dac89955c1fd6458cfc4ca8be58f08089ee8a",
+    "5dfd480960eba",
+    "5dfd484449bf1",
+    "a416bc3dbe20ef5de64bf99f49e17a199b879de305ee650f80e9a66d88b0d92c",
+    "b2aa59b9a08fdeb1922322f571ef370ae6adfe27592b8b3416e89ed864c33fe4"
+   ],
+   "live": true
+  },
+  {
+   "id": "472134",
+   "url": "https://www.getyourguide.com/-t472134/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/from-san-pedro-de-atacama-el-tatio-geyser-field-wetlands-t472134/",
+   "status": 200,
+   "lowPrice": 76.14,
+   "currency": "USD",
+   "ratingValue": 4.468780476338373,
+   "reviewCount": 166,
+   "title": "El Tatio Geyser Field & Wetlands",
+   "inclusions": [
+    "Breakfast",
+    "English-speaking guide",
+    "Hotel pick up",
+    "Ticket",
+    "Transportation"
+   ],
+   "exclusions": [],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 7 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "7 hours",
+   "provider": "Feel Atacama",
+   "highlights": [
+    "Experience a beautiful sunrise at high altitude Discover the world's third-biggest geyser field Share with the native community of the Atacama Desert"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "64809d5c17f1f",
+    "64809d694b23e",
+    "64809d71df409",
+    "64809dea3824a"
+   ],
+   "live": true
+  },
+  {
+   "id": "431745",
+   "url": "https://www.getyourguide.com/-t431745/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/from-san-pedro-de-atacama-geysers-del-tatio-half-day-tour-t431745/",
+   "status": 200,
+   "lowPrice": 50,
+   "currency": "USD",
+   "ratingValue": 4.352438639467373,
+   "reviewCount": 24,
+   "title": "From San Pedro de Atacama: Geysers del Tatio Half-Day Tour",
+   "inclusions": [
+    "Breakfast with coffee, sandwich, and cookies",
+    "Guide in Spanish or English",
+    "Hotel pickup and drop-off"
+   ],
+   "exclusions": [
+    "Entrance tickets",
+    "Tips"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 6 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "6 hours",
+   "provider": "Ruta Chile",
+   "highlights": [
+    "Explore the geothermal field that is home to the Geysers del Tatio Relax on round trip transportation and enjoy included breakfast Hike through a geothermal field and admire its natural beauty Visit the local town of Machuca and see its traditionally built homes See fumaroles, geysers, pools of boiling water, and mountain peaks"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "3d6224a56039b5ba7eccd80bc3a139d7153bbd56cc950fbc86f8adbfbca8defe",
+    "6337224377a14",
+    "63372273b245b",
+    "633722a46b1ce",
+    "633722a830bf8"
+   ],
+   "live": true
+  },
+  {
+   "id": "190853",
+   "url": "https://www.getyourguide.com/-t190853/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/piedras-rojas-altiplanic-lagoons-salar-full-day-tour-t190853/",
+   "status": 200,
+   "lowPrice": 86,
+   "currency": "USD",
+   "ratingValue": 4.7334464654577975,
+   "reviewCount": 865,
+   "title": "Piedras Rojas, Altiplanic Lagoons & Salar Full-Day Tour",
+   "inclusions": [
+    "Breakfast and lunch",
+    "Hotel pickup in San Pedro de Atacama",
+    "Local expert guide"
+   ],
+   "exclusions": [
+    "Drop off in the center of San Pedro",
+    "Entry fees: approximately CLP 29,000",
+    "Tips"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 10 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "10 hours",
+   "provider": "Ruta Chile",
+   "highlights": [
+    "Visit the famous Miñiques and Miscanti Lagoons See the remarkable purple stones at Salar de Talar Enjoy breakfast while admiring the unique landscape Have lunch by the flamingo reserve and Chaxa Lagoon Visit the highland town of Socaire to learn about its culture"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "3622fcf5ec72ab6cdb329bf16602d8cf1e791ec94b3f9182f40db30d54d3f04f",
+    "5bd9fa46cd23f",
+    "5bd9fa47969c0",
+    "5bd9fa47ea9ef",
+    "9bf3de892f001fde5ca0e8f25cb7162dc5bbbe8b540ecdd3a7cfe211b04e11e9"
+   ],
+   "live": true
+  },
+  {
+   "id": "632997",
+   "url": "https://www.getyourguide.com/-t632997/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/triple-tour-red-stones-highland-lagoons-and-chaxa-lagoon-t632997/",
+   "status": 200,
+   "lowPrice": 89,
+   "currency": "USD",
+   "ratingValue": 4.757327054787677,
+   "reviewCount": 343,
+   "title": "Triple tour: Red Stones, Highland Lagoons and Chaxa Lagoon",
+   "inclusions": [
+    "Bilingual guides providing insightful commentary (English and Spanish)",
+    "Experience extreme altitudes, reaching up to 4,200 meters above sea level",
+    "Expert guidance on Altiplano's unique climate",
+    "Exploration of iconic sites: Piedras Rojas, Altiplanic Lagoons, Chaxa Lagoon and Socaire",
+    "Gourmet breakfast and snacks included for a delightful culinary experience",
+    "Personalized attention and memorable encounters with the region's wonders",
+    "Shared transportation for a communal travel experience",
+    "Spot pick-up for convenient departure"
+   ],
+   "exclusions": [
+    "Children, senior citizens and passengers with an eligible Indigenous certificate may qualify for discounted entrance fees",
+    "Chilean adults: CLP 20,500 per person",
+    "Foreign adults: CLP 29,000 per person",
+    "Total park entrance fees:",
+    "We’ll provide the complete fee breakdown after your booking, or feel free to contact us if you’d like more information before reserving"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 10 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "10 hours",
+   "provider": "Layana Travel 🌵",
+   "highlights": [
+    "Discover Atacama's gems: Red Stones, Lagoons, Chaxa Witness the surreal beauty of Red Stones and flamingos Experience the magic of Atacama with expert guidance Engage with the desert's history and ecology Indulge in culinary delights amidst breathtaking vistas"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "57757ffd7af47c6d2476a032e6c456e40c95d0c025b914212059b3195355c8c4",
+    "70463fcf5eb435aee4f40729678b1162ee9c0c7c8d0292d65294d35fddd25cdd",
+    "97891b909a46f3e6a56914c3259fc9ecc9fb05175beb4aa2d24d3f48f11f630c",
+    "e8c93c66137269abe90bfcbbeac132a282d92588d92c3d8309e2cfc3053e9fea",
+    "edebd97485b9265a95cd3f635f1c4d5b1e7a94991d3c929ddb0c52ab1092b323"
+   ],
+   "live": true
+  },
+  {
+   "id": "402852",
+   "url": "https://www.getyourguide.com/-t402852/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-red-stones-and-altiplanic-lagoons-t402852/",
+   "status": 200,
+   "lowPrice": 96.79,
+   "currency": "USD",
+   "ratingValue": 4.782625608498084,
+   "reviewCount": 159,
+   "title": "San Pedro de Atacama: Red Rocks & Altiplano Lagoons Day Trip",
+   "inclusions": [
+    "Bilingual guide",
+    "Breakfast",
+    "Entry to Chaxa Lagoon",
+    "Entry to Red Stones and Altiplanic Lagoons",
+    "Hotel pickup",
+    "Lunch",
+    "Transportation"
+   ],
+   "exclusions": [
+    "Hotel drop-off",
+    "Warm clothes"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 10 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "10 hours",
+   "provider": "PUKARUMI TRAVEL AGENCY",
+   "highlights": [
+    "Discover more about fauna and flora of the Atacama Desert Walk on red rocks surrounded by an amazing landscape Admire beautiful lagoons over 3,000 meters high Explore the Atacama Desert"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "4cffb22dbf43b7145b7a96f8e3353dd7fa0779b10ac92b37c16d3ae44d693405",
+    "541fadffaacaec2891f4e4b5477e8b38a7c3acd5030dba49ea9f563ba552336a",
+    "6823b8303734ed2d37ae2572ba6a5c24416447bbc1f9b2ec34826f812f35972a",
+    "815f13c40a871940ee3d65739dea89c66c63f76cf2e5e8214fd4ebd06cbdd9da",
+    "f5b1952519635cf45fc84fdc5782206691a156ec0062e170f92df9dd3f554500"
+   ],
+   "live": true
+  },
+  {
+   "id": "574351",
+   "url": "https://www.getyourguide.com/-t574351/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-piedras-rojas-y-lagunas-altiplanicas-t574351/",
+   "status": 200,
+   "lowPrice": 77.13,
+   "currency": "USD",
+   "ratingValue": 4.306328953877223,
+   "reviewCount": 14,
+   "title": "San Pedro de Atacama: Piedras Rojas and Lagunas Altiplánicas",
+   "inclusions": [
+    "Breakfast included",
+    "Fluent Guide in Two Languages",
+    "Hotel Search Service",
+    "Lunch included",
+    "Transport and Local Specialized Guide"
+   ],
+   "exclusions": [
+    "Entrance fee to Laguna Chaxa (14,000 CLP, cash payment)",
+    "Entrance fee to Piedras Rojas and Lagunas Altiplánicas (15,000 CLP, cash payment)",
+    "Hotel delivery service"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 10 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "10 hours",
+   "provider": "MUNDO AFORA AGENCIA DE VIAGENS",
+   "highlights": [
+    "Witness the incredible fusion of crystal clear lagoons and unique rock formations. Knowledge about the flora fauna and the rich culture of the desert of Atacama. Explore the Miscanti and Miñiques lagoons at 4"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "485a0e37eee74b4fb59e69ef1b002c3723bba9b119fcb86a9377f1a22a408104",
+    "5f68b42e13640bbc95fc1db31793ed772601998036c8d82edce62b6acd40eece",
+    "abea308b0107037c138238b7bde0d9bff7df66893a3bea6a842a98dd01577a8d",
+    "ca0805f83b1250ddce1bc83c445abfeb321754d7cc4924938ff2c439d3f8ec77",
+    "d0615a8092b3158c18fd11c3985dc9289b156f5652d46383511cbdb1c1e8e929"
+   ],
+   "live": true
+  },
+  {
+   "id": "542449",
+   "url": "https://www.getyourguide.com/-t542449/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-stargazing-experience-t542449/",
+   "status": 200,
+   "lowPrice": 29.7,
+   "currency": "USD",
+   "ratingValue": 4.715587139702771,
+   "reviewCount": 847,
+   "title": "San Pedro de Atacama: Stargazing Experience",
+   "inclusions": [
+    "Astrophotography",
+    "Blankets",
+    "Guide",
+    "Red wine, pisco sour, and juice",
+    "Snack",
+    "Tea, coffee, and hot chocolate",
+    "Use of telescope"
+   ],
+   "exclusions": [
+    "Bathroom",
+    "Tips"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 2.5 hours",
+    "Live tour guide"
+   ],
+   "duration": "2.5 hours",
+   "provider": "Llama Stargazing",
+   "highlights": [
+    "Marvel at the natural wonders of the sky in San Pedro de Atacama Discover the fascinating mysteries of the universe with an astronomer Travel back to Ancient Greece and learn how they looked at the night sky Let go of your worries as you relax under thousands of shining stars"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "05a2196ac85f7475",
+    "28ea1f1a80f24496eda816261d82536856454240465fdf816e6f5153a6fc07ae",
+    "2c0a6b81f48ec7a6",
+    "b17f5f9ed7065006722f864d1e1f83f60835843230afbdcd2c10c5c1d58e58e2",
+    "b6048350f3794743"
+   ],
+   "live": true
+  },
+  {
+   "id": "209091",
+   "url": "https://www.getyourguide.com/-t209091/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-etno-stargazing-tour-with-transfer-t209091/",
+   "status": 200,
+   "lowPrice": 35,
+   "currency": "USD",
+   "ratingValue": 4.719648072149267,
+   "reviewCount": 820,
+   "title": "Atacama: Stargazing & Andean Astronomy with Wine",
+   "inclusions": [
+    "Astronomy specialist guide",
+    "Coffee, tea, or red wine",
+    "Courtesy photo under the Atacama night sky, sent by email",
+    "Meeting point varies depending on the option booked",
+    "Poncho (blanket) to keep you warm during the experience",
+    "Professional telescope equipment"
+   ],
+   "exclusions": [
+    "Gratuities"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 2.5 hours",
+    "Live tour guide",
+    "Wheelchair accessible"
+   ],
+   "duration": "2.5 hours",
+   "provider": "Astronomic tour, Observatory Licanatay",
+   "highlights": [
+    "Learn about stars and celestial objects with an astronomy specialist Use a professional telescope at our exclusive, light-pollution-free site Discover how ancient Andean cultures observed the sky and the Southern Cross Travel to ancient Greece through its constellations and enjoy an included photo Observe the night sky in the Atacama Desert, one of the clearest in the world"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "916d01999784b30400ca610098e78d8ef1d26e2aa9108e71554861b9ceb1b459",
+    "bb5e4c86c6de68d2a4579bf36dc80dad725ef6445fa4e7e08058dd9960a012d2",
+    "c68cd579cf83c42967c1332a507acc6bc104e42030fdd0320ffbbfd53a98ecd0",
+    "e47db921f63f59cb0c771648770f284091d0c87fd597a21b158e2c4a6e68f6fa",
+    "f0c82e85a0772fb7f8777738d4049a1e148473d610cb3adb8bdb20065e81998b"
+   ],
+   "live": true
+  },
+  {
+   "id": "572477",
+   "url": "https://www.getyourguide.com/-t572477/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/the-roofless-experience-san-pedro-de-atacama-stargazing-tour-t572477/",
+   "status": 200,
+   "lowPrice": 65,
+   "currency": "USD",
+   "ratingValue": 4.916239160121384,
+   "reviewCount": 133,
+   "title": "The Roofless AI: Premium Stargazing in San Pedro de Atacama",
+   "inclusions": [
+    "A selection of snacks accompanied by your choice of Cabernet Sauvignon wine, hot chocolate, or decaffeinated tea",
+    "Expert astronomy guide and an informative talk on astronomy",
+    "Interactive session with Vera, our AI-powered virtual guide—ask your own questions live",
+    "One professional photograph per person under the desert sky",
+    "Round-trip transportation from your accommodation in San Pedro de Atacama (within the town area)",
+    "Stargazing using two 16-inch telescopes",
+    "Thermal blankets",
+    "Tips on how to photograph the stars using your smartphone"
+   ],
+   "exclusions": [
+    "Additional professional photos",
+    "Gratuities",
+    "Pickup from accommodation outside the urban area (Coyo, Beter, Séquitor, Quitor, Solor, Tulor, Cucuter, Larache)"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 2 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Private or small groups available"
+   ],
+   "duration": "2 hours",
+   "provider": "ATACAMA TOURS",
+   "highlights": [
+    "Ask Vera, our AI virtual guide, anything while you look through the telescope Expert guide Jhonatan, official ACEAP 2026 Ambassador, warm and passionate Two 16\" telescopes for 12 people only and tours only under 50% moonlight Blankets, wine or hot chocolate, snacks and a professional photo included Innovation recognized by the Municipality of San Pedro de Atacama in 2026"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "0980bde7b9af92f5ce2cd4dbd0218e125c7d7739bac9df477cb9786ba75ef5ec",
+    "33db2bb4a7e560a7fb9103c5b38afd3589fb6c5fd145dd021ed9f9ea9e165f08",
+    "87c6dd2a47567480fb28a24d79df044a991423bc56199569eb54bb989385df08",
+    "aa0b754106b515d99179f5ce4edfc16f784bbf61a01e6cece80200ca0d93c350",
+    "f2de0c1384feb0b32ac48d57c863b3283f89fcae37b1477af642465440f64efe"
+   ],
+   "live": true
+  },
+  {
+   "id": "1163787",
+   "url": "https://www.getyourguide.com/-t1163787/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/atacama-stargazing-tour-into-our-universe-t1163787/",
+   "status": 200,
+   "lowPrice": 181.48,
+   "currency": "USD",
+   "ratingValue": 4.959232836675982,
+   "reviewCount": 28,
+   "title": "Atacama: Stargazing Tour Into Our Universe",
+   "inclusions": [
+    "Chilean wine or Navegado (seasonal, hot wine)",
+    "Comfortable chairs",
+    "Deep-sky photos sent to you next day (WhatsApp/email)",
+    "Green laser pointer to show you the universe",
+    "Photos of you with the Milky Way",
+    "Private astronomical tour with max 4-6 people",
+    "Professional English and Spanish-speaking astronomy guide",
+    "Red light flashlights (to preserve night vision)",
+    "Snacks and refreshments",
+    "Use of smart digital telescope (nebulae, star clusters, galaxies)",
+    "Warm blankets available if needed"
+   ],
+   "exclusions": [
+    "Dinner or full meals",
+    "Gratuities (optional)",
+    "Personal expenses",
+    "Travel insurance",
+    "Warm clothing (please bring your own layers)"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 3 hours",
+    "Skip the ticket line",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "3 hours",
+   "provider": "Atacama Dark Sky",
+   "highlights": [
+    "Small group experience — maximum 4 people, unless special case See nebulae and galaxies in real color with a smart telescope Relax with reclining chairs, warm blankets, wine, and hot drinks Learn from a passionate guide with thousands of nights under these same stars Take photos against the galactic plane center or edge, depending on the season"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "676ce64b4f004ba772b8627baa132e0e34e8aaa8309b880948ec2833f059cbbf",
+    "9de7eb077bc1b087e3895569252d352be2a32c8c601f96532585a410065bfd27",
+    "a7eeee0f7730339ff7cc9ded27cea2b6fa15089ee0581df5b4428bbf52d58b9b",
+    "a9592a743301154338a39c6a09d61a82b75286c22fa9215b34336dc6610bdcaa",
+    "dc949d386c46d67791f4e542373853ee0b03c9df93c00bfe69f849af35896114"
+   ],
+   "live": true
+  },
+  {
+   "id": "385614",
+   "url": "https://www.getyourguide.com/-t385614/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-atacama-baltinache-lagoons-t385614/",
+   "status": 200,
+   "lowPrice": 52.79,
+   "currency": "USD",
+   "ratingValue": 4.625013204509423,
+   "reviewCount": 397,
+   "title": "Baltinache Hidden Lagoons",
+   "inclusions": [
+    "Bilingual Spanish and English-speaking guide",
+    "Entrance fee included",
+    "Hotel pickup",
+    "Shared transportation"
+   ],
+   "exclusions": [],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4.5 - 5 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "4.5 - 5 hours",
+   "provider": "PUKARUMI TRAVEL AGENCY",
+   "highlights": [
+    "Take stunning pictures of the incredible desert and salt lake landscapes Float in the salty waters of the Baltinache Lagoon Enjoy a delicious snack in the driest desert in the world"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "12ce7af7a6cb58e6da9888a203453e6cdab3eb1c0076dca1ae929346acd96dc6",
+    "1b493891356ad5677ab4fd338d78a4dc5b935fd0456d3b82f2c29c873f978587",
+    "5033382019ddc0e3268af32ca0669103a7909c7a993bd6232bc73b3066a7fc5a",
+    "a9723d778a8ba71c9522fced37856c793e5752f8cd7285db2c8e52fe2067399a",
+    "acc59d74d039eaf3af4ed72e5f023fa1c014b86eccea585a26cd304590b7db49"
+   ],
+   "live": true
+  },
+  {
+   "id": "645617",
+   "url": "https://www.getyourguide.com/-t645617/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/baltinache-hidden-lagoons-t645617/",
+   "status": 200,
+   "lowPrice": 58,
+   "currency": "USD",
+   "ratingValue": 4.535436107187922,
+   "reviewCount": 159,
+   "title": "Baltinache Hidden Lagoons",
+   "inclusions": [
+    "AM - Breakfast",
+    "Guided tour by bilingual (Spanish and English) guide",
+    "Hotel pickup for convenient transportation",
+    "Maximum Altitude: 3,600 MASL",
+    "PM - Cocktail"
+   ],
+   "exclusions": [
+    "Entrance to the Hidden Lagoons of Baltinache (temporary fee): CLP $6,000 general public; CLP $3,000 children aged 5 to 17 and seniors; CLP $2,000 indigenous status. SEP–DEC 2026",
+    "Park entrance fees are separate: General admission CLP 12,000; Indigenous certificate holders CLP 2,000; Ages 5-18 and 60+ pay CLP 6,000"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4.5 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "4.5 hours",
+   "provider": "Layana Travel 🌵",
+   "highlights": [
+    "Plan for no bathing while the lagoons undergo maintenance Take advantage of the temporarily reduced park entrance fee Savor a decadent cocktail amidst a breathtaking desert sunset Immerse yourself in nature's serenity, away from the hustle and bustle Capture the magic of the Atacama Desert's hidden gem"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "3a16aaa1f7aa877b45a2a1132c8a7fc8922236f0e97c54004aaea6297b382cb6",
+    "441b30c2a98647642056bfc0c7ab4986f8c568a001e0f8c006b9e637af610d34",
+    "4c26fb5ce06e27e04c11fa6c2d4f02cbd0362cc04333ede13836eb4bfbf9e6a6",
+    "5ab4e13e65c682dd6586ba36d3a1fcb15fe65f7e384f545a289300a4254073cb",
+    "7ff0d651b4c98e9b0e971a77bc66c50c0330f846a8702d6b59a3873760781859"
+   ],
+   "live": true
+  },
+  {
+   "id": "600585",
+   "url": "https://www.getyourguide.com/-t600585/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/cejar-lagoon-tour-san-pedro-de-atacama-t600585/",
+   "status": 200,
+   "lowPrice": 38,
+   "currency": "USD",
+   "ratingValue": 4.532029558699974,
+   "reviewCount": 70,
+   "title": "Cejar Lagoon Tour: San Pedro de Atacama",
+   "inclusions": [
+    "Driver/Guide (1 Pers)",
+    "Shared transportation",
+    "Snack"
+   ],
+   "exclusions": [
+    "Does not include entry ticket $21,000.- per person (Chilean pesos)"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4 hours",
+    "Live tour guide"
+   ],
+   "duration": "4 hours",
+   "provider": "Whipala Expedition",
+   "highlights": [
+    "Swim in Cejar Lagoon for approximately 30 minutes Observe Ojos del Salar Walk around Tebenquiche Lagoon"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "01c7fd3af4475c5540701cb1ac1478c250351303fd02aade94bce518ecc8c49f",
+    "41ccaa5b04dadb0ba70c78905043fede1f384912b73b17b7c263acac76b714e8",
+    "82ba7236c4acc86a420e1d8217f7c7bccebc17bcd20bad3b58c28e5553b75d00",
+    "be69a24258a5adcb4513fe103878f521c670b1a6c144d07444db3160645f617a"
+   ],
+   "live": true
+  },
+  {
+   "id": "472203",
+   "url": "https://www.getyourguide.com/-t472203/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/cejar-lagoon-tebenquinche-lagoon-and-ojos-del-salar-t472203/",
+   "status": 200,
+   "lowPrice": 73,
+   "currency": "USD",
+   "ratingValue": 4.4367783409320065,
+   "reviewCount": 87,
+   "title": "Cejar Lagoon, Tebenquinche Lagoon and Ojos del Salar",
+   "inclusions": [
+    "Cocktail at sunset in the Atacama Salt Flat",
+    "English speaking guide",
+    "Hotel pickup",
+    "Park entrances fee (21.000 CLP)"
+   ],
+   "exclusions": [],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4.5 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "4.5 hours",
+   "provider": "Feel Atacama",
+   "highlights": [
+    "Enjoy the beauty of the Atacama Saltflat Admire the Andes' most famous volcanoes up close Float weightlessly in the desert"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "6480bb2d0be17",
+    "6480bbc565433",
+    "6480bc054417a",
+    "6480bf0ebf91a"
+   ],
+   "live": true
+  },
+  {
+   "id": "437173",
+   "url": "https://www.getyourguide.com/-t437173/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/cejar-lagoon-tebenquiche-lagoon-and-ojos-del-salar-t437173/",
+   "status": 200,
+   "lowPrice": 49,
+   "currency": "USD",
+   "ratingValue": 4.7249076016006395,
+   "reviewCount": 22,
+   "title": "Cejar Lagoon, Tebenquiche Lagoon and Ojos del Salar",
+   "inclusions": [
+    "Guide during the whole tour",
+    "Snack"
+   ],
+   "exclusions": [
+    "Meals and drinks not specified",
+    "Optional tips for driver and guide",
+    "Tickets"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 5 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "5 hours",
+   "provider": "Ruta Chile",
+   "highlights": [
+    "Discover the incredible Cejar Lagoon See the striking Ojos del Salar Admire the beautiful Tebenquiche Lagoon"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "63948e27a84d8",
+    "63948e48452e9",
+    "63948e6975cb8"
+   ],
+   "live": true
+  },
+  {
+   "id": "614772",
+   "url": "https://www.getyourguide.com/-t614772/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/cejar-lagoon-tour-flotation-sunset-cocktail-more--t614772/",
+   "status": 200,
+   "lowPrice": 46.55,
+   "currency": "USD",
+   "ratingValue": 4.665820883227919,
+   "reviewCount": 4,
+   "title": "San Pedro de Atacama: Cejar Lagoon Tour Float & Cocktail",
+   "inclusions": [
+    "Altitude reaching up to 2,500 meters above sea level",
+    "Experience the enchanting Laguna Tebinquinche",
+    "Expert bilingual guide (Spanish and English)",
+    "Exploration of Laguna Cejar's high-salinity waters",
+    "Hotel pickup for convenient transportation",
+    "Sunset Cocktail for a memorable culmination",
+    "Visit to Ojos del Salar, natural freshwater springs"
+   ],
+   "exclusions": [
+    "Park entrance fees are not included in the tour price",
+    "Total park entrance fees for adults: CLP 21,000 per person"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 5.5 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "5.5 hours",
+   "provider": "Layana Travel 🌵",
+   "highlights": [
+    "Unique Flotation Experience: Float weightlessly in Cejar's high-salinity waters Oasis Amidst Salt Flats: Ojos del Salar, natural springs in the vast salt flats. Culminate with a Sunset Cocktail, savoring panoramic Atacama Desert views. Intimate Exploration: Limited to 12 passengers, ensuring an intimate journey"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "00623c505221461ad3397678fd026d6ca1015eba74d113ce47e72b0ff88e8607",
+    "303cb339d60b2264d7d3b8888d979895f3c0562ae315adaebf84203fee58183c",
+    "4f3bcbe2a7b345863e05d29f2602ce78f06e8b661650cceb0bd23d1f9c4f8cad",
+    "6600af3defb8c5eb31d693adca32147bb53fbe4bc625cbb700b11e61e01fb1fc",
+    "67388422414a096f079cdcd00312718b41fc8c5a82dd7af130ba83c2346e3ecb"
+   ],
+   "live": true,
+   "excluded": true,
+   "excludeReason": "Only 4 reviews; Cejar row covered by t600585/t472203/t437173. Still linked elsewhere on the site."
+  },
+  {
+   "id": "643747",
+   "url": "https://www.getyourguide.com/-t643747/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-puritama-hot-springs-transfer-tour-t643747/",
+   "status": 200,
+   "lowPrice": 39,
+   "currency": "USD",
+   "ratingValue": 4.793943895506196,
+   "reviewCount": 6,
+   "title": "San Pedro de Atacama: Puritama Hot Springs Transfer Tour",
+   "inclusions": [
+    "Bathing experience",
+    "Pickup from your accommodation",
+    "Shared transportation"
+   ],
+   "exclusions": [
+    "Each passenger must buy their ticket at:",
+    "https://termasdepuritama.cl/"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 5 hours",
+    "Driver",
+    "Pickup included"
+   ],
+   "duration": "5 hours",
+   "provider": "Layana Travel 🌵",
+   "highlights": [
+    "Relax in Andean warmth, surrounded by lush greenery, at Puritama Hot Springs Refresh body and mind in therapeutic mineral waters Enjoy panoramic views from the terrace"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "02afdf0fb30bc141d43d45d6cfc563674c92b3e02ebace3214d3468918d072bb",
+    "28569ffca0b3c05880d879459af5c0b241c01b2fe96e94fd251ad33f2d1c6a5f",
+    "295917393bc53e10d60bb0d3608f006398d9e88e9d3961b46ed4d10560613586",
+    "b05f63ed57e79269465b28a2f630a4501464845aca011bb1670c200231a94d1b",
+    "fe07a39d30aef73657e71cd471ef093f8f8b520ebbb69f740e9797f5d93a9e58"
+   ],
+   "live": true
+  },
+  {
+   "id": "832294",
+   "url": "https://www.getyourguide.com/-t832294/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/transfer-to-puritama-hot-springs-t832294/",
+   "status": 200,
+   "lowPrice": 53.25,
+   "currency": "USD",
+   "ratingValue": 5,
+   "reviewCount": 1,
+   "title": "Puritama Hot Springs: Thermal Bath from San Pedro de Atacama",
+   "inclusions": [
+    "Assistance throughout the tour",
+    "Free time to enjoy Puritama Hot Springs",
+    "Hotel pickup and drop-off in San Pedro de Atacama",
+    "Professional local guide",
+    "Round-trip transportation",
+    "Scenic drive through the Atacama Desert"
+   ],
+   "exclusions": [
+    "Any services not mentioned in the itinerary",
+    "Entrance to Puritama Hot Springs (adult: CLP$ 30,000; child and senior: CLP$ 15,000)",
+    "Food and drinks",
+    "Personal expenses",
+    "Tips",
+    "Towel"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4.5 hours",
+    "Live tour guide"
+   ],
+   "duration": "4.5 hours",
+   "provider": "Inspires Viagens",
+   "highlights": [
+    "Bathe in the Puritama Hot Springs See how the Puritama River gives rise to eight natural pools Use the venue's dressing rooms, bathrooms and terraces"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "1c8114dd7e35d39c669e0f3218323b048b83fe1c01523a29b2d98520e48d016c",
+    "c343a9dc007adf51fec6818342870c0f9083856f4201d971bbee0f7dfebcab69",
+    "d60eeac00b18e800752997c1a79cd7ad29393c3ea2f8d91be24166de6d82ceda",
+    "f71d16f24fc9029cf964857a5928bf98021c780c52af3d486d080ca5e06fa7bf",
+    "fe6d8e36f3ebafc75efd92da4b102820a7390646c15acb72fe67dc8ef330f519"
+   ],
+   "live": true
+  },
+  {
+   "id": "435858",
+   "url": "https://www.getyourguide.com/-t435858/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/rainbow-valley-t435858/",
+   "status": 200,
+   "lowPrice": 53,
+   "currency": "USD",
+   "ratingValue": 4.864864494872828,
+   "reviewCount": 86,
+   "title": "San Pedro de Atacama: Rainbow Valley Tour and Petroglyphs",
+   "inclusions": [
+    "Breakfast",
+    "Guide in Spanish, English and Portuguese throughout the visit",
+    "Transportation by car, minibus or bus"
+   ],
+   "exclusions": [
+    "Meals and drinks not specified",
+    "Optional tips for driver and guide",
+    "Tickets"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 5 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "5 hours",
+   "provider": "Ruta Chile",
+   "highlights": [
+    "See the Domeyko Mountain Range, Salt Mountain Range, and Andes Explore Rainbow Valley in the Domeyko Mountain Range Admire colorful clay-striped hills shaped by local minerals"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "6380b01037dad",
+    "6380b01052d07",
+    "6380b0105c5f1",
+    "6380b0105edb7",
+    "6380b0106982a"
+   ],
+   "live": true
+  },
+  {
+   "id": "604409",
+   "url": "https://www.getyourguide.com/-t604409/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/rainbow-valley-tour-petroglyphs-yerbas-buenas-t604409/",
+   "status": 200,
+   "lowPrice": 36,
+   "currency": "USD",
+   "ratingValue": 4.748882272529573,
+   "reviewCount": 73,
+   "title": "Rainbow Valley Tour + Petroglyphs (Yerbas Buenas)",
+   "inclusions": [
+    "Arrival to the town (center)",
+    "Breakfast",
+    "Driver/Guide (1 pers.)",
+    "Pick up at the hotel"
+   ],
+   "exclusions": [
+    "Rainbow Valley Entrance Ticket $5,000.- p/p + Yerbas Buenas Petroglyphs $5,000.- p/p (CLP $10,000.- cash)"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 6 hours",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "6 hours",
+   "provider": "Whipala Expedition",
+   "highlights": [
+    "Explore Rainbow Valley (Matancilla) Discover the petroglyphs at Yerbas Buenas Observe the area's flora and fauna"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "2cb19522058b649ddae927ba331a0c4b2367c7d87571f82c5393367b2874ae00",
+    "60c657e639d2be3cfc2adcaad307accacad8c831797b3d2afbdbbeeac3d760b9",
+    "aefb3ad811a847f40e2c38c5f61ac2313978e58f41409fb480c7147c721d77d7",
+    "f0a82c26194c843db05285d6846ebb583a2128bec9d6094647eb5f291205ddaa"
+   ],
+   "live": true
+  },
+  {
+   "id": "410385",
+   "url": "https://www.getyourguide.com/-t410385/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-rainbow-valley-and-hierbas-buenas-t410385/",
+   "status": 200,
+   "lowPrice": 52.79,
+   "currency": "USD",
+   "ratingValue": 4.6532578982550135,
+   "reviewCount": 40,
+   "title": "Rainbow Valley | Atacama's Colorful Mountains",
+   "inclusions": [
+    "Bilingual Spanish- and English-speaking tour guide",
+    "Breakfast",
+    "Hotel pickup"
+   ],
+   "exclusions": [
+    "Entrance fee (10,000 Chilean pesos per person)",
+    "We will send you the instructions on how to obtain the ticket via WhatsApp"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 6 hours",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "6 hours",
+   "provider": "PUKARUMI TRAVEL AGENCY",
+   "highlights": [
+    "Visit a sacred site that indigenous tribes have visited for thousands of years See all the colors of the valley and its curious rock formations Enjoy a tasty breakfast surrounded by this amazing place"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "179648f3b853cb27cbbcf5048c63a8b5a1e58c2c55b1eae6aa99c933f251f4ec",
+    "2b2f7348ad7b03959d5a33b11ae0fe4aa2192d85235f823ed6ca38a17684b24c",
+    "2d04fe79baa5a9733c94bc014b8a19cfe7ce86e001c7a493cf8f56fd9c6f6f0f",
+    "5f501afacd14bc8c6d5fd63131da21e7f4b4391f9a389a022e8d9348fc0c874f",
+    "cfef003e295b6c0b4640715bb070d1d16cb403b4d9cffe5c4a7ac7ca70665c20"
+   ],
+   "live": true
+  },
+  {
+   "id": "374134",
+   "url": "https://www.getyourguide.com/-t374134/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-3-day-activity-combo-with-4-tours-t374134/",
+   "status": 200,
+   "lowPrice": 322.54,
+   "currency": "USD",
+   "ratingValue": 4.705910281561825,
+   "reviewCount": 353,
+   "title": "Best of Atacama: 4 Tours in 3 Days | Combo",
+   "inclusions": [
+    "3-day combo activities as per description",
+    "Bilingual guide",
+    "Entry to Chaxa Lagoon, Altiplanic Lagoons, and Piedras Rojas entrance fee included",
+    "Foods and drinks as per description",
+    "Pickup from your San Pedro de Atacama accommodation",
+    "Valle de la Luna entrance fee included"
+   ],
+   "exclusions": [
+    "Accommodation",
+    "Entrance fee to Baltinache Hidden Lagoons (6,000 CLP per person)",
+    "Entrance fee to El Tatio Geyser (15,000 CLP per person)",
+    "Transfer to hotel"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 3 days",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "duration": "3 days",
+   "provider": "PUKARUMI TRAVEL AGENCY",
+   "highlights": [
+    "Explore the highlights of the Atacama Desert on a 3-day tour Be amazed by spectacular natural scenery and incredible views Visit Valle de la Luna, Red Stones, and geothermal Tatio Geysers Make your activity planning easier with a combination tour"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "4bffd6560c4939f4341070bd258f5e891029dc7814141d2a7694bbe2ab5055c8",
+    "4cffb22dbf43b7145b7a96f8e3353dd7fa0779b10ac92b37c16d3ae44d693405",
+    "5e2c6b7645fabccdac9796a4a0373f2fb753c8f98c5142ce9d922b3372d39987",
+    "8036a6340ed705b4fbb3503e928a10b0c0d34a157dad4f1a576f5370879be9c8",
+    "b40c453025b22c3c1265c41ab7642ef19766bbe36ee372e244c93a34bdfd946a"
+   ],
+   "live": true
+  },
+  {
+   "id": "704901",
+   "url": "https://www.getyourguide.com/-t704901/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/4-tour-en-atacama-en-3-dias-t704901/",
+   "status": 200,
+   "lowPrice": 230,
+   "currency": "USD",
+   "ratingValue": 4.709431514004386,
+   "reviewCount": 15,
+   "title": "4 Tours in Atacama in 3 Days",
+   "inclusions": [
+    "Astronomical Tour",
+    "Cejar Lagoon Tour",
+    "Hours: 2:30 p.m. to 6:00 p.m.",
+    "Hours: Pick up between 9:00 p.m. to 9:30 p.m.",
+    "Includes astrophotography",
+    "Includes cocktail",
+    "Includes cocktail and hot drinks",
+    "Includes snack",
+    "It includes breakfast",
+    "Schedule: Pick up between 04:30 to 05:10",
+    "Schedule: Pick up between 2:00 p.m. to 2:40 p.m.",
+    "Tour to Tatio Geyser",
+    "Tour to Valley of the Moon"
+   ],
+   "exclusions": [
+    "Cejar Lagoon Tour",
+    "Does not include tickets. ($15,000 CLP)",
+    "Does not include tickets. ($20,000 CLP)",
+    "Does not include tickets. Valley of the Moon ($10,800 CLP)",
+    "Tour to Tatio Geyser"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 3 days",
+    "Live tour guide",
+    "Pickup included",
+    "Small group"
+   ],
+   "duration": "3 days",
+   "provider": "TravelsumChile",
+   "highlights": [
+    "Enjoy tours with groups of up to 15 people Enjoy nutritious breakfasts and cocktails Experience a unique adventure in the most beautiful desert in the world"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "064f8beca57f74f942f31a853f4c73dc58b9c5849c13f6f65832e3c8dfb49117",
+    "07ff28e0f0d17df7479885610e2bbb861e80481f446e25831e6c3e2e4db90685",
+    "5df9d60fdea01edfff1b4c69d86aca3837ca2446db0a4fded446fba2dd5f059b",
+    "8c08a292f3214eb17307a19e384dadb97948adb061bf6b38ecec39da258f1123",
+    "e101834235dbcf24efc3437a336f61d6d0886d4e4d766d826505f713d4111273"
+   ],
+   "live": true
+  },
+  {
+   "id": "669431",
+   "url": "https://www.getyourguide.com/-t669431/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-3-d-tour-uyuni-and-back-to-san-pedro-t669431/",
+   "status": 200,
+   "lowPrice": 880,
+   "currency": "USD",
+   "ratingValue": 4.743342543702066,
+   "reviewCount": 92,
+   "title": "San Pedro de Atacama: 3-Day Tour to Uyuni and Back",
+   "inclusions": [
+    "2 nights accommodation: Hotel Toñito with hot water, private room and heating",
+    "4WD car with driver",
+    "English-speaking guide",
+    "Meals during the trip (2 Breakfasts, 3 Box lunches, 1 Dinner)",
+    "Private Transfer out from Bolivia Border to San Pedro on the last day",
+    "Shared Van Transfer from San Pedro Atacama to Bolivia Border (Hito Cajones. 1 Hour)",
+    "Small group by car"
+   ],
+   "exclusions": [
+    "Dinner on the second night in Uyuni City is not included",
+    "Ticket fees for the National Park and Isla Incahuasi US$25 per person"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 3 days",
+    "Live tour guide",
+    "Small group"
+   ],
+   "duration": "3 days",
+   "provider": "Koa Travel",
+   "highlights": [
+    "Admire magnificent views of the Atacama Desert from 4500 Mts at Bolivia's border Explore fabulous landscapes that have not changed in the last 25 million years Discover the largest Uyuni salt flat in the world with 10,000 km2 of extension Observe beautiful sunsets and unusual photos in the Salar de Uyuni"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "69d84e68a6d6101789e5150f5313fa799521d56289743d5bce92b8ca3fb7596a",
+    "7c4207b30c9ebfe7c362fa1559b54ed4afc250960a3d3d915a45c212f88477c9",
+    "856823e9f6c51dd6f40d2c4e6b1991879d86c7e3c0976cda7efe39edb85a92bc",
+    "8ce2b36eaeb12bfeab1c8f9047e109cfa7e20a270d8a422a797396276b1daf70",
+    "d5b1ded2e6d8b10bc090280f16ec16d397364156304dc1e52a724ca5cf2d7430"
+   ],
+   "live": true
+  },
+  {
+   "id": "774308",
+   "url": "https://www.getyourguide.com/-t774308/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/san-pedro-de-atacama-4-day-uyuni-salt-flats-tour-t774308/",
+   "status": 200,
+   "lowPrice": 352,
+   "currency": "USD",
+   "ratingValue": 4.5781488479916295,
+   "reviewCount": 92,
+   "title": "San Pedro de Atacama: 4-Day Uyuni Salt Flats Tour",
+   "inclusions": [
+    "Accommodation",
+    "Driver",
+    "Food (breakfast, lunch, dinner)",
+    "Oxygen bottle",
+    "Transportation"
+   ],
+   "exclusions": [
+    "Entrance fees to the National Parks of Bolivia"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 4 days",
+    "Live tour guide",
+    "Small group"
+   ],
+   "duration": "4 days",
+   "provider": "White & Green International Travel",
+   "highlights": [
+    "Journey from the driest desert to the world's largest salt flat See vibrant Laguna Verde and the surreal Salvador Dalí Desert Soak in hot springs with flamingos, capture sunrise photos at Incahuasi Island Explore the vast Salar de Uyuni, creating unique and unforgettable memories Discover Earth's most extraordinary natural wonders"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "4f3e1c08ef090e2a880da082df25ecba57b4153399584bde15ae86ae07f73d55",
+    "64425de86414b5e763a8e66f3b81eb988bd41174f1e6dbf02182ec25432bb973",
+    "789c3c5e9f8e06db61712fcb948db93a475adef3f1e0f12fc232416c64fdd993",
+    "7f088dc64973fcefe18f7ec9d1ed9ed9d9e0e137e434af1aa2fff7ef65bb01a2",
+    "86cb52366a8f760486e392ceb5aef9ce54e1de146761bb36ce8ea44aec016bd0"
+   ],
+   "live": true
+  },
+  {
+   "id": "1414182",
+   "url": "https://www.getyourguide.com/-t1414182/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/6-unmissable-tours-in-4-days-in-atacama-t1414182/",
+   "status": 200,
+   "lowPrice": 349,
+   "currency": "USD",
+   "ratingValue": 5,
+   "reviewCount": 1,
+   "title": "6 Unmissable Tours in 4 Days in Atacama",
+   "inclusions": [
+    "Day 1: Rainbow Valley and Moon Valley",
+    "Day 2: Sightseeing tour of the Hidden Lagoons of Baltinache and sightseeing tour of Laguna Cejar, Ojos del Salar, and Tebinquinche",
+    "Day 3: Red Stones and Altiplanic Lagoons Sightseeing Tour",
+    "Day 4: El Tatio Geyser Sightseeing Tour",
+    "Includes breakfast",
+    "Meals included: Breakfast, Dinner",
+    "Meals included: Breakfast, Lunch"
+   ],
+   "exclusions": [
+    "Admission fee - Entrance to Valle de la Luna (Moon Valley) (CLP$10,800 for adults up to 59 years old, CLP$5,400 for adults 60 years old and over, and children aged 11–17; payment in cash the day before the start of the tour) CLP$10,800 per person",
+    "Admission fee - Entrance to the Hidden Lagoons of Baltinache (CLP 12,000 per adult, CLP 6,000 per child aged 5 to 17 and per adult over 65; cash payment only, on the day of the tour) CLP 12,000 per person",
+    "Entrance fee - Admission to Cejar Lagoon CLP 20,000 per person",
+    "Entrance fee - Admission to the High-Altitude Lagoons Admission to Piedras Rojas Admission to Laguna Chaxa CLP 28,800 per person",
+    "Entrance fee - Admission to the Yerbas Buenas Petroglyphs (CLP 5,000 per person, payment in cash on the day of the tour) Admission to the Rainbow Valley (CLP 5,000 per person, payment in cash on the day of the tour) CLP 10,000 per person"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Valid 4 days",
+    "Skip the ticket line",
+    "Live tour guide",
+    "Pickup included"
+   ],
+   "provider": "TravelsumChile",
+   "highlights": [
+    "Discover six tours in four days through the desert Get to know the main touristic spots Enjoy a small group for a more pleasant experience"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "064f8beca57f74f942f31a853f4c73dc58b9c5849c13f6f65832e3c8dfb49117",
+    "3bece0ddc319bdc6d22c171e4dd8c8d683febca29ab9a5e12dd0ea8d03b8c14f",
+    "7dffabd0e4805328e5d4409a7be8ec842fc8ee7bbecef81587119631efbd9679",
+    "9bfd3d6db9cb3951edd69504e37362b1b2b8490c70127ecfa96f8dc6d3f6e791",
+    "d05de7ea6f60c99dfc011d72c3b87918e010175f8e85ff4431adfb58baa69286"
+   ],
+   "live": true
+  },
+  {
+   "id": "190838",
+   "url": "https://www.getyourguide.com/-t190838/",
+   "landedOn": "https://www.getyourguide.com/san-pedro-de-atacama-l1862/calama-airport-transfer-tofrom-san-pedro-de-atacama-t190838/",
+   "status": 200,
+   "lowPrice": 29.9,
+   "currency": "USD",
+   "ratingValue": 4.606239054868633,
+   "reviewCount": 891,
+   "title": "Calama Airport: Transfer to/from San Pedro de Atacama",
+   "inclusions": [
+    "All taxes, fees, and handling charges",
+    "Luggage allowance of one suitcase and one carry-on bag per person",
+    "Transportation by shared or private air-conditioned vehicle"
+   ],
+   "exclusions": [
+    "Gratuities (optional)"
+   ],
+   "keyDetails": [
+    "Free cancellation",
+    "Reserve now & pay later",
+    "Duration 1.5 hours",
+    "Driver",
+    "Pickup available",
+    "Private group available"
+   ],
+   "duration": "1.5 hours",
+   "provider": "Ruta Chile",
+   "highlights": [
+    "Enjoy a stress-free transfer to or from Calama Airport Have a hassle-free experience Get picked up or dropped off at your hotel or apartment in San Pedro de Atacama Relax during an air-conditioned and comfortable ride"
+   ],
+   "priceUnit": "per person",
+   "galleryHashes": [
+    "418532b1b8eeb548390fe2273a335d0cf70ed312df4f27de7546bd308c690528",
+    "5bd9ef42d63fb",
+    "5bd9ef430a4cf",
+    "5dc2e30e2563a",
+    "f8acfc344336150b6fb73aabb11a3607f90b7e74b66f4c25002af2751c723725"
+   ],
+   "live": true
+  }
+ ],
+ "scope": {
+  "intent": "A visitor based in San Pedro de Atacama who will book several guided excursions and wants to know what each costs in total, entry fees included, and which listing to pick per attraction. Self-drive and car hire out of scope.",
+  "productScope": "GetYourGuide day tours, stargazing sessions, multi-day excursion bundles and Uyuni crossings departing San Pedro de Atacama; airport transfer included only as a trip-budget line."
+ },
+ "coverage": {
+  "partnerSnapshotCounts": "inventory.py search per attraction 2026-11-18: tatio 23, valle de la luna 23, moon valley 17, piedras rojas 16, lagoons 27, stargazing 17, baltinache 11, cejar 21, puritama 10, rainbow valley 11, uyuni 17 (overlapping)",
+  "siteLinkedGYG": 14,
+  "scraped": 33,
+  "selectionRule": "per attraction: every listing with 20+ reviews plus the cheapest live option; listings under 20 reviews kept only as noted thin options"
+ },
+ "fxRate": {
+  "pair": "USD/CLP",
+  "rate": 998.56,
+  "date": "2026-11-18",
+  "sourceUrl": "https://open.er-api.com/v6/latest/USD",
+  "publishedAs": "about CLP 1,000 per US dollar"
+ },
+ "diyBaseline": [
+  {
+   "item": "Valle de la Luna entry, general",
+   "amount": 10800,
+   "currency": "CLP",
+   "sourceUrl": "https://valledelaluna.com/",
+   "checkedAt": "2026-11-18",
+   "note": "official, online only, timed slot"
+  },
+  {
+   "item": "El Tatio entry, general from age 9",
+   "amount": 15000,
+   "currency": "CLP",
+   "sourceUrl": "https://eltatio.net/tarifas-geysers-del-tatio/",
+   "checkedAt": "2026-11-18",
+   "note": "official, card or transfer at entrance"
+  },
+  {
+   "item": "Laguna Cejar + Piedra, ages 13-59",
+   "amount": 15000,
+   "currency": "CLP",
+   "sourceUrl": "https://lagunacejar.com/",
+   "checkedAt": "2026-11-18",
+   "note": "official, online timed ticket"
+  },
+  {
+   "item": "Cejar circuit total incl. Tebinquiche/Ojos del Salar",
+   "amount": 21000,
+   "currency": "CLP",
+   "sourceUrl": "https://www.getyourguide.com/-t614772/",
+   "checkedAt": "2026-11-18",
+   "note": "operator listings t614772, t600585, t472203; Tebinquiche ~6,000 per nomades.com 2026 (secondary)"
+  },
+  {
+   "item": "Piedras Rojas + Miscanti/Miniques + Chaxa, foreign adult",
+   "amount": 29000,
+   "currency": "CLP",
+   "sourceUrl": "https://www.getyourguide.com/-t632997/",
+   "checkedAt": "2026-11-18",
+   "note": "operator listings t632997, t190853, t574351 (Chaxa 14,000 + Socaire 15,000); Puntoticket Chaxa 13,714 + nomades Socaire 13,000 = 26,714 (secondary) - published as about CLP 29,000 per operators"
+  },
+  {
+   "item": "Baltinache, temporary fee while bathing suspended Sep-Dec 2026",
+   "amount": 6000,
+   "currency": "CLP",
+   "sourceUrl": "https://www.getyourguide.com/-t645617/",
+   "checkedAt": "2026-11-18",
+   "note": "operator listings t645617, t374134; normal general fee CLP 12,000 (encancha.cl 2026-01-19, t1414182)"
+  },
+  {
+   "item": "Rainbow Valley + Yerbas Buenas petroglyphs",
+   "amount": 10000,
+   "currency": "CLP",
+   "sourceUrl": "https://www.getyourguide.com/-t604409/",
+   "checkedAt": "2026-11-18",
+   "note": "operator listings t604409 (5,000+5,000 cash), t410385"
+  },
+  {
+   "item": "Termas de Puritama, general",
+   "amount": 38000,
+   "currency": "CLP",
+   "sourceUrl": "https://termasdepuritama.cl/en/shop/",
+   "checkedAt": "2026-11-18",
+   "note": "official shop data; t832294 listing still says 30,000 (stale)"
+  }
+ ],
+ "findings": {
+  "piedrasRojasAllIn": "t402852 US$96 fees incl vs t190853 86+29=115, t632997 89+29=118",
+  "packageVsSingles": "t374134 322+15+6=343 vs Pukarumi singles t347041 69 + t402852 96 + t345946 72 + t385614 52 = 289",
+  "threeDayBudget": "402852 96 + 542449 29 + 345946 72 + 466455 35+11 + 385614 52 = 295 pp; x2=590; x4=1180; +190838 29x2 = 353",
+  "sitewideCorrections": "t345946 now includes El Tatio entry (was excluded); t374134 now includes Moon Valley entry and is US$322 (was 369.97); t466455 35 (was 31.5); t209091 35 (was 30.36); t645617 58 (was 55.1); Puritama official fee CLP 38,000 (t832294 listing still says 30,000)"
+ }
+}
