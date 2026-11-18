@@ -89,7 +89,7 @@ This version swaps the free morning on day two for Rainbow Valley and makes Ceja
 - 06:00–08:00: fly from Santiago to Calama (a little over two hours).
 - 09:30–11:30: shuttle to San Pedro (about an hour and a half); drop your bags.
 - 12:00–14:30: lunch, water and a slow walk around the plaza and church. No alcohol today.
-- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 360+ reviews){{< /gyg-link >}}: the Duna Mayor viewpoint, the Tres Marías and a sunset stop your guide chooses. Ask where, because the Mirador de Ckari is closed.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$35, 4.7/5 from 360+ reviews){{< /gyg-link >}}: the Duna Mayor viewpoint, the Tres Marías and a sunset stop your guide chooses. Ask where, because the Mirador de Ckari is closed.
 - 20:30: an early dinner, then bed.
 
 **Day 2: Rainbow Valley, Laguna Cejar and the stars**

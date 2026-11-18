@@ -97,7 +97,7 @@ After returning, plan lunch and rest. A spare afternoon is useful for packing, a
 **Day 1: arrive and Valle de la Luna (about 2,500 m)**
 
 - Morning: arrive, have lunch and drink plenty of water.
-- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$32, 4.7/5 from 360+ reviews){{< /gyg-link >}} at sunset.
+- 15:00–20:00: the {{< gyg-link tour="466455" >}}Valle de la Luna shared sightseeing tour (from about US$35, 4.7/5 from 360+ reviews){{< /gyg-link >}} at sunset.
 - 20:30: dinner on Caracoles, then bed.
 
 **Day 2: Rainbow Valley, Laguna Cejar and stargazing (up to about 3,500 m)**
@@ -115,7 +115,7 @@ After returning, plan lunch and rest. A spare afternoon is useful for packing, a
 
 **Day 4: El Tatio and Puritama (about 4,300 m)**
 
-- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$73, 4.7/5 from 1,150+ reviews){{< /gyg-link >}}.
+- 04:30–05:10: pickup for the {{< gyg-link tour="345946" >}}El Tatio sunrise tour with breakfast (from about US$72, 4.7/5 from 1,150+ reviews){{< /gyg-link >}}.
 - 12:30: back in town for lunch.
 - Afternoon: the [Puritama hot springs](/puritama-hot-springs-tours/) on an afternoon slot with the shuttle, the best way we know to recover from a 04:30 start.
 - Evening: a farewell dinner.

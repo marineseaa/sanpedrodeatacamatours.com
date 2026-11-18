@@ -36,7 +36,8 @@ faq:
 - q: Are the prices package totals?
   a: No. Each card shows the starting price of that product only. Entry fees are usually
     extra, for example CLP 10,800 at Valle de la Luna and CLP 15,000 for Cejar and Piedra
-    (checked October 2026).
+    (checked October 2026). Our [tour prices guide](/san-pedro-de-atacama-tours-cost/)
+    adds the fee to each tour.
 - q: Do all tours include entry?
   a: No. Check the individual listing and option; reserve charges are a major difference
     between products.
@@ -74,6 +75,7 @@ related:
 - /things-to-do/
 - /3-day-itinerary/
 - /multi-day-tours/
+- /san-pedro-de-atacama-tours-cost/
 ogImage: /images/tours-og.jpg
 ---
 

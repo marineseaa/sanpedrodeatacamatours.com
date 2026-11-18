@@ -42,6 +42,7 @@ related:
 - /how-many-days/
 - /best-time-to-visit/
 - /altitude/
+- /san-pedro-de-atacama-tours-cost/
 ogImage: /images/plan-your-trip-og.jpg
 ---
 
@@ -73,7 +74,7 @@ Use [what to pack](/what-to-pack/) for the difference between a cold dawn, a sun
 
 The [complete tour comparison](/tours/) and [things-to-do guide](/things-to-do/) help narrow the list. If you are deciding between the salt lagoons, use [Baltinache versus Cejar](/baltinache-vs-laguna-cejar/) rather than treating older swimming photographs as current access information.
 
-A [multi-day package](/multi-day-tours/) may simplify scheduling, but inspect every inclusion and extra fee. For [Uyuni](/uyuni-tours-from-san-pedro-de-atacama/), reserve a separate block of days and check border documents, highland sleeping and the correct endpoint.
+To budget the excursions, our guide to [what San Pedro de Atacama tours cost](/san-pedro-de-atacama-tours-cost/) lists each main tour with its entry fee added. A [multi-day package](/multi-day-tours/) may simplify scheduling, but inspect every inclusion and extra fee. For [Uyuni](/uyuni-tours-from-san-pedro-de-atacama/), reserve a separate block of days and check border documents, highland sleeping and the correct endpoint.
 
 ## Keep the confirmations accessible
 

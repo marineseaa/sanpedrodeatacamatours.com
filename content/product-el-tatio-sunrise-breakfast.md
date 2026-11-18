@@ -14,17 +14,17 @@ heroImage: /images/product-345946.webp
 heroAlt: El Tatio at Sunrise — operator listing photograph
 deck: Sunrise at the geysers, with a very early start.
 intro: An early departure for steam rising through the high Andes, followed by breakfast
-  and wildlife scenery. Save this excursion for later in your stay. El Tatio admission
-  is extra and paid in advance at the agency. Above 4,300 m.
+  and wildlife scenery. Save this excursion for later in your stay. The current listing
+  includes El Tatio admission. Above 4,300 m.
 faq:
 - q: How long does this experience take?
   a: The listing advertises 6 hours. Treat this as an estimate and confirm the exact
     schedule before arranging another booking.
 - q: What is included?
-  a: English/Spanish guide; Central hotel pickup; Breakfast. Check the selected option
+  a: English/Spanish guide; Central hotel pickup; Breakfast; El Tatio admission. Check the selected option
     for any variation.
 - q: Which costs are additional?
-  a: El Tatio admission. Confirm the complete total before paying.
+  a: The listing names no extra charge beyond tips. Confirm the complete total before paying.
 - q: Where do I meet the operator?
   a: Pickup normally 04:30–05:10 within urban San Pedro. Nearby ayllus and Toconao
     are excluded. Confirm central return point and time.
@@ -32,7 +32,7 @@ faq:
   a: Under-9s, over-60s and people with altitude sickness, heart conditions or high
     blood pressure are excluded by this listing.
 - q: What should I check before booking?
-  a: El Tatio admission is extra and paid in advance at the agency. Above 4,300 m.
+  a: That the CLP 15,000 El Tatio admission is still shown as included for your option. Above 4,300 m.
     Confirm the latest operating notice and the cancellation deadline for your date.
 related:
 - /el-tatio-geysers-tours/
@@ -44,7 +44,7 @@ h1: El Tatio at Sunrise
 
 ## Sunrise at the geysers, with a very early start
 
-This trip suits travellers willing to trade sleep for a dawn visit to the El Tatio geothermal field. Steam, cold air and the morning light are the attraction. Breakfast is included, but reserve admission is not, and the operator asks for that payment in advance.
+This trip suits travellers willing to trade sleep for a dawn visit to the El Tatio geothermal field. Steam, cold air and the morning light are the attraction. Breakfast and the CLP 15,000 El Tatio admission are both included in the current listing (checked November 2026).
 
 Pickup is described as approximately 04:30–05:10, with urban San Pedro accommodation served and outlying ayllus excluded. Confirm your exact address and the current pickup message the evening before. The source has a confusing AM/PM return-time entry, so use its six-hour duration only as an estimate.
 
@@ -55,10 +55,11 @@ Pickup is described as approximately 04:30–05:10, with urban San Pedro accommo
 - English/Spanish guide
 - Central hotel pickup
 - Breakfast
+- El Tatio admission
 
 ### Budget separately
 
-- El Tatio admission
+- Tips
 
 Compare the final checkout total for your selected date, option and group. The “from” price above is a rounded USD snapshot, not a fixed quote. Currency, availability and option selection can change the amount.
 

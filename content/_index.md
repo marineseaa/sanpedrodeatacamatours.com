@@ -28,9 +28,10 @@ faq:
     accommodation makes agency departures and late-night returns easier; confirm pickup
     coverage for every product.
 - q: Are park entrance fees included?
-  a: It depends on the product and selected option. Some Moon Valley tours include
-    entry, while the featured Piedras Rojas and El Tatio day trips exclude reserve
-    admission. Compare the complete cost rather than only the starting price.
+  a: It depends on the product and selected option. Some Moon Valley tours and the
+    featured El Tatio sunrise tour include entry, while the featured Piedras Rojas
+    day trips leave about CLP 29,000 of fees to you. Our [tour prices guide](/san-pedro-de-atacama-tours-cost/)
+    adds the fee to each tour so you can compare the full cost.
 - q: Can I float at Baltinache?
   a: The featured operator reports bathing suspended from 29 September 2026. At our
     9 October check, the trip was sightseeing with an added Magic Bus stop. There
@@ -72,7 +73,7 @@ San Pedro is already around 2,400 metres, while these excursions go above 4,000 
 
 ### Compare admission, meals and the actual return
 
-A starting price can leave out a meaningful part of the day. The cheaper shared Moon Valley option requires a separately purchased reserve ticket and an agency meeting point. The entry-and-cocktail alternative lists the ticket, hotel transport and refreshments. Compare those services before deciding whether the price gap is worthwhile.
+A starting price can leave out a meaningful part of the day. The cheaper shared Moon Valley option requires a separately purchased reserve ticket and an agency meeting point. The entry-and-cocktail alternative lists the ticket, hotel transport and refreshments. Compare those services before deciding whether the price gap is worthwhile. Our guide to [San Pedro de Atacama tour prices](/san-pedro-de-atacama-tours-cost/) adds the entry fee to every main tour; on the full-day highland trip, the tour with the fees included can cost less in total than the cheaper-looking ones.
 
 The Piedras Rojas products also differ in food wording: one lists breakfast and lunch, another breakfast and snacks. Admission is extra on both featured single-day options. Ask how fees are paid, whether reserve tickets must be arranged beforehand and what dietary requests the operator can actually meet.
 

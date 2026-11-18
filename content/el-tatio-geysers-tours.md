@@ -24,8 +24,8 @@ faq:
   a: Yes, breakfast is listed in this product. Tell the operator about dietary requirements
     before booking.
 - q: Is the entrance ticket included?
-  a: No. The listed admission fee is separate and the operator asks for advance payment
-    at the agency.
+  a: On the featured Pukarumi sunrise tour, yes. Its listing includes the entrance fee
+    (checked November 2026). Some cheaper El Tatio tours leave the CLP 15,000 to you.
 - q: How much is the El Tatio entry fee?
   a: The El Tatio fee page lists CLP 15,000 for visitors aged 9 and over, CLP 5,000
     for Indigenous visitors with a CONADI certificate, and free entry with a disability
@@ -97,7 +97,7 @@ We feature the Pukarumi sunrise-and-breakfast listing because it has substantial
 | Not admitted | Children aged 0 to 8 and pregnant visitors; the park does not recommend the visit for people over 70 |
 | Thermal pool | Not open ("no habilitada") |
 | Managed by | The Atacameño communities of Caspana and Toconce, who have co-administered the site since 2006 |
-| Featured tour | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise, Breakfast & Incredible Landscapes (from US$73, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} |
+| Featured tour | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise, Breakfast & Incredible Landscapes (from US$72, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} |
 
 The figures above come from the El Tatio fee and visitor pages, which the communities run; check them again a few days before you go, because fees and rules can change.
 
@@ -145,7 +145,7 @@ Times vary by operator and season; this is the usual order on a shared sunrise t
 
 ## What the reservation covers
 
-The tour includes the bilingual guide, central hotel pickup and breakfast. **El Tatio admission is extra** and the listing requests payment in advance at the agency. Confirm the amount and whether payment must be cash before the evening preceding departure.
+The tour includes the bilingual guide, central hotel pickup, breakfast and the El Tatio entrance fee, which the listing added to the price for current bookings (checked November 2026). Confirm that your option still shows the entrance fee as included before you pay.
 
 Pickup is restricted to urban San Pedro. The listing excludes nearby ayllus including Quitor, Yaye, Checar, Sequitor, Solor and Coyo, as well as Toconao. If you choose a quiet outlying hotel, arrange how to reach the meeting point at that hour before paying for the tour.
 
@@ -155,9 +155,9 @@ Our [breakdown of the El Tatio sunrise tour](/tours/el-tatio-sunrise-breakfast/)
 
 | Option | Suits | Watch for | Our pick |
 |---|---|---|---|
-| Shared sunrise tour | Most first-time visitors, solo travellers and anyone on a budget | Vans of a dozen or more people and a busy hour at sunrise | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise (from US$73, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} |
+| Shared sunrise tour | Most first-time visitors, solo travellers and anyone on a budget | Vans of a dozen or more people and a busy hour at sunrise | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise (from US$72, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} |
 | Private sunrise tour | Families with teenagers, photographers and couples who want their own pace | The price, which is per person and well above a shared seat | {{< viator-link path="San-Pedro-de-Atacama/Guided-Visit-to-Tatio-Geyser-with-Geyser-Blanco-Hot-Springs/d5499-212507P7" >}}Private Tour of Geyser del Tatio with breakfast at Geyser Blanco (from US$480, 4.7/5 from 88 reviews on Viator){{< /viator-link >}} |
-| Multi-day package | Short stays where you want the tours booked in one go | Check that El Tatio falls after your lower-altitude days | {{< gyg-link tour="374134" >}}Best of Atacama: 4 Tours in 3 Days (from US$370, 4.7/5 from 340+ reviews){{< /gyg-link >}} |
+| Multi-day package | Short stays where you want the tours booked in one go | Check that El Tatio falls after your lower-altitude days | {{< gyg-link tour="374134" >}}Best of Atacama: 4 Tours in 3 Days (from US$322, 4.7/5 from 340+ reviews){{< /gyg-link >}} |
 | Driving yourself | Confident drivers who want to arrive before the vans | Gravel in the dark, ice and no phone signal | No tour; see the self-drive notes below |
 
 The shared tour is the one most visitors take, and the featured listing has by far the longest review history of the three. The private tour from Molantur includes park entry and a breakfast stop at Geyser Blanco; book it if you want to set your own pace and can pay several times the shared price. The [four-tours-in-three-days package](/tours/atacama-four-tours-three-days/) suits a short stay if its order gives you time to adjust before the geysers.

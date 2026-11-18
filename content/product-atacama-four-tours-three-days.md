@@ -23,10 +23,10 @@ faq:
     schedule before arranging another booking.
 - q: What is included?
   a: Four excursions; Bilingual guide; Urban accommodation pickup; Meals as described;
-    Chaxa, highland lagoons and Piedras Rojas entry. Check the selected option for
+    Moon Valley, Chaxa, highland lagoons and Piedras Rojas entry. Check the selected option for
     any variation.
 - q: Which costs are additional?
-  a: Moon Valley, El Tatio and Baltinache entry; Accommodation; Hotel return transfers
+  a: El Tatio and Baltinache entry; Accommodation; Hotel return transfers
     as listed. Confirm the complete total before paying.
 - q: Where do I meet the operator?
   a: Urban San Pedro pickup only. The operator contacts you via WhatsApp to allocate
@@ -50,7 +50,7 @@ h1: Four Atacama Tours in Three Days
 
 The four excursions are Moon Valley, Piedras Rojas and the highland lagoons, El Tatio, and Baltinache. This can simplify arranging several operators, but it is a sightseeing package rather than a holiday with accommodation, airport transfers and every ticket included.
 
-The listing includes the Chaxa, highland-lagoon and Piedras Rojas admission arrangement for bookings after 7 October 2025. Moon Valley, El Tatio and Baltinache admission remain separate. Check the final written total and ask how the Baltinache water-access suspension affects your itinerary.
+The listing includes the Moon Valley, Chaxa, highland-lagoon and Piedras Rojas admission (checked November 2026). El Tatio (CLP 15,000) and Baltinache (CLP 6,000) admission remain separate. Booked one by one, the same operator's four tours with their fees included cost less in total; our [tour prices guide](/san-pedro-de-atacama-tours-cost/) shows the sums. Check the final written total and ask how the Baltinache water-access suspension affects your itinerary.
 
 ## What the advertised price covers
 
@@ -60,11 +60,11 @@ The listing includes the Chaxa, highland-lagoon and Piedras Rojas admission arra
 - Bilingual guide
 - Urban accommodation pickup
 - Meals as described
-- Chaxa, highland lagoons and Piedras Rojas entry
+- Moon Valley, Chaxa, highland lagoons and Piedras Rojas entry
 
 ### Budget separately
 
-- Moon Valley, El Tatio and Baltinache entry
+- El Tatio and Baltinache entry
 - Accommodation
 - Hotel return transfers as listed
 

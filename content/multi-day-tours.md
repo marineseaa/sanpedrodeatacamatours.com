@@ -59,7 +59,7 @@ Neither selected package lists stargazing as one of its included excursions. If 
 |---|---|---|
 | Landscape coverage | Core four excursions | Adds Rainbow Valley and Cejar |
 | Meals | As described for each excursion | Day-specific meals listed |
-| Reserve tickets | Chaxa, highland lagoons and Piedras Rojas included; others extra | Listed admission charges additional |
+| Reserve tickets | Moon Valley, Chaxa, highland lagoons and Piedras Rojas included; El Tatio and Baltinache extra | Listed admission charges additional |
 | Hotel accommodation | Not included | Not included |
 | Best fit | Fewer separate reservations | Wider sightseeing coverage |
 | Main trade-off | Operator allocates the order | More outings and less downtime |
@@ -72,7 +72,7 @@ A three-night stay with late arrival and early departure can contain only two fu
 
 ## Admission can change the comparison
 
-For the three-day product, the current listing includes Chaxa, the Altiplanic Lagoons and Piedras Rojas entry for bookings made from the stated October 2025 cutoff. Moon Valley, El Tatio and Baltinache admission remain additional, and some payments must be arranged in advance.
+For the three-day product, the current listing includes Moon Valley, Chaxa, the Altiplanic Lagoons and Piedras Rojas entry (checked November 2026). El Tatio (CLP 15,000) and Baltinache (CLP 6,000 while bathing is suspended) remain additional. With those fees added, the package costs about US$343 per person, while the same operator's four tours booked one by one, fees included, come to about US$289; see our [San Pedro de Atacama tour prices](/san-pedro-de-atacama-tours-cost/) for the breakdown.
 
 The four-day product lists several reserve charges as exclusions. Ask for one current written breakdown, including El Tatio, rather than adding outdated online fee estimates yourself. Accommodation and airport transfers are separate from both selected excursion bundles.
 
