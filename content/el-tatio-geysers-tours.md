@@ -94,7 +94,7 @@ We feature the Pukarumi sunrise-and-breakfast listing because it has substantial
 | Opening hours | 06:00–16:00 |
 | Entry | CLP 15,000 from age 9; CLP 5,000 for Indigenous visitors with a CONADI certificate; free with a disability credential |
 | Payment | Card or bank transfer, per the El Tatio fee page; carry the cash amount as a backup |
-| Not admitted | Children aged 0 to 8 and pregnant visitors; the park does not recommend the visit for people over 70 |
+| Not admitted | Children aged 0 to 7 and pregnant visitors; the park does not recommend the visit for people over 70 |
 | Thermal pool | Not open ("no habilitada") |
 | Managed by | The Atacameño communities of Caspana and Toconce, who have co-administered the site since 2006 |
 | Featured tour | {{< gyg-link tour="345946" >}}Tatio Geysers at Sunrise, Breakfast & Incredible Landscapes (from US$72, 4.7/5 from 1,150+ reviews){{< /gyg-link >}} |
@@ -208,7 +208,7 @@ El Tatio is above 4,300 metres in the current listing. This is a substantial asc
 
 The featured listing excludes children under 9 and adults over 60, along with travellers with specified heart, blood-pressure or altitude problems. Those are the conditions of this product; do not assume that being physically fit overrides them. If the restriction affects your group, seek an operator-confirmed alternative rather than changing an age on the reservation.
 
-The park has its own rules on top of the listing: children aged 0 to 8 are not admitted without exception, pregnant visitors are not admitted, and the visit is not recommended for people over 70. Visitors aged 60 and over are asked to tell staff when they arrive. Drink water the day before, skip alcohol the night before and walk slowly at the field. Tell your guide at once about confusion, severe breathlessness at rest or loss of coordination.
+The park has its own rules on top of the listing: children aged 0 to 7 are not admitted without exception, pregnant visitors are not admitted, and the visit is not recommended for people over 70. Visitors aged 60 and over are asked to tell staff when they arrive. Drink water the day before, skip alcohol the night before and walk slowly at the field. Tell your guide at once about confusion, severe breathlessness at rest or loss of coordination.
 
 ## How cold it gets and what to wear
 

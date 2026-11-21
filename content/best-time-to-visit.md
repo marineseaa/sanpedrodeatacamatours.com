@@ -113,6 +113,12 @@ ogImage: /images/best-time-to-visit-og.jpg
 </ul>
 </div>
 
+## Other experiences you might enjoy
+
+Whatever month you choose, these are the San Pedro de Atacama tours most visitors fit into a stay: Valle de la Luna at sunset, the El Tatio geysers at dawn, the Altiplanic lagoons and Piedras Rojas, and an evening of stargazing.
+
+{{< gyg-experiences >}}
+
 ## Check the conditions for your date {#check-dates}
 
 Pick a day to see the forecast for the high plateau and the town, how dark the evening will be, and the sunrise and sunset times. Inside the next 16 days the checker reads a live weather forecast; further ahead it shows the season and the town's monthly averages, and it always says which one you are looking at.
@@ -132,12 +138,6 @@ Pick a day to see the forecast for the high plateau and the town, how dark the e
 <a id="date-check-cta" class="btn-primary cvd-cta" href="https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/" data-gyg-href="https://www.getyourguide.com/san-pedro-de-atacama-l1862/full-day-piedras-rojas-altiplanics-lagoons-salar-de-talar-t190853/" target="_blank" rel="sponsored noopener">Check Piedras Rojas tour dates</a>
 </form>
 <script src="/js/best-time.js" defer></script>
-
-## Other experiences you might enjoy
-
-Whatever month you choose, these are the San Pedro de Atacama tours most visitors fit into a stay: Valle de la Luna at sunset, the El Tatio geysers at dawn, the Altiplanic lagoons and Piedras Rojas, and an evening of stargazing.
-
-{{< gyg-experiences >}}
 
 ## How the seasons change a trip
 

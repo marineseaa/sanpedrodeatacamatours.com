@@ -286,13 +286,13 @@ Accommodation, meals and tips come on top.
 | One day | Cejar (afternoon) or Valle de la Luna (sunset), then stars | Everything above 3,000 m | — |
 | Altitude-sensitive (any length) | Valle de la Luna, Cejar, Valle de Marte, Pukará de Quitor, Tulor, Chaxa | El Tatio | Piedras Rojas |
 
-**El Tatio or Piedras Rojas, if you can only do one:** pick El Tatio if you can face a 04:30 start. It takes half a day, pairs with Puritama, and nothing else in Chile looks like it. Pick Piedras Rojas if you would rather sleep in, want wildlife and lagoons, or have children under 9.
+**El Tatio or Piedras Rojas, if you can only do one:** pick El Tatio if you can face a 04:30 start. It takes half a day, pairs with Puritama, and nothing else in Chile looks like it. Pick Piedras Rojas if you would rather sleep in, want wildlife and lagoons, or have children under 9. The full comparison is in [El Tatio vs Piedras Rojas](/el-tatio-vs-piedras-rojas/).
 
 ## Plans for different travellers
 
 **Families with children**
 
-- El Tatio: the park does not admit children aged 0–8, and some agencies set their own minimum of 12. Check before booking.
+- El Tatio: the park does not admit children aged 0–7, and some agencies set their own minimum of 12. Check before booking.
 - Laguna Piedra, the swimming lagoon at Cejar, is not suitable for children under 6; children up to 12 pay CLP 5,000.
 - Valle de la Luna: young children enter free; check the official site for the reduced rates.
 - Puritama: children pay a reduced rate, and operators set a minimum age of about 5.

@@ -63,7 +63,7 @@ If you are still deciding whether the desert suits your trip, our [Atacama Deser
 
 San Pedro works best as a base for choosing several distinct experiences, rather than a place where one ticket covers everything. The classic landscape routes travel in different directions and have different departure times. Start with the experience you most want, then build enough space around it for meals, rest and the next meeting point.
 
-Our first full-day comparison is [Piedras Rojas and the Altiplanic Lagoons](/piedras-rojas-tours/). It brings together highland lakes, red-rock shores, volcanoes and flamingo country. Choose [El Tatio](/el-tatio-geysers-tours/) when the sunrise geothermal landscape is the priority. Both involve high altitude; neither should be added casually to the morning after a late sea-level arrival.
+Our first full-day comparison is [Piedras Rojas and the Altiplanic Lagoons](/piedras-rojas-tours/). It brings together highland lakes, red-rock shores, volcanoes and flamingo country. Choose [El Tatio](/el-tatio-geysers-tours/) when the sunrise geothermal landscape is the priority. Both involve high altitude; neither should be added casually to the morning after a late sea-level arrival. If you can fit only one, compare them in [El Tatio vs Piedras Rojas](/el-tatio-vs-piedras-rojas/).
 
 ### Altitude changes the order
 

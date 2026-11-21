@@ -87,4 +87,4 @@ Confirm your pickup address and return point too. The Ruta Chile listing has inc
 
 Stops reach around 4,200 metres according to the listings. Long drives do not remove altitude exposure, and a short walk can still feel harder than expected. Read the [altitude guide](/altitude/) and allow lower-altitude time before choosing a highland departure. If you feel unwell, changing the plan is more useful than completing a checklist.
 
-With three days, choose between this trip and [El Tatio](/el-tatio-geysers-tours/) if you need a gentler pace. With four days, our [four-day itinerary](/4-day-itinerary/) leaves space to separate the major excursions. Bring warm layers, sun protection, water and comfortable closed shoes; outdoor meal stops may be windy.
+With three days, choose between this trip and [El Tatio](/el-tatio-geysers-tours/) if you need a gentler pace (see [El Tatio vs Piedras Rojas](/el-tatio-vs-piedras-rojas/) for the two compared). With four days, our [four-day itinerary](/4-day-itinerary/) leaves space to separate the major excursions. Bring warm layers, sun protection, water and comfortable closed shoes; outdoor meal stops may be windy.
