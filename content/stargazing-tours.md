@@ -253,7 +253,7 @@ See the full [packing list](/what-to-pack/) for the rest of the trip.
   - Bajo la Noche's Viator listing is for ages 5–99.
   - GreatChile, which resells SPACE, sets a minimum age of 7, while SPACE itself accepts children who do not disturb the group or touch the telescopes.
 - **Accessibility.** Observing sites are open desert with uneven ground, and they are dark (red lights only). Few have proper bathrooms. Contact the operator about mobility needs; private tours are the most flexible.
-- **Booking ahead.** Book at least a few days ahead in normal months, and 1–3 weeks ahead in July and over the December–January holidays. SPACE says it often books up weeks ahead and turns away 10–20 people a night.
+- **Booking ahead.** Book at least a few days ahead in normal months, and 1–3 weeks ahead in July and over the December–January holidays (see the [December Moon dates](/san-pedro-de-atacama-december/)). SPACE says it often books up weeks ahead and turns away 10–20 people a night.
 - **Cancellations.** GetYourGuide and Viator listings usually offer free cancellation up to 24 hours before. Direct and agency terms vary: GreatChile, for example, refunds 90% if you cancel 3 or more days ahead and nothing within 2 days.
 - **Payment.** SPACE accepts card, Chilean pesos, US dollars or euros. Some observing sites charge a cash site fee, so carry pesos.
 - **Tipping.** Tips are not included on most tours. CLP 3,000–5,000 per person for a great guide is a reasonable amount; this is our suggestion, not an official standard.

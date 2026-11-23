@@ -91,7 +91,7 @@ If you want a lagoon afternoon, choose between [Baltinache and Cejar](/baltinach
 
 A late night-sky session followed by a predawn geyser pickup can leave very little sleep. Our [three-day itinerary](/3-day-itinerary/) separates those where possible and lets you choose one highland priority. The [four-day plan](/4-day-itinerary/) leaves more room for both major excursions.
 
-Month-level advice helps with expectations, but the actual route and sky conditions matter on the day. Summer highland storms, winter cold, wind and moonlight affect different activities. Use the [best-time guide](/best-time-to-visit/) to prepare, then check your supplier’s current instructions. A live booking calendar is not a road-condition report.
+Month-level advice helps with expectations, but the actual route and sky conditions matter on the day. Summer highland storms, winter cold, wind and moonlight affect different activities. Use the [best-time guide](/best-time-to-visit/), or the [December guide](/san-pedro-de-atacama-december/) if you travel over the holidays, to prepare, then check your supplier’s current instructions. A live booking calendar is not a road-condition report.
 
 ## How to get to San Pedro
 

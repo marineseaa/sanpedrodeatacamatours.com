@@ -147,7 +147,7 @@ The months mostly change three things: whether storms or snow can close the road
 
 Days in town are the warmest of the year, with average highs around 31 to 32 °C, and nights are mild at about 7 to 10 °C. Up on the plateau this is the storm season, which Chileans call the *invierno altiplánico* even though it falls in summer: moist air from the east brings thunderstorms and rain above about 3,000 meters. Storms can close or reroute the trips to El Tatio, the Altiplanic lagoons and Piedras Rojas, and heavy rain occasionally reaches town: on January 23, 2026, it flooded several streets. February is usually the wettest month in town, and even then it rains on only two or three days.
 
-Keep a spare day for the high trip and choose free cancellation where the listing offers it. January and February are also Chile's summer school holidays, so book rooms and tours earlier. If you are crossing to Bolivia's Uyuni salt flat, this is when it can hold water for the mirror reflections, although a mirror on your date is never guaranteed (see our [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/)).
+Keep a spare day for the high trip and choose free cancellation where the listing offers it. January and February are also Chile's summer school holidays, so book rooms and tours earlier. For a month-specific plan, see [San Pedro de Atacama in December](/san-pedro-de-atacama-december/). If you are crossing to Bolivia's Uyuni salt flat, this is when it can hold water for the mirror reflections, although a mirror on your date is never guaranteed (see our [Uyuni guide](/uyuni-tours-from-san-pedro-de-atacama/)).
 
 ### April and May: dry roads, cooling nights
 

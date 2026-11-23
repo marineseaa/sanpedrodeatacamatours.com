@@ -267,7 +267,7 @@ San Pedro has dozens of agencies on and around Caracoles street, many selling th
 
 Names that come up repeatedly in traveller forums include Atacama Magic, praised for responsiveness; private-tour specialists such as Tastur, Vive Atacama, Sunway Atacama and Atacama Contact; Pukarumi, a large operator with its own fleet whose long tours some reviewers call gruelling; and Nomades, a reseller with clear price and fee breakdowns. Check current reviews before you choose one.
 
-Outside peak season you can book ahead or on arrival; forum users report finding tours on the first evening without trouble. Book ahead for Christmas to February, Easter, Chilean holidays and anything with capped tickets, such as Piedras Rojas slots and Puritama.
+Outside peak season you can book ahead or on arrival; forum users report finding tours on the first evening without trouble. Book ahead for Christmas to February, Easter, Chilean holidays and anything with capped tickets, such as Piedras Rojas slots and Puritama; our [December guide](/san-pedro-de-atacama-december/) covers the holiday weeks.
 
 ## Separate excursions or one package?
 
