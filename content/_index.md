@@ -97,7 +97,7 @@ Month-level advice helps with expectations, but the actual route and sky conditi
 
 The usual flight gateway is Calama’s El Loa Airport, followed by the road transfer to San Pedro. The selected service advertises about one and a half hours of travel; baggage, waiting and shared hotel stops add time around that. Do not reserve an afternoon excursion on the assumption that landing time equals hotel arrival. Send the transfer company your flight number and accommodation address, and keep its meeting instructions available offline. If your arrival is delayed, contact the transfer provider before making changes to a separately booked tour.
 
-Our [Calama airport transfer guide](/calama-airport-to-san-pedro-de-atacama/) compares the shared and private options and explains direction, luggage and meeting details. [Getting there](/getting-there/) places the transfer inside the wider journey.
+Our [Calama airport transfer guide](/calama-airport-to-san-pedro-de-atacama/) compares the shared and private options and explains direction, luggage and meeting details. For the day trips themselves, our guide to [private vs group tours](/private-vs-group-atacama-tours/) shows when your own vehicle and guide are worth the extra cost. [Getting there](/getting-there/) places the transfer inside the wider journey.
 
 ## Where to stay
 

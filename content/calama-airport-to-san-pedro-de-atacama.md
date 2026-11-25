@@ -90,7 +90,7 @@ A private transfer is still subject to flight and road delays. A rental car also
 ### Our transfer picks
 
 - **For one or two people: the shared option.** Choose the shared transfer on the {{< gyg-link tour="190838" >}}Calama Airport transfer listing{{< /gyg-link >}}. It is timed to flights and drops you at your accommodation; expect other passengers and several hotel stops.
-- **For a group, a family or a late flight: the private option.** The same listing offers a private vehicle. For four or more people the cost per person narrows, and you leave without waiting for anyone else.
+- **For a group, a family or a late flight: the private option.** The same listing offers a private vehicle. For four or more people the cost per person narrows, and you leave without waiting for anyone else. The same sums apply to the day trips; see [private vs group tours](/private-vs-group-atacama-tours/).
 - **On a tight budget in daylight: taxi and bus.** It saves money but takes longer, and it only works while buses are running.
 
 ## Arrival day, step by step

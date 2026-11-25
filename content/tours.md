@@ -76,6 +76,7 @@ related:
 - /3-day-itinerary/
 - /multi-day-tours/
 - /san-pedro-de-atacama-tours-cost/
+- /private-vs-group-atacama-tours/
 ogImage: /images/tours-og.jpg
 ---
 

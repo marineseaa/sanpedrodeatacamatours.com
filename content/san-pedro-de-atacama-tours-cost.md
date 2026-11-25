@@ -44,6 +44,7 @@ related:
 - /3-day-itinerary/
 - /multi-day-tours/
 - /piedras-rojas-tours/
+- /private-vs-group-atacama-tours/
 ---
 
 ## The main differences
