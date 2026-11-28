@@ -15,7 +15,7 @@ heroAlt: A turquoise salt pool in the desert
 deck: A landscape excursion while floating is suspended.
 intro: Currently a sightseeing and photography trip around turquoise lagoons, with
   a Magic Bus stop added during the floating suspension. Floating suspended from 29
-  September 2026. Expected reopening in December has no confirmed date; book for scenery.
+  September 2026, with observation only through January 2027; book for scenery.
 faq:
 - q: How long does this experience take?
   a: The listing advertises 4.5 hours. Treat this as an estimate and confirm the exact
@@ -31,8 +31,8 @@ faq:
 - q: Are there age or access restrictions?
   a: Listing excludes under-6s and pregnant travellers.
 - q: What should I check before booking?
-  a: Floating suspended from 29 September 2026. Expected reopening in December has
-    no confirmed date; book for scenery. Confirm the latest operating notice and the
+  a: Floating suspended from 29 September 2026, with observation only through January 2027;
+    book for scenery. Confirm the latest operating notice and the
     cancellation deadline for your date.
 related:
 - /baltinache-tours/
@@ -46,7 +46,7 @@ h1: Baltinache Hidden Lagoons
 
 The latest notice in the saved listing says swimming and floating were suspended from 29 September 2026. It describes a sightseeing outing with a Magic Bus stop during the restriction. Older floating descriptions and swim icons elsewhere in the listing should not be treated as permission to enter the lagoons.
 
-The operator mentioned an expected December reopening without a confirmed date. Book this only if the landscape visit itself interests you, or obtain a current written confirmation of permitted water access before paying for a floating experience. Our comparison page also covers Laguna Cejar as a separate option to investigate.
+Tour providers now report an observation-only period through January 2027 (as of November 2026), with no confirmed reopening date. Book this only if the landscape visit itself interests you, or obtain a current written confirmation of permitted water access before paying for a floating experience. Our comparison page also covers Laguna Cejar as a separate option to investigate.
 
 ## What the advertised price covers
 

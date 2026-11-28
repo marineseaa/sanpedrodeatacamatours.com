@@ -22,8 +22,8 @@ faq:
   a: The selected operator reports a suspension from 29 September 2026. At the 9 October
     check, floating was not available. Confirm directly before booking.
 - q: When will swimming reopen?
-  a: The notice suggests December but gives no confirmed date. We are not treating
-    that as a guaranteed reopening.
+  a: Tour providers report observation only through January 2027, with no confirmed
+    reopening date. We are not treating any date as a guaranteed reopening.
 - q: Does the tour still operate?
   a: The current listing offers a sightseeing route around the lagoons and adds a
     Magic Bus stop during the closure.
@@ -52,7 +52,7 @@ cardTag: LAGOON PHOTOGRAPHY
 
 ## The floating restriction comes first
 
-The operator’s current notice says the park administration suspended bathing from **29 September 2026** for protection and maintenance. It suggests reopening during December, without a confirmed day. Treat that as an expectation, not a bookable reopening date.
+The operator’s current notice says the park administration suspended bathing from **29 September 2026** for protection and maintenance. Tour providers now report an observation-only period through January 2027 (as of November 2026), still without a confirmed reopening day. Treat any date as an expectation, not a bookable reopening.
 
 Older descriptions, images and reviews still describe swimming. Even the itinerary icons on the same listing retain a swimming stop. The newer written closure notice is the more useful instruction for this booking. If floating is the reason for your trip, obtain an explicit update before paying or compare the current [Laguna Cejar option](/laguna-cejar-tours/).
 

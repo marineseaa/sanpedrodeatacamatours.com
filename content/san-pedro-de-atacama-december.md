@@ -184,7 +184,7 @@ El Tatio starts long before your normal breakfast. The geyser field looks its be
 
 ### Swimming lagoons and hot springs: check what "swimming" means
 
-A photo of someone floating in blue salt water does not mean you can swim there on your dates. Each lagoon has its own conservation rules, and bathing at Baltinache has been suspended since 29 September 2026, with reopening expected around the end of November or in December 2026. Treat access to the reserve, access to the shore and permission to enter the water as three separate questions.
+A photo of someone floating in blue salt water does not mean you can swim there on your dates. Each lagoon has its own conservation rules, and bathing at Baltinache has been suspended since 29 September 2026, with an observation-only period through January 2027 and no confirmed reopening date (as of November 2026). Treat access to the reserve, access to the shore and permission to enter the water as three separate questions.
 
 For a swim, check the named bathing lagoon and its current permission: the {{< gyg-link tour="614772" >}}Cejar lagoon tour{{< /gyg-link >}} still advertises floating, and the {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons tour (4.5/5 from 150+ reviews){{< /gyg-link >}} depends on the bathing suspension being lifted. For warm water and a slower afternoon, compare the [Puritama hot springs tours](/puritama-hot-springs-tours/) instead.
 
