@@ -146,7 +146,7 @@ If a price looks unusually low, ask what it leaves out. A low headline can end u
 
 ### Valle de la Luna: a shared tour is usually enough
 
-**Usual choice: a shared tour.** Valle de la Luna makes a good first afternoon: it is close to town, and most tours take about four hours. The salt formations, the dune viewpoints and the colours of the Cordillera de la Sal at sunset look the same from a private vehicle.
+**Usual choice: a shared tour.** Valle de la Luna makes a good first afternoon: it is close to town, and most tours take about four hours. The salt formations, the dune viewpoints and the colours of the Cordillera de la Sal at sunset look the same from a private vehicle. Our [half-day tours guide](/san-pedro-de-atacama-half-day-tours/) compares it with the other short trips from town.
 
 A private guide helps if you want to time stops for photography, hear the geology explained at length or set your own walking pace. Park opening hours, trails and access rules still apply to your visit, and a private booking cannot open a closed viewpoint.
 

@@ -69,7 +69,7 @@ Our first full-day comparison is [Piedras Rojas and the Altiplanic Lagoons](/pie
 
 San Pedro is already around 2,400 metres, while these excursions go above 4,000 metres. Begin with lower outings, put the highest departures later where possible and take how you feel seriously. A booked schedule does not guarantee you are ready to ascend. The [altitude guide](/altitude/) explains symptoms, product restrictions and why sleeping in Bolivia’s highlands is a different commitment from a day trip returning to town.
 
-[Moon Valley](/moon-valley-tours/) is our practical first-tour comparison. Its half-day format leaves time to settle in, and the sunset focus offers a distinct experience from the highland routes. Even here, allow for walking and exposure: a short tour is not automatically effortless or accessible.
+[Moon Valley](/moon-valley-tours/) is our practical first-tour comparison. Its half-day format leaves time to settle in, and the sunset focus offers a distinct experience from the highland routes. Even here, allow for walking and exposure: a short tour is not automatically effortless or accessible. Short on time? Our [half-day tours guide](/san-pedro-de-atacama-half-day-tours/) compares the morning, afternoon and evening options.
 
 ### Compare admission, meals and the actual return
 

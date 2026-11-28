@@ -267,7 +267,7 @@ Tour prices are per person in US dollars from the listings linked on this page; 
 
 ### Honourable mentions
 
-- **Lagunas Escondidas de Baltinache:** seven turquoise salt lagoons about an hour away. **Swimming has been suspended since 29 September 2026.** SanPedroAtacama.com says bathing and floating are off until the end of November 2026, with one lagoon expected to reopen for floating in December. The site stays open for viewing, walks and picnics, and the {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons tour (4.5/5 from 140+ reviews){{< /gyg-link >}} still runs as a sightseeing trip. Go for the scenery, not the swim. See [Baltinache tours](/baltinache-tours/).
+- **Lagunas Escondidas de Baltinache:** seven turquoise salt lagoons about an hour away. **Swimming has been suspended since 29 September 2026.** As of November 2026, the lagoons are open for observation only through January 2027, with no confirmed date for floating to return. The site stays open for viewing, walks and picnics, and the {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons tour (4.5/5 from 140+ reviews){{< /gyg-link >}} still runs as a sightseeing trip. Go for the scenery, not the swim. See [Baltinache tours](/baltinache-tours/).
 - **Horseback riding:** half-day rides from local ranches into the Cordillera de la Sal and the Catarpe valley.
 - **ALMA Observatory:** the world's largest radio telescope. ALMA says its public visit programme is currently suspended, with a limited programme for educational, research and media groups. It held special public open days in October 2026; watch almaobservatory.org for news of the regular programme.
 - **Vallecito and Cordillera de la Sal hikes and photography tours:** quieter alternatives to the Valle de la Luna crowds.
@@ -386,7 +386,7 @@ Nights in San Pedro are quiet on purpose: dinner by the fire, live Andean music,
 
 1. **"We did El Tatio on day one and felt awful."** Save the 4,000 m trips for day 3 or later.
 2. **"We didn't bring cash."** Many entries are cash only.
-3. **"We crammed two tours into a day."** A 04:30 El Tatio start plus an afternoon tour is exhausting. Pair El Tatio with a rest afternoon or Puritama.
+3. **"We crammed two tours into a day."** A 04:30 El Tatio start plus an afternoon tour is exhausting. Pair El Tatio with a rest afternoon or Puritama, and see our [half-day tours](/san-pedro-de-atacama-half-day-tours/) guide for pairings that leave time to rest.
 4. **"We booked stargazing during a full moon."** Check the lunar calendar first.
 5. **"We under-packed for the cold."** Dawn at El Tatio is well below freezing, while midday is hot. Bring layers, a hat, gloves and SPF 50, and see [what to pack](/what-to-pack/).
 6. **"We trusted an old blog."** Ckari, Baltinache swimming, Tara, ALMA and the museum have all changed.

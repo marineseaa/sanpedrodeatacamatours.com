@@ -58,7 +58,7 @@ faq:
     cost more than booking the same tours one by one with local agencies.
 - q: What is closed in 2026?
   a: The Mirador de Ckari in Valle de la Luna (closed until further notice since
-    27 May 2026), swimming at Baltinache (expected to reopen around December 2026),
+    27 May 2026), swimming at Baltinache (suspended since 29 September 2026, observation only through January 2027),
     public visits to ALMA, and Salar de Tara (closed since 2018).
 - q: Can children go to El Tatio?
   a: Only from age 9 under the park's rules, and some operators require 12 or older.
@@ -158,6 +158,8 @@ The full day-by-day versions are on the [two-day](/2-day-itinerary/), [three-day
 
 ### Tour timing cheat sheet
 
+For the short trips only, sorted by morning, afternoon and evening, see our [half-day comparison](/san-pedro-de-atacama-half-day-tours/).
+
 | Tour | Typical pickup and return | Highest point | Entry (adult, foreign visitor) | Notes |
 |---|---|---|---|---|
 | {{< gyg-link tour="466455" >}}Valle de la Luna shared sunset tour (from about US$35, 4.7/5 from 360+ reviews){{< /gyg-link >}} | About 15:00–20:00 | About 2,500 m | CLP 10,800, online only, for a set date | The Mirador de Ckari sunset viewpoint has been closed until further notice since 27 May 2026 |
@@ -193,7 +195,7 @@ The full day-by-day versions are on the [two-day](/2-day-itinerary/), [three-day
 ### Six or seven days: add the second-tier trips
 
 - **Salt Flats Route (Ruta de los Salares):** the legal alternative to the closed Salar de Tara, visiting the area near Tara, the Monjes de la Pacana rock pillars and the Aguas Calientes and Quisquiro salt flats above 4,000 m. The {{< viator-link path="San-Pedro-de-Atacama/Full-Day-Tour-to-Ruta-de-los-Salares/d5499-422580P4" >}}Full Day Tour to Ruta de los Salares on Viator (from about US$102, 4.8/5 from 130+ reviews){{< /viator-link >}} is the best-reviewed listing we found. Do it only after El Tatio.
-- **Lagunas Escondidas de Baltinache:** seven turquoise salt pools about an hour west of town. Bathing is suspended; operators expect it to reopen around December 2026, so visit for the scenery and float at Cejar instead. The {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons tour (from about US$58, 4.5/5 from 140+ reviews){{< /gyg-link >}} runs as a sightseeing trip meanwhile.
+- **Lagunas Escondidas de Baltinache:** seven turquoise salt pools about an hour west of town. Bathing has been suspended since 29 September 2026, with the lagoons open for observation only through January 2027, so visit for the scenery and float at Cejar instead. The {{< gyg-link tour="645617" >}}Baltinache Hidden Lagoons tour (from about US$58, 4.5/5 from 140+ reviews){{< /gyg-link >}} runs as a sightseeing trip meanwhile.
 - **Sandboarding in Valle de Marte, horse riding, or cycling to Aldea de Tulor.**
 - **A second night of stargazing:** an astrophotography tour on a moonless night, such as the {{< gyg-link tour="209091" >}}Stargazing & Andean Astronomy with Wine tour (from about US$35, 4.7/5 from 790+ reviews){{< /gyg-link >}}.
 
@@ -269,7 +271,7 @@ Accommodation, meals and tips come on top.
 |---|---|---|
 | Mirador de Ckari (the Valle de la Luna sunset viewpoint) | Closed until further notice since 27 May 2026 for a safety review after an earthquake, according to the official site | Ask your operator where it watches sunset instead |
 | Valle de la Luna access | Online tickets only; vehicle entry 09:00–17:00 from September to March, 08:00–16:00 from April to August | Buy ahead for your exact date |
-| Baltinache | Bathing suspended; operators expect a reopening around December 2026 | Visit for the views, or float at Laguna Piedra (Cejar) instead |
+| Baltinache | Bathing suspended since 29 September 2026; observation only through January 2027 | Visit for the views, or float at Laguna Piedra (Cejar) instead |
 | ALMA Observatory | Public visits suspended | Book a stargazing tour instead |
 | Salar de Tara | Closed to the public since 2018 by CONAF and the Lickanantay community of Toconao | Take the Salt Flats Route |
 | High roads (El Tatio, Miscanti, Hito Cajón) | Snow closures possible from June to September | Build in a buffer day |
